@@ -32,7 +32,7 @@
   },
   "login": {
     "motd": [
-      "如果您進入遊戲時遇到黑畫面，試著調整視窗大小，應該可以暫時解決問題。"
+      "If you encounter black in-game screen problem, try resizing your screen, it may be temporarily solved."
     ],
     "starting_items": []
   },
