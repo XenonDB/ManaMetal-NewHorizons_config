@@ -1,2 +1,5 @@
 # ManaMetal-NewHorizons_config
-config files for modpack "ManaMetal-NewHorizons"
+
+Here are config files for ManaMetal-NewHorizons.
+
+You can post new issue here if you encounter any problem or submit translation for questing text/item tips. 
