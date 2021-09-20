@@ -68,13 +68,20 @@ mods.mekanism.Enrichment.addRecipe(<RotaryCraft:rotarycraft_item_modingots:87>, 
 
 <ore:dustNetherite>.add(<RotaryCraft:rotarycraft_item_customingot:58>);
 
+<ore:ingotConstraintMetal>.add(<RotaryCraft:rotarycraft_item_customingot:59>);
+<ore:ingotImagSilicon>.add(<RotaryCraft:rotarycraft_item_customingot:60>);
+<ore:ingotMoltenGold>.add(<RotaryCraft:rotarycraft_item_customingot:61>);
+<ore:ingotStarSilver>.add(<RotaryCraft:rotarycraft_item_customingot:62>);
+<ore:ingotDeepiron>.add(<RotaryCraft:rotarycraft_item_customingot:63>);
+<ore:ingotFantasygold>.add(<RotaryCraft:rotarycraft_item_customingot:64>);
+<ore:ingotHighlycrystal>.add(<RotaryCraft:rotarycraft_item_customingot:65>);
 
 //flake燒煉處裡
 //furnace.remove(<RotaryCraft:rotarycraft_item_customingot:58>);
 
 mods.thermalexpansion.Furnace.removeRecipe(<RotaryCraft:rotarycraft_item_customextract:235>);
-furnace.addRecipe(<manametalmod:plateNetherite>, <RotaryCraft:rotarycraft_item_customextract:235>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <RotaryCraft:rotarycraft_item_customextract:235>, <manametalmod:plateNetherite>);
+furnace.addRecipe(<manametalmod:plateNetherite> * 4, <RotaryCraft:rotarycraft_item_customextract:235>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <RotaryCraft:rotarycraft_item_customextract:235>, <manametalmod:plateNetherite> * 4);
 
 //把紅寶石和藍寶石的燒煉產量調整為2份
 val flakes = [

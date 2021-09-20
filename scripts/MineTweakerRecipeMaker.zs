@@ -12,6 +12,14 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<DraconicEvolution:draconicSword>);
+recipes.remove(<DraconicEvolution:draconium>);
+recipes.remove(<MineFactoryReloaded:machine.2:1>);
+recipes.remove(<MineFactoryReloaded:machine.2>);
+recipes.remove(<manametalmod:nuggetPigIron>);
+recipes.remove(<manametalmod:ingotPigIron>);
+recipes.remove(<manametalmod:blockPigIron>);
+recipes.remove(<manametalmod:MagicItemMedalFXS:371>);
 recipes.remove(<IC2:itemPurifiedCrushedOre:4>);
 recipes.remove(<DraconicEvolution:wyvernBoots>);
 recipes.remove(<DraconicEvolution:wyvernLeggs>);
@@ -76,6 +84,10 @@ recipes.remove(<DraconicEvolution:draconiumIngot>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<manametalmod:ItemMedical:7>, [<minecraft:glass_bottle>, <manametalmod:RedMushroom_crop>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <minecraft:golden_apple>, <minecraft:golden_apple>]);
+recipes.addShapeless(<TConstruct:materials:35> * 9, [<TConstruct:materials:34>]);
+recipes.addShapeless(<manametalmod:nuggetPigIron> * 9, [<manametalmod:ingotPigIron>]);
+recipes.addShapeless(<manametalmod:ingotPigIron> * 9, [<manametalmod:blockPigIron>]);
 recipes.addShapeless(<mo:tritanium_ingot> * 9, [<ore:blockTritanium>]);
 recipes.addShapeless(<manametalmod:Poachedeggs>, [<abyssalcraft:friedegg>]);
 recipes.addShapeless(<abyssalcraft:friedegg>, [<manametalmod:Poachedeggs>]);
@@ -104,6 +116,16 @@ recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<DraconicEvolution:draconicSword>, [[<DraconicEvolution:awakenedCore>, <manametalmod:ItemLapudaArtifacts:1>, <DraconicEvolution:awakenedCore>], [<ore:ingotDraconiumAwakened>, <DraconicEvolution:wyvernSword>, <ore:ingotDraconiumAwakened>], [null, <DraconicEvolution:draconiumEnergyCore:1>, null]]);
+recipes.addShaped(<customnpcs:npcHolySpell>.withTag({display: {Lore: ["§6可透過任務回復為假人靈魂石"], Name: "§a假人靈魂"}}), [[null, <minecraft:hay_block>, null], [<minecraft:hay_block>, <ore:blockWool>, <minecraft:hay_block>], [null, <ore:logWood>, null]]);
+recipes.addShaped(<DraconicEvolution:draconiumIngot>, [[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>], [<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>], [<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.2:1>, [[<DraconicEvolution:draconium:2>, <MineFactoryReloaded:pinkslime:1>, <DraconicEvolution:draconium:2>], [<ore:blockGlassHardened>, <EnderIO:blockElectricLight:2>, <ore:blockGlassHardened>], [<EnderIO:itemBasicCapacitor:1>, <ore:gemDiamond>, <EnderIO:itemBasicCapacitor:1>]]);
+recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<ore:sheetPlastic>, <EnderIO:blockElectricLight:2>, <ore:sheetPlastic>], [<EnderIO:itemBasicCapacitor:2>, <EnderIO:blockElectricLight:2>, <EnderIO:itemBasicCapacitor:2>], [<DraconicEvolution:draconium:2>, <ore:blockGlassHardened>, <DraconicEvolution:draconium:2>]]);
+recipes.addShaped(<TConstruct:materials:34>, [[<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>], [<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>], [<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>]]);
+recipes.addShaped(<manametalmod:ingotPigIron>, [[<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>]]);
+recipes.addShaped(<manametalmod:blockPigIron>, [[<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>]]);
+recipes.addShaped(<manametalmod:ItemMobSpawnEgg:27>, [[null, <minecraft:hay_block>, null], [<ore:cropWheat>, <ore:blockWool>, <ore:cropWheat>], [null, <ore:plankWood>, null]]);
+recipes.addShaped(<ae2wct:infinityBoosterCard>, [[<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>], [<manametalmod:superEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:42>, <manametalmod:superEnderPearl>], [<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>]]);
 recipes.addShaped(<IC2:itemPurifiedCrushedOre:4> * 2, [[<ore:ingotUranium>], [<ore:ingotUranium>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.0:10> * 4, [[<ore:sheetPlastic>, <minecraft:bucket>, <ore:sheetPlastic>], [<ore:ingotBrick>, <ore:itemMachineChassi>, <ore:ingotBrick>], [<ore:ingotBrick>, <minecraft:cauldron>, <ore:ingotBrick>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:5>.withTag({RepairCost: 48763, Energy: 0}), [[null, <ore:dustRedstone>, null], [<ore:ingotEnderium>, <ThermalExpansion:capacitor:4>, <ore:ingotEnderium>], [<ore:dustRedstone>, <ore:dustPyrotheum>, <ore:dustRedstone>]]);
@@ -128,5 +150,4 @@ recipes.addShaped(<manametalmod:brassGear>, [[null, <ore:ingotBrass>, null], [<o
 recipes.addShaped(<manametalmod:ManaSGear>, [[null, <ore:ingotManaS>, null], [<ore:ingotManaS>, <ore:ingotIron>, <ore:ingotManaS>], [null, <ore:ingotManaS>, null]]);
 recipes.addShaped(<manametalmod:steelGear>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 recipes.addShaped(<IC2:itemPartIridium>, [[<ore:ingotIridium>, <IC2:itemPartAlloy>, <ore:ingotIridium>], [<IC2:itemPartAlloy>, <ore:gemDiamond>, <IC2:itemPartAlloy>], [<ore:ingotIridium>, <IC2:itemPartAlloy>, <ore:ingotIridium>]]);
-recipes.addShaped(<DraconicEvolution:draconiumIngot> * 9, [[<ore:blockDraconium>]]);
 

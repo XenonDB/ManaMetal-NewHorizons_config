@@ -307,7 +307,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "原本後期的魔法金屬BOSS會使用反魔法，針對性的奪走Avaritia和龍科技的裝備、武器來防止玩家過於強大(?)\n\n不過這兩個模組經常性的被模組包作者針對也不是一天兩天的事了，\n\n恩對，我也有針對他們，並且龍科技的武器在魔法金屬自訂的高難度設定下也無法起很大的作用\n\n跟據敵人當前血量進行的攻擊同樣也會被減傷，所以我認為關掉BOSS的反魔法能力並沒有太多問題\n\n§m更何況，我想我們對於如何花式克制這兩個模組或利用其他模組做神奇的combo應該都有很充分的認識"
+          "desc:8": "原本後期的魔法金屬BOSS會使用反魔法，針對性的奪走Avaritia和龍科技的裝備、武器來防止玩家過於強大(?)\n\n不過這兩個模組經常性的被模組包作者針對也不是一天兩天的事了，\n\n恩對，我也有針對他們。\n\n跟據敵人當前血量進行的攻擊同樣也會被減傷，所以我認為關掉BOSS的反魔法能力並沒有太多問題。\n\n§m"
         }
       },
       "tasks:9": {
@@ -402,7 +402,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -443,13 +443,29 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "魔法金屬預設有限制玩家能打出的傷害上限(9999)，我將它調整到了2147483647\n\n主要是給那些「支付合理的高昂代價」的方法用的。"
+          "desc:8": "魔法金屬預設有限制玩家能打出的傷害上限(9999)，我將它調整到了2147483647\n\n主要是給那些「支付合理的高昂代價」的方法用的。\n\n但，調整後的上限只有在二轉後才生效。"
         }
       },
       "tasks:9": {
         "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "tag:10": {
+                "page:8": "LASERBILITY"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -663,7 +679,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你們可能發覺某些箱子無法敲掉，這是因為魔法金屬的官方服發生過太多次§n§r§k有ssss§r把裝滿東西的符文鋼櫃敲掉的狀況。\n\n任何容器只要裡面存有物品，大部分狀況下都無法被直接破壞\n\n如果你們覺得這功能有BUG或造成困擾，可以去伺服端把它關掉。\n\nPS:符文鋼櫃一共有5頁可以存放物品"
+          "desc:8": "原本魔法金屬的「容器保護」功能預設是開的，這是因為魔法金屬的官方服發生過太多次§n§r§k有ssss§r把裝滿東西的符文鋼櫃不小心敲掉的狀況。\n\n然而這個預設值實在是過於惱人，因為刻意拆除含有內容物的箱子的玩家大多都知道自己在做甚麼。\n\n所以容器保護的功能已被關閉。\n\nPS:符文鋼櫃一共有5頁可以存放物品"
         }
       },
       "tasks:9": {
@@ -1437,7 +1453,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "魔力灌注是將含原始魔力、要素或素材注入特定物品的設備\n\n它將會是你製作第一個法力合金和各種功能性水晶的重要設備\n\n\n其結構可以參考魔法金屬辭典"
+          "desc:8": "魔力灌注是將含原始魔力、要素或素材注入特定物品的設備\n\n它將會是你製作第一個法力合金和各種功能性水晶的重要設備\n\n\n其結構可以參考魔法金屬辭典\n\n\n※註:可以對核心使用光之碎片來讓魔力灌注加速。"
         }
       },
       "tasks:9": {
@@ -2749,7 +2765,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你發覺古老鑰匙上的某些結構正好能和這個時間機器裡的寶石契合。\n\n你試著將古老鑰匙放進那個結構上後，時間機器產生了一些變化，\n\n它自身似乎轉化成了通往某個空間的路，或許又有新的地方要去看看了。\n\n§c§lPS:由於你在此時只能拿到最多一台時間機器。假如你是一人遊玩，且想透過古老鑰匙前往古代世界，你在這時候需要好好考慮時間機器的去留。"
+          "desc:8": "你發覺古老鑰匙上的某些結構正好能和這個時間機器裡的寶石契合。\n\n你試著將古老鑰匙放進那個結構上後，時間機器產生了一些變化，\n\n它自身似乎轉化成了通往某個空間的路，或許又有新的地方要去看看了。\n\n\n註：拆除由時間機器建造的傳送門，將會返還時間核心。"
         }
       },
       "tasks:9": {
@@ -3205,7 +3221,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "職業等級即是在GUI左下角，血量槽上方的那個數值。\n\n該數值是你當前的「職業等級」，會影響你能否使用哪些道具、技能以及對敵人的戰力。\n\n敵人的等級高過你的職業等級越多，你對敵人成的傷害就越少。\n\n另外，某些地下城會要求最低入場的職業等級，\n\n如果自身職業等級不夠則無法入場。\n\n職業等級上限預設是30級，使用覺醒祕典則可以提高5等的上限\n\n目前最高提升上限至60等。\n\n\n覺醒祕典可於通關地下城時取得的獎勵箱內機率性取得。"
+          "desc:8": "職業等級即是在GUI左下角，血量槽上方的那個數值。\n\n該數值是你當前的「職業等級」，會影響你能否使用哪些道具、技能以及對敵人的戰力。\n\n敵人的等級高過你的職業等級越多，你對敵人成的傷害就越少。\n\n另外，某些地下城會要求最低入場的職業等級，\n\n如果自身職業等級不夠則無法入場。\n\n職業等級上限預設是30級，使用覺醒祕典則可以提高5等的上限\n\n目前最高提升上限為100(99)等。\n\n\n覺醒祕典可於通關地下城時取得的獎勵箱內機率性取得。"
         }
       },
       "tasks:9": {
@@ -3219,6 +3235,12 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "manametalmod:AwakeningBook",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemLVgrails",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3347,7 +3369,7 @@
           "posZ:3": 0,
           "biome:3": -1,
           "name:8": "亡靈古墓",
-          "dimension:3": 94,
+          "dimension:3": 93,
           "taxiCabDist:1": 0,
           "taskID:8": "bq_standard:location"
         }
@@ -4092,7 +4114,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "天界中的彩紅鑽石可以用來製作圖騰相關的設備，它們是其中一種批量獲得魔法粉的方法。\n\n將圖騰放在噴泉附近，並使用魔法凝結器就可以生產魔法粉。\n\n關於圖騰的說明可以參考巴哈的文章，或是圖騰自身的GUI。"
+          "desc:8": "天界中的彩紅鑽石可以用來製作圖騰相關的設備，它們是其中一種批量獲得魔法粉的方法。\n\n將圖騰放在噴泉附近，並使用魔法凝結器就可以生產魔法粉。\n\n空手蹲下對圖騰右鍵可以開啟其GUI。\n\n關於圖騰的說明可以參考魔法金屬辭典，或是圖騰自身的GUI。"
         }
       },
       "tasks:9": {
@@ -5582,7 +5604,7 @@
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
           "visibility:8": "NORMAL",
           "isMain:1": 0,
@@ -5593,7 +5615,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_update:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
@@ -5618,7 +5640,7 @@
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
           "visibility:8": "NORMAL",
           "isMain:1": 0,
@@ -5629,7 +5651,7 @@
             "Damage:2": 88,
             "OreDict:8": ""
           },
-          "snd_update:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
@@ -5692,7 +5714,7 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
           "visibility:8": "NORMAL",
           "isMain:1": 0,
@@ -5703,7 +5725,7 @@
             "Damage:2": 0,
             "OreDict:8": ""
           },
-          "snd_update:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
@@ -5740,12 +5762,6 @@
               "id:8": "manametalmod:ItemBossStartDragonKey",
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "manametalmod:MagicItemMedalFXS",
-              "Count:3": 1,
-              "Damage:2": 409,
               "OreDict:8": ""
             }
           },
@@ -5789,6 +5805,1810 @@
         }
       },
       "rewards:9": {}
+    },
+    "99:10": {
+      "questID:3": 99,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 1.11",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.更改無限催化劑和世界巔峰勳章的配方。\n\n2.魔法金屬更新至5.4.7"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "100:10": {
+      "questID:3": 100,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.0",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.更新模組：\n\nNEI(GTNH版)-2.0.9\n\nCraftPresence-1.8.2\n\nReika系列模組更新至V29\n\n魔法金屬更新至5.6.4\n\n2.更新部分物品說明\n\n3.下調大多數奇點所需的材料數量，以及調整鋼奇點的配方。\n\n4.增加模組:\n\ntwilightforest-1.7.10-2.3.8\n\nSlashBlade-mc1.7.10-r88\n\nBetterAchievements-1.7.10-0.1.0\n\nAcademyCraft-1.0.7\n\nShinColle-1.7.10.rv26.2\n\nWitchingGadgets-1.7.10-1.1.10\n\nPortalGun-4.0.0-beta-6-fix-1\n\nSanguimancy-1.7.10-1.1.9-35\n\nGuide-API-1.7.10-1.0.1-29\n\ntellme-1.7.10-0.2.6a\n\nMowziesMobs-1.2.99\n\nElectroblob\u0027s Wizardry 1.1.5\n\nCarpenter\u0027s Blocks v3.3.8.2\n\nLambdaLib-1.2.3\n\niChunUtil-4.2.3\n\nTravellersGear-1.7.10-1.16.6\n\nllibrary-1.5.1-1.7.10\n\nlittleMaidMobX-1.7.x_0.1.1\n\n5.移除模組: \n\nElectroMagicTools-1.2.6.2[1.7.10]\n\nMmmMmmMmmMmm\n(因為魔法金屬增加了自己的稻草人。恩對,意思就是這次不要給我用Mmm的稻草人刷擊殺數)\n\n6.禁用暮光森林反合成功能。\n\n7.再次開放魔力附魔台,同時移除超吟附魔台的研究。\n\n8.二轉前的傷害上限更改為9999,二轉後則是原本的2147483647。\n\n9.禁用openblocks的自動鐵砧。\n\n10.關閉Unidict的工作臺配方礦典整合功能。\n\n11.關閉AcademyCraft能力可破壞方塊的能力。\n\n12.拔刀劍技調整為無法攻擊炙焰鳳凰,星辰飛龍,赤血惡龍。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "101:10": {
+      "questID:3": 101,
+      "preRequisites:11": [
+        103
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_endercrystal",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[BUG修正]終界水晶",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "由於魔法金屬於5.3.8版將終界替換掉了\n(除非裝Hardcore Ender Expansion)\n\n因此現版本的終界沒有終界水晶以及原版終界龍。\n\n若你需要開啟CC的異界傳送門,我提供了一個方法來讓你製作出終界水晶。\n\n\n註:這款抓取終界水晶的工具可以一次抓很多水晶,你只需要製作一個就好。\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_endercrystal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_endercrystal",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "102:10": {
+      "questID:3": 102,
+      "preRequisites:11": [
+        103
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "flammpfeil.slashblade:slashbladeNamed",
+            "Count:3": 1,
+            "tag:10": {
+              "ModelName:8": "named/yamato"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[BUG修正]閻魔刀",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "同樣是因為終界被置換導致沒有原版終界龍,\n\n所以在這情況下無法獲得閻魔刀。\n\n如果你想要一把閻魔刀的話,我給你一個方法來獲得它。\n\n對這把刀查詢可以合成那些東西(指著按下U)即可看到閻魔刀的配方。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "TaintedMagic:ItemKatana",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "/achievement give flammpfeil.slashblade:achievement.brokenYamato VAR_NAME"
+        }
+      }
+    },
+    "103:10": {
+      "questID:3": 103,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "DraconicEvolution:dragonHeart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[BUG修正]終界",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "由於終界被魔法金屬置換掉了,所以沒有水晶和原版的龍,這會導致一些重要進度卡關\n(放心混沌島還在)\n\n不過沒關係,我提供了一些方法讓你們能越過這個困難點。\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "DraconicEvolution:dragonHeart",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "/achievement give achievement.theEnd2 VAR_NAME"
+        }
+      }
+    },
+    "104:10": {
+      "questID:3": 104,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemMedical",
+            "Count:3": 1,
+            "Damage:2": 13,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "創傷",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "創傷效果是在5.5.3版本後加入的新系統\n\n當受到各種傷害時,有可能會獲得創傷,不同效果的創傷會給予玩家不同的debuff\n\n這些創傷需要使用藥物、輔助類技能才可治癒\n\n玩家若是死亡也會解除所有創傷。\n\n不過不需要擔心,初期的新手禮包以及這個任務會各給你5罐萬能藥,總共有10罐萬能藥可以幫助你度過初期生存。\n\n\n然而部分職業、維持良好健康狀態、或是持有特別的buff之下，可以減少創傷出現的概率。\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemMedical",
+              "Count:3": 5,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "105:10": {
+      "questID:3": 105,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "betterquesting:placeholder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": 1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "參考資料",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "你可以重複完成這裡的任務來取得外部參考資料的連結。\n\n完成後，連結會顯示在你的對話框內，點擊就可以開啟相關參考資料頁面。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "/tellraw VAR_NAME {text:\"[眾玩家編寫的魔法金屬大全]\",clickEvent:{action:\"open_url\",value:\"https://docs.google.com/document/d/1JSdXl_TssqfEU0NFCVWn7EPqE3UF8xCEBDJt1Wm9yLM\"}}"
+        },
+        "1:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "command:8": "/tellraw VAR_NAME {text:\"[巴哈姆特攻略文]\",clickEvent:{action:\"open_url\",value:\"https://forum.gamer.com.tw/C.php?bsn\u003d18673\u0026snA\u003d178326\"}}"
+        },
+        "2:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 2,
+          "command:8": "/tellraw VAR_NAME {text:\"[MCBBS]\",clickEvent:{action:\"open_url\",value:\"https://www.mcmod.cn/class/1111.html\"}}"
+        }
+      }
+    },
+    "106:10": {
+      "questID:3": 106,
+      "preRequisites:11": [
+        97
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemKeyOfTheRebirth",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "掌握黑魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你從拉普達文化的守衛中取得了神器。\n\n透過這些神器的幫助,應該可以完整發揮出從瑪夏達巴繼承的黑魔法的力量...."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemKeyOfTheRebirth",
+              "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": ",以及你一路走來在黑魔法上的收穫"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "107:10": {
+      "questID:3": 107,
+      "preRequisites:11": [
+        106
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemLapudaArtifacts",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "剩餘的拉普神器",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "不過，你似乎尚未發現所有的拉普達神器。\n\n仍然有更強大的神器隱藏在這個遺跡中...."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemBossBloodDragon",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:MagicItemMedalFXS",
+              "Count:3": 1,
+              "Damage:2": 421,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "108:10": {
+      "questID:3": 108,
+      "preRequisites:11": [
+        113
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ae2wct:infinityBoosterCard",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "無限增幅卡",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "無限增幅卡可以放進無線合成終端中，讓你能無視距離甚至維度限制來訪問你家的AE系統。\n\n而無線終端放在身上時，可以透過快捷鍵來開啟終端。\n\n這在需要多個...額...「極巨容量包包」的情況下會非常好用。\n\n\n無限增幅卡現在不會從BOSS身上掉落了，改為透過合成的方法取得。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ae2wct:wirelessCraftingTerminal",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ae2wct:infinityBoosterCard",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "/achievement give achievment.boosterAchievement VAR_NAME"
+        }
+      }
+    },
+    "109:10": {
+      "questID:3": 109,
+      "preRequisites:11": [
+        97
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:WorldPyramidWand",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "黃金國",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你在探索拉普達文化的時候,發現了這一個稜墓的存在。\n\n由文獻上得知,這整個稜墓似乎曾經是一個「國家」?\n\n你透過了目前的文獻,找出了能前往這個陵墓的方法。當然,你知道這個稜墓肯定不是安全的地方..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:WorldPyramidWand",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:WorldPyramidPortalFrame",
+              "Count:3": 14,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:3": -1,
+          "name:8": "古代稜墓",
+          "dimension:3": 95,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "110:10": {
+      "questID:3": 110,
+      "preRequisites:11": [
+        97
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:oldJFrame",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "遠古秘林",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "一個不為人知的隱密叢林帶。\n\n你借用天界文明的方法,製造出了通往該地的道路。\n\n已經擁有豐富探險經驗的你,應該不會這麼簡單就在這叢林中迷失。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:oldJFrame",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:oldjDoor",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:EManaWand",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:3": -1,
+          "name:8": "遠古秘林",
+          "dimension:3": 98,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "111:10": {
+      "questID:3": 111,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.1",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.修正魔法粉袋任務需要做出新的袋子才能完成的問題。\n\n2.開放AcademyCraft的能力能在部分世界破壞方塊。\n\n3.修正終結金礦被BAN導致無法完成礦物收藏的問題(給予了他製作配方)。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "112:10": {
+      "questID:3": 112,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.2",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.修正粗鐵相關配方衝突以及在NEI中的顯示問題。\n\n2.魔法金屬更新至5.6.5-2\n\n3.禁用MFR的自動鐵砧。\n\n4.調整無限催化劑的配方。\n\n5.新增一個任務以及整理幾個成就相關任務。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "113:10": {
+      "questID:3": 113,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "TConstruct:knapsack",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "包包包包包",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "旅行途中你可能會遇見很多值得收藏或帶回家的東西，\n\n或是你需要帶著大量資源長途跋涉，\n\n你不妨可以做幾個包包隨身攜帶。\n\n\n為了解決不同的問題，你可能需要隨身攜帶多種不同的包包出門。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:testBag15",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:testBag16",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:ItemToolMagicBag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:Quiver1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "TConstruct:travelBelt",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "TConstruct:knapsack",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemHeavyTreasure",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "114:10": {
+      "questID:3": 114,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.3",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.調整ReplaceOldItemFrame為false，避免讓ars magica的書製作後無法獲得。\n\n2.因為關閉了血塊噴灑的效果，造成製作止血藥困難(只能從亡靈古墓中尋找自然生成的)，因此增加替代配方。\n\n3.修正部分任務的地點訪問要求了錯誤的維度。\n\n4.魔法金屬更新至5.6.6(應該有修好展示框無限自我複製的BUG)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "115:10": {
+      "questID:3": 115,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "flammpfeil.slashblade:proudsoul",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "耀魂寶珠",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "取得這個來完成成就"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "flammpfeil.slashblade:proudsoul",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "/achievement give flammpfeil.slashblade:achievement.soulSphere VAR_NAME"
+        }
+      }
+    },
+    "116:10": {
+      "questID:3": 116,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.4",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.無限催化劑的配方中的紫金幣改為使用錢袋。\n\n2.調降ChromatiCraft異界迷宮的難度為2。\n\n3.增加一部分道具說明。\n\n4.因礦物純化儀的產出更動，因此調整獄髓、龍錠相關和雷射挖礦機的配方。\n\n5.禁止終界生成龍科技的彗星。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "117:10": {
+      "questID:3": 117,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.5",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.魔法金屬更新至5.6.9。\n\n2.重新允許彗星生成。\n\n3.調整龍錠和龍磚的相關配方。\n\n4.拉普達章節新增任務。\n\n5.新BOSS艾莉西雅調整為不受拔刀劍技的攻擊。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "118:10": {
+      "questID:3": 118,
+      "preRequisites:11": [
+        106
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemLapudaArtifacts",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "封印魔物的高塔",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "前些時間，你疑惑著為何這座高塔中會封印著如此多的魔物，\n\n在此之後，你從拉普達文明中的文獻得知了，這座高塔是由一位叫艾莉西亞的存在提議並建造的。\n\n\n假如你需要對這文明有更深入的認識，找到這座塔的主人似乎是一個可行的辦法..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemTimeBoss",
+              "Count:3": 1,
+              "Damage:2": 421,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemLapudaArtifacts",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "119:10": {
+      "questID:3": 119,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.6",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.更改無限催化劑的配方。\n\n2.實用物品頁面新增兩個稻草人相關任務。\n\n3.魔法金屬更新至5.7.0-1\n\n4.更改神龍劍配方。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "120:10": {
+      "questID:3": 120,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemMobSpawnEgg",
+            "Count:3": 64,
+            "tag:10": {},
+            "Damage:2": 27,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "稻草人",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "稻草人可以協助你測試戰力。\n\n儘管如此，稻草人的等級極低，且預設沒有任何穿透防護，因此測試結果跟實際的戰鬥條件仍然有些差距。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemMobSpawnEgg",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 27,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "121:10": {
+      "questID:3": 121,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcSoulstoneFilled",
+            "Count:3": 64,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": 2400,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "進階稻草人",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如果魔法金屬的稻草人無法滿足你的部分測試需求，\n\n那麼這裡有一個「進階稻草人」可以供測試使用。\n\n只需使用一個假人靈魂即可取得。\n\n\n此任務可以重複完成。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "customnpcs:npcHolySpell",
+              "Count:3": 1,
+              "tag:10": {
+                "display:10": {
+                  "Lore:9": {
+                    "0:8": "§6可透過任務回復為假人靈魂石"
+                  },
+                  "Name:8": "§a假人靈魂"
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "customnpcs:npcSoulstoneFilled",
+              "Count:3": 1,
+              "tag:10": {
+                "Entity:10": {
+                  "ReturnToStart:1": 1,
+                  "NpcInv:9": {
+                    "0:10": {
+                      "Slot:1": 0,
+                      "Count:1": 1,
+                      "id:8": "customnpcs:npcHolySpell",
+                      "tag:10": {
+                        "display:10": {
+                          "Lore:9": {
+                            "0:8": "§6可透過任務回復為假人靈魂石"
+                          },
+                          "Name:8": "§a假人靈魂"
+                        }
+                      },
+                      "Damage:2": 0
+                    }
+                  },
+                  "PuppetHead:10": {
+                    "RotationY:5": 0.0,
+                    "RotationX:5": 0.0,
+                    "RotationZ:5": 0.0,
+                    "Disabled:1": 0
+                  },
+                  "PotionEffect:3": 0,
+                  "stopAndInteract:1": 1,
+                  "Size:3": 5,
+                  "Resistances:10": {
+                    "Arrow:5": 1.0,
+                    "Explosion:5": 1.0,
+                    "Knockback:5": 1.0,
+                    "Melee:5": 1.0
+                  },
+                  "BossBar:1": 0,
+                  "RespawnTime:3": 0,
+                  "magicXP:5": 0.0,
+                  "NpcAngrySound:8": "",
+                  "ReactsToFire:1": 0,
+                  "IgnoreCobweb:1": 0,
+                  "PositionOffsetZ:5": 5.0,
+                  "PositionOffsetY:5": 5.0,
+                  "PositionOffsetX:5": 5.0,
+                  "TransformHasAI:1": 0,
+                  "LootMode:3": 0,
+                  "AttackStrenght:3": 5,
+                  "PersistenceRequired:1": 0,
+                  "DefendFaction:1": 0,
+                  "MovingPatern:3": 0,
+                  "HealF:5": 4000000.0,
+                  "id:8": "customnpcs.CustomNpc",
+                  "NpcLines:10": {
+                    "Lines:9": {}
+                  },
+                  "FireIndirect:3": 0,
+                  "NpcVisible:3": 0,
+                  "LinkedNpcName:8": "",
+                  "PuppetLLeg:10": {
+                    "RotationY:5": 0.0,
+                    "RotationX:5": 0.0,
+                    "RotationZ:5": 0.0,
+                    "Disabled:1": 0
+                  },
+                  "FindShelter:3": 2,
+                  "ScriptsContainers:9": {
+                    "0:10": {
+                      "Script:8": "/*\nDamageSource.func_76363_c() \u003d isUnblockable()\nDamageSource.func_82725_o() \u003d isMagicDamage()\nDamageSource.func_151517_h() \u003d isDamageAbsolute()\nDamageSource.func_76348_h() \u003d setDamageBypassesArmor()\nDamageSource.func_76352_a() \u003d isProjectile()\nfunc_151518_m() \u003d setDamageIsAbsolute();\n\nstatic DamageSource.func_76358_a(EntityLivingBase) \u003d causeMobDamage\n*/\nnpc.setMaxHealth(4000000);\nvar f \u003d java.lang.Class.forName(\"noppes.npcs.scripted.ScriptEventDamaged\").getDeclaredField(\"damagesource\");\nf.setAccessible(true)\nnpc.setTempData(\"damagesource_field\",f);\n",
+                      "ScriptConsole:8": "",
+                      "Type:3": 0,
+                      "ScriptList:9": {}
+                    },
+                    "1:10": {
+                      "Script:8": "if(npc.hasTempData(\"DPSdata\")){\n  var dpsdata \u003d npc.getTempData(\"DPSdata\");\n  if(world.getTotalTime() - dpsdata.lastUpdateWorldTime \u003e\u003d 50){\n    var attackingInterval \u003d dpsdata.lastUpdateWorldTime - dpsdata.startTime;\n\tif(attackingInterval \u003e 0){\n\t  npc.say(\"DPS \"+(dpsdata.startHealth - npc.getHealth())/attackingInterval*20);\n\t  npc.removeTempData(\"DPSdata\");\n\t}\n  }\n}",
+                      "ScriptConsole:8": "",
+                      "Type:3": 1,
+                      "ScriptList:9": {}
+                    },
+                    "2:10": {
+                      "Script:8": "function changeType(){\nvar npcstat \u003d npc.getMCEntity().stats;\nvar t \u003d (npcstat.creatureType.ordinal()+1)%3;\njava.lang.Class.forName(\"noppes.npcs.DataStats\").getDeclaredField(\"creatureType\").set(npcstat, Java.type(\"net.minecraft.entity.EnumCreatureAttribute\").values()[t]);\nnpc.executeCommand(\"/tellraw @a[r\u003d5] \u0027假人類型轉換為:\"+(t \u003d\u003d 0 ? \"普通生物\" : (t\u003d\u003d1 ? \"不死生物\" : \"節肢生物\"))+\"\u0027\")\n\nnpc.setTitle(\"testDummy\");\nnpc.reset();\n}\n\nif(player.getHeldItem() \u003d\u003d null){\n if(!player.isSneaking()){\n  changeType()\n }\n else{\n  npc.setHealth(1);\n  npc.setMaxHealth(1);\n }\n}",
+                      "ScriptConsole:8": "",
+                      "Type:3": 2,
+                      "ScriptList:9": {}
+                    },
+                    "3:10": {
+                      "Script:8": "var dpsdata;\nif(!npc.hasTempData(\"DPSdata\")){\n  dpsdata \u003d {};\n  dpsdata.startHealth \u003d npc.getHealth();\n  dpsdata.startTime \u003d world.getTotalTime();\n  npc.setTempData(\"DPSdata\",dpsdata);\n}\nelse{\n  dpsdata \u003d npc.getTempData(\"DPSdata\");\n}\nif(npc.getHealth()/npc.getMaxHealth() \u003c 0.8){\n  dpsdata.startHealth +\u003d (npc.getMaxHealth() - npc.getHealth());\n  npc.setHealth(npc.getMaxHealth());\n}\ndpsdata.lastUpdateWorldTime \u003d world.getTotalTime();\nnpc.setTitle(event.getDamage());\nvar src \u003d npc.getTempData(\"damagesource_field\").get(event);\nvar srcE \u003d event.getSource();\nvar msg \u003d \"攻擊傷害:\"+event.getDamage()+\" 攻擊者:\"+(!srcE ? \"無\" : (srcE.typeOf(1) ? srcE.getName() : srcE.getTypeName()));\nvar msgExtra \u003d \" 傷害類型:\"+event.getType()+\" 穿透盔甲防禦:\"+src.func_76363_c()+\" 無視附魔及抗性保護:\"+src.func_151517_h()+\" 魔法攻擊:\"+src.func_82725_o()+\" 遠程攻擊:\"+src.func_76352_a()+\" 可攻擊創造模式玩家:\"+src.func_76357_e();\nnpc.executeCommand(\"/tellraw @a[r\u003d30] \u0027\"+msg+msgExtra+\"\u0027\");",
+                      "ScriptConsole:8": "",
+                      "Type:3": 4,
+                      "ScriptList:9": {}
+                    },
+                    "4:10": {
+                      "Script:8": "event.setTarget(null);",
+                      "ScriptConsole:8": "",
+                      "Type:3": 7,
+                      "ScriptList:9": {}
+                    }
+                  },
+                  "Air:2": 300,
+                  "TacticalVariant:3": 0,
+                  "Orientation:3": 0,
+                  "ScriptLanguage:8": "ECMAScript",
+                  "KnockBack:3": 0,
+                  "TransformHasJob:1": 0,
+                  "CustomName:8": "",
+                  "CanDespawn:1": 0,
+                  "BurnInSun:1": 0,
+                  "StandingState:3": 1,
+                  "AttackInvisible:1": 0,
+                  "HurtTime:2": 0,
+                  "WalkingRange:3": 10,
+                  "CustomNameVisible:1": 0,
+                  "PuppetMoving:1": 0,
+                  "ShotCount:3": 1,
+                  "pDur:3": 5,
+                  "PuppetBody:10": {
+                    "RotationY:5": 0.0,
+                    "RotationX:5": 0.0,
+                    "RotationZ:5": 0.0,
+                    "Disabled:1": 0
+                  },
+                  "AttackRange:3": 2,
+                  "NpcKillLines:10": {
+                    "Lines:9": {}
+                  },
+                  "AvoidsSun:1": 0,
+                  "PotionImmune:1": 0,
+                  "Texture:8": "customnpcs:textures/entity/humanmale/BodyguardSteve.png",
+                  "NpcJob:3": 9,
+                  "BurstCount:3": 1,
+                  "NpcAttackLines:10": {
+                    "Lines:9": {}
+                  },
+                  "pSpeed:3": 10,
+                  "pArea:3": 0,
+                  "DeathTime:2": 0,
+                  "pImpact:3": 0,
+                  "DropChances:9": {
+                    "0:5": 0.085,
+                    "1:5": 0.085,
+                    "2:5": 0.085,
+                    "3:5": 0.085,
+                    "4:5": 0.085
+                  },
+                  "MoveState:3": 0,
+                  "RangeAndMelee:3": 0,
+                  "pRender3D:1": 0,
+                  "magicLevel:2": 0,
+                  "Motion:9": {
+                    "0:6": 0.0,
+                    "1:6": -0.0784000015258789,
+                    "2:6": 0.0
+                  },
+                  "CombatRegen:3": 0,
+                  "DistanceToMelee:3": 4,
+                  "pEffect:3": 0,
+                  "NpcStepSound:8": "",
+                  "curFatigue:5": 0.0,
+                  "FireRate:3": 5,
+                  "pEffAmp:3": 0,
+                  "ImmuneToFire:1": 0,
+                  "OnGround:1": 1,
+                  "Dimension:3": 0,
+                  "NpcKilledLines:10": {
+                    "Lines:9": {}
+                  },
+                  "CreatureInfusion:10": {
+                    "PlayerInfusions:11": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "tumorWarpTemp:3": 0,
+                    "InfusionCosts:10": {
+                      "Aspects:9": {}
+                    },
+                    "Infusions:11": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "toggleClimb:1": 0,
+                    "toggleInvisible:1": 0,
+                    "tumorWarp:3": 0,
+                    "sitting:1": 0,
+                    "tumorWarpPermanent:3": 0
+                  },
+                  "UUIDMost:4": -4806884093628035957,
+                  "DisablePitch:1": 0,
+                  "Fire:2": -1,
+                  "pPhysics:1": 1,
+                  "TransformHasInv:1": 0,
+                  "NpcInteractLines:10": {
+                    "Lines:9": {}
+                  },
+                  "pSpin:1": 0,
+                  "NpcHurtSound:8": "minecraft:game.player.hurt",
+                  "pTrail:3": 0,
+                  "isShrunk:1": 0,
+                  "CreatureType:3": 0,
+                  "Attributes:9": {
+                    "0:10": {
+                      "Base:6": 0.0,
+                      "Name:8": "am2.maxManaBonus"
+                    },
+                    "1:10": {
+                      "Base:6": 0.0,
+                      "Name:8": "am2.maxBurnoutBonus"
+                    },
+                    "2:10": {
+                      "Base:6": 1.0,
+                      "Name:8": "am2.xpMultiplier"
+                    },
+                    "3:10": {
+                      "Base:6": 1.0,
+                      "Name:8": "am2.burnoutReduction"
+                    },
+                    "4:10": {
+                      "Base:6": 1.0,
+                      "Name:8": "am2.manaRegenModifier"
+                    },
+                    "5:10": {
+                      "Base:6": 4000000.0,
+                      "Name:8": "generic.maxHealth"
+                    },
+                    "6:10": {
+                      "Base:6": 0.0,
+                      "Name:8": "generic.knockbackResistance"
+                    },
+                    "7:10": {
+                      "Base:6": 0.0,
+                      "Name:8": "generic.movementSpeed"
+                    },
+                    "8:10": {
+                      "Base:6": 32.0,
+                      "Name:8": "generic.followRange"
+                    },
+                    "9:10": {
+                      "Base:6": 5.0,
+                      "Name:8": "generic.attackDamage"
+                    }
+                  },
+                  "Invulnerable:1": 0,
+                  "TransformHasDisplay:1": 0,
+                  "NoFallDamage:1": 0,
+                  "TransformHasRole:1": 0,
+                  "AbsorptionAmount:5": 0.0,
+                  "Name:8": "測試假人",
+                  "FallDistance:5": 0.0,
+                  "PuppetLArm:10": {
+                    "RotationY:5": 0.0,
+                    "RotationX:5": 0.0,
+                    "RotationZ:5": 0.0,
+                    "Disabled:1": 0
+                  },
+                  "NpcIdleSound:8": "",
+                  "Weapons:9": {},
+                  "NPCDialogOptions:9": {
+                    "0:10": {
+                      "NPCDialog:10": {
+                        "DialogCommand:8": "",
+                        "Dialog:3": -1,
+                        "Title:8": "測試假人-主",
+                        "DialogColor:3": 14737632,
+                        "OptionType:3": 1
+                      },
+                      "DialogSlot:3": 0
+                    }
+                  },
+                  "DirectLOS:1": 1,
+                  "AggroRange:3": 16,
+                  "HealthRegen:3": 0,
+                  "NpcModelData:10": {
+                    "LegsConfig:10": {
+                      "ScaleZ:5": 1.0,
+                      "TransZ:5": 0.0,
+                      "TransY:5": 0.0,
+                      "TransX:5": 0.0,
+                      "ScaleY:5": 1.0,
+                      "ScaleX:5": 1.0
+                    },
+                    "BodyConfig:10": {
+                      "ScaleZ:5": 1.0,
+                      "TransZ:5": 0.0,
+                      "TransY:5": 0.0,
+                      "TransX:5": 0.0,
+                      "ScaleY:5": 1.0,
+                      "ScaleX:5": 1.0
+                    },
+                    "Parts:9": {},
+                    "LegParts:10": {
+                      "Type:1": 0,
+                      "PlayerTexture:1": 1,
+                      "Color:3": 16777215
+                    },
+                    "Breasts:1": 0,
+                    "Headwear:1": 1,
+                    "ArmsConfig:10": {
+                      "ScaleZ:5": 1.0,
+                      "TransZ:5": 0.0,
+                      "TransY:5": 0.0,
+                      "TransX:5": 0.0,
+                      "ScaleY:5": 1.0,
+                      "ScaleX:5": 1.0
+                    },
+                    "ExtraData:10": {},
+                    "HeadConfig:10": {
+                      "ScaleZ:5": 1.0,
+                      "TransZ:5": 0.0,
+                      "TransY:5": 0.0,
+                      "TransX:5": 0.0,
+                      "ScaleY:5": 1.0,
+                      "ScaleX:5": 1.0
+                    }
+                  },
+                  "TransformEditingModus:1": 0,
+                  "DoorInteract:3": 2,
+                  "MoveSpeed:3": 0,
+                  "minDelay:3": 20,
+                  "UsingSkinUrl:1": 0,
+                  "Leashed:1": 0,
+                  "SkinUrl:8": "",
+                  "PuppetRArm:10": {
+                    "RotationY:5": 0.0,
+                    "RotationX:5": 0.0,
+                    "RotationZ:5": 0.0,
+                    "Disabled:1": 0
+                  },
+                  "CanSwim:1": 1,
+                  "armorCooldowns:11": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "HideBodyWhenKilled:1": 0,
+                  "AttackSpeed:3": 20,
+                  "MaxHealth:3": 4000000,
+                  "PotionDuration:3": 5,
+                  "ScriptEnabled:1": 1,
+                  "Role:3": 0,
+                  "maxDelay:3": 40,
+                  "DropChance:9": {
+                    "0:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 0
+                    },
+                    "1:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 1
+                    },
+                    "2:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 2
+                    },
+                    "3:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 3
+                    },
+                    "4:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 4
+                    },
+                    "5:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 5
+                    },
+                    "6:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 6
+                    },
+                    "7:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 7
+                    },
+                    "8:10": {
+                      "Integer:3": 100,
+                      "Slot:3": 8
+                    }
+                  },
+                  "FactionPoints:10": {
+                    "DecreaseFaction1Points:1": 0,
+                    "OptionFaction2Points:3": 100,
+                    "OptionFactions1:3": -1,
+                    "OptionFactions2:3": -1,
+                    "OptionFaction1Points:3": 100,
+                    "DecreaseFaction2Points:1": 0
+                  },
+                  "pDamage:3": 4,
+                  "KilledTime:4": 0,
+                  "AimWhileShooting:1": 0,
+                  "CanPickUpLoot:1": 0,
+                  "AttackOtherFactions:1": 0,
+                  "CanDrown:1": 1,
+                  "AttackTime:2": 0,
+                  "curMana:5": 500.0,
+                  "CanSprint:1": 0,
+                  "pSize:3": 5,
+                  "CanLeap:1": 0,
+                  "TransformIsActive:1": 0,
+                  "MovingState:3": 0,
+                  "ForgeData:10": {
+                    "MF2_PanicX:6": -0.07452454708710692,
+                    "WITCInitialWidth:5": 0.6,
+                    "giveMFWeapon:1": 1,
+                    "CNPCStoredData:10": {
+                      "displayType:6": 1.0
+                    },
+                    "MF_Injured:3": 0,
+                    "MF_PostHit:3": 0,
+                    "MF_Parry_Cooldown:3": 0,
+                    "WITCInitialHeight:5": 1.9,
+                    "MF2_PanicZ:6": 0.0894393817223892
+                  },
+                  "PuppetAttacking:1": 0,
+                  "MovingPos:3": 0,
+                  "PotionAmp:3": 0,
+                  "RPG:10": {},
+                  "OnAttack:3": 3,
+                  "TacticalRadius:3": 8,
+                  "MaxExp:3": 0,
+                  "OrderedLines:1": 0,
+                  "PuppetStanding:1": 1,
+                  "pGlows:1": 0,
+                  "PortalCooldown:3": 0,
+                  "TransformHasAdvanced:1": 0,
+                  "TransformHasStats:1": 0,
+                  "FiringSound:8": "random.bow",
+                  "ModRev:3": 16,
+                  "Accuracy:3": 60,
+                  "MinExp:3": 0,
+                  "Armor:9": {},
+                  "CloakTexture:8": "",
+                  "pXlr8:1": 0,
+                  "MaxFiringRange:3": 15,
+                  "GlowTexture:8": "",
+                  "pExplode:1": 0,
+                  "Health:2": 2304,
+                  "UUIDLeast:4": -9194691082547184150,
+                  "MovingPause:1": 1,
+                  "pStick:1": 0,
+                  "NpcDeathSound:8": "minecraft:game.player.hurt",
+                  "FactionID:3": 1,
+                  "Title:8": "testDummy",
+                  "TotalTicksAlive:4": 1238476,
+                  "PuppetRLeg:10": {
+                    "RotationY:5": 0.0,
+                    "RotationX:5": 0.0,
+                    "RotationZ:5": 0.0,
+                    "Disabled:1": 0
+                  },
+                  "npcInteracting:1": 1,
+                  "ShowName:3": 0,
+                  "Rotation:9": {
+                    "0:5": 0.0,
+                    "1:5": 0.0
+                  },
+                  "AvoidsWater:1": 0,
+                  "Equipment:9": {
+                    "0:10": {},
+                    "1:10": {},
+                    "2:10": {},
+                    "3:10": {},
+                    "4:10": {}
+                  },
+                  "Muya:10": {
+                    "Muya:10": {
+                      "Character:10": {
+                        "Mob:10": {},
+                        "Damagers:10": {
+                          "EescapeBattle:3": 0,
+                          "CanEscape:1": 1,
+                          "List:9": {}
+                        },
+                        "Mp:10": {
+                          "Value:5": 1.0,
+                          "Attributes:9": {
+                            "0:10": {
+                              "Base:6": 1.0,
+                              "Name:8": "generic.limit"
+                            },
+                            "1:10": {
+                              "Base:6": 0.0,
+                              "Name:8": "generic.regeneration"
+                            }
+                          }
+                        },
+                        "Hp:10": {
+                          "Value:5": 0.0,
+                          "Attributes:9": {
+                            "0:10": {
+                              "Base:6": 0.0,
+                              "Name:8": "generic.limit"
+                            },
+                            "1:10": {
+                              "Base:6": 0.0,
+                              "Name:8": "generic.regeneration"
+                            }
+                          }
+                        },
+                        "Level:10": {
+                          "Level:3": 2
+                        },
+                        "Exp:10": {
+                          "Exp:3": 0
+                        },
+                        "Sp:10": {
+                          "Value:5": 0.0,
+                          "Attributes:9": {
+                            "0:10": {
+                              "Base:6": 0.0,
+                              "Name:8": "generic.limit"
+                            },
+                            "1:10": {
+                              "Base:6": 0.0,
+                              "Name:8": "generic.regeneration"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "MuyaAPI:10": {},
+                    "ManaMetalMod:10": {
+                      "ManaEntityData:10": {
+                        "drop:3": 100,
+                        "Element:3": 7,
+                        "FightingPower:3": 0,
+                        "potions:9": {},
+                        "PenetrationDefense:3": 0,
+                        "bossReward0:8": "PTH_Xenon",
+                        "Level:3": 1,
+                        "attack_damage:3": 0,
+                        "bossRewardCount:3": 1,
+                        "Defense:5": 0.0
+                      }
+                    }
+                  },
+                  "NoLivingAnimation:1": 1,
+                  "hasUnlockedAugmented:1": 1,
+                  "isCritical:1": 0,
+                  "SpawnCycle:3": 3
+                },
+                "display:10": {
+                  "Lore:9": {
+                    "0:8": "§6空手右鍵以切換假人類型",
+                    "1:8": "§6空手蹲下右鍵以方便回收假人"
+                  },
+                  "Name:8": "§a假人靈魂石"
+                },
+                "DisplayName:8": "測試假人",
+                "Name:8": "entity.customnpcs.CustomNpc.name"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -5912,6 +7732,27 @@
           "y:3": 48,
           "id:3": 95,
           "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 48,
+          "id:3": 101,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 48,
+          "id:3": 102,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 48,
+          "id:3": 103,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0,
@@ -5985,22 +7826,22 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -24,
+          "x:3": -192,
+          "y:3": -96,
           "id:3": 34,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -48,
+          "x:3": -168,
+          "y:3": -60,
           "id:3": 35,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 0,
+          "x:3": -216,
+          "y:3": -60,
           "id:3": 77,
           "sizeY:3": 24
         },
@@ -6013,16 +7854,30 @@
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": -48,
+          "x:3": -168,
+          "y:3": -132,
           "id:3": 81,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": 0,
+          "x:3": -216,
+          "y:3": -132,
           "id:3": 89,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -48,
+          "id:3": 104,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -48,
+          "id:3": 105,
           "sizeY:3": 24
         }
       },
@@ -6121,6 +7976,34 @@
           "x:3": -96,
           "y:3": 36,
           "id:3": 87,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 36,
+          "id:3": 108,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 36,
+          "id:3": 113,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 36,
+          "id:3": 120,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 36,
+          "id:3": 121,
           "sizeY:3": 24
         }
       },
@@ -6433,36 +8316,36 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": 84,
+          "x:3": 60,
+          "y:3": 168,
           "id:3": 58,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": 36,
+          "x:3": 12,
+          "y:3": 168,
           "id:3": 59,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -12,
+          "x:3": -36,
+          "y:3": 168,
           "id:3": 60,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 36,
+          "x:3": 12,
+          "y:3": 132,
           "id:3": 61,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 36,
+          "x:3": 12,
+          "y:3": 84,
           "id:3": 62,
           "sizeY:3": 24
         },
@@ -6485,6 +8368,41 @@
           "x:3": 12,
           "y:3": -72,
           "id:3": 97,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -120,
+          "id:3": 106,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -168,
+          "id:3": 107,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -72,
+          "id:3": 109,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -72,
+          "id:3": 110,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -216,
+          "id:3": 118,
           "sizeY:3": 24
         }
       },
@@ -6510,96 +8428,75 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -108,
+          "x:3": -108,
+          "y:3": -132,
           "id:3": 24,
           "sizeY:3": 24
         },
         "1:10": {
-          "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -36,
-          "id:3": 25,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -72,
-          "id:3": 26,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": 0,
-          "id:3": 27,
-          "sizeY:3": 24
-        },
-        "4:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -132,
           "id:3": 56,
           "sizeY:3": 24
         },
-        "5:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -84,
           "id:3": 68,
           "sizeY:3": 24
         },
-        "6:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -48,
           "id:3": 69,
           "sizeY:3": 24
         },
-        "7:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -12,
           "id:3": 70,
           "sizeY:3": 24
         },
-        "8:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": 24,
           "id:3": 71,
           "sizeY:3": 24
         },
-        "9:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": 72,
           "id:3": 72,
           "sizeY:3": 24
         },
-        "10:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 24,
           "id:3": 74,
           "sizeY:3": 24
         },
-        "11:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 72,
           "id:3": 75,
           "sizeY:3": 24
         },
-        "12:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -84,
           "id:3": 76,
           "sizeY:3": 24
         },
-        "13:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": 72,
@@ -6682,6 +8579,62 @@
           "y:3": -36,
           "id:3": 98,
           "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -36,
+          "id:3": 99,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 12,
+          "id:3": 100,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 12,
+          "id:3": 111,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 12,
+          "id:3": 112,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 12,
+          "id:3": 114,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 12,
+          "id:3": 116,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 60,
+          "id:3": 117,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 60,
+          "id:3": 119,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 7,
@@ -6701,6 +8654,62 @@
         }
       },
       "order:3": 3
+    },
+    "8:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -84,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -84,
+          "id:3": 25,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -84,
+          "id:3": 26,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": -84,
+          "id:3": 27,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -36,
+          "id:3": 115,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "成就取得區",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 8
     }
   },
   "questSettings:10": {

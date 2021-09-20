@@ -4,7 +4,7 @@ import minetweaker.item.IItemStack;
 furnace.remove(<DraconicEvolution:draconiumIngot>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<DraconicEvolution:draconiumIngot>);
 mods.thermalexpansion.Furnace.removeRecipe(<DraconicEvolution:draconiumBlend>);
-mods.thermalexpansion.Furnace.removeRecipe(<manametalmod:ItemMetalCrystals:51>);
+//mods.thermalexpansion.Furnace.removeRecipe(<manametalmod:ItemMetalCrystals:55>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:dustDraconium>);
 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <ore:oreDraconium>);
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:20>, <ore:oreDraconium>);
@@ -15,12 +15,13 @@ mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <ore:dustDraconium>
 mods.mfr.MiningLaser.addOre(<DraconicEvolution:draconiumOre>.weight(3));
 mods.mfr.MiningLaser.addPreferredOre(2, <DraconicEvolution:draconiumOre>);
 
-furnace.addRecipe(<DraconicEvolution:draconiumDust> * 8, <manametalmod:ItemMetalCrystals:51>);
+//furnace.addRecipe(<DraconicEvolution:draconiumDust> * 8, <manametalmod:ItemMetalCrystals:55>);
 
 //HOLY SHIT THE FUCKING INVISIBLE ANNOTATION
 //mods.rotarycraft.Friction.addRecipe(<DraconicEvolution:draconiumDust>,<DraconicEvolution:draconiumIngot>,1990,50);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<DraconicEvolution:draconiumIngot> * 4, <ore:ingotTrueAncientThulium>, null, 600, 1024, [<RotaryCraft:rotarycraft_item_powders:4> * 2, <DraconicEvolution:draconiumDust> * 4], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<DraconicEvolution:draconium>, <ore:ingotTrueAncientThulium>, null, 600, 1024, [<ore:ingotTrueAncientThulium>, <RotaryCraft:rotarycraft_item_powders:4> * 4, <DraconicEvolution:draconiumDust> * 9], "Alloying");
+mods.mekanism.Crusher.addRecipe(<DraconicEvolution:draconium>, <DraconicEvolution:draconiumIngot> * 9);
 
 val draconArmors = [<DraconicEvolution:wyvernHelm>, <DraconicEvolution:wyvernChest>, <DraconicEvolution:wyvernLeggs>, <DraconicEvolution:wyvernBoots>] as IItemStack[];
 val upgradedArmors = [<manametalmod:BossStartDragonArmor_helmet>, <manametalmod:BossStartDragonArmor_ChestPlate>, <manametalmod:BossStartDragonArmor_Legs>, <manametalmod:BossStartDragonArmor_Boots>] as IItemStack[];
@@ -98,9 +99,29 @@ mods.thaumcraft.Aspects.set(<DraconicEvolution:draconicIngot>, "metallum 16, dra
 mods.avaritia.Compressor.remove(<universalsingularities:universal.vanilla.singularity:2>);
 mods.avaritia.Compressor.add(<universalsingularities:universal.vanilla.singularity:2>, 66000, <ore:blockDiamond>);
 mods.avaritia.Compressor.remove(<universalsingularities:universal.draconicEvolution.singularity>);
-mods.avaritia.Compressor.add(<universalsingularities:universal.draconicEvolution.singularity>, 1000, <DraconicEvolution:draconium:2>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.draconicEvolution.singularity>, 1500, <DraconicEvolution:draconium:2>);
 mods.avaritia.Compressor.remove(<universalsingularities:universal.general.singularity:11>);
-mods.avaritia.Compressor.add(<universalsingularities:universal.general.singularity:11>, 1000, <ore:ingotUltimateTerrasteel>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.general.singularity:11>, 500, <manametalmod:ingotGaia>);
+
+mods.avaritia.Compressor.remove(<aobd:singularityAbyssalnite>);
+mods.avaritia.Compressor.add(<aobd:singularityAbyssalnite>, 400, <abyssalcraft:abyblock>);
+mods.avaritia.Compressor.remove(<aobd:singularityLiquifiedCoralium>);
+mods.avaritia.Compressor.add(<aobd:singularityLiquifiedCoralium>, 400, <abyssalcraft:corblock>);
+mods.avaritia.Compressor.remove(<aobd:singularityIronwood>);
+mods.avaritia.Compressor.add(<aobd:singularityIronwood>, 200, <aobd:blockIronwood>);
+mods.avaritia.Compressor.remove(<aobd:singularityKnightmetal>);
+mods.avaritia.Compressor.add(<aobd:singularityKnightmetal>, 200, <aobd:blockKnightmetal>);
+
+mods.avaritia.Compressor.remove(<aobd:singularityMoltenGold>);
+mods.avaritia.Compressor.add(<aobd:singularityMoltenGold>, 7000, <manametalmod:blockMoltenGold>);
+mods.avaritia.Compressor.remove(<aobd:singularityStarSilver>);
+mods.avaritia.Compressor.add(<aobd:singularityStarSilver>, 7000, <manametalmod:blockStarSilver>);
+mods.avaritia.Compressor.remove(<aobd:singularityDeepiron>);
+mods.avaritia.Compressor.add(<aobd:singularityDeepiron>, 4000, <manametalmod:blockDeepiron>);
+mods.avaritia.Compressor.remove(<aobd:singularityFantasygold>);
+mods.avaritia.Compressor.add(<aobd:singularityFantasygold>, 4000, <manametalmod:blockFantasygold>);
+mods.avaritia.Compressor.remove(<aobd:singularityHighlycrystal>);
+mods.avaritia.Compressor.add(<aobd:singularityHighlycrystal>, 4000, <manametalmod:blockHighlycrystal>);
 
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ElectriCraft:electricraft_item_rfbattery>.withTag({nrg: 60000000000000 as long}), [<universalsingularities:universal.draconicEvolution.singularity>, <ChromatiCraft:chromaticraft_item_bucket:3>, <manametalmod:shard_Creating>, <ChromatiCraft:chromaticraft_item_bucket:3>, <rftools:machineFrame>, <ChromatiCraft:chromaticraft_item_bucket:3>, <TaintedMagic:ItemMaterial:5>, <ChromatiCraft:chromaticraft_item_bucket:3>], "alienis 128, universe 256, space 64", <rftools:dimensionBuilderBlock>, 15);
 
@@ -112,11 +133,12 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:chaosShard>, [<
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Cosmic_Meatballs>);
 mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Cosmic_Meatballs> * 5, [<Avaritia:Resource:2>, <minecraft:beef>, <minecraft:chicken>, <minecraft:porkchop>, <minecraft:fish>, <arsmagica2:itemOre:8>, <MineFactoryReloaded:meat.ingot.raw>, <minecraft:spider_eye>, <abyssalcraft:antibeef>, <abyssalcraft:antichicken>, <abyssalcraft:antipork>, <abyssalcraft:antiflesh>, <abyssalcraft:antispidereye>, <abyssalcraft:anticorflesh>, <abyssalcraft:anticorbone>, <manametalmod:ItemFoodHumans>, <manametalmod:ItemFoodHumans:1>, <manametalmod:ItemFoodHumans:2>, <manametalmod:ItemFoodHumans:3>, <manametalmod:ItemFoodHumans:4>, <manametalmod:ItemFoodHumans:5>, <manametalmod:ItemFoodHumans:6>, <manametalmod:ItemFoodHumans:7>, <manametalmod:ItemFoodHumans:8>, <manametalmod:ItemFoodHumans:9>, <Thaumcraft:TripleMeatTreat>, <Thaumcraft:ItemZombieBrain>, <manametalmod:Cheese:5>, <witchery:ingredient:23>, <witchery:ingredient:50>, <witchery:ingredient:74>, <witchery:ingredient:89>, <witchery:ingredient:90>, <witchery:louse>, <witchery:bloodedwool>, <witchery:ingredient:158>, <TConstruct:strangeFood:2>]);
 
+mods.avaritia.ExtremeCrafting.addShapeless(<manametalmod:MagicItemMedalFXS:371>, [<manametalmod:MagicItemMedalFXS:410>, <manametalmod:MagicItemMedalFXS:411>, <manametalmod:MagicItemMedalFXS:412>, <manametalmod:MagicItemMedalFXS:413>, <manametalmod:MagicItemMedalFXS:414>, <manametalmod:MagicItemMedalFXS:415>, <manametalmod:MagicItemMedalFXS:416>, <manametalmod:MagicItemMedalFXS:417>, <manametalmod:MagicItemMedalFXS:418>, <manametalmod:MagicItemMedalFXS:369>, <manametalmod:MagicItemMedalFXS:370>, <manametalmod:MagicItemMedalFXS:421>, <TwilightForest:item.trophy:4>, <witchery:leonardsurn:3>, <witchery:deathshand>, <witchery:babashat>, <Botania:recordGaia2>, <abyssalcraft:staff>, <shincolle:ShipSpawnEgg:53>, <shincolle:ShipSpawnEgg:54>, <shincolle:ShipSpawnEgg:55>, <shincolle:ShipSpawnEgg:56>, <shincolle:ShipSpawnEgg:38>, <shincolle:ShipSpawnEgg:39>, <shincolle:ShipSpawnEgg:48>, <shincolle:ShipSpawnEgg:40>, <shincolle:ShipSpawnEgg:41>, <shincolle:ShipSpawnEgg:49>, <shincolle:ShipSpawnEgg:50>, <mowziesmobs:wroughtaxe>, <mowziesmobs:foliaathseed>, <mowziesmobs:barakoaMask1>, <mowziesmobs:barakoaMask2>, <mowziesmobs:barakoaMask3>, <mowziesmobs:barakoaMask4>, <mowziesmobs:barakoaMask5>]);
 
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:6>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutron_Collector>);
-mods.thaumcraft.Infusion.addRecipe("ASPECTS", <eternalsingularity:eternal_singularity>, [<ChromatiCraft:chromaticraft_item_placer:42>, <Avaritia:Ultimate_Stew>, <Avaritia:Cosmic_Meatballs>, <DraconicEvolution:chaoticCore>, <ChromatiCraft:chromaticraft_item_artefact>, <witchery:leonardsurn:3>, <witchery:deathshand>, <witchery:babashat>, <Botania:recordGaia2>, <abyssalcraft:staff>, <ThaumicTinkerer:skyPearl>, <arsmagica2:essence:10>, <EMT:SuperchargedMjolnir:*>, <AWWayofTime:blockCrystal>, <ThaumicHorizons:voidPutty>, <manametalmod:MagicItemMedalFXS:371>, <manametalmod:MagicItemMedalFXS:409>, <RandomThings:bloodStone>, <manametalmod:ItemFeatherSnake>, <manametalmod:ItemProduceTreasure:*>, <manametalmod:ItemProduceTreasure:*>, <manametalmod:fish_s1>], "fabrico 1024, terminus 8192", <Avaritia:Resource:5> * 2, 15);
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <eternalsingularity:eternal_singularity>, [<ChromatiCraft:chromaticraft_item_placer:42>, <Avaritia:Ultimate_Stew>, <Avaritia:Cosmic_Meatballs>, <DraconicEvolution:chaoticCore>, <ChromatiCraft:chromaticraft_item_artefact>, <ThaumicTinkerer:skyPearl>, <arsmagica2:essence:10>, <AWWayofTime:blockCrystal>, <ThaumicHorizons:voidPutty>, <manametalmod:MagicItemMedalFXS:371>, <manametalmod:ItemMoneybags>.withTag({money: 2176782336 as long}), <RandomThings:bloodStone>, <flammpfeil.slashblade:proudsoul:4>, <manametalmod:ItemProduceTreasure:*>, <manametalmod:ItemProduceTreasure:*>, <manametalmod:fish_s7>], "fabrico 1024, terminus 8192", <Avaritia:Resource:5> * 2, 15);
 mods.thaumcraft.Arcane.addShaped("ASPECTS", <Avaritia:Resource:6> * 1, "ignis 120000, aqua 120000, terra 120000, aer 120000, perditio 120000, ordo 120000", [[<ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>], [<ore:blockCosmicNeutronium>, <Avaritia:Resource:5>, <ore:blockCosmicNeutronium>], [<ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]]);
 mods.avaritia.ExtremeCrafting.addShaped (<Avaritia:Neutron_Collector>,
  [[<Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>],
@@ -146,6 +168,12 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <manametalmod:SuperMisriruArmorTru
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <manametalmod:SuperMisriruArmorTrueB>, [<Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>, <Avaritia:Resource_Block>], "terminus 1024", <Avaritia:Infinity_Shoes>, 25);
 
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ExtraUtilities:lawSword>, [<Avaritia:Resource_Block:1>, <manametalmod:Dungeon_Sword4>, <manametalmod:Dungeon_Bow4>, <manametalmod:Dungeon_Dagger4>, <Avaritia:Resource_Block:1>, <manametalmod:Dungeon_Hammer4>, <manametalmod:Dungeon_MagicBook4>, <manametalmod:Dungeon_WandMagic4>, <Avaritia:Resource_Block:1>, <manametalmod:Dungeon_Sickle4>, <manametalmod:Dungeon_BlowingArrows4>, <manametalmod:Dungeon_Fan4>], "terminus 1048576", <Avaritia:Infinity_Sword>, 33);
+
+//slashblade gating-------------------------------------------------------
+
+furnace.remove(<flammpfeil.slashblade:proudsoul:2>);
+mods.thermalexpansion.Furnace.removeRecipe(<flammpfeil.slashblade:proudsoul:1>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<flammpfeil.slashblade:proudsoul:2>.withTag({RepairCost: -50 as int}), <flammpfeil.slashblade:proudsoul:1>, 2400, null);
 
 //------------------------------------------------------------------------
 //other

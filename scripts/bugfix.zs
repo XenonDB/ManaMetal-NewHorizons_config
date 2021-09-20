@@ -25,25 +25,25 @@ mods.immersiveengineering.Crusher.removeRecipe(<abyssalcraft:shadowgem>);
 //netherite
 //furnace.remove(<manametalmod:ingotNetherite>); //下列的addRecipe已會自動覆蓋。若多了這行，使用mt reload的時候會出錯誤訊息。其實不會怎樣但很煩。
 
-furnace.addRecipe(<manametalmod:plateNetherite>, <aobd:crushedPurifiedNetherite>, 0.5);
-furnace.addRecipe(<manametalmod:plateNetherite>, <aobd:crushedNetherite>, 0.5);
-furnace.addRecipe(<manametalmod:plateNetherite> * 2, <aobd:clusterNetherite>, 0.5);
+furnace.addRecipe(<manametalmod:plateNetherite> * 4, <aobd:crushedPurifiedNetherite>, 0.5);
+furnace.addRecipe(<manametalmod:plateNetherite> * 4, <aobd:crushedNetherite>, 0.5);
+furnace.addRecipe(<manametalmod:plateNetherite> * 8, <aobd:clusterNetherite>, 0.5);
 furnace.addRecipe(<manametalmod:plateNetherite>, <ore:dustNetherite>, 0.5);
-furnace.addRecipe(<manametalmod:plateNetherite> * 8, <manametalmod:ItemMetalCrystals:157>, 0.5);
+//furnace.addRecipe(<manametalmod:plateNetherite> * 8, <manametalmod:ItemMetalCrystals:142>, 0.5);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<manametalmod:ingotNetherite>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<manametalmod:plateNetherite> * 2, <manametalmod:oreNetherite>, <ImmersiveEngineering:material:13>, 200, 512, [], "Ores");
+mods.immersiveengineering.ArcFurnace.addRecipe(<manametalmod:plateNetherite> * 8, <manametalmod:oreNetherite>, <ImmersiveEngineering:material:13>, 200, 512, [], "Ores");
 
 mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedPurifiedNetherite>);
 mods.thermalexpansion.Furnace.removeRecipe(<aobd:crushedNetherite>);
 mods.thermalexpansion.Furnace.removeRecipe(<aobd:clusterNetherite>);
-mods.thermalexpansion.Furnace.removeRecipe(<manametalmod:ItemMetalCrystals:157>);
+//mods.thermalexpansion.Furnace.removeRecipe(<manametalmod:ItemMetalCrystals:142>);
 mods.thermalexpansion.Furnace.removeRecipe(<ore:dustNetherite>);
 
-mods.thermalexpansion.Furnace.addRecipe(1600, <aobd:crushedPurifiedNetherite>, <manametalmod:plateNetherite>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <aobd:crushedNetherite>, <manametalmod:plateNetherite>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <aobd:clusterNetherite>, <manametalmod:plateNetherite> * 2);
-mods.thermalexpansion.Furnace.addRecipe(1600, <manametalmod:ItemMetalCrystals:157>, <manametalmod:plateNetherite> * 8);
+mods.thermalexpansion.Furnace.addRecipe(1600, <aobd:crushedPurifiedNetherite>, <manametalmod:plateNetherite> * 4);
+mods.thermalexpansion.Furnace.addRecipe(1600, <aobd:crushedNetherite>, <manametalmod:plateNetherite> * 4);
+mods.thermalexpansion.Furnace.addRecipe(1600, <aobd:clusterNetherite>, <manametalmod:plateNetherite> * 8);
+//mods.thermalexpansion.Furnace.addRecipe(1600, <manametalmod:ItemMetalCrystals:142>, <manametalmod:plateNetherite> * 8);
 
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalExpansion:material:515>, <ore:oreNetherite>);
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:20>, <ore:oreNetherite>);
@@ -51,18 +51,25 @@ mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:512>, <or
 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <ore:oreNetherite>);
 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <ore:dustNetherite>);
 
-mods.thermalexpansion.Smelter.addRecipe(4000, <manametalmod:oreNetherite>, <ThermalExpansion:material:515>, <manametalmod:plateNetherite> * 3, <ThermalExpansion:material:514>, 75);
-mods.thermalexpansion.Smelter.addRecipe(4000, <manametalmod:oreNetherite>, <ThermalFoundation:material:20>, <manametalmod:plateNetherite> * 3, <ThermalExpansion:material:515>, 75);
-mods.thermalexpansion.Smelter.addRecipe(4000, <manametalmod:oreNetherite>, <ThermalFoundation:material:512>, <manametalmod:plateNetherite> * 2, <ThermalExpansion:material:515>, 15);
-mods.thermalexpansion.Smelter.addRecipe(3200, <manametalmod:oreNetherite>, <minecraft:sand>, <manametalmod:plateNetherite> * 2, <ThermalExpansion:material:515>, 5);
+mods.thermalexpansion.Smelter.addRecipe(4000, <manametalmod:oreNetherite>, <ThermalExpansion:material:515>, <manametalmod:plateNetherite> * 12, <ThermalExpansion:material:514>, 75);
+mods.thermalexpansion.Smelter.addRecipe(4000, <manametalmod:oreNetherite>, <ThermalFoundation:material:20>, <manametalmod:plateNetherite> * 12, <ThermalExpansion:material:515>, 75);
+mods.thermalexpansion.Smelter.addRecipe(4000, <manametalmod:oreNetherite>, <ThermalFoundation:material:512>, <manametalmod:plateNetherite> * 8, <ThermalExpansion:material:515>, 15);
+mods.thermalexpansion.Smelter.addRecipe(3200, <manametalmod:oreNetherite>, <minecraft:sand>, <manametalmod:plateNetherite> * 8, <ThermalExpansion:material:515>, 5);
 
 mods.tconstruct.Smeltery.removeMelting(<manametalmod:oreNetherite>);
 mods.tconstruct.Smeltery.removeMelting(<aobd:crushedNetherite>);
 mods.tconstruct.Smeltery.removeMelting(<manametalmod:dustNetherite>);
 mods.tconstruct.Smeltery.removeMelting(<aobd:clusterNetherite>);
 
+mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<manametalmod:ingotNetherite>);
+mods.witchinggadgets.InfernalBlastfurnace.addRecipe(<manametalmod:dustNetherite> * 12,<aobd:clusterNetherite>,440,<aobd:dustTinyNetherite>,false);
+
+
 //避免使用該自我注魔能力進行無消耗合成
 mods.thaumcraft.Research.removeResearch("morphicFingers");
+
+//移除超吟附魔台
+mods.thaumcraft.Research.removeResearch("TB.Overchanter");
 
 //給M3流體祕銀配方
 mods.tconstruct.Smeltery.removeMelting(<manametalmod:ingotMithril>);
@@ -72,6 +79,18 @@ mods.tconstruct.Smeltery.addMelting(<manametalmod:ingotMithril>, <liquid:fluidmi
 //mods.tconstruct.Smeltery.addMelting(<ore:ingotBrass>, <liquid:brass.molten> * 144, 200, <manametalmod:blockBrass>);
 mods.tconstruct.Smeltery.addMelting(<ore:gearManaS>, <liquid:fluidmanas> * 576, 200, <manametalmod:blockManaS>);
 mods.mekanism.Combiner.addRecipe(<minecraft:iron_ore> * 8, <gas:liquidStone>, <manametalmod:orePurgatoryIron>);
+mods.mekanism.Combiner.addRecipe(<minecraft:gold_ore> * 8, <gas:liquidStone>, <manametalmod:oreEnderGold>);
 
 //三鈦鑄造成錠
 mods.tconstruct.Casting.addTableRecipe(<mo:tritanium_ingot>, <liquid:molten_tritanium> * 144, <TConstruct:metalPattern>, false, 20);
+
+//終界被置換導致沒水晶的問題
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ChromatiCraft:chromaticraft_item_endercrystal>, [<minecraft:nether_star>, <minecraft:glass_pane>, <minecraft:ghast_tear>, <minecraft:glass_pane>, <minecraft:bedrock>, <minecraft:glass_pane>, <manametalmod:ingotManaDragonCrystal>, <minecraft:glass_pane>], "fabrico 8 ,auram 16, dragon 8, signum 16", <ChromatiCraft:chromaticraft_item_endercrystal:1>, 3);
+
+//終界被置換導致沒有閻魔刀問題
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <TaintedMagic:ItemKatana:2>, [<DraconicEvolution:dragonHeart>,<flammpfeil.slashblade:proudsoul>,<flammpfeil.slashblade:proudsoul>], "fabrico 32 ,space 48, dragon 48, alienis 24", <flammpfeil.slashblade:slashbladeNamed>.withTag({isSealed: 1 as byte, ModelName: "named/yamato", isNoScabbard: 1 as byte, CurrentItemName: "flammpfeil.slashblade.named.yamato.broken", AttackAmplifier: -5.0 as float, TextureName: "named/yamato", SpecialAttackType: 0, TrueItemName: "flammpfeil.slashblade.named.yamato", CustomMaxDamage: 40, isBroken: 1 as byte, baseAttackModifier: 7.0 as float, AttributeModifiers: [{UUIDMost: -3801225194067177672 as long, UUIDLeast: -6586624321849018929 as long, Amount: 2.0, AttributeName: "generic.attackDamage", Operation: 0, Name: "Weapon modifier"}], "SB.SEffect": {}, StandbyRenderType: 1}), 9);
+
+//在下個版本修好配方前先暫時由我代替修
+//mods.immersiveengineering.BlastFurnace.removeRecipe(<manametalmod:ingotCompressionSteel>);
+//mods.immersiveengineering.BlastFurnace.addRecipe(<manametalmod:ingotCompressionSteel>, <ore:ingotSteel>, 2400, <ImmersiveEngineering:material:13> * 4);
+
