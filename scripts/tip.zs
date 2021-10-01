@@ -51,3 +51,12 @@ val pigIronWarning = format.red("於Tinker鑄造台/盆中澆注熔融鐵會得�
 <minecraft:iron_ingot>.addTooltip(pigIronWarning);
 <ImmersiveEngineering:metal:21>.addTooltip(pigIronWarning);
 
+//------------------------------------------------------------------------
+//釷粉註解
+
+val thoriumDusts = [<ReactorCraft:reactorcraft_item_raw:7>, <RotaryCraft:rotarycraft_item_modingots:84>] as IItemStack[];
+
+for i in thoriumDusts {
+	i.addTooltip(format.gold("透過Uranium processor來製造氟鋰鈹熔鹽，再透過Fuel enhancer將此加入來製造可用的釷燃料。"));
+	i.addTooltip(format.gold("熔鹽中的液態鋰可透過將Centrifugal Fluid Extractor置於岩漿中離心獲得。"));
+}
