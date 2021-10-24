@@ -78,6 +78,7 @@ recipes.remove(<DraconicEvolution:draconiumIngot>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<abyssalcraft:ironp> * 2, [[<ore:ingotIron>], [<ore:ingotIron>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -116,6 +117,7 @@ recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<abyssalcraft:ironp> * 4, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<DraconicEvolution:draconicSword>, [[<DraconicEvolution:awakenedCore>, <manametalmod:ItemLapudaArtifacts:1>, <DraconicEvolution:awakenedCore>], [<ore:ingotDraconiumAwakened>, <DraconicEvolution:wyvernSword>, <ore:ingotDraconiumAwakened>], [null, <DraconicEvolution:draconiumEnergyCore:1>, null]]);
 recipes.addShaped(<customnpcs:npcHolySpell>.withTag({display: {Lore: ["§6可透過任務回復為假人靈魂石"], Name: "§a假人靈魂"}}), [[null, <minecraft:hay_block>, null], [<minecraft:hay_block>, <ore:blockWool>, <minecraft:hay_block>], [null, <ore:logWood>, null]]);
 recipes.addShaped(<DraconicEvolution:draconiumIngot>, [[<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>], [<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>], [<ore:nuggetDraconium>, <ore:nuggetDraconium>, <ore:nuggetDraconium>]]);
@@ -124,7 +126,7 @@ recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<ore:sheetPlastic>, <EnderI
 recipes.addShaped(<TConstruct:materials:34>, [[<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>], [<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>], [<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>]]);
 recipes.addShaped(<manametalmod:ingotPigIron>, [[<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>]]);
 recipes.addShaped(<manametalmod:blockPigIron>, [[<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>]]);
-recipes.addShaped(<manametalmod:ItemMobSpawnEgg:27>, [[null, <minecraft:hay_block>, null], [<ore:cropWheat>, <ore:blockWool>, <ore:cropWheat>], [null, <ore:plankWood>, null]]);
+recipes.addShaped(<manametalmod:ItemMobSpawnEgg:35>, [[null, <minecraft:hay_block>, null], [<ore:cropWheat>, <ore:blockWool>, <ore:cropWheat>], [null, <ore:plankWood>, null]]);
 recipes.addShaped(<ae2wct:infinityBoosterCard>, [[<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>], [<manametalmod:superEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:42>, <manametalmod:superEnderPearl>], [<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>]]);
 recipes.addShaped(<IC2:itemPurifiedCrushedOre:4> * 2, [[<ore:ingotUranium>], [<ore:ingotUranium>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.0:10> * 4, [[<ore:sheetPlastic>, <minecraft:bucket>, <ore:sheetPlastic>], [<ore:ingotBrick>, <ore:itemMachineChassi>, <ore:ingotBrick>], [<ore:ingotBrick>, <minecraft:cauldron>, <ore:ingotBrick>]]);

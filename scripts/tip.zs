@@ -23,7 +23,7 @@ import minetweaker.item.IItemStack;
 
 <manametalmod:PlatinumNetherStar>.addTooltip(format.gold("Star Platinum!!"));
 
-<manametalmod:ItemMobSpawnEgg:27>.addTooltip(format.gold("蹲下右鍵以清除稻草人"));
+<manametalmod:ItemMobSpawnEgg:35>.addTooltip(format.gold("蹲下右鍵以清除稻草人"));
 
 <ExtraUtilities:nodeUpgrade:2>.addTooltip(format.red("抽無限水的功能已被取消"));
 
@@ -32,6 +32,8 @@ import minetweaker.item.IItemStack;
 val lootTip1 = format.gold("可於亡靈古墓中尋獲");
 <manametalmod:BlockMagicObject0>.addTooltip(lootTip1);
 <manametalmod:BlockMagicRunes>.addTooltip(lootTip1);
+
+<RotaryCraft:rotarycraft_item_machine:75>.addTooltip(format.gold("可拆解透過此台桌製作出的機器(需給予紅石訊號)"));
 
 //------------------------------------------------------------------------
 //礦物生成統一

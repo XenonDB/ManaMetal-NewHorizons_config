@@ -100,7 +100,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "不過，你們大概已經知道，魔法金屬類似拼裝車(?)那樣有很多種類似其他模組的要素\n\n這包含了類似Spice of life、TFC或Tough As Nails那類的生存要素\n\n左下角除最上面那排正是這些要素的體現\n\n這會影響你的機動性、再生、挖掘及作戰能力\n\n同時，體溫太高或失溫都可能致死\n\n建議你們可去巴哈姆特先參考夜空姐姐的文章來了解這些特性\nhttps://forum.gamer.com.tw/C.php?bsn\u003d18673\u0026snA\u003d178326\n\n\n"
+          "desc:8": "不過，你們大概已經知道，魔法金屬類似拼裝車(?)那樣有很多種類似其他模組的要素\n\n這包含了類似Spice of life、TFC或Tough As Nails那類的生存要素\n\n左下角除最上面那排正是這些要素的體現\n\n這會影響你的機動性、再生、挖掘及作戰能力\n\n\n初期時你們遇到的生存問題應該大多是體溫問題，\n體溫太高或失溫都有可能致死。\n\n站在火、岩漿旁、或是處於夏季這種季節、在熱的生態域，會讓體溫漸漸變高，\n反之你的體溫則會漸漸降低，\n並且泡在水中時，你的體溫也會下降(請不要貿然的硬是游過海)。\n\n你們可以製作熱、溫水瓶來暫時減緩失溫、過熱的狀態。\n另外，營火或火坑可以持續給予「溫暖」狀態來避免失溫。\n\n建議你們初期時可以優先找到雪地或高山來備存一些雪球製作冷水瓶用。\n\n\n"
         }
       },
       "tasks:9": {
@@ -128,6 +128,12 @@
             },
             "2:10": {
               "id:8": "minecraft:glass_bottle",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:pumpkin_seeds",
               "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -343,7 +349,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "火把是會熄滅的，對，就是TFC那套\n\n所以使用通常的火把做永久照明是不可行的\n\n不過，在初期的時候可以製作藍粉火把做永久照明"
+          "desc:8": "§m火把是會熄滅的，對，就是TFC那套\n\n所以使用通常的火把做永久照明是不可行的\n\n不過，在初期的時候可以製作藍粉火把做永久照明\n§m\n§r\n火把熄滅的特性已於5.7.3移除，\n\n所以你不會再看到洞窟裡插著一堆熄掉的火把了。"
         }
       },
       "tasks:9": {
@@ -365,7 +371,20 @@
           "taskID:8": "bq_standard:crafting"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "8:10": {
       "questID:3": 8,
@@ -624,7 +643,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你們可能會發現沒有/home或/back指令可以用\n\n因為魔法金屬有類似功能的道具可以使用，即是回家卷軸和家庭祝福卷軸\n\n它們都可以跨維度傳送回你自己的出生點\n\n前者是消耗品，後者可以不斷使用，但需要支付自身的魔力做為代價\n\n\n它們可以在地牢或副本箱子內找到，或是從其他村民身上購買\n\n\n喔對，我沒有打算開放/back的指令或類似功能:)"
+          "desc:8": "你們可能會發現沒有/home或/back指令可以用\n\n因為魔法金屬有類似功能的道具可以使用，即是回家卷軸和家庭祝福卷軸\n\n它們都可以跨維度傳送回你自己的出生點\n\n前者是消耗品，後者可以不斷使用，但需要支付自身的魔力做為代價\n\n\n它們可以在地牢或副本箱子內找到、合成、或是從其他村民身上購買\n\n\n喔對，我沒有打算開放/back的指令或類似功能:)"
         }
       },
       "tasks:9": {
@@ -1123,9 +1142,7 @@
     },
     "24:10": {
       "questID:3": 24,
-      "preRequisites:11": [
-        56
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -3221,7 +3238,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "職業等級即是在GUI左下角，血量槽上方的那個數值。\n\n該數值是你當前的「職業等級」，會影響你能否使用哪些道具、技能以及對敵人的戰力。\n\n敵人的等級高過你的職業等級越多，你對敵人成的傷害就越少。\n\n另外，某些地下城會要求最低入場的職業等級，\n\n如果自身職業等級不夠則無法入場。\n\n職業等級上限預設是30級，使用覺醒祕典則可以提高5等的上限\n\n目前最高提升上限為100(99)等。\n\n\n覺醒祕典可於通關地下城時取得的獎勵箱內機率性取得。"
+          "desc:8": "職業等級即是在GUI左下角，血量槽上方的那個數值。\n\n該數值是你當前的「職業等級」，會影響你能否使用哪些道具、技能以及對敵人的戰力。\n\n敵人的等級高過你的職業等級越多，你對敵人造成的傷害就越少。\n\n並且，等級差距過大(±10等)會導致你擊殺該敵人無法獲得經驗值。\n\n\n另外，某些地下城會要求最低入場的職業等級，\n\n如果自身職業等級不夠則無法入場。\n\n職業等級上限預設是30級，使用覺醒祕典則可以提高5等的上限\n\n目前最高提升上限為100(99)等。\n\n\n覺醒祕典可於通關地下城時取得的獎勵箱內機率性取得。"
         }
       },
       "tasks:9": {
@@ -3464,7 +3481,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "manametalmod:ItemLapudaDust",
@@ -4262,14 +4279,15 @@
     "82:10": {
       "questID:3": 82,
       "preRequisites:11": [
-        72
+        72,
+        75
       ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
           "visibility:8": "NORMAL",
-          "isMain:1": 0,
+          "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "appliedenergistics2:item.ItemCreativeStorageCell",
@@ -5736,7 +5754,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你在研究新發現的藍天石碑的同時，在其他地方也找到了與這個巨型遺跡相似的高塔。\n\n這個高塔看起來也與遺跡是同一個文化體系的。\n\n不過，在這已無人居住的塔之中，似乎有什麼東西存在於此...\n\n"
+          "desc:8": "你在研究新發現的藍天石碑的同時，在其他地方也找到了與這個巨型遺跡相似的高塔。\n\n這個高塔看起來也與遺跡是同一個文化體系的。\n\n不過，在這看似已無人居住的塔之中，似乎有什麼東西存在於此...\n\n"
         }
       },
       "tasks:9": {
@@ -5755,13 +5773,7 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "manametalmod:ItemPhoenix",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "manametalmod:ItemBossStartDragonKey",
+              "id:8": "manametalmod:ingotSkyPower",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -6202,11 +6214,23 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
+              "id:8": "manametalmod:ItemPhoenix",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemBossStartDragonKey",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
               "id:8": "manametalmod:ItemKeyOfTheRebirth",
               "Count:3": 1,
               "Damage:2": 0,
@@ -6241,11 +6265,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "剩餘的拉普神器",
+          "name:8": "危機四伏的高塔",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "不過，你似乎尚未發現所有的拉普達神器。\n\n仍然有更強大的神器隱藏在這個遺跡中...."
+          "desc:8": "你疑惑的為何這座高塔中會有這麼多如此可怕的魔物，\n\n儘管利用魔物來保護神器是合理的方案，但數量如此多又強大是否可能會不受控?\n\n\n目前你暫時還無法得到解答，但你知道若你想繼續尋找答案，你得做好充分的準備..."
         }
       },
       "tasks:9": {
@@ -6958,7 +6982,7 @@
               "id:8": "manametalmod:ItemMobSpawnEgg",
               "Count:3": 1,
               "tag:10": {},
-              "Damage:2": 27,
+              "Damage:2": 35,
               "OreDict:8": ""
             }
           },
@@ -7629,11 +7653,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "release 2.7",
+          "name:8": "alpha 2.7",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "1.實用物品中新增一項任務。\n\n2.更新魔法金屬至5.7.1。\n\n3.更新Reika系列模組至V30版。\n\n4.更改無限催化劑的配方。\n\n5.給釷粉增加一些說明。"
+          "desc:8": "1.實用物品中新增一項任務。\n\n2.更新魔法金屬至5.7.1。\n\n§m§m3.Reika系列模組更新至V30版。\n§r\n4.更改無限催化劑的配方。\n\n5.給釷粉增加一些說明。\n\n6.修正一部分任務的說明。\n\n7.給RotaryCraft的工作臺增加一行說明。\n\n8.修正abyssalcraft的鐵盤和鐵棍配方衝突。\n\n9.再次啟用AbyssalCraft Integration中，給予warp的設定。"
         }
       },
       "tasks:9": {
@@ -7798,6 +7822,165 @@
         }
       },
       "rewards:9": {}
+    },
+    "126:10": {
+      "questID:3": 126,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.8",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.魔法金屬更新至5.7.2-1。\n\n2.修正一個拉普達相關任務會收走乙太粉末的錯誤。\n\n3.移除tellme(功能與目前已有的輔助模組重複太多，而且有個令管理員煩惱的特性存在)。\n\n4.更改拉普達任務線中其中兩個任務的達成條件。\n\n5.在CHROMATICRAFT_PackModifications.cfg中增加了兩項重要更動的說明。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "127:10": {
+      "questID:3": 127,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 2.9",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.魔法金屬更新至5.7.4。\n\n2.新增解說solo mode的任務。\n\n3.調整「熄滅的火把」、「/home」任務的說明。\n\n4.「系統改動」任務分類更名為「新特性/系統改動」。\n\n5.新增靈力的介紹。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "128:10": {
+      "questID:3": 128,
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:LapudaBlocks",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Solo mode",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "由於魔法金屬的內容是以多人遊戲的前提下去設計，\n\n因此如果你是在單人環境下遊玩，某些設計可能會令你極度棘手：\n\n1.白蛇神殿、書庫的護衛任務。\n\n2.天空高塔的死亡次數限制。\n\n如果你希望能降低這兩個難度的話，可以去設定檔中搜尋「SoloMode」並將它改為true，\n\n這會使白蛇多出自行回血的能力，以及取消死亡次數限制。\n\n\n不過，在這個模組包的設計下，是完全有可能在不開SoloMode的狀況下單人通過這些關卡。\n\n這需要一些其他模組的小技巧或能力，我希望你們可以自行發掘出這些方法。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "129:10": {
+      "questID:3": 129,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemSPCs",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "靈力",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "魔法金屬於5.7.3版本中新增了「靈力」系統。\n\n玩家在職業等級達到30等後可以使用靈力系統來提升自己的能力。\n\n點選主選單(道具欄下方中間書本)-\u003e左上往下數第一個，即可開啟靈力系統介面。\n\n\n你可以消耗靈力點數來重新設定你自己每一行的靈力能力。\n\n並且隨著你的等級提升，你可以使用更多行(高階)的靈力。\n\n高階靈力會給你更加強大/方便的能力來輔助你。\n\n\n你可以透過提升職業等級、生產技能等級、戰利品、靈力本身的能力來獲得靈力點數。\n\n\n※註:由於現版本的最高等級是100等，所以最後一階靈力尚無法獲得。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemSPCs",
+              "Count:3": 5,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -7942,13 +8125,20 @@
           "y:3": 48,
           "id:3": 103,
           "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 96,
+          "id:3": 129,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "系統改動",
+          "name:8": "新特性/系統改動",
           "icon:10": {
             "id:8": "manametalmod:steelGear",
             "Count:3": 1,
@@ -8081,6 +8271,13 @@
           "x:3": -192,
           "y:3": -216,
           "id:3": 125,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -96,
+          "id:3": 128,
           "sizeY:3": 24
         }
       },
@@ -8638,78 +8835,71 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -132,
-          "id:3": 24,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": -132,
+          "x:3": 12,
+          "y:3": -84,
           "id:3": 56,
           "sizeY:3": 24
         },
-        "2:10": {
+        "1:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -84,
           "id:3": 68,
           "sizeY:3": 24
         },
-        "3:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -48,
           "id:3": 69,
           "sizeY:3": 24
         },
-        "4:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -12,
           "id:3": 70,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": 24,
           "id:3": 71,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -24,
           "y:3": 72,
           "id:3": 72,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 24,
           "id:3": 74,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 72,
           "id:3": 75,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -84,
           "id:3": 76,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 72,
+          "x:3": -48,
+          "y:3": 108,
           "id:3": 82,
           "sizeY:3": 24
         }
@@ -8800,57 +8990,71 @@
         "9:10": {
           "sizeX:3": 24,
           "x:3": -108,
-          "y:3": 12,
+          "y:3": 24,
           "id:3": 100,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": 12,
+          "y:3": 24,
           "id:3": 111,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 12,
+          "y:3": 24,
           "id:3": 112,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 12,
+          "y:3": 24,
           "id:3": 114,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": 12,
+          "y:3": 24,
           "id:3": 116,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
           "x:3": -108,
-          "y:3": 60,
+          "y:3": 72,
           "id:3": 117,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": 60,
+          "y:3": 72,
           "id:3": 119,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 60,
+          "y:3": 72,
           "id:3": 122,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 72,
+          "id:3": 126,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 72,
+          "id:3": 127,
           "sizeY:3": 24
         }
       },
