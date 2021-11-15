@@ -94,7 +94,6 @@ recipes.addShapeless(<manametalmod:Poachedeggs>, [<abyssalcraft:friedegg>]);
 recipes.addShapeless(<abyssalcraft:friedegg>, [<manametalmod:Poachedeggs>]);
 recipes.addShapeless(<ThermalExpansion:capacitor:1>.withTag({RepairCost: 48763, Energy: 32000}), [<minecraft:poisonous_potato>, <ore:dustRedstone>, <ore:nuggetLead>]);
 recipes.addShapeless(<ThermalExpansion:capacitor:1>.withTag({RepairCost: 48763, Energy: 32000}), [<ore:cropPotato>, <ore:dustRedstone>, <ore:nuggetLead>]);
-recipes.addShapeless(<EnderIO:blockBuffer:3>, [<EnderIO:blockBuffer:2>, <ore:ingotInfinity>]);
 recipes.addShapeless(<manametalmod:ingotNetherite> * 9, [<ore:blockNetherite>]);
 recipes.addShapeless(<manametalmod:ingotNetherite>, [<ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:nuggetNetherite>]);
 recipes.addShapeless(<minecraft:gold_ore>, [<ore:oreGold>]);
@@ -117,6 +116,7 @@ recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<EnderIO:blockBuffer:3>, [[null,null,null],[<manametalmod:ingotCopyA> ,<EnderIO:blockBuffer:2>, <ore:ingotInfinity>],[null,null,null]]);
 recipes.addShaped(<abyssalcraft:ironp> * 4, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<DraconicEvolution:draconicSword>, [[<DraconicEvolution:awakenedCore>, <manametalmod:ItemLapudaArtifacts:1>, <DraconicEvolution:awakenedCore>], [<ore:ingotDraconiumAwakened>, <DraconicEvolution:wyvernSword>, <ore:ingotDraconiumAwakened>], [null, <DraconicEvolution:draconiumEnergyCore:1>, null]]);
 recipes.addShaped(<customnpcs:npcHolySpell>.withTag({display: {Lore: ["§6可透過任務回復為假人靈魂石"], Name: "§a假人靈魂"}}), [[null, <minecraft:hay_block>, null], [<minecraft:hay_block>, <ore:blockWool>, <minecraft:hay_block>], [null, <ore:logWood>, null]]);
@@ -126,7 +126,6 @@ recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<ore:sheetPlastic>, <EnderI
 recipes.addShaped(<TConstruct:materials:34>, [[<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>], [<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>], [<TConstruct:materials:35>, <TConstruct:materials:35>, <TConstruct:materials:35>]]);
 recipes.addShaped(<manametalmod:ingotPigIron>, [[<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>]]);
 recipes.addShaped(<manametalmod:blockPigIron>, [[<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>]]);
-recipes.addShaped(<manametalmod:ItemMobSpawnEgg:35>, [[null, <minecraft:hay_block>, null], [<ore:cropWheat>, <ore:blockWool>, <ore:cropWheat>], [null, <ore:plankWood>, null]]);
 recipes.addShaped(<ae2wct:infinityBoosterCard>, [[<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>], [<manametalmod:superEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:42>, <manametalmod:superEnderPearl>], [<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>]]);
 recipes.addShaped(<IC2:itemPurifiedCrushedOre:4> * 2, [[<ore:ingotUranium>], [<ore:ingotUranium>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.0:10> * 4, [[<ore:sheetPlastic>, <minecraft:bucket>, <ore:sheetPlastic>], [<ore:ingotBrick>, <ore:itemMachineChassi>, <ore:ingotBrick>], [<ore:ingotBrick>, <minecraft:cauldron>, <ore:ingotBrick>]]);

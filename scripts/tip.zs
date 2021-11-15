@@ -23,17 +23,24 @@ import minetweaker.item.IItemStack;
 
 <manametalmod:PlatinumNetherStar>.addTooltip(format.gold("Star Platinum!!"));
 
-<manametalmod:ItemMobSpawnEgg:35>.addTooltip(format.gold("蹲下右鍵以清除稻草人"));
+<manametalmod:grassman>.addTooltip(format.gold("蹲下右鍵以清除稻草人"));
 
 <ExtraUtilities:nodeUpgrade:2>.addTooltip(format.red("抽無限水的功能已被取消"));
 
 <manametalmod:ItemMetalCrystals:*>.addTooltip(format.red("目前版本的礦物純化儀改為直接產出對應的錠、寶石。"));
 
-val lootTip1 = format.gold("可於亡靈古墓中尋獲");
+val lootTip1 = format.gold("可於亡靈古墓、遠古銩世界中尋獲");
 <manametalmod:BlockMagicObject0>.addTooltip(lootTip1);
 <manametalmod:BlockMagicRunes>.addTooltip(lootTip1);
 
 <RotaryCraft:rotarycraft_item_machine:75>.addTooltip(format.gold("可拆解透過此台桌製作出的機器(需給予紅石訊號)"));
+
+<ChromatiCraft:chromaticraft_item_placer:23>.addTooltip(format.gold("可複製部分流體(以桶裝形式給予樣本)"));
+
+//利用礦物辭典來讓所有種的焊接粉能支援BetterQuesting的礦典偵測功能
+<ore:dustM3Welding>.add(<manametalmod:ItemCastingWeldingDusts:*>);
+
+<manametalmod:BlockTileEntityClothesTailors>.addTooltip(format.gold("修補積分若超過200分，則視為0分!"));
 
 //------------------------------------------------------------------------
 //礦物生成統一

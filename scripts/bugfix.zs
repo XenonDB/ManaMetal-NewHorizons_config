@@ -64,6 +64,8 @@ mods.tconstruct.Smeltery.removeMelting(<aobd:clusterNetherite>);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(<manametalmod:ingotNetherite>);
 mods.witchinggadgets.InfernalBlastfurnace.addRecipe(<manametalmod:dustNetherite> * 12,<aobd:clusterNetherite>,440,<aobd:dustTinyNetherite>,false);
 
+mods.mekanism.Enrichment.removeRecipe(<aobd:dustDirtyNetherite>);
+mods.mekanism.Enrichment.addRecipe(<aobd:dustDirtyNetherite>, <manametalmod:dustNetherite> * 4);
 
 //避免使用該自我注魔能力進行無消耗合成
 mods.thaumcraft.Research.removeResearch("morphicFingers");
