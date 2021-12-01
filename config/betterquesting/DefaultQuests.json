@@ -2394,34 +2394,28 @@
             "1:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 2,
+              "Damage:2": 19,
               "OreDict:8": ""
             },
             "2:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 19,
+              "Damage:2": 20,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 20,
+              "Damage:2": 21,
               "OreDict:8": ""
             },
             "4:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 21,
-              "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "manametalmod:bossItemM",
-              "Count:3": 1,
               "Damage:2": 22,
               "OreDict:8": ""
             },
-            "6:10": {
+            "5:10": {
               "id:8": "manametalmod:PowerCrystal",
               "Count:3": 1,
               "Damage:2": 0,
@@ -2481,34 +2475,28 @@
             "1:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 4,
+              "Damage:2": 64,
               "OreDict:8": ""
             },
             "2:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 64,
+              "Damage:2": 65,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 65,
+              "Damage:2": 66,
               "OreDict:8": ""
             },
             "4:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 66,
-              "OreDict:8": ""
-            },
-            "5:10": {
-              "id:8": "manametalmod:bossItemM",
-              "Count:3": 1,
               "Damage:2": 67,
               "OreDict:8": ""
             },
-            "6:10": {
+            "5:10": {
               "id:8": "manametalmod:OutsiderJade",
               "Count:3": 1,
               "Damage:2": 0,
@@ -2911,7 +2899,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "傳說中有一種魔物被古老的種族所信仰-魔蛇。\n\n並且你似乎發現了屬於魔蛇一部分的東西。\n\n或許你有辦法藉著這個線索接觸到這個危險的魔物...\n\n\n※可透過將「魔蛇之魂」丟入遠古銩中的紅色「液體」或是利用魔物召喚台召喚暴風魔蛇。"
+          "desc:8": "傳說中有一種魔物被古老的種族所信仰-魔蛇。\n\n並且你似乎發現了屬於魔蛇一部分的東西。\n\n或許你有辦法藉著這個線索接觸到這個危險的魔物...\n\n\n※可透過將「魔蛇之血」丟入遠古銩中的紅色「液體」或是利用魔物召喚台召喚暴風魔蛇。"
         }
       },
       "tasks:9": {
@@ -2932,22 +2920,16 @@
             "1:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 3,
+              "Damage:2": 45,
               "OreDict:8": ""
             },
             "2:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 45,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "manametalmod:bossItemM",
-              "Count:3": 1,
               "Damage:2": 46,
               "OreDict:8": ""
             },
-            "4:10": {
+            "3:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
               "Damage:2": 47,
@@ -2962,7 +2944,6 @@
     "54:10": {
       "questID:3": 54,
       "preRequisites:11": [
-        46,
         52,
         53
       ],
@@ -3015,22 +2996,16 @@
             "2:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 6,
+              "Damage:2": 50,
               "OreDict:8": ""
             },
             "3:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
-              "Damage:2": 50,
-              "OreDict:8": ""
-            },
-            "4:10": {
-              "id:8": "manametalmod:bossItemM",
-              "Count:3": 1,
               "Damage:2": 51,
               "OreDict:8": ""
             },
-            "5:10": {
+            "4:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
               "Damage:2": 52,
@@ -3219,7 +3194,6 @@
     "58:10": {
       "questID:3": 58,
       "preRequisites:11": [
-        57,
         53
       ],
       "properties:10": {
@@ -3244,7 +3218,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你從赤瞳惡龍身上發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n\n\n※可製作「九頭怪蛇召喚方塊」並透過舊版魔物召喚儀式叫出，或透過新版魔物召喚儀式叫出。"
+          "desc:8": "你從赤瞳惡龍身上發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n\n"
         }
       },
       "tasks:9": {
@@ -3295,7 +3269,6 @@
     "59:10": {
       "questID:3": 59,
       "preRequisites:11": [
-        57,
         52
       ],
       "properties:10": {
@@ -3320,7 +3293,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你從赤瞳惡龍身上發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n\n\n※可製作「符文巨人召喚方塊」並透過舊版魔物召喚儀式叫出，或透過新版魔物召喚儀式叫出。"
+          "desc:8": "你從赤瞳惡龍身上發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n"
         }
       },
       "tasks:9": {
@@ -3424,6 +3397,12 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:BlockPaganDoors",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3456,7 +3435,7 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "缺失的關鍵",
+          "name:8": "缺失的關鍵(廢棄任務)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -8656,7 +8635,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "在6.0.0版本時，天空守護龍以前的魔物召喚路線大改，\n\n改為透過魔物召喚台叫出特定魔物。\n\n這個儀式是6.0.0以前的舊儀式。不過，目前版本的一部分魔物召喚方塊仍然可以製作並透過此儀式召喚。\n\n如果你有留著舊的召喚方塊，也可以透過此儀式叫出來。\n\n\n目前還能製作的魔物召喚方塊: 九頭怪蛇，符文巨人，天空守護龍\n\n召喚儀式的具體結構可以參考「法術儀式」中的「魔物召喚」篇章。\n\n※註:召喚一次魔物後，魔力水晶會變成弱化的形式而無法再次啟動儀式。需要重新放置水晶或手持魔法粉右鍵(不消耗)來將水晶再次活化。"
+          "desc:8": "在6.0.0版本時，天空守護龍以前的魔物召喚路線大改，\n\n改為透過魔物召喚台叫出特定魔物。\n\n這個儀式是6.0.0以前的舊儀式。§m不過，目前版本的一部分魔物召喚方塊仍然可以製作並透過此儀式召喚。§r\n\n如果你有留著舊的召喚方塊，也可以透過此儀式叫出來。\n\n\n§m目前還能製作的魔物召喚方塊: 九頭怪蛇，符文巨人，天空守護龍\n§r\n(6.0.2中已無法製作任何種類的召喚方塊)\n\n召喚儀式的具體結構可以參考「法術儀式」中的「魔物召喚」篇章。\n\n※註:召喚一次魔物後，魔力水晶會變成弱化的形式而無法再次啟動儀式。需要重新放置水晶或手持魔法粉右鍵(不消耗)來將水晶再次活化。"
         }
       },
       "tasks:9": {
@@ -8921,6 +8900,12 @@
               "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:bossItemM",
+              "Count:3": 1,
+              "Damage:2": 71,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8931,7 +8916,6 @@
     "143:10": {
       "questID:3": 143,
       "preRequisites:11": [
-        61,
         54
       ],
       "properties:10": {
@@ -8956,7 +8940,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你似乎已經找到可以解開謎團的最後一個關鍵。\n\n但是這種有著絕對遵從並實踐使命的魔物，其決心給予它的能力，肯定會比以往你所遇過的魔物還要更加強大...\n\n\n※可製作「天空守護龍召喚方塊」並透過舊版魔物召喚儀式叫出，或透過新版魔物召喚儀式叫出。"
+          "desc:8": "你或許找到了可以解釋為何那個使用黑暗力量的文明走向毀滅的原因。\n\n但是這種有著絕對遵從並實踐使命的魔物，其決心給予它的能力，肯定會比以往你所遇過的魔物還要更加強大...\n"
         }
       },
       "tasks:9": {
@@ -9073,6 +9057,42 @@
           "dimension:3": 100,
           "taxiCabDist:1": 0,
           "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "145:10": {
+      "questID:3": 145,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "beta 3.1",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.更新魔法金屬至6.0.2\n\n2.調整部分任務的說明、前置條件以及位置。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
@@ -9644,7 +9664,7 @@
         "18:10": {
           "sizeX:3": 24,
           "x:3": -120,
-          "y:3": 84,
+          "y:3": 96,
           "id:3": 50,
           "sizeY:3": 24
         },
@@ -9699,7 +9719,7 @@
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": -120,
+          "x:3": -168,
           "y:3": 144,
           "id:3": 138,
           "sizeY:3": 24
@@ -9833,95 +9853,88 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": 216,
+          "y:3": 132,
           "id:3": 58,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 216,
+          "y:3": 180,
           "id:3": 59,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": 216,
+          "y:3": 132,
           "id:3": 60,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 180,
-          "id:3": 61,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": 12,
           "y:3": 84,
           "id:3": 62,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 36,
           "id:3": 67,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -24,
           "id:3": 88,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -72,
           "id:3": 97,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -120,
           "id:3": 106,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -168,
           "id:3": 107,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -72,
           "id:3": 109,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -72,
           "id:3": 110,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -216,
           "id:3": 118,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 132,
@@ -10340,6 +10353,13 @@
           "y:3": 0,
           "id:3": 130,
           "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 0,
+          "id:3": 145,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 10,
@@ -10372,7 +10392,7 @@
       "home_image:8": "mmnh:textures/gui/banner.png",
       "party_enable:1": 1,
       "pack_version:3": 300,
-      "editMode:1": 0,
+      "editMode:1": 1,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
