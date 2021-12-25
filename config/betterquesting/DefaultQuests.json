@@ -9096,6 +9096,78 @@
         }
       },
       "rewards:9": {}
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "release 4.0",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.更新魔法金屬至6.0.3-1。\n\n2.更新Reika系模組至V31版。\n\n3.更新NEI(GTNH版)至2.1.12。\n\n註:由於2.1.0開始的版本使用了JEI樣式,因此部分較大型的合成顯示GUI(例如ItemFabricator或引力井)在同時顯示2個以上的配方時,樣式會重疊,可能導致難以分辨。(因為這些配方並沒有特別去支持JEI樣式)\n\n所以請盡量避免在檢視這類合成時同時顯示2個以上的合成配方。如果這真的很困擾你,那可能要麻煩你自行換回官方版的NEI。\n\n4.新增模組:\n\nMrTJPCore-1.1.0.33-universal\n\nProject Red(Base, Integration, Fabrication, Compat)\n\n5.更新TaintedMagic至8.0.4版。\n\n6.移除littleMaidMobX-1.7.x_0.1.1。\n\n7.「BUG修正或注意事項」新增一個任務。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Botania:recordGaia2",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[BUG]Delayed trigger",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Steve\u0027s addon給Steve\u0027s factory manager添加的一個Delayed trigger可能會導致crash而無法開啟地圖。\n\n具體的狀況是「在指令流中使用2個以上Delayed trigger」並執行,有極高機率導致崩潰(ConcurrentModificationException)。\n\n因此請盡量不要這麼做。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -10325,6 +10397,13 @@
           "y:3": 36,
           "id:3": 134,
           "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 36,
+          "id:3": 147,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 9,
@@ -10360,6 +10439,13 @@
           "y:3": 0,
           "id:3": 145,
           "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 60,
+          "id:3": 146,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 10,
@@ -10392,7 +10478,7 @@
       "home_image:8": "mmnh:textures/gui/banner.png",
       "party_enable:1": 1,
       "pack_version:3": 300,
-      "editMode:1": 1,
+      "editMode:1": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }

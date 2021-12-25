@@ -68,8 +68,8 @@ Found creative tab: CarpentersBlocks
 Found creative tab: ChromatiCraft Worldgen
 Found creative tab: ChromatiCraft Deco
 Found creative tab: ChromatiCraft
-Found creative tab: ChromatiCraft Items
 Found creative tab: ChromatiCraft Tools
+Found creative tab: ChromatiCraft Items
 Found creative tab: CC Info Fragments
 Found creative tab: blocksAndItems
 Found creative tab: food
@@ -94,6 +94,11 @@ Found creative tab: MuyaBlock
 Found creative tab: tabOpenBlocks
 Found creative tab: transportation
 Found creative tab: decorations
+Found creative tab: TConstructBlocks
+Found creative tab: core
+Found creative tab: fab
+Found creative tab: int
+Found creative tab: trans
 Found creative tab: Random Things
 Found creative tab: ReactorCraft
 Found creative tab: ReactorCraft Components
@@ -107,7 +112,6 @@ Found creative tab: Spawners
 Found creative tab: tabSanguimancy
 Found creative tab: sfm
 Found creative tab: storageDrawers
-Found creative tab: TConstructBlocks
 Found creative tab: TConstructWeaponry
 Found creative tab: TConstructParts
 Found creative tab: TConstructTools
@@ -279,15 +283,15 @@ Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_15
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_dye_15
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_9
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_dye_9
 Loading: BuildCraft.js
 Loading: Bibliocraft.js
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2309
-override called. Params: appliedenergistics2, item.ItemFacade, 1096
+getNumberOfTypes called. Returned: 2308
+override called. Params: appliedenergistics2, item.ItemFacade, 164
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

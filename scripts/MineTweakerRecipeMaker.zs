@@ -105,7 +105,6 @@ recipes.addShapeless(<manametalmod:ironDoublePlate>, [<ore:plateIron>, <ore:plat
 recipes.addShapeless(<manametalmod:bronzeDoublePlate>, [<ore:plateBronze>, <ore:plateBronze>]);
 recipes.addShapeless(<manametalmod:steelDoublePlate>, [<ore:plateSteel>, <ore:plateSteel>]);
 recipes.addShapeless(<Thaumcraft:ItemNugget:2> * 9, [<ore:ingotTin>]);
-recipes.addShapeless(<TaintedMagic:ItemMaterial>, [<RotaryCraft:rotarycraft_item_customingot>]);
 recipes.addShapeless(<manametalmod:ingotMana>, [<RotaryCraft:rotarycraft_item_modingots:82>]);
 recipes.addShapeless(<minecraft:iron_ore>, [<ImmersiveEngineering:tool>, <ore:orePoorIron>, <ore:orePoorIron>, <ore:orePoorIron>]);
 recipes.addShapeless(<ThermalFoundation:Ore:3>, [<ImmersiveEngineering:tool>, <ore:orePoorLead>, <ore:orePoorLead>, <ore:orePoorLead>]);

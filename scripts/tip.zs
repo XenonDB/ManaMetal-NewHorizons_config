@@ -16,9 +16,6 @@ import minetweaker.item.IItemStack;
 <DraconicEvolution:chaosFragment:*>.addTooltip(format.gold("透過擊倒混沌守衛，或神龍反應爐的燃料反應完後的產物得到"));
 <MineFactoryReloaded:machine.2:2>.addTooltip(format.darkRed("禁用物品"));
 
-<RotaryCraft:rotarycraft_item_customextract:*>.addTooltip(format.gold("如果有人覺得顏色母湯的話，可以幫我設定"));
-<RotaryCraft:rotarycraft_item_customingot:*>.addTooltip(format.gold("如果有人覺得顏色母湯的話，可以幫我設定"));
-
 <universalsingularities:universal.general.singularity:11>.addTooltip(format.gold("配方更改為使用真蓋亞之魂錠製作"));
 
 <manametalmod:PlatinumNetherStar>.addTooltip(format.gold("Star Platinum!!"));
