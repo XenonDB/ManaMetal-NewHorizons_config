@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<IC2:itemDiamondBlockCuttingBlade>);
 recipes.remove(<DraconicEvolution:draconicSword>);
 recipes.remove(<DraconicEvolution:draconium>);
 recipes.remove(<MineFactoryReloaded:machine.2:1>);
@@ -115,6 +116,7 @@ recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<IC2:itemDiamondBlockCuttingBlade>, [[<ore:dustDiamond>, <ore:dustDiamond>, <ore:dustDiamond>], [<ore:dustDiamond>, <IC2:itemAdvIronBlockCuttingBlade>, <ore:dustDiamond>], [<ore:dustDiamond>, <ore:dustDiamond>, <ore:dustDiamond>]]);
 recipes.addShaped(<EnderIO:blockBuffer:3>, [[null,null,null],[<manametalmod:ingotCopyA> ,<EnderIO:blockBuffer:2>, <ore:ingotInfinity>],[null,null,null]]);
 recipes.addShaped(<abyssalcraft:ironp> * 4, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<DraconicEvolution:draconicSword>, [[<DraconicEvolution:awakenedCore>, <manametalmod:ItemLapudaArtifacts:1>, <DraconicEvolution:awakenedCore>], [<ore:ingotDraconiumAwakened>, <DraconicEvolution:wyvernSword>, <ore:ingotDraconiumAwakened>], [null, <DraconicEvolution:draconiumEnergyCore:1>, null]]);

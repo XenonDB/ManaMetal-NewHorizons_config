@@ -92,7 +92,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ChromatiCraft:chromaticraft_item_
 //終界被置換導致沒有閻魔刀問題
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <TaintedMagic:ItemKatana:2>, [<DraconicEvolution:dragonHeart>,<flammpfeil.slashblade:proudsoul>,<flammpfeil.slashblade:proudsoul>], "fabrico 32 ,space 48, dragon 48, alienis 24", <flammpfeil.slashblade:slashbladeNamed>.withTag({isSealed: 1 as byte, ModelName: "named/yamato", isNoScabbard: 1 as byte, CurrentItemName: "flammpfeil.slashblade.named.yamato.broken", AttackAmplifier: -5.0 as float, TextureName: "named/yamato", SpecialAttackType: 0, TrueItemName: "flammpfeil.slashblade.named.yamato", CustomMaxDamage: 40, isBroken: 1 as byte, baseAttackModifier: 7.0 as float, AttributeModifiers: [{UUIDMost: -3801225194067177672 as long, UUIDLeast: -6586624321849018929 as long, Amount: 2.0, AttributeName: "generic.attackDamage", Operation: 0, Name: "Weapon modifier"}], "SB.SEffect": {}, StandbyRenderType: 1}), 9);
 
-//在下個版本修好配方前先暫時由我代替修
-//mods.immersiveengineering.BlastFurnace.removeRecipe(<manametalmod:ingotCompressionSteel>);
-//mods.immersiveengineering.BlastFurnace.addRecipe(<manametalmod:ingotCompressionSteel>, <ore:ingotSteel>, 2400, <ImmersiveEngineering:material:13> * 4);
-
+//白石塊和電路基板配方衝突
+mods.thermalexpansion.Furnace.removeRecipe(<minecraft:stone>);
+mods.thermalexpansion.Furnace.addRecipe(1000, <minecraft:stone>, <manametalmod:WhiteStone1> * 4);
+furnace.addRecipe(<manametalmod:WhiteStone1> * 4, <minecraft:stone>, 0.5);
