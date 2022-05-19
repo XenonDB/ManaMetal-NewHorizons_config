@@ -1,3 +1,5 @@
+import minetweaker.item.IItemStack;
+
 //ThermalFoundation的Mana Dust是使用dustMana做為註冊名子並可能會跟據此被拿去做粉碎機的輸出產物，但卻連任何一個礦典名都沒有。與此同時AOBD加了有dustMana礦典的東西，導致添加粉碎機的dustMana產物時崩潰。這BUG真的很神奇。
 //<ore:dustMana>.add(<ThermalFoundation:material:516>);
 
@@ -96,3 +98,15 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <TaintedMagic:ItemKatana:2>, [<Dra
 mods.thermalexpansion.Furnace.removeRecipe(<minecraft:stone>);
 mods.thermalexpansion.Furnace.addRecipe(1000, <minecraft:stone>, <manametalmod:WhiteStone1> * 4);
 furnace.addRecipe(<manametalmod:WhiteStone1> * 4, <minecraft:stone>, 0.5);
+
+//ExU和TiC連動的 Unstable part遺失問題(問題原因應該是模組載入順序導致配方遺失)
+
+val unstableParts = [<TConstruct:toolRod:314>, <TConstruct:pickaxeHead:314>, <TConstruct:shovelHead:314>, <TConstruct:hatchetHead:314>, <TConstruct:binding:314>, <TConstruct:toughBinding:314>, <TConstruct:toughRod:314>, <TConstruct:heavyPlate:314>, <TConstruct:swordBlade:314>, <TConstruct:wideGuard:314>, <TConstruct:handGuard:314>, <TConstruct:crossbar:314>, <TConstruct:knifeBlade:314>, <TConstruct:frypanHead:314>, <TConstruct:signHead:314>, <TConstruct:chiselHead:314>, <TConstruct:scytheBlade:314>, <TConstruct:broadAxeHead:314>, <TConstruct:excavatorHead:314>, <TConstruct:largeSwordBlade:314>, <TConstruct:hammerHead:314>, <TConstruct:arrowhead:314>, <TConstruct:ShurikenPart:314>, <TConstruct:BowLimbPart:314>, <TConstruct:CrossbowLimbPart:314>, <TConstruct:CrossbowBodyPart:314>, <TConstruct:fullGuard:314>] as IItemStack[];
+val partCasts = [<TConstruct:metalPattern:1>, <TConstruct:metalPattern:2>, <TConstruct:metalPattern:3>, <TConstruct:metalPattern:4>, <TConstruct:metalPattern:9>, <TConstruct:metalPattern:15>, <TConstruct:metalPattern:14>, <TConstruct:metalPattern:16>, <TConstruct:metalPattern:5>, <TConstruct:metalPattern:6>, <TConstruct:metalPattern:7>, <TConstruct:metalPattern:8>, <TConstruct:metalPattern:12>, <TConstruct:metalPattern:10>, <TConstruct:metalPattern:11>, <TConstruct:metalPattern:13>, <TConstruct:metalPattern:18>, <TConstruct:metalPattern:17>, <TConstruct:metalPattern:19>, <TConstruct:metalPattern:20>, <TConstruct:metalPattern:21>, <TConstruct:metalPattern:25>, <TConstruct:Cast>, <TConstruct:Cast:3>, <TConstruct:Cast:1>, <TConstruct:Cast:2>, <TConstruct:metalPattern:22>] as IItemStack[];
+val fluidAmount = [72, 144, 144, 144, 72, 432, 432, 1152, 144, 72, 72, 72, 72, 144, 144, 72, 1152, 1152, 1152, 1152, 1152, 144, 72, 216, 576, 720, 432] as int[];
+
+for i, part in unstableParts {
+	//好der，因為不穩定部件有10秒後失效特性，增加回融配方可以讓人無限次嘗試製作而幾乎不損失任何材料。因此取消回融配方。
+	//mods.tconstruct.Smeltery.addMelting(part, <liquid:molten.unstableingots> * fluidAmount[i], 850, <ExtraUtilities:decorativeBlock1:5>);
+	mods.tconstruct.Casting.addTableRecipe(part, <liquid:molten.unstableingots> * fluidAmount[i], partCasts[i], false, 20);
+}

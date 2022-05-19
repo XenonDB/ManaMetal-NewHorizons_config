@@ -3885,7 +3885,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "要到達這裡是很不容易的，\n\n你需要將大部份模組，包含魔法金屬、reika系為主的模組發展都玩到極致(?)後才有辦法做出這東西。\n\nP.S.:配方表中左上角是兩個任意生產技能相關的寶藏"
+          "desc:8": "要到達這裡是很不容易的，\n\n你需要將大部份模組，包含魔法金屬、reika系為主的模組發展都玩到極致(?)後才有辦法做出這東西。\n\nP.S.:配方表中左上角是任意生產技能相關的寶藏"
         }
       },
       "tasks:9": {
@@ -7095,7 +7095,7 @@
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
           "visibility:8": "NORMAL",
-          "isMain:1": 1,
+          "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "manametalmod:ItemLapudaArtifacts",
@@ -7131,9 +7131,9 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "manametalmod:ItemLapudaArtifacts",
+              "id:8": "manametalmod:ItemTimeBossdrop",
               "Count:3": 1,
-              "Damage:2": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -8616,7 +8616,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "NORMAL",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -8635,16 +8635,20 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "在6.0.0版本時，天空守護龍以前的魔物召喚路線大改，\n\n改為透過魔物召喚台叫出特定魔物。\n\n這個儀式是6.0.0以前的舊儀式。§m不過，目前版本的一部分魔物召喚方塊仍然可以製作並透過此儀式召喚。§r\n\n如果你有留著舊的召喚方塊，也可以透過此儀式叫出來。\n\n\n§m目前還能製作的魔物召喚方塊: 九頭怪蛇，符文巨人，天空守護龍\n§r\n(6.0.2中已無法製作任何種類的召喚方塊)\n\n召喚儀式的具體結構可以參考「法術儀式」中的「魔物召喚」篇章。\n\n※註:召喚一次魔物後，魔力水晶會變成弱化的形式而無法再次啟動儀式。需要重新放置水晶或手持魔法粉右鍵(不消耗)來將水晶再次活化。"
+          "desc:8": "在6.0.0版本時，天空守護龍以前的魔物召喚路線大改，\n\n改為透過魔物召喚台叫出特定魔物。\n\n這個儀式是6.0.0以前的舊儀式。§m不過，目前版本的一部分魔物召喚方塊仍然可以製作並透過此儀式召喚。§r\n\n如果你有留著舊的召喚方塊，也可以透過此儀式叫出來。\n\n\n§m目前還能製作的魔物召喚方塊: 九頭怪蛇，符文巨人，天空守護龍\n§r\n(6.0.2中已無法製作任何種類的召喚方塊)\n\n召喚儀式的具體結構可以參考「法術儀式」中的「魔物召喚」篇章。\n\n※註1:召喚一次魔物後，魔力水晶會變成弱化的形式而無法再次啟動儀式。需要重新放置水晶或手持魔法粉右鍵(不消耗)來將水晶再次活化。\n\n※註2:本任務的要求有兩頁，挑一個完成即可。"
         }
       },
       "tasks:9": {
         "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
@@ -9015,7 +9019,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你發現有一個地方似乎有著現代化的文明存在。\n\n經過一番研究後，你得知了前往該地的方法。\n\n\n但是，當你一抵達該地後，卻發覺這裡早已充滿著受感染的喪屍。\n\n儘管你看得出來這裡曾經有著繁華的文明，但現在很可能已經不復存在...\n\n\n\n※進入末日城中，能力值會被固定，並且如同Witchery的夢境世界會將你身上的物品替換為僅該維度可用的物品欄。\n\n※大部分魔法金屬的能力將無效，並且生存要素也會繼續影響你的行動\n\n※無法破壞方塊，但可以放置方塊。\n\n※允許將獲得的物品放入倉庫中帶出末日城。\n\n※§l如同Witchery的夢境世界，若透過非正規管道離開(/spawn或其他模組的跨世界傳送能力)將無法保證任一邊的物品欄資料完整性。若你要這麼做，請自行研究並承擔風險。"
+          "desc:8": "你發現有一個地方似乎有著現代化的文明存在。\n\n經過一番研究後，你得知了前往該地的方法。\n\n\n但是，當你一抵達該地後，卻發覺這裡早已充滿著受感染的喪屍。\n\n儘管你看得出來這裡曾經有著繁華的文明，但現在很可能已經不復存在...\n\n§c※6.0.8版本開始的末日城暫時關閉，直到問題被修正為止。\n§f\n※進入末日城中，能力值會被固定，並且如同Witchery的夢境世界會將你身上的物品替換為僅該維度可用的物品欄。\n\n※大部分魔法金屬的能力將無效，並且生存要素也會繼續影響你的行動\n\n※無法破壞方塊，但可以放置方塊。\n\n※允許將獲得的物品放入倉庫中帶出末日城。\n\n※§l如同Witchery的夢境世界，若透過非正規管道離開(/spawn或其他模組的跨世界傳送能力)將無法保證任一邊的物品欄資料完整性。若你要這麼做，請自行研究並承擔風險。"
         }
       },
       "tasks:9": {
@@ -9201,6 +9205,202 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "149:10": {
+      "questID:3": 149,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "release 4.2",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.更新魔法金屬至6.0.7。\n\n2.更新Tainted Magic至8.1.1。\n\n3.「BUG修正或注意事項」新增虛相流體相關的任務。\n\n4.「魔物召喚儀式(舊)」任務中新增只要確認閱讀後即可完成的條件。\n\n5.上調AE2相關工具的電力存量:\n  充能手杖、染色器、可攜式儲存元件:上調為原本的10倍\n  物質炮、熵變機械臂:上調為原本的5倍\n\n6.「世界巔峰」勳章的合成配方新增養蜂收藏大師勳章。\n\n7.更改無限催化劑的配方。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "150:10": {
+      "questID:3": 150,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "academy-craft:ac_Block_imagPhase",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[BUG]虛相流體",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "由於虛相流體的部分註冊方法沒有寫完整，\n\n因此使用部分容器(鐵桶)撈它會造成崩潰。\n\n\n在設計概念上，這東西是要使用AcademyCraft自己的流體單元來裝，\n\n但由於它也是一種流體，所以能夠支援通用流體儲存的容器(drum、通用流體單元...)也可以撈起這種東西。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "academy-craft:ac_Item_matterUnit",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "academy-craft:ac_Item_matterUnit",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "IC2:itemFluidCell",
+              "Count:3": 1,
+              "tag:10": {
+                "Fluid:10": {
+                  "FluidName:8": "imagproj",
+                  "Amount:3": 1000
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "151:10": {
+      "questID:3": 151,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "release 4.3",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1.更新魔法金屬至6.1.5-2, Muya至1.10。\n\n2.部分mekanism的物品新增註解來提醒配方有被更動過。\n\n3.修正液態不穩定金屬無法鑄造的問題。\n\n4.調整minetweaker的script架構來為所有物品註解新增翻譯語系。語系檔請參考Curseforge下載頁面。\n\n5.更新「末日城」相關任務。\n\n6.地下城刷新時間調整為20分鐘一次。\n\n7.調整神龍劍的配方\n\n8.拉普達任務線後段的BOSS任務需求調整。\n\n9.根據M3新版設定檔格式，將舊的設定套用上去。\n\n10.移除ReAuth並以OAuth取代。\n\n11.拔刀劍技調整為無法攻擊到鏡中夢魘。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "152:10": {
+      "questID:3": 152,
+      "preRequisites:11": [
+        118
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemLapudaArtifacts",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "深層鏡中的惡夢",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你在高塔中調查時，似乎時常感覺到不尋常的視線在注視著你。\n\n一面散發著詭異氣息的鏡子說明了它的危險性。\n\n然而，正當你想遠離它時，你發覺周圍已有無數個惡魔的倒影正注視著你，\n\n鏡中的不祥之物似乎打算將你拉進它所在的地方..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemMirrorBoss",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemMirrorBossDrop",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -10048,6 +10248,13 @@
           "y:3": 132,
           "id:3": 143,
           "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -264,
+          "id:3": 152,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 5,
@@ -10440,6 +10647,13 @@
           "y:3": 36,
           "id:3": 147,
           "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 36,
+          "id:3": 150,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 9,
@@ -10488,6 +10702,20 @@
           "x:3": 48,
           "y:3": 60,
           "id:3": 148,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 60,
+          "id:3": 149,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 60,
+          "id:3": 151,
           "sizeY:3": 24
         }
       },
