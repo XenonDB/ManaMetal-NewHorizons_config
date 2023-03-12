@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "ManaMetal-NewHorizons-6.1.5-r4.3",
+  "name": "ManaMetal-NewHorizons-6.1.5-r4.3-server",
   "author": "",
   "files": [
     {
@@ -24,18 +24,8 @@
       "required": true
     },
     {
-      "projectID": 225603,
-      "fileID": 2274295,
-      "required": true
-    },
-    {
       "projectID": 236188,
       "fileID": 2582707,
-      "required": true
-    },
-    {
-      "projectID": 225605,
-      "fileID": 2225146,
       "required": true
     },
     {
@@ -179,11 +169,6 @@
       "required": true
     },
     {
-      "projectID": 297038,
-      "fileID": 3343600,
-      "required": true
-    },
-    {
       "projectID": 229084,
       "fileID": 2480016,
       "required": true
@@ -284,11 +269,6 @@
       "required": true
     },
     {
-      "projectID": 233069,
-      "fileID": 2288301,
-      "required": true
-    },
-    {
       "projectID": 239197,
       "fileID": 2838720,
       "required": true
@@ -336,11 +316,6 @@
     {
       "projectID": 223094,
       "fileID": 2210792,
-      "required": true
-    },
-    {
-      "projectID": 513857,
-      "fileID": 3458612,
       "required": true
     },
     {
@@ -594,11 +569,6 @@
       "required": true
     },
     {
-      "projectID": 60089,
-      "fileID": 2209265,
-      "required": true
-    },
-    {
       "projectID": 223852,
       "fileID": 2469586,
       "required": true
@@ -639,18 +609,13 @@
       "required": true
     },
     {
-      "projectID": 252848,
-      "fileID": 2451823,
-      "required": true
-    },
-    {
       "projectID": 222213,
       "fileID": 3293859,
       "required": true
     },
     {
-      "projectID": 238372,
-      "fileID": 2268525,
+      "projectID": 252848,
+      "fileID": 2451823,
       "required": true
     },
     {
@@ -664,8 +629,8 @@
       "required": true
     },
     {
-      "projectID": 235590,
-      "fileID": 3574503,
+      "projectID": 76845,
+      "fileID": 2246472,
       "required": true
     },
     {
@@ -674,8 +639,8 @@
       "required": true
     },
     {
-      "projectID": 76845,
-      "fileID": 2246472,
+      "projectID": 235590,
+      "fileID": 3574503,
       "required": true
     },
     {
