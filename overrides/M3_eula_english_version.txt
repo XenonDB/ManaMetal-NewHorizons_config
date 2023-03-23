@@ -1,0 +1,21 @@
+In the following paragraph, “M3” will represent “manametalmod” and “muya”, “official” will represent the “manametalmod official production team”, and “player” will represent any user who is not “manametalmod official production team”.
+
+MOD:
+1. Players can publish the modpack including M3 on the internet for people to download and use.
+2. Players are not allowed to make any modification to M3 include but not limited to decompile and modified, release M3 modified version or translated version.
+2-2. Players can adjust behavior of M3 without directly modifying the M3 itself (players can use the mod to modify and change the crafting table of M3 or make M3-related MOD, but it is still prohibited to release the modified version of M3)
+2-3. If the player wants to translate M3 in any language, please contact the official and get approval, or you can submit the translated text to the official.
+2-4. When the player submits the translated text to the official, it means that you agree to unconditionally provide the official right to use and modify the translated text.
+
+SERVER:
+1. Players can set up a mod server including M3, change the server setting and its corresponding modpack without violating the terms of the mod.
+2. The server is forbidden to recycle the limited items that are officially sent to the player. The limited items refer to items such as medals, exclusive relics or decorations that are exclusive to a specific player, and it cannot be obtained without playing with a specific player in survival mode unless obtaining these item via mods, command and creation mode.
+2-2. Players are forbidden to directly or indirectly sell the limited items. The definition of sales includes the limited items sold directly in currency, or the virtual currency is sold in currency and allowed to be used by the player. Currency is defined as any legal tender with real value, such as US dollars, Euros, Japanese yen, New Taiwan dollars, etc. Virtual currency is currency that has no recognized value in reality, such as currency in economic plug-ins, virtual gold coins earned by players in games, and so on.
+3. Players are prohibited from claiming to be any official person, partner, official agent or official server of M3 in the private server created by them without the official known, consent or designation.
+3-1. If players want to cooperate with M3, agency, collaboration, they can go to the official channel to contact the official staff for the next step of negotiation and discussion.
+
+OTHER:
+1. Without informing any players, the official reserves the right to modify, supplement, remove, etc.
+2. When the player downloads, plays, or uses this mod, it means that the player agrees to the contents of all the above terms and agrees that they will indeed abide by it.
+3. If the player does not agree to the above terms, please immediately remove M3 mod.
+4. This English version of the Terms and Conditions and any foreign language translation, the Traditional Chinese version shall prevail. 

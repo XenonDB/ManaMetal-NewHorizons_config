@@ -1,0 +1,315 @@
+Script handler ready. Waiting for a while to ensure all other mods are done messing with NEI.
+Starting NEI Filter scripting. This might take a moment to load all the modules...
+Engine: JAVASCRIPT
+Setting up Java Library...
+Setting up FML Library...
+Setting up NEI Library...
+Setting up CreativeTab library...
+DragonAPI:minecraft:bed_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:bed_technical. If this is not correct please report it as a bug!
+The mod DragonAPI is registering items or blocks with bad registry names. Names should not contain multiple colons as it breaks the ability to do reverse-lookups through FML. Please tell whoever made this mod that this should be changed!
+DragonAPI:minecraft:brewing_stand_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:brewing_stand_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:cake_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:cake_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:cauldron_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:cauldron_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:flower_pot_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:flower_pot_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:iron_door_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:iron_door_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:lit_redstone_lamp_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:lit_redstone_lamp_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:lit_redstone_ore_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:lit_redstone_ore_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:melon_stem_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:melon_stem_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:nether_wart_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:nether_wart_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:piston_head_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:piston_head_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:powered_comparator_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:powered_comparator_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:powered_repeater_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:powered_repeater_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:pumpkin_stem_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:pumpkin_stem_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:redstone_wire_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:redstone_wire_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:reeds_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:reeds_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:skull_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:skull_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:standing_sign_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:standing_sign_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:tripwire_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:tripwire_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:unlit_redstone_torch_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:unlit_redstone_torch_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:unpowered_comparator_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:unpowered_comparator_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:unpowered_repeater_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:unpowered_repeater_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:wall_sign_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:wall_sign_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:wheat_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:wheat_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:wooden_door_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:wooden_door_technical. If this is not correct please report it as a bug!
+Found creative tab: tabBloodMagic
+Found creative tab: misc
+Found creative tab: redstone
+Found creative tab: Automagy
+Found creative tab: avaritia
+Found creative tab: tools
+Found creative tab: Botania
+Found creative tab: buildingBlocks
+Found creative tab: CarpentersBlocks
+Found creative tab: ChromatiCraft Worldgen
+Found creative tab: ChromatiCraft Deco
+Found creative tab: ChromatiCraft
+Found creative tab: ChromatiCraft Tools
+Found creative tab: ChromatiCraft Items
+Found creative tab: CC Info Fragments
+Found creative tab: blocksAndItems
+Found creative tab: food
+Found creative tab: toolsAndWeapons
+Found creative tab: ElectriCraft
+Found creative tab: EnderIO
+Found creative tab: extratic.parts
+Found creative tab: extratic.blocks
+Found creative tab: extratic.items
+Found creative tab: extratic.buckets
+Found creative tab: extraUtil
+Found creative tab: combat
+Found creative tab: extraUtil_FMP
+Found creative tab: forbidden
+Found creative tab: mobcrystal
+Found creative tab: IC2
+Found creative tab: Nuclear Control 2
+Found creative tab: ImmersiveEngineering
+Found creative tab: tabMekanism
+Found creative tab: MineFactory Reloaded
+Found creative tab: MuyaBlock
+Found creative tab: tabOpenBlocks
+Found creative tab: transportation
+Found creative tab: decorations
+Found creative tab: TConstructBlocks
+Found creative tab: core
+Found creative tab: fab
+Found creative tab: int
+Found creative tab: trans
+Found creative tab: Random Things
+Found creative tab: ReactorCraft
+Found creative tab: ReactorCraft Components
+Found creative tab: ReactorCraft Items
+Found creative tab: RotaryCraft
+Found creative tab: RotaryCraft Power
+Found creative tab: RotaryCraft Tools
+Found creative tab: RotaryCraft Items
+Found creative tab: Mod Ores
+Found creative tab: Spawners
+Found creative tab: tabSanguimancy
+Found creative tab: sfm
+Found creative tab: storageDrawers
+Found creative tab: TConstructWeaponry
+Found creative tab: TConstructParts
+Found creative tab: TConstructTools
+Found creative tab: TConstructMaterials
+Found creative tab: TConstructEquipables
+Found creative tab: TaintedMagic
+Found creative tab: thaumcraft
+Found creative tab: thaumicExploration
+Found creative tab: thaumichorizons
+Found creative tab: ThaumicTinkerer
+Found creative tab: brewing
+Found creative tab: materials
+Found creative tab: thermaldynamics.creativeTab
+Found creative tab: thermaldynamics.creativeTabCovers
+Found creative tab: thermalexpansion.creativeTabBlocks
+Found creative tab: thermalexpansion.creativeTabItems
+Found creative tab: thermalexpansion.creativeTabTools
+Found creative tab: thermalexpansion.creativeTabFlorbs
+Found creative tab: thermalfoundation.creativeTab
+Found creative tab: thermalfoundation.creativeTabArmor
+Found creative tab: thermalfoundation.creativeTabTools
+Found creative tab: travellersgear
+Found creative tab: twilightForest
+Found creative tab: witchinggadgets
+Found creative tab: acdblocks
+Found creative tab: acitems
+Found creative tab: actools
+Found creative tab: acctools
+Found creative tab: acblocks
+Found creative tab: acfood
+Found creative tab: accoins
+Found creative tab: accrystals
+Found creative tab: AcademyCraft
+Found creative tab: acintegration
+Found creative tab: bdew.ae2stuff
+Found creative tab: ae2wct
+Found creative tab: aobd
+Found creative tab: appliedenergistics2
+Found creative tab: appliedenergistics2.facades
+Found creative tab: Ars Magica Items
+Found creative tab: Ars Magica Blocks
+Found creative tab: betterquesting
+Found creative tab: cnpcsm
+Found creative tab: cnpcsa
+Found creative tab: cnpcsb
+Found creative tab: cnpcsw
+Found creative tab: cnpcs
+Found creative tab: eternalsingularity
+Found creative tab: Extra_Cells
+Found creative tab: flammpfeil.slashblade
+Found creative tab: guideapi.creativeTab
+Found creative tab: immersiveintegration
+Found creative tab: tab_Gun
+Found creative tab: tab_Weapon
+Found creative tab: tab_Tools
+Found creative tab: tab_Armors
+Found creative tab: tab_Machine
+Found creative tab: tab_Lapuda
+Found creative tab: tab_Foods
+Found creative tab: tab_Crop
+Found creative tab: tab_zombiedoomsday
+Found creative tab: tab_Atlantis
+Found creative tab: tab_ManaMetalMod
+Found creative tab: tab_Arena
+Found creative tab: tab_Treasure
+Found creative tab: tab_Box
+Found creative tab: tab_Survival_factor
+Found creative tab: tab_Block
+Found creative tab: tab_Casting
+Found creative tab: tab_Season
+Found creative tab: tab_beekeep
+Found creative tab: tab_Fishery
+Found creative tab: tab_create
+Found creative tab: tab_NewMinecraft
+Found creative tab: tab_darkmagic
+Found creative tab: tab_Furniture
+Found creative tab: tab_BulidBlock
+Found creative tab: tab_Brewing
+Found creative tab: tab_Gem
+Found creative tab: tab_Cuisine
+Found creative tab: tab_Fashion
+Found creative tab: tab_Textile
+Found creative tab: tab_Pet
+Found creative tab: tab_Target
+Found creative tab: tab_Trophy
+Found creative tab: tab_Reel
+Found creative tab: tab_MMMBaubles
+Found creative tab: tab_Medal
+Found creative tab: tab_Components
+Found creative tab: tab_Magic
+Found creative tab: tab_Books
+Found creative tab: tab_Ore
+Found creative tab: tab_Metal
+Found creative tab: tab_BattleCard
+Found creative tab: tabMatterOverdrive_food
+Found creative tab: tabMatterOverdrive
+Found creative tab: tabMatterOverdrive_buildings
+Found creative tab: tabMatterOverdrive_decorative
+Found creative tab: tabMatterOverdrive_ships
+Found creative tab: tabMatterOverdrive_modules
+Found creative tab: tabMatterOverdrive_upgrades
+Found creative tab: mowziesmobs.creativeTab
+Found creative tab: RfTools
+Found creative tab: RfToolsDimlets
+Found creative tab: shincolle
+Found creative tab: Thaumic Bases Blocks
+Found creative tab: Thaumic Bases Items
+Found creative tab: ThaumicEnergistics
+Found creative tab: tabWitchery
+Found creative tab: wizardry
+Found creative tab: wizardryspells
+Setting up ForgeMicroblock Library...
+Setting up ExtraUtilities Library...
+Setting up Applied Energistics 2 Library...
+Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
+Bootstrap setting found. Loading: Bootstrap.js
+Loading: vanilla.js
+hide called. Params: minecraft, portal
+Regex match found! minecraft:portal matches minecraft:portal.
+Found ItemStack minecraft:portal. 64xtile.portal@0
+hide called. Params: minecraft, end_portal
+Regex match found! minecraft:end_portal matches minecraft:end_portal.
+Found ItemStack minecraft:end_portal. 64xtile.null@0
+hide called. Params: minecraft, fire
+Regex match found! minecraft:fire matches minecraft:fire.
+Found ItemStack minecraft:fire. 64xtile.fire@0
+hide called. Params: minecraft, water
+Regex match found! minecraft:water matches minecraft:water.
+Found ItemStack minecraft:water. 64xtile.water@0
+hide called. Params: minecraft, lava
+Regex match found! minecraft:lava matches minecraft:lava.
+Found ItemStack minecraft:lava. 64xtile.lava@0
+hide called. Params: minecraft, mob_spawner
+Regex match found! minecraft:mob_spawner matches minecraft:mob_spawner.
+Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
+override called. Params: minecraft, potion, 0
+Regex match found! minecraft:potion matches minecraft:potion.
+Found ItemStack minecraft:potion. 1xitem.potion@0
+override called. Params: minecraft, spawn_egg, 0
+Regex match found! minecraft:spawn_egg matches minecraft:spawn_egg.
+Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
+Loading: ThermalExpansion.js
+override called. Params: ThermalExpansion, florb, 0,1
+Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
+Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
+Loading: Mekanism.js
+override called. Params: Mekanism, GasTank, 100
+Regex match found! Mekanism:GasTank matches Mekanism:GasTank.
+Found ItemStack Mekanism:GasTank. 1xtile.GasTank@0
+override called. Params: Mekanism, *PlasticBlock, 0
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:GlowPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:PlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:ReinforcedPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:RoadPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:SlickPlasticBlock.
+Found ItemStack Mekanism:GlowPlasticBlock. 64xtile.GlowPlasticBlock@0
+Found ItemStack Mekanism:PlasticBlock. 64xtile.PlasticBlock@0
+Found ItemStack Mekanism:ReinforcedPlasticBlock. 64xtile.ReinforcedPlasticBlock@0
+Found ItemStack Mekanism:RoadPlasticBlock. 64xtile.RoadPlasticBlock@0
+Found ItemStack Mekanism:SlickPlasticBlock. 64xtile.SlickPlasticBlock@0
+override called. Params: Mekanism, Balloon, 0
+Regex match found! Mekanism:Balloon matches Mekanism:Balloon.
+Found ItemStack Mekanism:Balloon. 64xitem.Balloon@0
+override called. Params: Mekanism, GlowPanel, 0
+Regex match found! Mekanism:GlowPanel matches Mekanism:GlowPanel.
+Found ItemStack Mekanism:GlowPanel. 64xitem.GlowPanel@0
+Loading: ForgeMicroblock.js
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_13
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_13
+Loading: ExtraUtilities.js
+override called. Params: ExtraUtilities, drum, 0,1
+Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
+Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_12
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_dye_12
+Loading: BuildCraft.js
+Loading: Bibliocraft.js
+Loading: AppliedEnergistics2.js
+getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
+getSubTypes called.
+getNumberOfTypes called. Returned: 2380
+override called. Params: appliedenergistics2, item.ItemFacade, 1167
+Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
+Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
+Loading: Tcon.js
+override called. Params: TConstruct, tool*, 0
+Regex match found! TConstruct:tool* matches TConstruct:toolRod.
+Regex match found! TConstruct:tool* matches TConstruct:toolShard.
+Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
+Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
+override called. Params: TConstruct, binding, 0
+Regex match found! TConstruct:binding matches TConstruct:binding.
+Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
+override called. Params: TConstruct, scytheBlade, 0
+Regex match found! TConstruct:scytheBlade matches TConstruct:scytheBlade.
+Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
+Loading: MFR.js
+override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.block, 0
+hide called. Params: MineFactoryReloaded:fluid.mfr.liquid.milk.still, 0
+override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.pane, 0
+override called. Params: MineFactoryReloaded, tile.mfr.conveyor, 0
