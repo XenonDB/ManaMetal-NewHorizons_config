@@ -4321,6 +4321,37 @@
       "rewards:9": {}
     },
     "77:10": {
+      "questID:3": 77,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcAncientScroll",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "5.0~",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 1,
+          "desc:8": "從5.0之後的版本更新日誌將不會放在任務內。\n\n請前往CurseForge頁面或GitHub查看更新細項。"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "78:10": {
       "questID:3": 78,
       "preRequisites:11": [
         1
@@ -4366,7 +4397,7 @@
         }
       }
     },
-    "78:10": {
+    "79:10": {
       "questID:3": 79,
       "preRequisites:11": [
         57
@@ -4423,7 +4454,7 @@
       },
       "rewards:9": {}
     },
-    "79:10": {
+    "80:10": {
       "questID:3": 80,
       "preRequisites:11": [
         5,
@@ -4517,7 +4548,7 @@
       },
       "rewards:9": {}
     },
-    "80:10": {
+    "81:10": {
       "questID:3": 81,
       "preRequisites:11": [],
       "properties:10": {
@@ -4556,7 +4587,7 @@
         }
       }
     },
-    "81:10": {
+    "82:10": {
       "questID:3": 82,
       "preRequisites:11": [
         72,
@@ -4608,7 +4639,7 @@
       },
       "rewards:9": {}
     },
-    "82:10": {
+    "83:10": {
       "questID:3": 83,
       "preRequisites:11": [],
       "properties:10": {
@@ -4639,7 +4670,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "83:10": {
+    "84:10": {
       "questID:3": 84,
       "preRequisites:11": [],
       "properties:10": {
@@ -4681,7 +4712,7 @@
       },
       "rewards:9": {}
     },
-    "84:10": {
+    "85:10": {
       "questID:3": 85,
       "preRequisites:11": [],
       "properties:10": {
@@ -4712,7 +4743,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "85:10": {
+    "86:10": {
       "questID:3": 86,
       "preRequisites:11": [],
       "properties:10": {
@@ -4743,7 +4774,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "86:10": {
+    "87:10": {
       "questID:3": 87,
       "preRequisites:11": [],
       "properties:10": {
@@ -4791,7 +4822,7 @@
       },
       "rewards:9": {}
     },
-    "87:10": {
+    "88:10": {
       "questID:3": 88,
       "preRequisites:11": [
         57,
@@ -4867,7 +4898,7 @@
       },
       "rewards:9": {}
     },
-    "88:10": {
+    "89:10": {
       "questID:3": 89,
       "preRequisites:11": [
         1
@@ -4905,7 +4936,7 @@
       },
       "rewards:9": {}
     },
-    "89:10": {
+    "90:10": {
       "questID:3": 90,
       "preRequisites:11": [],
       "properties:10": {
@@ -4936,7 +4967,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "90:10": {
+    "91:10": {
       "questID:3": 91,
       "preRequisites:11": [],
       "properties:10": {
@@ -4967,7 +4998,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "91:10": {
+    "92:10": {
       "questID:3": 92,
       "preRequisites:11": [],
       "properties:10": {
@@ -5838,7 +5869,7 @@
         }
       }
     },
-    "92:10": {
+    "93:10": {
       "questID:3": 93,
       "preRequisites:11": [],
       "properties:10": {
@@ -5869,7 +5900,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "93:10": {
+    "94:10": {
       "questID:3": 94,
       "preRequisites:11": [],
       "properties:10": {
@@ -5905,7 +5936,7 @@
       },
       "rewards:9": {}
     },
-    "94:10": {
+    "95:10": {
       "questID:3": 95,
       "preRequisites:11": [],
       "properties:10": {
@@ -5941,7 +5972,7 @@
       },
       "rewards:9": {}
     },
-    "95:10": {
+    "96:10": {
       "questID:3": 96,
       "preRequisites:11": [],
       "properties:10": {
@@ -5972,7 +6003,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "96:10": {
+    "97:10": {
       "questID:3": 97,
       "preRequisites:11": [
         88
@@ -6029,7 +6060,7 @@
       },
       "rewards:9": {}
     },
-    "97:10": {
+    "98:10": {
       "questID:3": 98,
       "preRequisites:11": [],
       "properties:10": {
@@ -6060,7 +6091,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "98:10": {
+    "99:10": {
       "questID:3": 99,
       "preRequisites:11": [],
       "properties:10": {
@@ -6091,7 +6122,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "99:10": {
+    "100:10": {
       "questID:3": 100,
       "preRequisites:11": [],
       "properties:10": {
@@ -6122,7 +6153,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "100:10": {
+    "101:10": {
       "questID:3": 101,
       "preRequisites:11": [
         103
@@ -6179,7 +6210,7 @@
       },
       "rewards:9": {}
     },
-    "101:10": {
+    "102:10": {
       "questID:3": 102,
       "preRequisites:11": [
         103
@@ -6241,7 +6272,7 @@
         }
       }
     },
-    "102:10": {
+    "103:10": {
       "questID:3": 103,
       "preRequisites:11": [],
       "properties:10": {
@@ -6298,7 +6329,7 @@
         }
       }
     },
-    "103:10": {
+    "104:10": {
       "questID:3": 104,
       "preRequisites:11": [
         2
@@ -6349,7 +6380,7 @@
         }
       }
     },
-    "104:10": {
+    "105:10": {
       "questID:3": 105,
       "preRequisites:11": [
         2
@@ -6409,7 +6440,7 @@
         }
       }
     },
-    "105:10": {
+    "106:10": {
       "questID:3": 106,
       "preRequisites:11": [
         97
@@ -6472,7 +6503,7 @@
       },
       "rewards:9": {}
     },
-    "106:10": {
+    "107:10": {
       "questID:3": 107,
       "preRequisites:11": [
         106
@@ -6529,7 +6560,7 @@
       },
       "rewards:9": {}
     },
-    "107:10": {
+    "108:10": {
       "questID:3": 108,
       "preRequisites:11": [
         113
@@ -6595,7 +6626,7 @@
         }
       }
     },
-    "108:10": {
+    "109:10": {
       "questID:3": 109,
       "preRequisites:11": [
         97
@@ -6668,7 +6699,7 @@
       },
       "rewards:9": {}
     },
-    "109:10": {
+    "110:10": {
       "questID:3": 110,
       "preRequisites:11": [
         97
@@ -6747,7 +6778,7 @@
       },
       "rewards:9": {}
     },
-    "110:10": {
+    "111:10": {
       "questID:3": 111,
       "preRequisites:11": [],
       "properties:10": {
@@ -6778,7 +6809,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "111:10": {
+    "112:10": {
       "questID:3": 112,
       "preRequisites:11": [],
       "properties:10": {
@@ -6809,7 +6840,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "112:10": {
+    "113:10": {
       "questID:3": 113,
       "preRequisites:11": [],
       "properties:10": {
@@ -6895,7 +6926,7 @@
         }
       }
     },
-    "113:10": {
+    "114:10": {
       "questID:3": 114,
       "preRequisites:11": [],
       "properties:10": {
@@ -6926,7 +6957,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "114:10": {
+    "115:10": {
       "questID:3": 115,
       "preRequisites:11": [],
       "properties:10": {
@@ -6984,7 +7015,7 @@
         }
       }
     },
-    "115:10": {
+    "116:10": {
       "questID:3": 116,
       "preRequisites:11": [],
       "properties:10": {
@@ -7015,7 +7046,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "116:10": {
+    "117:10": {
       "questID:3": 117,
       "preRequisites:11": [],
       "properties:10": {
@@ -7046,7 +7077,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "117:10": {
+    "118:10": {
       "questID:3": 118,
       "preRequisites:11": [
         107
@@ -7103,7 +7134,7 @@
       },
       "rewards:9": {}
     },
-    "118:10": {
+    "119:10": {
       "questID:3": 119,
       "preRequisites:11": [],
       "properties:10": {
@@ -7134,7 +7165,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "119:10": {
+    "120:10": {
       "questID:3": 120,
       "preRequisites:11": [],
       "properties:10": {
@@ -7183,7 +7214,7 @@
       },
       "rewards:9": {}
     },
-    "120:10": {
+    "121:10": {
       "questID:3": 121,
       "preRequisites:11": [
         120
@@ -7824,7 +7855,7 @@
         }
       }
     },
-    "121:10": {
+    "122:10": {
       "questID:3": 122,
       "preRequisites:11": [],
       "properties:10": {
@@ -7855,7 +7886,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "122:10": {
+    "123:10": {
       "questID:3": 123,
       "preRequisites:11": [
         1
@@ -7893,7 +7924,7 @@
       },
       "rewards:9": {}
     },
-    "123:10": {
+    "124:10": {
       "questID:3": 124,
       "preRequisites:11": [],
       "properties:10": {
@@ -7961,7 +7992,7 @@
         }
       }
     },
-    "124:10": {
+    "125:10": {
       "questID:3": 125,
       "preRequisites:11": [],
       "properties:10": {
@@ -8010,7 +8041,7 @@
       },
       "rewards:9": {}
     },
-    "125:10": {
+    "126:10": {
       "questID:3": 126,
       "preRequisites:11": [],
       "properties:10": {
@@ -8041,7 +8072,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "126:10": {
+    "127:10": {
       "questID:3": 127,
       "preRequisites:11": [],
       "properties:10": {
@@ -8072,7 +8103,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "127:10": {
+    "128:10": {
       "questID:3": 128,
       "preRequisites:11": [
         5
@@ -8110,7 +8141,7 @@
       },
       "rewards:9": {}
     },
-    "128:10": {
+    "129:10": {
       "questID:3": 129,
       "preRequisites:11": [],
       "properties:10": {
@@ -8159,7 +8190,7 @@
         }
       }
     },
-    "129:10": {
+    "130:10": {
       "questID:3": 130,
       "preRequisites:11": [],
       "properties:10": {
@@ -8183,19 +8214,14 @@
           "name:8": "beta 3.0",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
-          "isSilent:1": 0,
+          "isSilent:1": 1,
           "desc:8": "1.新增「BUG修正或注意事項」任務分類，並將部分任務移至該分類下。\n\n2.新增「核災與中子爆」、「爐心熔解」、「[BUG]Waila設定崩潰」任務。\n\n3.調整RFTools維度相關設定:\n\nI.Dimension Builder及Dimension Editor的內置存電量提升為20億RF，單面IO最大功率提升為3億RF/t。\n\nII.建造出的世界的內置存電量提升為20億RF。4種低電量警戒值按提升倍率，依序調整成3億、2億、5000萬、2500萬，TP警戒值調整為2500萬。\n\nIII.建造維度的基本功率用量提升為1.8億RF/t，維持維度的基本功率要求提升為180萬RF/t。\n\n4.調整無限催化劑的配方。\n\n5.「新特性/系統改動」新增穿透值的說明。\n\n6.再次強化左輪手槍子彈以及電磁炮的傷害。\n\n7.強化AcademyCraft所有超能力的攻擊傷害，強化ElectroBlob\u0027s Wizardary及Ars Magica的法術傷害。\n\n8.修正巫魂樹森林生態系和ChromatiCraft的彩虹群島生態系ID衝突問題。\n\n9.給Item Fabricator增加一行說明。\n\n10.將舊的更新日誌移至另一個分類內，並且調整任務完成條件。\n\n11.新增模組「ArchiSections」以及一個與其相關的說明任務。\n\n12.新增模組「FoamFix」\n\n13.魔法金屬更新至6.0.0-2\n\n14.更新「容器保護」的任務為「UserError」以及更新其中的說明，同時關閉「防止武器丟出」的設定。\n\n15.更改精鑄合成任務說明，新增仿造終界傳送門框任務\n\n16.更改CreativeBuffer的配方\n\n17.由於魔物召喚機制更動，因此重新編排「魔法金屬」以及「魔法金屬-黑魔法」章節的所有任務。\n\n18.EU核電上調為基礎值的4倍。\n\n19.禁止藏寶箱掉落怪物靈魂，以及禁止使用enderio和MinefactoryReloaded的電力生怪磚來生成藏寶箱。\n\n20.新增「末日城」任務。"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
-    "130:10": {
+    "131:10": {
       "questID:3": 131,
       "preRequisites:11": [],
       "properties:10": {
@@ -8257,7 +8283,7 @@
         }
       }
     },
-    "131:10": {
+    "132:10": {
       "questID:3": 132,
       "preRequisites:11": [],
       "properties:10": {
@@ -8296,7 +8322,7 @@
       },
       "rewards:9": {}
     },
-    "132:10": {
+    "133:10": {
       "questID:3": 133,
       "preRequisites:11": [],
       "properties:10": {
@@ -8332,7 +8358,7 @@
       },
       "rewards:9": {}
     },
-    "133:10": {
+    "134:10": {
       "questID:3": 134,
       "preRequisites:11": [
         131
@@ -8378,7 +8404,7 @@
         }
       }
     },
-    "134:10": {
+    "135:10": {
       "questID:3": 135,
       "preRequisites:11": [],
       "properties:10": {
@@ -8441,7 +8467,7 @@
         }
       }
     },
-    "135:10": {
+    "136:10": {
       "questID:3": 136,
       "preRequisites:11": [
         57
@@ -8505,7 +8531,7 @@
         }
       }
     },
-    "136:10": {
+    "137:10": {
       "questID:3": 137,
       "preRequisites:11": [
         65,
@@ -8569,7 +8595,7 @@
       },
       "rewards:9": {}
     },
-    "137:10": {
+    "138:10": {
       "questID:3": 138,
       "preRequisites:11": [
         28
@@ -8655,7 +8681,7 @@
         }
       }
     },
-    "138:10": {
+    "139:10": {
       "questID:3": 139,
       "preRequisites:11": [
         80,
@@ -8707,7 +8733,7 @@
       },
       "rewards:9": {}
     },
-    "139:10": {
+    "140:10": {
       "questID:3": 140,
       "preRequisites:11": [
         50
@@ -8758,7 +8784,7 @@
       },
       "rewards:9": {}
     },
-    "140:10": {
+    "141:10": {
       "questID:3": 141,
       "preRequisites:11": [
         50
@@ -8809,7 +8835,7 @@
       },
       "rewards:9": {}
     },
-    "141:10": {
+    "142:10": {
       "questID:3": 142,
       "preRequisites:11": [
         56
@@ -8878,7 +8904,7 @@
       },
       "rewards:9": {}
     },
-    "142:10": {
+    "143:10": {
       "questID:3": 143,
       "preRequisites:11": [
         54
@@ -8953,7 +8979,7 @@
       },
       "rewards:9": {}
     },
-    "143:10": {
+    "144:10": {
       "questID:3": 144,
       "preRequisites:11": [
         43
@@ -9026,7 +9052,7 @@
       },
       "rewards:9": {}
     },
-    "144:10": {
+    "145:10": {
       "questID:3": 145,
       "preRequisites:11": [],
       "properties:10": {
@@ -9050,19 +9076,14 @@
           "name:8": "beta 3.1",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
-          "isSilent:1": 0,
+          "isSilent:1": 1,
           "desc:8": "1.更新魔法金屬至6.0.2\n\n2.調整部分任務的說明、前置條件以及位置。"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
-    "145:10": {
+    "146:10": {
       "questID:3": 146,
       "preRequisites:11": [],
       "properties:10": {
@@ -9086,19 +9107,14 @@
           "name:8": "release 4.0",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
-          "isSilent:1": 0,
+          "isSilent:1": 1,
           "desc:8": "1.更新魔法金屬至6.0.3-1。\n\n2.更新Reika系模組至V31版。\n\n3.更新NEI(GTNH版)至2.1.12。\n\n註:由於2.1.0開始的版本使用了JEI樣式,因此部分較大型的合成顯示GUI(例如ItemFabricator或引力井)在同時顯示2個以上的配方時,樣式會重疊,可能導致難以分辨。(因為這些配方並沒有特別去支持JEI樣式)\n\n所以請盡量避免在檢視這類合成時同時顯示2個以上的合成配方。如果這真的很困擾你,那可能要麻煩你自行換回官方版的NEI。\n\n4.新增模組:\n\nMrTJPCore-1.1.0.33-universal\n\nProject Red(Base, Integration, Fabrication, Compat)\n\n5.更新TaintedMagic至8.0.4版。\n\n6.移除littleMaidMobX-1.7.x_0.1.1。\n\n7.「BUG修正或注意事項」新增一個任務。"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
-    "146:10": {
+    "147:10": {
       "questID:3": 147,
       "preRequisites:11": [],
       "properties:10": {
@@ -9134,7 +9150,7 @@
       },
       "rewards:9": {}
     },
-    "147:10": {
+    "148:10": {
       "questID:3": 148,
       "preRequisites:11": [],
       "properties:10": {
@@ -9158,19 +9174,14 @@
           "name:8": "release 4.1",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
-          "isSilent:1": 0,
+          "isSilent:1": 1,
           "desc:8": "1.更新魔法金屬至6.0.5。\n\n2.更新Tainted Magic至8.1.0。\n\n3.拉普達章節的「危機四伏的高塔」任務需求微調。\n\n4.更改「世界巔峰」勳章的配方。\n\n5.修正白石塊和ProjectRed的電路基版配方衝突問題。"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
-    "148:10": {
+    "149:10": {
       "questID:3": 149,
       "preRequisites:11": [],
       "properties:10": {
@@ -9194,19 +9205,14 @@
           "name:8": "release 4.2",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
-          "isSilent:1": 0,
+          "isSilent:1": 1,
           "desc:8": "1.更新魔法金屬至6.0.7。\n\n2.更新Tainted Magic至8.1.1。\n\n3.「BUG修正或注意事項」新增虛相流體相關的任務。\n\n4.「魔物召喚儀式(舊)」任務中新增只要確認閱讀後即可完成的條件。\n\n5.上調AE2相關工具的電力存量:\n  充能手杖、染色器、可攜式儲存元件:上調為原本的10倍\n  物質炮、熵變機械臂:上調為原本的5倍\n\n6.「世界巔峰」勳章的合成配方新增養蜂收藏大師勳章。\n\n7.更改無限催化劑的配方。"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
-    "149:10": {
+    "150:10": {
       "questID:3": 150,
       "preRequisites:11": [],
       "properties:10": {
@@ -9273,7 +9279,7 @@
       },
       "rewards:9": {}
     },
-    "150:10": {
+    "151:10": {
       "questID:3": 151,
       "preRequisites:11": [],
       "properties:10": {
@@ -9297,19 +9303,14 @@
           "name:8": "release 4.3",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
-          "isSilent:1": 0,
+          "isSilent:1": 1,
           "desc:8": "1.更新魔法金屬至6.1.5-2, Muya至1.10。\n\n2.部分mekanism的物品新增註解來提醒配方有被更動過。\n\n3.修正液態不穩定金屬無法鑄造的問題。\n\n4.調整minetweaker的script架構來為所有物品註解新增翻譯語系。語系檔請參考Curseforge下載頁面。\n\n5.更新「末日城」相關任務。\n\n6.地下城刷新時間調整為20分鐘一次。\n\n7.調整神龍劍的配方\n\n8.拉普達任務線後段的BOSS任務需求調整。\n\n9.根據M3新版設定檔格式，將舊的設定套用上去。\n\n10.移除ReAuth並以OAuth取代。\n\n11.拔刀劍技調整為無法攻擊到鏡中夢魘。"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {}
     },
-    "151:10": {
+    "152:10": {
       "questID:3": 152,
       "preRequisites:11": [
         118
@@ -10633,39 +10634,46 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": 0,
+          "y:3": 120,
+          "id:3": 77,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
           "y:3": 0,
           "id:3": 130,
           "sizeY:3": 24
         },
-        "1:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 0,
           "id:3": 145,
           "sizeY:3": 24
         },
-        "2:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 60,
           "id:3": 146,
           "sizeY:3": 24
         },
-        "3:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 60,
           "id:3": 148,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 60,
           "id:3": 149,
           "sizeY:3": 24
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 60,
@@ -10677,7 +10685,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "更新日誌",
+          "name:8": "舊版更新日誌(3.x~4.x)",
           "icon:10": {
             "id:8": "customnpcs:npcAncientScroll",
             "Count:3": 1,
@@ -10703,7 +10711,7 @@
       "home_image:8": "mmnh:textures/gui/banner.png",
       "party_enable:1": 1,
       "pack_version:3": 300,
-      "editMode:1": 1,
+      "editMode:1": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
