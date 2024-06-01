@@ -45,7 +45,7 @@
     "cross_dim_homes": false,
     "custom_config": {},
     "dimension_blacklist": [
-      89
+      103
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
@@ -63,7 +63,7 @@
     "cross_dim_homes": false,
     "custom_config": {},
     "dimension_blacklist": [
-      89
+      103
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
