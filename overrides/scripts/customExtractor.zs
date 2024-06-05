@@ -76,6 +76,9 @@ mods.mekanism.Enrichment.addRecipe(<RotaryCraft:rotarycraft_item_modingots:86>, 
 <ore:ingotFantasygold>.add(<RotaryCraft:rotarycraft_item_customingot:63>);
 <ore:ingotHighlycrystal>.add(<RotaryCraft:rotarycraft_item_customingot:64>);
 
+<ore:ingotSoulstone>.add(<RotaryCraft:rotarycraft_item_customingot:65>);
+<ore:ingotBadyala>.add(<RotaryCraft:rotarycraft_item_customingot:66>);
+
 //flake燒煉處裡
 //furnace.remove(<RotaryCraft:rotarycraft_item_customingot:57>);
 
