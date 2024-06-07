@@ -1,7 +1,7 @@
 import minetweaker.item.IItemStack;
 
 //<ore:ingotShadow>.add(<RotaryCraft:rotarycraft_item_customingot:0>);
-mods.mekanism.Enrichment.addRecipe(<RotaryCraft:rotarycraft_item_modingots:86>, <mo:dilithium_crystal>);
+mods.mekanism.Enrichment.addRecipe(<RotaryCraft:rotarycraft_item_modingots:87>, <mo:dilithium_crystal>);
 
 <ore:ingotLiquifiedCoralium>.add(<RotaryCraft:rotarycraft_item_customingot:0>);
 <ore:ingotAbyssalnite>.add(<RotaryCraft:rotarycraft_item_customingot:1>);
