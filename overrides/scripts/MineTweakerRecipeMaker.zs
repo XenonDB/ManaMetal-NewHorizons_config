@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<extracells:part.base>);
+recipes.remove(<extracells:part.base:1>);
 recipes.remove(<IC2:itemDiamondBlockCuttingBlade>);
 recipes.remove(<DraconicEvolution:draconicSword>);
 recipes.remove(<DraconicEvolution:draconium>);
