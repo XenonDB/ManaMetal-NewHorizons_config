@@ -7993,6 +7993,63 @@
       }
     },
     "125:10": {
+      "questID:3": 125,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:enchanted_book",
+            "Count:3": 1,
+            "tag:10": {
+              "StoredEnchantments:9": {
+                "0:10": {
+                  "lvl:2": 2,
+                  "id:2": 212
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Last stand改動",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "有些人可能知道Openblocks的Last stand附魔\n\n在確保了大量經驗來源的時候有極強的防禦能力。\n\n\n由於在這包內，附魔經驗的取得確實過於氾濫，\n\n所以我調整了Last stand附魔的公式。\n\n\n具體來說，當穿有4件Last stand II的裝備時，\n\n可消耗同等於升到200等的經驗值剛好抵消300點傷害。\n\n但是，讓Last stand承受的單擊傷害越大，\n\n需消耗的經驗成平方成長。\n\n當使用其他手段提升附魔等級，可剛好抵消的300點傷害會隨穿著裝備的附魔總等級成開平方成長。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 30,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "126:10": {
       "questID:3": 126,
       "preRequisites:11": [],
       "properties:10": {
@@ -8023,7 +8080,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "126:10": {
+    "127:10": {
       "questID:3": 127,
       "preRequisites:11": [],
       "properties:10": {
@@ -8054,7 +8111,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "127:10": {
+    "128:10": {
       "questID:3": 128,
       "preRequisites:11": [
         5
@@ -8092,7 +8149,7 @@
       },
       "rewards:9": {}
     },
-    "128:10": {
+    "129:10": {
       "questID:3": 129,
       "preRequisites:11": [],
       "properties:10": {
@@ -8141,7 +8198,7 @@
         }
       }
     },
-    "129:10": {
+    "130:10": {
       "questID:3": 130,
       "preRequisites:11": [],
       "properties:10": {
@@ -8172,7 +8229,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "130:10": {
+    "131:10": {
       "questID:3": 131,
       "preRequisites:11": [],
       "properties:10": {
@@ -8234,7 +8291,7 @@
         }
       }
     },
-    "131:10": {
+    "132:10": {
       "questID:3": 132,
       "preRequisites:11": [],
       "properties:10": {
@@ -8273,7 +8330,7 @@
       },
       "rewards:9": {}
     },
-    "132:10": {
+    "133:10": {
       "questID:3": 133,
       "preRequisites:11": [],
       "properties:10": {
@@ -8309,7 +8366,7 @@
       },
       "rewards:9": {}
     },
-    "133:10": {
+    "134:10": {
       "questID:3": 134,
       "preRequisites:11": [
         131
@@ -8355,7 +8412,7 @@
         }
       }
     },
-    "134:10": {
+    "135:10": {
       "questID:3": 135,
       "preRequisites:11": [],
       "properties:10": {
@@ -8418,7 +8475,7 @@
         }
       }
     },
-    "135:10": {
+    "136:10": {
       "questID:3": 136,
       "preRequisites:11": [
         57
@@ -8482,7 +8539,7 @@
         }
       }
     },
-    "136:10": {
+    "137:10": {
       "questID:3": 137,
       "preRequisites:11": [
         65,
@@ -8546,7 +8603,7 @@
       },
       "rewards:9": {}
     },
-    "137:10": {
+    "138:10": {
       "questID:3": 138,
       "preRequisites:11": [
         28
@@ -8632,7 +8689,7 @@
         }
       }
     },
-    "138:10": {
+    "139:10": {
       "questID:3": 139,
       "preRequisites:11": [
         80,
@@ -8684,7 +8741,7 @@
       },
       "rewards:9": {}
     },
-    "139:10": {
+    "140:10": {
       "questID:3": 140,
       "preRequisites:11": [
         50
@@ -8735,7 +8792,7 @@
       },
       "rewards:9": {}
     },
-    "140:10": {
+    "141:10": {
       "questID:3": 141,
       "preRequisites:11": [
         50
@@ -8786,7 +8843,7 @@
       },
       "rewards:9": {}
     },
-    "141:10": {
+    "142:10": {
       "questID:3": 142,
       "preRequisites:11": [
         56
@@ -8855,7 +8912,7 @@
       },
       "rewards:9": {}
     },
-    "142:10": {
+    "143:10": {
       "questID:3": 143,
       "preRequisites:11": [
         54
@@ -8930,7 +8987,7 @@
       },
       "rewards:9": {}
     },
-    "143:10": {
+    "144:10": {
       "questID:3": 144,
       "preRequisites:11": [
         43
@@ -9003,7 +9060,7 @@
       },
       "rewards:9": {}
     },
-    "144:10": {
+    "145:10": {
       "questID:3": 145,
       "preRequisites:11": [],
       "properties:10": {
@@ -9034,7 +9091,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "145:10": {
+    "146:10": {
       "questID:3": 146,
       "preRequisites:11": [],
       "properties:10": {
@@ -9065,7 +9122,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "146:10": {
+    "147:10": {
       "questID:3": 147,
       "preRequisites:11": [],
       "properties:10": {
@@ -9101,7 +9158,7 @@
       },
       "rewards:9": {}
     },
-    "147:10": {
+    "148:10": {
       "questID:3": 148,
       "preRequisites:11": [],
       "properties:10": {
@@ -9132,7 +9189,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "148:10": {
+    "149:10": {
       "questID:3": 149,
       "preRequisites:11": [],
       "properties:10": {
@@ -9163,7 +9220,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "149:10": {
+    "150:10": {
       "questID:3": 150,
       "preRequisites:11": [],
       "properties:10": {
@@ -9230,7 +9287,7 @@
       },
       "rewards:9": {}
     },
-    "150:10": {
+    "151:10": {
       "questID:3": 151,
       "preRequisites:11": [],
       "properties:10": {
@@ -9261,7 +9318,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "151:10": {
+    "152:10": {
       "questID:3": 152,
       "preRequisites:11": [
         118
@@ -9423,11 +9480,18 @@
         "14:10": {
           "sizeX:3": 24,
           "x:3": -132,
+          "y:3": -96,
+          "id:3": 125,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
           "y:3": 48,
           "id:3": 129,
           "sizeY:3": 24
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 48,
