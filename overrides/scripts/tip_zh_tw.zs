@@ -71,3 +71,12 @@ val mekTweakedItems = [<Mekanism:CardboardBox>, <Mekanism:TeleportationCore>, <M
 for i in mekTweakedItems {
 	i.addTooltip(format.red("\u914D\u65B9\u5DF2\u66F4\u52D5\uFF0C\u820A\u914D\u65B9\u5C07\u4E0D\u8D77\u4F5C\u7528"));
 }
+
+//------------------------------------------------------------------------
+//uu values
+
+val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:chaosFragment>] as IItemStack[];
+
+for i in hasUUValues {
+	i.addTooltip(format.gold("\u53EF\u4F7F\u7528UU-Matter\u8907\u88FD"));
+}

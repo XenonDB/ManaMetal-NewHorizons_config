@@ -71,3 +71,12 @@ val mekTweakedItems = [<Mekanism:CardboardBox>, <Mekanism:TeleportationCore>, <M
 for i in mekTweakedItems {
 	i.addTooltip(format.red("Tweaked item. Old recipe will not work!"));
 }
+
+//------------------------------------------------------------------------
+//uu values
+
+val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:chaosFragment>] as IItemStack[];
+
+for i in hasUUValues {
+	i.addTooltip(format.gold("Can be replicated using UU-Matter"));
+}
