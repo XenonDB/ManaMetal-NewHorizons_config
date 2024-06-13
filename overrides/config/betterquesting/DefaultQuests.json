@@ -8,7 +8,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -44,7 +44,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
@@ -82,7 +82,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -151,7 +151,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -189,7 +189,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -227,7 +227,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -295,7 +295,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -331,7 +331,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -444,7 +444,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -498,7 +498,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -574,7 +574,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -680,7 +680,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -716,7 +716,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -760,7 +760,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -878,7 +878,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -929,7 +929,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -965,7 +965,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1001,7 +1001,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1044,7 +1044,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1080,7 +1080,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1129,7 +1129,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1178,7 +1178,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1237,7 +1237,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1296,7 +1296,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1355,7 +1355,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1414,7 +1414,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1483,7 +1483,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1540,7 +1540,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1591,7 +1591,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1642,7 +1642,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1693,7 +1693,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1744,7 +1744,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1782,7 +1782,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1818,7 +1818,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1854,7 +1854,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1892,7 +1892,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1943,7 +1943,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -1994,7 +1994,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2064,7 +2064,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2115,7 +2115,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2166,7 +2166,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2217,7 +2217,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2286,7 +2286,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2355,7 +2355,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2436,7 +2436,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2517,7 +2517,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2592,7 +2592,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2667,7 +2667,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2741,7 +2741,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2805,7 +2805,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2881,7 +2881,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -2951,7 +2951,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3026,7 +3026,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3076,7 +3076,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3133,7 +3133,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3200,7 +3200,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3275,7 +3275,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3350,7 +3350,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3421,7 +3421,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3472,7 +3472,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3521,7 +3521,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3578,7 +3578,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3629,7 +3629,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3702,7 +3702,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3753,7 +3753,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3804,7 +3804,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3867,7 +3867,7 @@
         "betterquesting:10": {
           "snd_complete:8": "manametalmod:lvup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3933,7 +3933,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -3992,7 +3992,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4043,7 +4043,7 @@
         "betterquesting:10": {
           "snd_complete:8": "manametalmod:lvup",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4100,7 +4100,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4139,7 +4139,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4208,7 +4208,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4278,7 +4278,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4327,7 +4327,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4360,7 +4360,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4555,7 +4555,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4597,7 +4597,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4646,7 +4646,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4677,7 +4677,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4719,7 +4719,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4750,7 +4750,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4781,7 +4781,7 @@
         "betterquesting:10": {
           "snd_complete:8": "",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4832,7 +4832,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4907,7 +4907,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4943,7 +4943,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -4974,7 +4974,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -5005,7 +5005,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -5876,7 +5876,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -5907,7 +5907,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -5943,7 +5943,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -5979,7 +5979,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6012,7 +6012,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6067,7 +6067,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6098,7 +6098,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6129,7 +6129,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6162,7 +6162,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6219,7 +6219,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6279,7 +6279,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6338,7 +6338,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6389,7 +6389,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6449,7 +6449,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6512,7 +6512,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6635,7 +6635,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6708,7 +6708,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6785,7 +6785,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6816,7 +6816,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6847,7 +6847,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6933,7 +6933,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -6964,7 +6964,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7022,7 +7022,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7053,7 +7053,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7086,7 +7086,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7141,7 +7141,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7172,7 +7172,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7862,7 +7862,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7895,7 +7895,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7931,7 +7931,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -7993,62 +7993,13 @@
       }
     },
     "125:10": {
-      "questID:3": 125,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "taskLogic:8": "AND",
-          "visibility:8": "HIDDEN",
-          "isMain:1": 0,
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "repeatTime:3": -1,
-          "globalShare:1": 0,
-          "questLogic:8": "AND",
-          "repeat_relative:1": 1,
-          "name:8": "[物品檢測]取得核廢料",
-          "lockedProgress:1": 0,
-          "autoClaim:1": 0,
-          "isSilent:1": 1,
-          "desc:8": "這只是一個用來確認玩家是否已有能力取得核廢料的任務而已。"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "ReactorCraft:reactorcraft_item_placer",
-              "Count:3": 1,
-              "Damage:2": 9,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "126:10": {
       "questID:3": 126,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8072,14 +8023,14 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "127:10": {
+    "126:10": {
       "questID:3": 127,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8103,7 +8054,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "128:10": {
+    "127:10": {
       "questID:3": 128,
       "preRequisites:11": [
         5
@@ -8112,7 +8063,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8141,14 +8092,14 @@
       },
       "rewards:9": {}
     },
-    "129:10": {
+    "128:10": {
       "questID:3": 129,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8190,14 +8141,14 @@
         }
       }
     },
-    "130:10": {
+    "129:10": {
       "questID:3": 130,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8221,14 +8172,14 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "131:10": {
+    "130:10": {
       "questID:3": 131,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8283,14 +8234,14 @@
         }
       }
     },
-    "132:10": {
+    "131:10": {
       "questID:3": 132,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8322,14 +8273,14 @@
       },
       "rewards:9": {}
     },
-    "133:10": {
+    "132:10": {
       "questID:3": 133,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8358,7 +8309,7 @@
       },
       "rewards:9": {}
     },
-    "134:10": {
+    "133:10": {
       "questID:3": 134,
       "preRequisites:11": [
         131
@@ -8367,7 +8318,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8404,14 +8355,14 @@
         }
       }
     },
-    "135:10": {
+    "134:10": {
       "questID:3": 135,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8467,7 +8418,7 @@
         }
       }
     },
-    "136:10": {
+    "135:10": {
       "questID:3": 136,
       "preRequisites:11": [
         57
@@ -8531,7 +8482,7 @@
         }
       }
     },
-    "137:10": {
+    "136:10": {
       "questID:3": 137,
       "preRequisites:11": [
         65,
@@ -8541,7 +8492,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8595,7 +8546,7 @@
       },
       "rewards:9": {}
     },
-    "138:10": {
+    "137:10": {
       "questID:3": 138,
       "preRequisites:11": [
         28
@@ -8604,7 +8555,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "OR",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8681,7 +8632,7 @@
         }
       }
     },
-    "139:10": {
+    "138:10": {
       "questID:3": 139,
       "preRequisites:11": [
         80,
@@ -8733,7 +8684,7 @@
       },
       "rewards:9": {}
     },
-    "140:10": {
+    "139:10": {
       "questID:3": 140,
       "preRequisites:11": [
         50
@@ -8742,7 +8693,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8784,7 +8735,7 @@
       },
       "rewards:9": {}
     },
-    "141:10": {
+    "140:10": {
       "questID:3": 141,
       "preRequisites:11": [
         50
@@ -8793,7 +8744,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8835,7 +8786,7 @@
       },
       "rewards:9": {}
     },
-    "142:10": {
+    "141:10": {
       "questID:3": 142,
       "preRequisites:11": [
         56
@@ -8844,7 +8795,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8904,7 +8855,7 @@
       },
       "rewards:9": {}
     },
-    "143:10": {
+    "142:10": {
       "questID:3": 143,
       "preRequisites:11": [
         54
@@ -8913,7 +8864,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -8979,7 +8930,7 @@
       },
       "rewards:9": {}
     },
-    "144:10": {
+    "143:10": {
       "questID:3": 144,
       "preRequisites:11": [
         43
@@ -8988,7 +8939,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9052,14 +9003,14 @@
       },
       "rewards:9": {}
     },
-    "145:10": {
+    "144:10": {
       "questID:3": 145,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9083,14 +9034,14 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "146:10": {
+    "145:10": {
       "questID:3": 146,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9114,14 +9065,14 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "147:10": {
+    "146:10": {
       "questID:3": 147,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9150,14 +9101,14 @@
       },
       "rewards:9": {}
     },
-    "148:10": {
+    "147:10": {
       "questID:3": 148,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9181,14 +9132,14 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "149:10": {
+    "148:10": {
       "questID:3": 149,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9212,14 +9163,14 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "150:10": {
+    "149:10": {
       "questID:3": 150,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9279,14 +9230,14 @@
       },
       "rewards:9": {}
     },
-    "151:10": {
+    "150:10": {
       "questID:3": 151,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9310,7 +9261,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "152:10": {
+    "151:10": {
       "questID:3": 152,
       "preRequisites:11": [
         118
@@ -9319,7 +9270,7 @@
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "taskLogic:8": "AND",
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
@@ -9487,7 +9438,7 @@
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "新特性/系統改動",
           "icon:10": {
             "id:8": "manametalmod:steelGear",
@@ -9611,13 +9562,6 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": -192,
-          "y:3": -216,
-          "id:3": 125,
-          "sizeY:3": 24
-        },
-        "16:10": {
-          "sizeX:3": 24,
           "x:3": 108,
           "y:3": -96,
           "id:3": 128,
@@ -9627,7 +9571,7 @@
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "歡迎來到「魔法金屬-新視野(?)」",
           "icon:10": {
             "id:8": "manametalmod:MMMbook",
@@ -9781,7 +9725,7 @@
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "實用物品",
           "icon:10": {
             "id:8": "manametalmod:manaTorch",
@@ -9998,7 +9942,7 @@
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "魔法金屬",
           "icon:10": {
             "id:8": "manametalmod:dustMana",
@@ -10096,7 +10040,7 @@
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "魔法金屬-黑魔法",
           "icon:10": {
             "id:8": "manametalmod:BlockTileEntityDarkMains",
@@ -10215,7 +10159,7 @@
       "lineID:3": 5,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "魔法金屬-拉普達",
           "icon:10": {
             "id:8": "manametalmod:BlockBlueSkySteles",
@@ -10306,7 +10250,7 @@
       "lineID:3": 6,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "End game",
           "icon:10": {
             "id:8": "Avaritia:Resource",
@@ -10460,7 +10404,7 @@
       "lineID:3": 7,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "舊版更新日誌(1.0~2.x)",
           "icon:10": {
             "id:8": "customnpcs:npcAncientScroll",
@@ -10516,7 +10460,7 @@
       "lineID:3": 8,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "成就取得區",
           "icon:10": {
             "id:8": "minecraft:book",
@@ -10614,7 +10558,7 @@
       "lineID:3": 9,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "BUG修正或注意事項",
           "icon:10": {
             "id:8": "arsmagica2:rune",
@@ -10684,7 +10628,7 @@
       "lineID:3": 10,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "舊版更新日誌(3.x~4.x)",
           "icon:10": {
             "id:8": "customnpcs:npcAncientScroll",
