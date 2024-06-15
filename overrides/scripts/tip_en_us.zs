@@ -37,6 +37,8 @@ val lootTip1 = format.gold("Found in Undead Ancient Tomb or Ancient Thulium Runi
 
 <manametalmod:BlockTileEntityClothesTailors>.addTooltip(format.gold("Score over 200 will be treated as 0!"));
 
+<manametalmod:ingotCopyA>.addTooltip(format.gold("Obtained via Dragon Expedition or replicated via pylon casting"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];

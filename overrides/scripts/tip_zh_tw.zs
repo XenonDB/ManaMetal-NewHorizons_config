@@ -37,6 +37,8 @@ val lootTip1 = format.gold("\u53EF\u65BC\u4EA1\u9748\u53E4\u5893\u3001\u9060\u53
 
 <manametalmod:BlockTileEntityClothesTailors>.addTooltip(format.gold("\u4FEE\u88DC\u7A4D\u5206\u82E5\u8D85\u904E200\u5206\uFF0C\u5247\u8996\u70BA0\u5206!"));
 
+<manametalmod:ingotCopyA>.addTooltip(format.gold("\u5F9E\u9F8D\u65CF\u63A2\u96AA\u968A\u7372\u5F97\uFF0C\u6216\u662F\u4F7F\u7528\u5F69\u80FD\u9444\u4EF6\u914D\u65B9\u8907\u88FD"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
