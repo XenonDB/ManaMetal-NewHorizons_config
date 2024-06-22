@@ -91,6 +91,11 @@ mods.thaumcraft.Aspects.set(<DraconicEvolution:draconiumDust>, "metallum 4, drag
 mods.thaumcraft.Aspects.set(<DraconicEvolution:draconiumIngot>, "metallum 4, dragon 4");
 mods.thaumcraft.Aspects.set(<DraconicEvolution:draconicIngot>, "metallum 16, dragon 16, potentia 16");
 
+//------------------------------------------------------------------------
+//creative items
+
+mods.avaritia.ExtremeCrafting.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ElectriCraft:electricraft_item_rfbattery>.withTag({nrg: 60000000000000 as long}), [<appliedenergistics2:tile.BlockEnergyAcceptor>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockEnergyAcceptor>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>], "machina 128, signum 128", <appliedenergistics2:tile.BlockCreativeEnergyCell>, 15);
 
 
 //------------------------------------------------------------------------
