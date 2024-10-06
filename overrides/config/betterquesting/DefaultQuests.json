@@ -1818,7 +1818,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "DragonAPI從V24版開始可能會出現第一次登入遊戲時黑畫面的BUG\n\n通常這個情況可以藉由調整一次視窗大小後就會解決。\n\n假如問題無法解決或你不想去調視窗大小，\n\n那麼去將config/splash.properties中的enable設為false應該就可以解決這問題。"
+          "desc:8": "DragonAPI從V24版開始可能會出現第一次登入遊戲時黑畫面的BUG\n\n通常這個情況可以藉由調整一次視窗大小後就會解決。\n\n或是將config/splash.properties中的enable設為false就可以解決這問題。\n\n目前版本我已經將此設定更改為false，\n\n並且使用了Custom Loading Screen的預設載入畫面作為禁用forge預設載入畫面的替代"
         }
       },
       "tasks:9": {
