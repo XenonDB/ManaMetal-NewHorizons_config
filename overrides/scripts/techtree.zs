@@ -96,6 +96,7 @@ mods.thaumcraft.Aspects.set(<DraconicEvolution:draconicIngot>, "metallum 16, dra
 
 mods.avaritia.ExtremeCrafting.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ElectriCraft:electricraft_item_rfbattery>.withTag({nrg: 60000000000000 as long}), [<appliedenergistics2:tile.BlockEnergyAcceptor>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockEnergyAcceptor>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>], "machina 128, signum 128", <appliedenergistics2:tile.BlockCreativeEnergyCell>, 15);
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <Thaumcraft:ItemThaumonomicon>, [<ChromatiCraft:chromaticraft_item_warp:1>, <manametalmod:MMMbook:3>, <manametalmod:ItemToolScribeTools>, <ThaumicTinkerer:placementMirror>], "history 128 ,cognitio 128 , instrumentum 64, perplexus 64, principia 64", <Thaumcraft:ItemThaumonomicon:42>, 15);
 
 
 //------------------------------------------------------------------------
