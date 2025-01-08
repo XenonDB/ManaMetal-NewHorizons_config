@@ -82,3 +82,12 @@ val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:dracon
 for i in hasUUValues {
 	i.addTooltip(format.gold("Can be replicated using UU-Matter"));
 }
+
+//------------------------------------------------------------------------
+//mana pools
+
+val mmmManaPools = [<manametalmod:BlockManaPoolM3_1:10>, <manametalmod:BlockManaPoolM3_1:11>, <manametalmod:BlockManaPoolM3_1:12>, <manametalmod:BlockManaPoolM3_1:13>] as IItemStack[];
+
+for i in mmmManaPools {
+	i.addTooltip(format.red("Please don't bind Mana Mirror to this pool"));
+}

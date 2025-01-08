@@ -82,3 +82,12 @@ val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:dracon
 for i in hasUUValues {
 	i.addTooltip(format.gold("\u53EF\u4F7F\u7528UU-Matter\u8907\u88FD"));
 }
+
+//------------------------------------------------------------------------
+//mana pools
+
+val mmmManaPools = [<manametalmod:BlockManaPoolM3_1:10>, <manametalmod:BlockManaPoolM3_1:11>, <manametalmod:BlockManaPoolM3_1:12>, <manametalmod:BlockManaPoolM3_1:13>] as IItemStack[];
+
+for i in mmmManaPools {
+	i.addTooltip(format.red("\u8ACB\u4E0D\u8981\u5C07\u9B54\u529B\u624B\u93E1\u7D81\u5B9A\u5230\u8A72\u6C60\u4E0A"));
+}

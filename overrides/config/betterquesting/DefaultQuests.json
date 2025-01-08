@@ -9466,6 +9466,68 @@
           }
         }
       }
+    },
+    "154:10": {
+      "questID:3": 154,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Botania:pool",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "創造魔力池",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可能覺得投放大量植物學魔法粉到魔力池裡很吵\n\n我也這麼覺得\n\n\n※註: 任務書不支持預覽該魔力池的配方, 請自行從右側NEI欄搜尋並查看"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Botania:pool",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "Botania:spark",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -9882,6 +9944,13 @@
           "x:3": -144,
           "y:3": -60,
           "id:3": 153,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -12,
+          "id:3": 154,
           "sizeY:3": 24
         }
       },
