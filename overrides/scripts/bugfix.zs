@@ -110,6 +110,3 @@ for i, part in unstableParts {
 	//mods.tconstruct.Smeltery.addMelting(part, <liquid:molten.unstableingots> * fluidAmount[i], 850, <ExtraUtilities:decorativeBlock1:5>);
 	mods.tconstruct.Casting.addTableRecipe(part, <liquid:molten.unstableingots> * fluidAmount[i], partCasts[i], false, 20);
 }
-
-//機關齒輪暫時配方，直到機關神廟重新開放
-mods.thaumcraft.Crucible.addRecipe("ASPECTS", <manametalmod:MagicItem:175>, <manametalmod:ItemBagBossDungeon_box11>, "machina 64, lucrum 32, tutamen 32");
