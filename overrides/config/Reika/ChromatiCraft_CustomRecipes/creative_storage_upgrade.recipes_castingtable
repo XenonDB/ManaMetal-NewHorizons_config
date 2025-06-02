@@ -1,0 +1,68 @@
+{
+	type = "creative_storage_upgrade"
+	level = "pylon"
+	recipe = {
+		center = "appliedenergistics2:tile.BlockChest"
+		items = {
+			{
+				item = "StorageDrawers:upgradeTemplate"
+				x = -2
+				z = 0
+			}
+			{
+				item = "StorageDrawers:upgradeTemplate"
+				x = 2
+				z = 0
+			}
+			{
+				item = "StorageDrawers:upgradeTemplate"
+				x = 0
+				z = -2
+			}
+			{
+				item = "StorageDrawers:upgradeTemplate"
+				x = 0
+				z = 2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_voidcell"
+				x = 2
+				z = 2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_voidcell"
+				x = -2
+				z = 2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_voidcell"
+				x = 2
+				z = -2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_voidcell"
+				x = -2
+				z = -2
+			}
+		}
+	}
+	energy = {
+		{
+			color = "black"
+			amount = 500
+		}
+		{
+			color = "brown"
+			amount = 500
+		}
+		{
+			color = "purple"
+			amount = 500
+		}
+		{
+			color = "white"
+			amount = 500
+		}
+	}
+	output = "StorageDrawers:upgradeCreative"
+}
