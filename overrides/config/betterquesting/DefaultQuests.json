@@ -10625,7 +10625,7 @@
           "desc:8": ""
         }
       },
-      "order:3": 8
+      "order:3": 12
     },
     "7:10": {
       "quests:9": {
@@ -10835,7 +10835,7 @@
           "desc:8": ""
         }
       },
-      "order:3": 9
+      "order:3": 13
     },
     "9:10": {
       "quests:9": {
@@ -10940,7 +10940,7 @@
           "desc:8": "§mThis is a feature not a bug"
         }
       },
-      "order:3": 10
+      "order:3": 14
     },
     "10:10": {
       "quests:9": {
@@ -11011,6 +11011,89 @@
         }
       },
       "order:3": 3
+    },
+    "11:10": {
+      "quests:9": {},
+      "lineID:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "RotaryCraft",
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_engine",
+            "Count:3": 64,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 8
+    },
+    "12:10": {
+      "quests:9": {},
+      "lineID:3": 12,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "ChromatiCraft",
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 9
+    },
+    "13:10": {
+      "quests:9": {},
+      "lineID:3": 13,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "科技與生活",
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 64,
+            "Damage:2": 108,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "可用的發電方法以及礦物處裡方法"
+        }
+      },
+      "order:3": 10
+    },
+    "14:10": {
+      "quests:9": {},
+      "lineID:3": 14,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "外鄉人的武力",
+          "icon:10": {
+            "id:8": "ImmersiveEngineering:revolver",
+            "Count:3": 1,
+            "tag:10": {
+              "Inv:9": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 11
     }
   },
   "questSettings:10": {
@@ -11024,7 +11107,7 @@
       "home_image:8": "mmnh:textures/gui/banner.png",
       "party_enable:1": 1,
       "pack_version:3": 300,
-      "editMode:1": 0,
+      "editMode:1": 1,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
