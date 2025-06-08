@@ -78,6 +78,7 @@ recipes.remove(<DraconicEvolution:draconiumIngot>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<IC2:itemUran238> * 9, [[<ore:blockUranium>]]);
 recipes.removeShaped(<abyssalcraft:ironp> * 2, [[<ore:ingotIron>], [<ore:ingotIron>]]);
 
 // ================================================================================
@@ -128,7 +129,6 @@ recipes.addShaped(<TConstruct:materials:34>, [[<TConstruct:materials:35>, <TCons
 recipes.addShaped(<manametalmod:ingotPigIron>, [[<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>], [<manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>, <manametalmod:nuggetPigIron>]]);
 recipes.addShaped(<manametalmod:blockPigIron>, [[<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>], [<manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>, <manametalmod:ingotPigIron>]]);
 recipes.addShaped(<ae2wct:infinityBoosterCard>, [[<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>], [<manametalmod:superEnderPearl>, <appliedenergistics2:item.ItemMultiMaterial:42>, <manametalmod:superEnderPearl>], [<ore:ingotUniverseEnergy>, <ChromatiCraft:chromaticraft_item_rift>, <ore:ingotUniverseEnergy>]]);
-recipes.addShaped(<IC2:itemPurifiedCrushedOre:4> * 2, [[<ore:ingotUranium>], [<ore:ingotUranium>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.0:10> * 4, [[<ore:sheetPlastic>, <minecraft:bucket>, <ore:sheetPlastic>], [<ore:ingotBrick>, <ore:itemMachineChassi>, <ore:ingotBrick>], [<ore:ingotBrick>, <minecraft:cauldron>, <ore:ingotBrick>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:5>.withTag({RepairCost: 48763, Energy: 0}), [[null, <ore:dustRedstone>, null], [<ore:ingotEnderium>, <ThermalExpansion:capacitor:4>, <ore:ingotEnderium>], [<ore:dustRedstone>, <ore:dustPyrotheum>, <ore:dustRedstone>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:4>.withTag({RepairCost: 48763, Energy: 0}), [[null, <ore:dustRedstone>, null], [<ore:ingotElectrum>, <ThermalExpansion:capacitor:3>, <ore:ingotElectrum>], [<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>]]);
