@@ -77,7 +77,7 @@ for i in mekTweakedItems {
 //------------------------------------------------------------------------
 //uu values
 
-val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:chaosFragment>] as IItemStack[];
+val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:chaosFragment>, <ChromatiCraft:chromaticraft_item_elemental:*>] as IItemStack[];
 
 for i in hasUUValues {
 	i.addTooltip(format.gold("\u53EF\u4F7F\u7528UU-Matter\u8907\u88FD"));
