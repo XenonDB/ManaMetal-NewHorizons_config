@@ -467,24 +467,8 @@
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
-              "tag:10": {
-                "page:8": "LASERBILITY"
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
@@ -1001,7 +985,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "我讓大部分能自然生成在主世界裡的東西都能透過UU來複製\n\n有一部分資源也定義了UU值。這些特別給予UU值的資源會有「可使用UU-Matter複製」的註解。\n\n你可以在NEI搜尋欄內鍵入「#UU」來搜尋有這些註解的道具。"
+          "desc:8": "我讓大部分能自然生成在主世界裡的東西都能透過UU來複製\n\n有一部分資源也定義了UU值。這些特別給予UU值的資源會有「可使用UU-Matter複製」的註解。\n\n你可以在NEI搜尋欄內鍵入「UU-Matter」來搜尋有這些註解的道具。"
         }
       },
       "tasks:9": {
@@ -1093,7 +1077,9 @@
     },
     "22:10": {
       "questID:3": 22,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        239
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -1116,7 +1102,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你可能因為鑽研了太多禁忌知識，或是在探險途中遇到了不可抗逆的恐懼而導致精神污染。\n\n儘管有很多方法可以解決這種精神扭曲帶來的作用，但那些充滿著像是將恐懼具現化、不可名狀的物體的世界，會逐漸的侵蝕你的身心。\n\n若你需要頻繁前往且逗留在該地一段時間，光依靠肥皂、理智藥水之類的消耗品可能無法滿足你的需求，\n\n在這情況下，你需要的是一個可以有效且永久的對抗這些未知恐懼的物品。"
+          "desc:8": "你可能因為鑽研了太多禁忌知識，或是在探險途中遇到了不可抗逆的恐懼而導致精神污染。\n\n儘管有很多方法可以解決這種精神扭曲帶來的作用，但那些充滿著像是將恐懼具現化、不可名狀的物體的世界，會逐漸的侵蝕你的身心。\n\n若你需要頻繁前往且逗留在該地一段時間，光依靠肥皂、理智藥水之類的消耗品可能無法滿足你的需求，\n\n在這情況下，你需要的是一個可以有效且永久的對抗這些未知恐懼的物品。\n\n\n※活化後的項鍊需要Thaumcraft研究才可以製作\n\n※放置在身上時，會隨時間緩慢清除玩家的扭曲，包括永久扭曲!!"
         }
       },
       "tasks:9": {
@@ -1133,12 +1119,31 @@
               "Count:3": 1,
               "Damage:2": 1,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_warp",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "23:10": {
       "questID:3": 23,
@@ -1165,13 +1170,32 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "由於我把龍錠的配方改掉\n\n所以，再生龍的兩種方法(龍科技復活龍儀式、魔法金屬-黑魔法的黑暗召喚)都必須將科技樹推進到黑魔法才可以執行。\n\n我並沒有要給你們替代方案的意思，只是告知一下:)\n\n\n但考慮到ChromatiCraft有必須擊殺龍的進度才可以繼續玩下去，稍微降低一點難度也無訪。\n\n只是為了拿到充能龍磚，你們仍然必須將科技樹玩到黑魔法才行。\n\nPS:使用黑暗召喚叫出終界龍必須在終界進行"
+          "desc:8": "由於終界被魔法金屬置換掉，所以不會有原版的終界龍。\n\n而再生龍的兩種方法(龍科技復活龍儀式、魔法金屬-黑魔法的黑暗召喚)都必須將科技樹推進到黑魔法才可以執行。\n\n我並沒有要給你們替代方案的意思，只是告知一下:)\n\n\n但考慮到ChromatiCraft有必須擊殺龍的進度才可以繼續玩下去，稍微降低一點難度也無訪。\n\n只是為了拿到充能龍磚，你們仍然必須將科技樹玩到黑魔法才行。\n\nPS:使用黑暗召喚叫出終界龍必須在終界進行\n\nPS2:要完成ChromatiCraft中擊殺龍的進度，必須擊殺由DraconicEvoluation儀式復活的龍或是混沌守衛。擊殺黑暗召喚叫出來的龍並不會完成進度。"
         }
       },
       "tasks:9": {
         "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "DraconicEvolution:draconium",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "DraconicEvolution:draconium",
+              "Count:3": 4,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -4838,7 +4862,7 @@
           "posX:3": 0,
           "posY:3": 0,
           "posZ:3": 0,
-          "biome:3": 138,
+          "biome:3": 136,
           "name:8": "彩虹森林",
           "dimension:3": 0,
           "taxiCabDist:1": 0,
@@ -5025,7 +5049,9 @@
     },
     "92:10": {
       "questID:3": 92,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        222
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -9469,7 +9495,9 @@
     },
     "154:10": {
       "questID:3": 154,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        239
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -9492,7 +9520,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你可能覺得投放大量植物學魔法粉到魔力池裡很吵\n\n我也這麼覺得\n\n\n※註: 任務書不支持預覽該魔力池的配方, 請自行從右側NEI欄搜尋並查看"
+          "desc:8": "你可能覺得投放大量植物學魔法粉到魔力池裡很吵\n\n我也這麼覺得"
         }
       },
       "tasks:9": {
@@ -9592,7 +9620,9 @@
     },
     "156:10": {
       "questID:3": 156,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        239
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -9615,7 +9645,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "使用多個void cell作為你的大量庫存方案固然不錯\n\n不過若是能把它整合進抽屜牆內呢?\n\n\n※註1: 任務書不支持預覽該配方, 請自行從右側NEI欄搜尋並查看\n\n※註2: 升級安裝後便無法取出。如果你在沒有打包抽屜的情況下拆除抽屜, 該升級會消失"
+          "desc:8": "使用多個void cell作為你的大量庫存方案固然不錯\n\n不過若是能把它整合進抽屜牆內呢?\n\n\n※註: 升級安裝後便無法取出。如果你在沒有打包抽屜的情況下拆除抽屜, 該升級會消失"
         }
       },
       "tasks:9": {
@@ -12642,7 +12672,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "全套的基岩合金套裝(包括給特定部位基岩裝備附帶升級後的合成型盔甲，例如基岩噴射背包)自帶一條強制鎖傷的隱藏特性\n\n任何經過大多數減免後不到1000點的傷害會被基岩套強制降至5點傷害\n\n同時對於混沌守衛的攻擊還有額外減傷效果\n\n\n不過如果遇到後期比較強力的BOSS攻擊可能就沒什麼用吧。"
+          "desc:8": "全套的基岩合金套裝(包括給特定部位基岩裝備附帶升級後的合成型盔甲，例如基岩噴射背包)自帶一條強制鎖傷的隱藏特性\n\n任何經過大多數減免後不到1000點的傷害會被基岩套強制降至5點傷害\n\n同時對於混沌守衛的攻擊還有額外減傷效果\n\n\n不過如果遇到後期比較強力的BOSS攻擊可能就沒什麼用吧。\n\n\n\n\n\n\n\n\n對了，把手伸進燃氣渦輪機絞一次是2000點傷害"
         }
       },
       "tasks:9": {
@@ -12696,6 +12726,4651 @@
           }
         }
       }
+    },
+    "198:10": {
+      "questID:3": 198,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_help",
+            "Count:3": 1,
+            "tag:10": {
+              "pages:9": {
+                "0:8": "WAND"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "ChromatiCraft",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "ChromatiCraft是Reika製作的以16色光為主題的大型魔法探索模組。\n\n你需要透過蒐集各種遺失的書頁並研究16色光能以推進這麼魔法研究。\n\n剛開始你拿到的手冊是空的。隨著你解鎖更多知識，這本手冊會越來越完整。\n\n手冊中的右側分頁也有進度提示，告訴你目前有哪些進度可以解鎖。\n\n\n話是這麼說，大部分的提示其實並不是很清楚，需要發揮不少想像力去通靈。\n\n連我自己也常常忘記該怎麼推進度。\n\n所以這個任務頁用來提供比較具體的提示告訴你怎麼推進ChromatiCraft。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "199:10": {
+      "questID:3": 199,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_help",
+            "Count:3": 1,
+            "tag:10": {
+              "pages:9": {
+                "0:8": "WAND"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "手冊基本操作",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "拿著空白書頁右鍵後會打開一個介面，將空白書頁放到該介面最上方的格子後，可以從中間三個格子選一個解鎖該書頁的研究。\n\n如果當前進度不足以解鎖新頁面，那麼無法開啟介面來解鎖書頁。\n\n拿著手冊shift+右鍵可以開啟書頁保存欄，將解鎖後的書頁放進去後就可以在手冊中查看對應章節。\n\n右鍵可以開啟並檢視手冊內容，使用方向鍵可以上下左右滾動。如果在此同時按住shift的話滾動速度加快。\n\n左側分頁可以切換說明頁面或是檢視合成頁面。大部分物品或設備說明頁面都有對應的合成表頁面。\n\n右側Progress分頁可以檢視當前研究或探索進度。\n\nRecovery頁面則是復原丟失的分頁。假如你已經解鎖了特定書頁，但是因為某些原因不小心丟了它，在身上持有至少一個墨囊和紙張後，點選該頁面便可將該頁面復原進書內。\n\nNotebook分頁就給你純記事用的。\n\n\n另外，在物品欄中拿起空白書頁並對著手冊右鍵(類似高版本中將物品放入束口袋的操作)可以將該空白書頁存入手冊中。\n\n於物品欄中指著手冊右鍵，可以將存在裡面的空白書頁拿出來。\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:paper",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "200:10": {
+      "questID:3": 200,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "tag:10": {
+              "recipes:9": {
+                "0:10": {
+                  "id:2": 1310,
+                  "Count:1": 1,
+                  "Damage:2": 11
+                },
+                "1:10": {
+                  "id:2": 1310,
+                  "Count:1": 1,
+                  "Damage:2": 5
+                }
+              },
+              "lvl:3": 1,
+              "counts:9": {
+                "0:10": {
+                  "total:3": 1,
+                  "id:2": 1310,
+                  "Count:1": 1,
+                  "Damage:2": 11
+                },
+                "1:10": {
+                  "total:3": 64,
+                  "id:2": 1310,
+                  "Count:1": 1,
+                  "Damage:2": 5
+                }
+              },
+              "xp:3": 325,
+              "owners:9": {
+                "0:10": {
+                  "value:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+                }
+              },
+              "energy:10": {},
+              "enhance:1": 0
+            },
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "鑄造台",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "這是ChromatiCraft中最重要的合成設備。\n\n絕大多數ChromatiCraft的東西都要透過它搭配適當的環境來合成。\n\n將材料放置好後，使用法杖右鍵點擊即可開始合成。\n\n合成完的產物會自動轉移到相鄰的容器中。\n\n\n不過，由於後面鑄造台結構的設計，通常會預期它的產物會往下輸出。\n\n\n※重要提醒：\n\n每個鑄造台都會記錄曾經合成過甚麼東西，以及當前的「合成經驗」。\n\n有一些進度或鑄造台升級要求台子合成過足夠數量的物品才可以升級或繼續進度。\n\n所以如果你發現你研究卡關了，可以嘗試用檯子合成一些「玩具」看看。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "201:10": {
+      "questID:3": 201,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_tool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "元素法杖",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "ChromatiCraft中最重要的工具之一。\n\n主要用來啟動或調整大多數設備。\n\n另外，也用來將水晶塔中的光能吸取到「自己」體內。\n\n手持法杖時，左上角會看到自身體內儲存的光能。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_tool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "202:10": {
+      "questID:3": 202,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_crystal",
+            "Count:3": 64,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "洞穴水晶",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "說常見並不常見，稀少也並不稀少的洞穴水晶。\n\n會生成在地底下的洞穴中，或是地獄的大多數地方。\n\n靠近洞穴水晶時，會獲得對應顏色的增益效果。\n\n但假如洞穴水晶處在帶有「惡意」的維度(例如地獄)，則該效果會反轉成對應的負面效果。\n\n該對應的負面效果也可能會以對「敵對生物」施加正面效果的方式呈現。\n\n這會是你初期獲得水晶碎片的來源之一。\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "blockID:8": "ChromatiCraft:chromaticraft_block_crystal",
+              "nbt:10": {},
+              "amount:3": 1,
+              "oreDict:8": "caveCrystal",
+              "meta:3": -1
+            }
+          },
+          "index:3": 0,
+          "taskID:8": "bq_standard:block_break"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "203:10": {
+      "questID:3": 203,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_rainbowleaf",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "彩虹樹",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "有可能在野外獨自生長，不過生成在彩虹森林內居多。\n\n挖掘它的樹葉會隨機掉落染料，彩虹樹苗，也有小概率掉落金蘋果/附魔金蘋果。\n\n另外，彩虹樹有一定程度上抵抗Thaumcraft汙染之地的能力。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "blockID:8": "ChromatiCraft:chromaticraft_block_rainbowleaf",
+              "nbt:10": {},
+              "amount:3": 1,
+              "oreDict:8": "",
+              "meta:3": -1
+            }
+          },
+          "index:3": 0,
+          "taskID:8": "bq_standard:block_break"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "204:10": {
+      "questID:3": 204,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "水晶塔",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可能已經發現，野外會生成某些以黑色建材為主的塔。\n\n那個即是特定顏色的水晶塔，是ChromatiCraft各式顏色光能的主要來源。\n\n你可以透過冒險靠近頂端的能量源，或是使用元素法杖吸取它的能量來「發現」該顏色的光能。\n\n發現了該光能後，該顏色對應的物品名稱(例如洞穴水晶)就會解鎖，不會再是看不懂的文字。\n\n\n不過，靠近水晶塔會有概率遭受塔的攻擊。\n\n要注意的是，塔的攻擊是無差別攻擊，無論是哪個生物靠近(創造模式玩家或有特殊能力的玩家例外)都可能遭受塔的攻擊並被附上該光能的效果。\n\n塔的一次攻擊相當於當前血量的25%，攻擊至少會有5點，並且如果少扣了會扣回來，多扣了不會還你血量:)\n\n如果你需要在塔附近蓋家或搭建特定設備，又不希望沒事就要被塔電一下的話。\n\n你可以直接把塔的結構挖掉一小塊讓它失效就可以。\n\n失效的塔，只要你找到材料補完它的結構，就會重新變得有效。\n\n\n為了推進ChromatiCraft的進度，你必須發現所有16色的水晶塔。\n\n但是有工具可以尋找水晶塔，所以目前你可以不用那麼急著去找完16色塔。\n\n※註：\n\n§c§l千萬不要嘗試去搬動水晶塔頂部的核心\n\n§r如果你嘗試這樣做，然後將核心放出來，Reika會認為這有可能會破壞光能網路系統而§c§l預防性讓你的世界崩潰"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "205:10": {
+      "questID:3": 205,
+      "preRequisites:11": [
+        204
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_shard",
+            "Count:3": 64,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "簡易碎片農場",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你或許也已經觀察到，水晶塔周遭會有特定水晶碎塊生成。\n\n當水晶塔的能量滿了後，它會在周圍一定範圍內生長對應顏色的水晶碎塊。\n\n只要你將該水晶塔所在的區塊加載起來，就會是一個天然的水晶碎片農場。\n\n當你需要特定顏色的碎片時，只要回到該塔附近把碎塊挖一挖就可以。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "206:10": {
+      "questID:3": 206,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_lootchest",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "有人也想做跟你一樣的研究?..",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "村莊(不是魔法金屬的，是原版村莊)內可能會生成某幾種中型結構\n\n有可能是木質的房間，或是以黑色水晶石構成的遺跡。共通點都是中間有一個工作台，底下有一個黑色的寶藏箱。\n\n你需要找到並打開這個箱子才可以繼續後面ChromatiCraft的進度。\n\n我有把這種結構的生成機率調高，所以應該不會太難找，\n\n應該...吧...?\n\n\n※註：\n\n由於進度要求是打開箱子就好，\n\n如果你也有其他夥伴需要推ChromatiCraft的進度，那麼請不要挖掉那個箱子。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "207:10": {
+      "questID:3": 207,
+      "preRequisites:11": [
+        204,
+        201,
+        200,
+        203,
+        202,
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_lamp",
+            "Count:3": 64,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "彩能研究",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "當你探索世界到一定程度後，你應該就會對這些神奇的彩色魔力有基礎的了解。\n\n\n※註：\n\n所有使用CC鑄造台合成的配方都不支援透過BQ手冊直接查看配方，你需要自行在右側NEI欄搜索後查看配方。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "208:10": {
+      "questID:3": 208,
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_bucket",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "彩能液",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "當你站上去後，會將你自身的經驗抽出並轉換為彩能液體。\n\n試著站上去看看。\n\n你可以給這台設備接上管道將彩能液抽出並儲存到你想要的容器內。\n\n彩能液會是ChromatiCraft的重要材料之一，你可以先多收集一點起來。\n\n你也可以把它倒出來，泡進去看看然後再裝起來。\n\n\n另外，部分其他模組的「液態經驗」，例如從Enderio的經驗塔內抽出的經驗，\n\n也可以直接透過管道灌入彩能收集器中直接轉換為彩能液。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_bucket",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "209:10": {
+      "questID:3": 209,
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_finder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "發現所有顏色的光能",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "由於發現所有顏色的光能是必須的，\n\n所以你可以考慮製作一個水晶塔指南針來尋找各種顏色的水晶塔。\n\n這個指南針會告訴你最近的16色水晶塔在哪個方位。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_finder",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "210:10": {
+      "questID:3": 210,
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 94,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "共同研究",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如果你和其他夥伴住在一起而且都在研究ChromatiCraft，那麼§6§l強烈建議盡早共享知識。\n\n§r共享知識可以讓你們不必重複做同樣探索，走相同的路而能共享你們之間的成果。\n\n你可以利用這個基座來共享你們的進度。這是一個多方塊結構，你可以從手冊中得知他的搭建方式，或是查詢mc百科(可以透過「檢查/分享物品」按鍵打開百科頁面)得知使用方法或搭建方法。\n\n需要注意的是，共享知識的前提是你們必須要有「相似的進度」。\n\n所謂進度主要由你們可以使用哪種等級的鑄造台決定。如果進度差太多，那麼共享會失敗。\n\n需要其中一人追趕到相似進度後才能完成共享。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 94,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "211:10": {
+      "questID:3": 211,
+      "preRequisites:11": [
+        210
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_share",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "我們的設備",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "幾乎所有ChromatiCraft設備都會綁定所有者的名子。\n\n所以通常情況下你的夥伴不能使用你自己的設備。\n\n而你可以透過這個鑰匙給予你的夥伴使用設備的權限。\n\n\n具體的用法：\n\n假設玩家A想要允許玩家B也能使用他自己的鑄造台\n\n那麼，玩家A首先使用他自己的鑄造台製作這把鑰匙(鑰匙上將會有A的名子)\n\n然後A將這把鑰匙給B。B拿這把鑰匙點擊A的鑄造台，B就可以使用A的鑄造台了。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_share",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "212:10": {
+      "questID:3": 212,
+      "preRequisites:11": [
+        208
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_rune",
+            "Count:3": 8,
+            "Damage:2": 15,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "二階鑄造台",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如果你的鑄造台左上方已經出現第二個點了\n\n那麼你可以考慮將你的鑄造台升級成2階鑄造台了。\n\n\n我已經在Schematica中準備了二階鑄造台(casting1)的藍圖\n\n你可以照著這個藍圖搭建起來。\n\n\n建起來後，你可以嘗試在鑄造台附近擺放幾個符文看看，\n\n大部分二階鑄造配方需要在你蓋好的簡陋鑄造室中的特定位置擺放特定符文才能夠合成。\n\n※注意：\n\n所有鑄造台配方和ChromatiCraft的結構都有§e方向性\n\n§r手冊中展示的配方和結構，上方為北方。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_rune",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "213:10": {
+      "questID:3": 213,
+      "preRequisites:11": [
+        210
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "betterquesting:placeholder",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "書裡沒有說怎麼搭結構...?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "不確定是不是BUG\n\n目前已知在你沒有找完主世界中的5個基本ChromatiCraft遺跡之前，\n\n手冊最底下的結構展示區會無法看到。\n\n不過有些重要的結構你可以查詢mc百科，或是我有記錄在Schematica的藍圖內。\n\n所以你可以不用急著先去找完這些遺跡。\n\n\n直到你能搭建二階鑄造台後，有工具可以快速幫你定位這些遺跡。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "214:10": {
+      "questID:3": 214,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_structurefinder",
+            "Count:3": 1,
+            "tag:10": {
+              "charge:3": 47939,
+              "points:10": {}
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "遺跡探險",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如前面所述，\n\n手冊的結構展示頁面在你還沒有探索完5個遺跡基本之前是看不到的。\n\n為此你現在可以製作AuraTracker來尋找遺跡了。\n\n你需要將他丟在Kuro水晶塔附近充能。\n\n這五個遺跡分別位於平原、沙漠、冰原、海洋\n\n其中還有一個水晶聖地是埋藏在地底下，被非常黑的重盾石包圍。\n\n有些遺跡裡有陷阱或暗門，可以仔細觀察一下。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_structurefinder",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "215:10": {
+      "questID:3": 215,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_heatlamp",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "加熱/冰凍燈",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "最好的控溫設備。\n\n你可以在他們的介面中設定溫度以讓他們貼著的設備強制保持特定溫度。\n\n例如你可以給RotaryCraft的發酵機貼加熱燈，這樣就可以保證它會以最佳溫度執行發酵配方。\n\n其中加熱燈的加熱上限相當於岩漿附近(615度)，冰凍燈則是可以冷卻到最低-60度。\n\n查看ChromatiCraft的手冊對應的頁面以查詢它們支援那些設備。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_heatlamp",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_heatlamp",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "216:10": {
+      "questID:3": 216,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 13,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "三階鑄造台",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "當你的鑄造台左上有三個點後，你就可以準備升級為三階鑄造台了。\n\n三階鑄造台需要24個額外台座來擺放材料，你可以先做起來放著。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 24,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "217:10": {
+      "questID:3": 217,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "彩能附魔",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以直接利用彩能液自選附魔等級、數量，消耗相應的彩能液直接給工具附魔\n\n部分附魔甚至可以突破原本的附魔等級上限，或是獲取ChromatiCraft專屬附魔。\n\n不過這版的附魔台有點bug，你在沒有搜尋特定附魔的時候，你只能選擇很少數的附魔來使用。\n\n所以如果你想用這個附魔器給你的裝備或工具添加物附魔，你需要點選左上角的放大鏡圖示來啟用搜尋。\n\n啟用後，直接輸入文字(支持中文)，中間的附魔選項應該就會出現過濾後的結果。\n\n在保持開啟搜尋介面的時候可以點選箭頭來選擇附魔。\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "218:10": {
+      "questID:3": 218,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_netherkey",
+            "Count:3": 1,
+            "tag:10": {
+              "charge:3": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "地獄之上",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你之前應該已經看過地獄的天花板似乎有些怪異的天井，\n\n你可能很好奇上面有甚麼東西，但是一股無形的力量阻擋了你上去。\n\n現在你可以製作這個工具來幫助你突破這個障礙。\n\n它需要丟在Portokali水晶塔附近充能\n\n\n\n不過你要小心，頂層之上也可能會有更危險的東西存在...."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_netherkey",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "219:10": {
+      "questID:3": 219,
+      "preRequisites:11": [
+        217
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:enchanted_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Capital Strike",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "有部分ChromatiCraft的附魔需要完成特定條件後才可以透過彩能附魔台得到。\n\nCapital Strike(mc百科上是寫BossKill)就是其中一個例子。\n\n你需要擊殺過凋零後才能取得此附魔。\n\n\n這個附魔的具體效果是，擊中「強大的」生物時，會將傷害替換為按目標最大血量的百分比數值(有上限)直接扣除目標生命值。\n\n所謂「強大的」生物指的是最大血量在一定數值以上的目標，附魔等級越高，這個血量條件越低。\n\n扣除百分比和上限也隨著附魔等級越高而增加，4級會來到最大血量100點為條件，每次扣除50%以及250點為上限。\n\n如果目標不滿足這個條件，會無法擊中目標且武器會迅速損壞。\n\n\n假如你在閱讀這個任務之前發現你的武器打怪有時候會鏗鏗鏗的壞掉，並且打出的傷害很奇怪，那麼很有可就是Capital Strike造成的。\n\n現在你已經知道是怎麼回事了。\n\n\n仔細思考附魔運作的原理，還有思考上述附魔的運作方式，搭配一些測試，你應該可以想出多種很好利用這個附魔的方法。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "220:10": {
+      "questID:3": 220,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_shard",
+            "Count:3": 64,
+            "Damage:2": 31,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "強化水晶碎片",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "把漿果泡進彩能液，並且將最多一組水晶碎片泡進去後，\n\n等待一段時間(過程中會碎片冒出對應符文的粒子效果)後，該碎片會被強化。\n\n強化後的碎片包含更多該種光能，是某些高階材料的關鍵原料，\n\n並且在合成部分物品(例如符文石)時會更有效率。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_berry",
+              "Count:3": 24,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 64,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_shard",
+              "Count:3": 64,
+              "Damage:2": 31,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "221:10": {
+      "questID:3": 221,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "進度提示",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "當你查看手冊的Progress分頁的時候，你可能會發現有少部分幾個進度的圖示有「特別高亮」起來。\n\n當你卡住進度而不知道怎麼繼續走的時候，可以試試看完成那種高亮進度。\n\n通常這就是可以繼續往下走的關鍵進度。\n\n有些進度的前置條件是探索某些東西或維度、地點、怪物，卡進度的時候通常缺的就是這些探索項目。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "222:10": {
+      "questID:3": 222,
+      "preRequisites:11": [
+        218
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_modinteract",
+            "Count:3": 64,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "虛空中的....?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你之前可能已經在主世界的基岩層附近遇過類似的現象: 有甚麼東西在基岩底下，並且那個東西通過基岩呈現了一種詭異的毛骨悚然氛圍。\n\n不過由於基岩層的阻擋，你不會接觸到那個東西。\n\n\n現在你從地獄的開口往上探索了，你看到了「那個東西」的真面目...?\n\n\n※註：\n\n接觸虛空獸是這包ChromatiCraft探索的其中一部份，你需要嘗試完成這部分以繼續後續研究。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "223:10": {
+      "questID:3": 223,
+      "preRequisites:11": [
+        220
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_cluster",
+            "Count:3": 64,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "水晶核心",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "將16色水晶碎片和天然素材合成後的水晶核心。\n\n這是三階鑄造台後會大量用到的素材之一。\n\n你可以先多做一些備用。\n\n\n用強化水晶碎片可以更有效率的製作水晶核心。\n\n16色強化水晶碎片各16片就可以製作64個水晶核心。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_cluster",
+              "Count:3": 64,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_cluster",
+              "Count:3": 16,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "224:10": {
+      "questID:3": 224,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+            "Count:3": 64,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "彩能合金",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "將鐵和彩能粉1:16泡進彩能液內反應後生成的基礎合金。\n\n這個過程會消耗彩能液。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "225:10": {
+      "questID:3": 225,
+      "preRequisites:11": [
+        224
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_decoflower",
+            "Count:3": 64,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "乙太莓",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "偶爾可以發現在叢林木的頂端。\n\n生長在叢林樹葉上，會自然擴散，可以使用絲綢之觸挖起來帶回家種。\n\n將乙太莓丟入彩能液後，可以使該格彩能液製作合金時有機率雙倍產出。\n\n最多可以丟入16個乙太莓以達到100%機率雙倍產出。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_decoflower",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+              "Count:3": 1,
+              "Damage:2": 29,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "226:10": {
+      "questID:3": 226,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 63,
+            "Damage:2": 60,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "嬗變火",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "彩能版等價交換!\n\n你可以將物品丟入嬗變火中，將它轉化為光能。\n\n然後右鍵給予火一個樣本，之後拿法杖點擊火，就可以消耗轉化後的光能來複製該材料。\n\n大部分材料可以在JEI中查詢它投入火中可以轉化多少光能，以及使用火複製時需要多少光能。\n\n主要用來轉化常用的基礎材料。例如只在洞穴中生成的PurificationPowder(你在後面會需要大量這個素材)\n\n你可以搭配16色天然水晶農場，或是提前製作大量強化水晶碎片來做為你的轉化用素材。\n\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 60,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "227:10": {
+      "questID:3": 227,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_excavator",
+            "Count:3": 1,
+            "tag:10": {
+              "ownerid:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "這就是為甚麼本包沒有裝連鎖挖礦的原因",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "星杖是ChromatiCraft中的實用工具，有各種不同的功能。\n\n使用星杖時會消耗你體內的流明能量，記得去對應的水晶塔補充能量。\n\n其中這把是挖掘星杖，有快速連鎖挖礦的功能且沒有挖掘等級的限制!\n\n\n在後面，你還可以透過鑄造台使用特別的配方來給星杖附魔。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_excavator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "228:10": {
+      "questID:3": 228,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_floatingrelay",
+            "Count:3": 4,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "學習掌握水晶塔能量",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "現在你應該可以開始學習如何擷取並利用水晶塔中的光能。\n\n你可以先從製作纖維之源開始: 它可以直接接收水晶塔的光能，並將接收的光能傳輸給需要光能的設備使用。將它放在水晶塔附近即可。\n\n纖維之源輸出的光能是弱化的光能。它不能提供能量給那些需要直接接收水晶塔能源的設備使用。然而，一部分設備也沒辦法直接接收水晶塔光能這種強力的能源。所以透過纖維之源分配光能給這些設備是必要的。\n\n你可以使用弱化中繼器來輸送纖維之源輸出的光能。它只能直線傳輸光能，並且你需要先用元素法杖設定輸入口後，才能從該方向接收光能傳遞。\n\nEthereal版本的中繼器可以浮空，而其他的必須貼著牆面放置。\n\n你可以製作附魔分解器來當作接收弱化光能的設備。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 31,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_relay",
+              "Count:3": 1,
+              "Damage:2": 16,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_floatingrelay",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 69,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "229:10": {
+      "questID:3": 229,
+      "preRequisites:11": [
+        224,
+        228
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+            "Count:3": 64,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "彩虹水晶碎片",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "將水晶碎片淨化，透過注魔之環將彩能液注入水晶碎片後，可以製作彩虹水晶碎片。\n\n這會是你製作中高階ChromatiCraft設備的重要材料之一。\n\n每次製作需要消耗一整圈的彩能液，最多可以製作一組碎片。所以盡量一次放滿一組RawCrystal來製作。\n\n\n你可以使用RotaryCraft來幫忙放置彩能液。只需要一個DC引擎的動力即可。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+              "Count:3": 64,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+              "Count:3": 64,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 48,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "230:10": {
+      "questID:3": 230,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "tag:10": {
+              "tier:3": 0
+            },
+            "Damage:2": 87,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "聚焦水晶",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可能不經意地發現某些村民有在賣這種神奇的東西。\n\n這個聚焦水晶可以做為某些ChromatiCraft設備(例如鑄造台，注魔之環或是合金罐)的加速器。\n\n你可以跟村民買到最初階的聚焦水晶。隨著你的進度進展，你也可以自行製作初階的聚焦水晶，並且還可以將它升級以獲得進一步的加速效果。\n\n拿著聚焦水晶後，可以放置水晶以加速設備的位置，會有粒子特效提示。\n\n有些設備如注魔之環雖然可以放很多聚焦水晶，但加速效果最多只會在放到8個水晶的時候達到上限。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 0
+              },
+              "Damage:2": 87,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "231:10": {
+      "questID:3": 231,
+      "preRequisites:11": [
+        229
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 62,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "半自動化製作彩虹水晶碎片...?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "由於ChromatiCraft設備高度綁定玩家進度的特性，你不太可能透過其他模組的自動化手段來自動製作彩虹水晶碎片，因為它們通常是透過假玩家來操作，假玩家並沒有進度所以無法操作設備。\n\n如果你需要自動化製作的話，你需要使用ChromatiCraft自己的自動化設備，例如ItemInserter。\n\n這種設備在操作物流的時候會直接以你自己本身，或你的UUID來操作。所以可以正常操作需要玩家進度的設備。\n\n\nItemInserter的介面可能會有點...抽象。概略上來說，對於左側的六欄物品，都可以分別指定它們要輸送到右側的哪幾個目標中，且可以指定輸送方法(放入容器，左鍵，右鍵，丟棄)\n\n右側的目標必須使用linker來指定。指定完成目標後，才可以設定輸送方法。\n\n中間6條紅石條依序對應左側的6個欄位。當你把物品放入左側格子後，對應的紅石條「右側邊界」上的小箭頭會有顏色變化，表示你現在可以設定該物品要不要輸送到右側的幾個目標中(綠色表示允許輸送，紅色表示禁止輸送)\n\n預設模式下，左側每個格子都會預留1個物品作為過濾器用。當你拿著元素法杖右鍵ItemInserter時，會切換成不保留最後一個物品的模式。\n\n如果給ItemInserter紅石信號，那他會根據接收到信號的面來完全禁止某一格的物流。\n\n你可以使用管道來將物品自動輸入給ItemInserter。\n\n\n不過要注意: 透過ItemInserter來「右鍵使用」注魔環有距離限制，這是所有ChromatiCraft設備都有的限制(你不可以站太遠來操作設備)，所以實際上你本人必須在注魔之環附近，這套自動化系統才會有作用。\n\n額那至於你離線了會不會有作用呢...我不知道，我沒測試過。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 62,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_linktool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "232:10": {
+      "questID:3": 232,
+      "preRequisites:11": [
+        229
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_storage",
+            "Count:3": 1,
+            "tag:10": {
+              "ownerid:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "儲存光能-其一",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "雖然你可以搬動纖維之源來給需要弱化光能的設備能源。不過這樣其實不太有效率，而且不是所有設備都可以這樣做，纖維之源一般來說也不是專門儲存光能的設備。\n\n所以你可以製作並升級這種水晶來專門儲存弱化光能。它的用法會在後續章節中提到。\n\n\n你可能需要親自製作或持有這個水晶來解鎖進度。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_storage",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "233:10": {
+      "questID:3": 233,
+      "preRequisites:11": [
+        232
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "儲存光能-其二",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "光有儲能水晶是不夠的，因為你還無法幫它充能。\n\n所以接下來你需要製作充能台。它跟纖維之源一樣可以直接接受水晶塔的光能。\n\n右鍵打開它的介面後，將儲能水晶放進去，就可以往水晶中補充弱化光能。\n\n\n有光能的水晶可以右鍵放到纖維之源內幫它補充能源，或是放入某些機器(例如AreaBreaker)中來提供運作所需的能量。\n\n在查看機器時(包括在右側NEI欄內尋找)按住shift，需要透過這種方法供應能量的設備，在你按住shift時會在它圖示的右下角顯示一小塊充能水晶的圖樣。\n\n這個小圖示也可以用來確認該設備或工具需要透過甚麼樣的方法來充能。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "234:10": {
+      "questID:3": 234,
+      "preRequisites:11": [
+        232
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:skull",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "個人化烙印",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "恩...其實我不知道為何Reika要這樣設計。\n\n要執行更高階的鑄造配方的話，你需要將鑄造台的結構附上你專屬的個人烙印才可以。\n\n附上烙印的具體方法，是將你的三階鑄造台4個角落，共12根柱子下的普通水晶石，替換為特定排列的符文石。\n\n具體要替換成那些符文石，你需要查看手冊中第一排後面的Transmitting Energy分類，有一個Personalized Casting頁面中的提示。\n\n記住，上方一樣為北方。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "235:10": {
+      "questID:3": 235,
+      "preRequisites:11": [
+        233,
+        234
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 16,
+            "tag:10": {
+              "caster:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8",
+              "owners:9": {
+                "0:10": {
+                  "value:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+                }
+              },
+              "boosted:1": 0
+            },
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "高階流明傳輸",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "在經過了許多研究後，你終於可以製作能夠真正有效傳輸水晶塔流明的設備。\n\n也就是流明中繼器。\n\n如果你之前有做過劣化版的中繼器，你可以使用升級配方將它升級為這種標準的中繼器。\n\n這種中繼器只能傳輸一種流明能量，但也是其他中繼器的基本底材。\n\n具體搭建的方法可以參考手冊，或是查看MC百科。\n\n中繼器可以橫著擺，也可以倒立擺。\n\n然而，要讓中繼器的結構生效，你需要最後擺放中繼器方塊才行。\n\n生效的中繼器本身會變得更亮，且可以使用元素法杖點兩下來查看流明傳輸範圍。\n\n\n如果你查看MC百科的話，你會提前知道中繼器有渦輪增壓和強化結構的版本。\n\n這種型態的中繼器要等你後面完成更多研究後才能搭建。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "236:10": {
+      "questID:3": 236,
+      "preRequisites:11": [
+        235
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_pylonstruct",
+            "Count:3": 64,
+            "Damage:2": 13,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "複合中繼器",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以同時傳輸16種流明的中繼器，不過損耗也比普通的中繼器多。\n\n當你有至少4種以上的流明需要走同一條路線時，你就可以考慮使用複合中繼器在該條路上搭建流明傳輸路線。\n\n搭建結構方法同樣可以參考手冊或是MC百科。\n\n\n複合中繼器一樣可以橫著擺或倒立擺，\n\n然而，橫擺的中繼器，其中column樣式的水晶石需要替換成beam樣式的水晶石。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 30,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "237:10": {
+      "questID:3": 237,
+      "preRequisites:11": [
+        235
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 55,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "流明信標",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "一種超遠程傳輸流明的巨型結構，你不一定會用到。\n\n雖然它可以超遠程傳輸16色流明，但是損耗也比複合中繼器高很多。\n\n而且因為它的巨型結構特性。兩座信標如果相隔太近(384格)會互相干擾導致無法使用。\n\n且它有最低傳輸距離限制(512格)，最遠可以傳輸4096格。\n\n\n建議在你遇到以下至少一種情況時再考慮使用:\n\n1.你在搭建基地的流明網路時，最近的其中至少4色水晶塔距離你基地至少2000格以上且在同一方位。\n\n2.你在超過1000格外有另一座基地，且同樣需要流明網路支援。\n\n3.你的伺服器上有人也在發展ChromatiCraft但他不想搭流明網路...你想把自己的網路分享給它。其實這情況和第2點相同。\n\n\n我有在Schematica的藍圖中保存它的結構，可以參考看看。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ExtraUtilities:sound_muffler",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "238:10": {
+      "questID:3": 238,
+      "preRequisites:11": [
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 61,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "源質中繼節點",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以自動從煉金塔和源質罐子之間分配和運輸源質的節點。\n\n也會自動尋找其他節點以延長範圍。\n\n\n使用時須要拿元素法杖右鍵啟動。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 61,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "239:10": {
+      "questID:3": 239,
+      "preRequisites:11": [
+        237,
+        236
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_pylonstruct",
+            "Count:3": 1,
+            "Damage:2": 14,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "四階鑄造台",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "這是你的彩能鑄造台的最終升級。\n\n四階鑄造台允許你直接使用水晶塔的能量來合成強力物品。\n\n然而，這也意味著你需要開始搭建你的16色流明網路。\n\n這會是一個漫長的過程，希望你可以好好享受:)\n\n\n你可以先根據你的需要來將特定顏色的水晶塔能源拉到你的基地內。\n\n當你準備充分後，再將剩餘的流明連接到你的基地。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 64,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "240:10": {
+      "questID:3": 240,
+      "preRequisites:11": [
+        238,
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 33,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "要素成形器",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以直接使用水晶塔的16色流明來生成你指定的要素。\n\n放在ChromatiCraft自己的要素容器，或是Thaumcraft原版的要素容器上，就可以為其補充要素。\n\n也可以開啟補充模式，自動偵測下方要素容器內存有那些要素，並使用流明補充它們的數量。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 33,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "241:10": {
+      "questID:3": 241,
+      "preRequisites:11": [
+        238,
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 32,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "源質罐子",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以存放最多16種不同要素的罐子。原始要素可以存放6000點，其他要素500點。\n\n可以接入源質中繼節點來提供要素。\n\n要素成形器的補充模式對它來說是最好的搭配。\n\n\n但是，在你還沒有給它特殊的升級前，無法直接為注魔矩陣提供要素。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 32,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "242:10": {
+      "questID:3": 242,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_bottleneck",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "流明網路檢查",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "這個工具可以幫忙檢查流明網路的連接狀況。\n\n拿著它右鍵中繼器，或是使用水晶塔能量的設備，就可以觀察和這個設備有關的流明傳輸路線。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_bottleneck",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "243:10": {
+      "questID:3": 243,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_rift",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "魔法P2P",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "必須成對放置。\n\n可以連接2個位置的「幾乎所有物流」。且可以跨世界連接!!\n\n除了常規的物品、流體、電力、紅石信號以外，\n\nReika系列的能源和物流也幾乎可以傳輸。\n\n這包括:\n\nRotaryCraft的機械能和管道、ElectriCraft的電力、ReactorCraft的蒸汽管線、管道和中子(機率性)。\n\n除了水晶塔的流明不能傳輸以外，幾乎很多奇怪的東西你都可以試著用它傳輸看看。\n\n甚至是Thaumcraft的要素和Botania的魔力也可以傳輸...?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_rift",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "244:10": {
+      "questID:3": 244,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 16,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "流明超能力者",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "能夠利用水晶塔能量的你，現在可以真正的利用儀式桌來給自己學習流明相關能力。\n\n同樣的使用能力需要消耗體內流明，但是大部分被動能力只有在啟動時才需要消耗流明。\n\n\n當你達到更後面的進度後，你可以升級儀式桌結構來學習更強力的能力。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 16,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "245:10": {
+      "questID:3": 245,
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_probe",
+            "Count:3": 1,
+            "tag:10": {
+              "charge:3": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "檢查水晶",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以用來檢查你搭建的ChromatiCraft結構有沒有搭錯。\n\n同時某些遺跡的解謎也可能會需要用到它....?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_probe",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "246:10": {
+      "questID:3": 246,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 67,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "合金製作自動化",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你現在可以製作這個特殊的儲罐來完全自動化製作ChromatiCraft相關的合金。\n\n你可以透過物品和液體管道/物流來給這個儲罐全自動輸入材料製作合金。\n\n同樣支持乙太莓倍化產物，且可以使用聚焦水晶加速。\n\n不過，作為代價，每製作一次需要消耗三桶彩能液，且運作時需要弱化流明能量。\n\n\n雖然你也可以用ItemInserter丟出材料來自動製作，但這樣設計物流會非常不方便。\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 67,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_structshield",
+              "Count:3": 2,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "247:10": {
+      "questID:3": 247,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 23,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "流明複製機",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "直接使用流明複製物品。\n\n將要複製的物品放入右上角格子後，就會使用流明來製作指定物品。\n\n你可以直接查詢NEI來看看哪些物品可以複製。\n\n\n它也可以拿來複製流體!\n\n你需要將桶裝的流體放進右上角，然後在這台設備下面放流體容器，\n\n複製出來的流體就會直接存入下方的容器內。\n\n\n不過，不是所有流體都能複製。\n\n可以複製的流體有：\n\n水、岩漿、牛奶、Ethereal Luma、Lumen Essence、Resonant Ender、原油(BuildCraft那種的，本包沒有)、essence(恩我不確定是甚麼，但我可以確定本包沒有)、poison(我忘記這怎麼來了...不過應該不重要)、Liquid Etherium(Ars magica 2)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 23,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ExtraUtilities:drum",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "248:10": {
+      "questID:3": 248,
+      "preRequisites:11": [
+        247
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "tag:10": {
+              "owners:9": {
+                "0:10": {
+                  "value:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+                }
+              }
+            },
+            "Damage:2": 21,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "水晶塔強化",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "當你開始大量使用水晶塔的能源後，你可能會發現天然的塔其實很貧弱不堪。\n\n不過，你可以製作Power Crystal來強化水晶塔充能速度。\n\n一個水晶塔可以放置最多8個Power Crystal來大幅加強流明再生速度。\n\n放好後，嘗試吸收水晶塔的能量讓Power Crystal補充塔的流明。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 8,
+              "Damage:2": 21,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "249:10": {
+      "questID:3": 249,
+      "preRequisites:11": [
+        218
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_lootchest",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "頂層探險",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "地獄頂層似乎並沒有那麼無聊，而且還有許多遺跡存在。\n\n\n試著找到一些遺跡內隱藏比較多寶物的寶箱並打開它。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "250:10": {
+      "questID:3": 250,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ExtraUtilities:decorativeBlock1",
+            "Count:3": 64,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "合法透視",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "不穩定金屬塊的材質設計上讓你的視野可以透過它穿透牆壁。\n\n只是前期你在製作這塊時，手腳可能要快點。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ExtraUtilities:decorativeBlock1",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "251:10": {
+      "questID:3": 251,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_bucket",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "流明懸崖",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "非常罕見的生物群系。\n\n有著大量浮空島嶼和高聳斷崖，以及神奇的發光東西組成的生態。\n\n這個生態太過罕見以至於你有可能使用生態指南針尋找時，半徑1萬格內都找不到這個生態....\n\n\n這個群系底下會稀有生成Ethereal Luma，你需要至少取得一桶帶回家。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_bucket",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "252:10": {
+      "questID:3": 252,
+      "preRequisites:11": [
+        245
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_musictrigger",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "魔法前哨",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可能曾經在彩虹森林或是終界森林中看到一個有著紅色防護罩的遺跡。\n\n當你有足夠進度和研究時，你應該就有辦法進入這個遺跡中探索。\n\n\nmc百科中有關於這個遺跡的解謎方法。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "253:10": {
+      "questID:3": 253,
+      "preRequisites:11": [
+        248
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_adjacency",
+            "Count:3": 64,
+            "tag:10": {
+              "tier:3": 7
+            },
+            "Damage:2": 12,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "鄰接核心",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "現在你有辦法製作16色核心了。\n\n這些核心透過和特定設備相鄰放置以提供特殊效果。\n\n可以在手冊內查詢到各個核心的效果以及它支援哪幾種設備。\n\n這包的核心取消了能源需求，所以你製作出來後就可以免費使用這些核心:)\n\n如果給予核心紅石訊號的話會關閉它。\n\n\n你最常用到的應該會是讓機器加速的核心。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_adjacency",
+              "Count:3": 1,
+              "tag:10": {
+                "tier:3": 0
+              },
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "254:10": {
+      "questID:3": 254,
+      "preRequisites:11": [
+        248
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "tag:10": {
+              "owners:9": {
+                "0:10": {
+                  "value:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+                }
+              }
+            },
+            "Damage:2": 36,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "流明樹",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "一個可以儲存16色流明的大型結構。\n\n搭建結構時，注意頂端流明電池的方位!!\n\n當它開始從你的流明網路中吸收流明時，側邊會長出水晶葉子。等待葉子長大後就可以吸收更多流明。\n\n儲存於其中的流明可以在需要時給流明網路中的設備提供能量。(需要額外結構)\n\n你也可以拿著法杖直接對流明樹葉吸收能量。就像你對水晶塔吸收流明能量一樣。\n\n如果你直接挖掉葉子，那麼會掉落對應的水晶碎片和強化水晶碎片。\n\n這也是一個很不錯的水晶碎片來源。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 36,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "255:10": {
+      "questID:3": 255,
+      "preRequisites:11": [
+        253
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_adjacency",
+            "Count:3": 64,
+            "tag:10": {
+              "tier:3": 0
+            },
+            "Damage:2": 15,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "注魔矩陣穩定核心",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "我需要特別提一下這個核心。\n\n它的運作原理是將注魔矩陣的穩定度「強制鎖定」在特定數值。\n\n這個數值只跟核心的等級和執行的配方有關，與其他穩定度因素完全無關。\n\n意思就是它會覆蓋掉所有你前面做的穩定因素。\n\n\n這有一個問題是: 假如你放了低階的穩定核心，但是執行了高風險注魔，\n\n那麼你的注魔矩陣很可能會因為不穩定而炸掉。\n\n如果你真的要使用它的話，建議直接做高階的穩定核心來用就好。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "256:10": {
+      "questID:3": 256,
+      "preRequisites:11": [
+        248
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 44,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "鑄造台自動合成",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Casting Delegate可以讓你實現真正意義上的自動合成。\n\n不過，要使用它，你還需要在鑄造台附近擺好Casting stand insertion relay/focus。\n\n我有在Schematica的藍圖內保存這些結構，可以參考藍圖來確認擺放的方位。\n\nFocus/Relay擺放正確後，側邊貼圖會變成彩色的。並且不會影響需要擺放特定符文來合成的配方。\n\n其中Focus必須放在鑄造台正下方。此時鑄造台的合成產物會進入Focus內，你需要使用管道從Focus內將東西抽出來。\n\n\n放置好後，你可以右鍵Delegate來選擇要下單合成那些東西。\n\n不過更常見的選法是:打開手冊或是NEI查詢到該配方頁面，點選右上的Delegate圖標後，右鍵打開Delegate介面就會直接跳轉到選擇該物品來合成。\n\n物品圖示旁的箭頭可以選擇合成數量。按住shift/ctrl時按箭頭可以調整較多數量。\n\n選擇好後，點擊左上方的綠色按鈕即可開始合成。\n\n然而，Delegate只能選擇「曾經使用這個鑄造台合成過的東西」。所以解鎖新的配方後，你需要先手動擺一次來合成，才能使用Delegate呼叫合成。\n\n\nDelegate會使用它正上方的物品欄，或是從「與它連接的AE系統」(是的，Delegate可以做為AE元件來接入網路)取物品出來合成。\n\n不過，如果用線纜連接Delegate，有時候你可能會發現線纜會斷開連接，所以建議使用方塊形式的AE元件(例如電池)連接Delegate。\n\n雖然Delegate說可以支援遞迴合成，但是它的做法有點問題...所以如果要做多步驟合成的話(例如合成水晶核心)，還是建議自己一步一步呼叫。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 44,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "tag:10": {
+                "owners:9": {
+                  "0:10": {
+                    "value:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+                  }
+                }
+              },
+              "Damage:2": 99,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_injectoraux",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ExtraUtilities:extractor_base",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ExtraUtilities:nodeUpgrade",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "257:10": {
+      "questID:3": 257,
+      "preRequisites:11": [
+        248,
+        101
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_block_portal",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "異世界",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你在發掘流明魔法的相關知識時，了解到可能存在一個充滿著16色流明的異世界。\n\n你思考了下，現在應該有辦法嘗試前往該地方了。\n\n\n※開啟異世界傳送門需要的結構藍圖已記錄在Schematica內。不過，該藍圖沒有記錄水晶的位置，你需要翻閱手冊查看水晶該擺在哪裡。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_block_portal",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "258:10": {
+      "questID:3": 258,
+      "preRequisites:11": [
+        257
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_tiered",
+            "Count:3": 64,
+            "Damage:2": 26,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "傳送門調律",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你成功進入了異世界，然而你發現你幾乎無法和這個世界互動。\n\n翻閱了一些文獻後，你知道你需要使用Proximal essence將傳送門調律後，才能與這個世界大多數東西互動。\n\n\n你在這個世界裡探索時，有時候會發現入口有一些苔蘚附著的石頭，且直通地底深處的洞穴，\n\n洞穴底部是由基岩構成的。你可以從底部的發光基岩上挖掘出Proximal essence。\n\n有低機率會掉落更純Proximal essence。\n\n將Proximal essence丟入傳送門後，就可以調律。調律狀況可以手持元素法杖查看傳送門得知。\n\n\n底部的基岩洞穴會直通虛空，跳進虛空是從這個世界回到主世界的其中一個正規途徑。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_tiered",
+              "Count:3": 1,
+              "Damage:2": 26,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "259:10": {
+      "questID:3": 259,
+      "preRequisites:11": [
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_tiered",
+            "Count:3": 1,
+            "Damage:2": 27,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Pure Proximal Essence",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "...如果你真的挖不到的話就送你一個吧"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_tiered",
+              "Count:3": 256,
+              "Damage:2": 26,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_tiered",
+              "Count:3": 1,
+              "Damage:2": 27,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "260:10": {
+      "questID:3": 260,
+      "preRequisites:11": [
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "tag:10": {
+              "color:3": 11
+            },
+            "Damage:2": 43,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "迷宮核心",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "經過調律後，你終於可以在這個異世界中探索。\n\n在第一次進入異世界時，你可能有遇到某些無法進入的地方。\n\n現在你可以試著去探索他們了。\n\n\n※完成任意一個迷宮取得迷宮核心都可以完成此任務。\n\n※迷宮難度預設是3，我有把難度下調為2，這樣如果你遇到數獨迷宮的話，應該是機率性不會有16x16數獨...應該"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "tag:10": {
+                "color:3": 11
+              },
+              "Damage:2": 43,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "261:10": {
+      "questID:3": 261,
+      "preRequisites:11": [
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:tnt",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "旁門左道其二?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你在探索這個異世界的時候，有時候可能會想說利用一些工具會比較「方便」。\n\n不過，有一些工具在這個世界裡會受到干擾，一不小心就會引發一些小事故...?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "EnderIO:blockTravelAnchor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "262:10": {
+      "questID:3": 262,
+      "preRequisites:11": [
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "appliedenergistics2:tile.BlockSkyCompass",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "元素聲納",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "這個能力可以讓你在異世界中尋找奇特的16色迷宮。\n\n施展聲納後，螢幕上會顯示迷宮對於你的相對位置。\n\n同樣的上方一樣是北方。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "tag:10": {
+                "page:8": "DIMPING"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "263:10": {
+      "questID:3": 263,
+      "preRequisites:11": [
+        258
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_bucket",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "遠陸",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可能曾經聽說過「邊境之地」這個地方。\n\n在這個異世界中似乎也有類似的地點存在，或許你可以找時間前往探險一下。\n\n\n※進入異世界後，從初始位置開始計算，大約15000~20000格後就會進入遠陸。會顯著改變生態且有各式不同的地形。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_bucket",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "264:10": {
+      "questID:3": 264,
+      "preRequisites:11": [
+        260,
+        241
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+            "Count:3": 64,
+            "Damage:2": 33,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "完美源質罐子",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你看著這個神奇的藍色寶石，\n\n心裡想想，他帶有的輻射能力，似乎就是製作完美源質罐子的最後一塊關鍵拼圖..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_crafting",
+              "Count:3": 1,
+              "Damage:2": 33,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "265:10": {
+      "questID:3": 265,
+      "preRequisites:11": [
+        260
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 9,
+            "Damage:2": 52,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "渦輪增壓",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "完成了彩能迷宮，你對這些魔法有了更深入的認識。\n\n你應該可以利用這些知識進一步強化你的水晶塔，將他們提升到另一個不同的境界。\n\n\n※需要按照手冊內的結構擺放9個焦點。周圍8個焦點的柱子必須露天，且柱子周圍必須留出一定空間。\n\n※結構擺放好後，使用法杖右擊中間底下的焦點，將開始強化。強化過程中和水晶塔直接相連的中繼器會因為過載而炸掉。\n\n※強化完成後，該水晶塔將相當於5倍的有8個能量水晶強化的水晶塔。\n\n※必須完成指定顏色的迷宮才可以增壓該顏色的水晶塔。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 9,
+              "Damage:2": 52,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "266:10": {
+      "questID:3": 266,
+      "preRequisites:11": [
+        260
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ingotCopyA",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "彩能複製者",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你現在的知識已經有能力將UU物質轉換為能夠複製更多種高階材料的alpha複製者了。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ingotCopyA",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "267:10": {
+      "questID:3": 267,
+      "preRequisites:11": [
+        268
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "arsmagica2:spellBase",
+            "Count:3": 1,
+            "tag:10": {
+              "display:10": {
+                "Name:8": "§baa"
+              }
+            },
+            "Damage:2": 35,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "終極之光可以在最終的黑暗中發掘",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "完成至少一個水晶塔增壓即可學習。\n\n目標需要能看見天空才能施展。\n\n當你二轉後，就可以解放這招的真正力量..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "tag:10": {
+                "page:8": "LASERBILITY"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "268:10": {
+      "questID:3": 268,
+      "preRequisites:11": [
+        265
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 16,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "進階能力",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "完成迷宮和渦輪增壓後，你可以學習更多進階的能力。\n\n不過，你需要完成對應顏色的迷宮(指的是學習該能力時，需要給儀式台的的流明顏色)才能解鎖該能力頁面以及學習該能力。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "269:10": {
+      "questID:3": 269,
+      "preRequisites:11": [
+        268
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "academy-craft:ac_Block_imagPhase",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "合法小地圖TP",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "定點傳送: 需要完成Kuro, Zambaru, Ykri, Asveste顏色迷宮才可學習。\n\n允許你像傳送使一樣記錄特定座標並使用能力回歸。\n\n\n但，這招還支援你的小地圖地點記錄!\n\n而由於小地圖的地點記錄是可以隨意增加和修改的，因此你實際上可以這樣搭配來做到任意維度，任意地點的傳送...\n\n\n※支援的小地圖有MapWriter, JournalMap和VoxelMap\n\n※該能力讀取的MapWriter和JournalMap記錄只限於多人伺服器中的記錄點(VoxelMap我沒用過所以不知道...)。如果你是在伺服器內遊玩，那麼可以這樣任意添加地點來傳送。如果你是在單人地圖內玩，那麼你需要手動將你在單人地圖內的記錄點檔案移動到多人遊戲記錄點的位置內。\n\n※跨維度傳送時，如果該維度沒有加載，那很可能會傳送失敗。(應該是BUG)\n\n※你可以用該能力輕易到達異世界的遠陸"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "tag:10": {
+                "page:8": "WARPLOC"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "270:10": {
+      "questID:3": 270,
+      "preRequisites:11": [
+        265
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "tag:10": {
+              "owners:9": {
+                "0:10": {
+                  "value:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
+                }
+              }
+            },
+            "Damage:2": 42,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "紀念碑修復",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你發現異世界中有一個殘破的遺跡。\n\n這個遺跡似乎和你探險過的16色迷宮有關聯。如果帶上一些材料來修復它，應該可以還原它本來的樣貌...。\n\n\n※需完成16色迷宮並取得16色迷宮核心後才能修復紀念碑。\n\n※紀念碑的結構可能會缺少一些材料(紅石磚，鑽石磚，石英磚之類的，還有中間的噴泉需要用彩能液補滿)。將這些結構補上，並於四周頂端16色符文前端擺放對應的迷宮核心，拿法杖點擊中間的核心後，即可開始修復。\n\n※迷宮核心擺放正確時，會和周圍核心以及中間核心有連接的粒子特效。所有迷宮核心必須由同一個人擺放，並由該人啟動修復儀式。\n\n※完成修復後，核心會變為Aura Locus。可以用帶有絲綢之觸的稿子挖下。\n\n※紀念碑的位置大約位在16色迷宮的中心。不過，有一個更具體的位置提示可以尋找:\n你可以觀察你的鑄造台結構，從中心檯子來看，地板上「第二圈放滿16色符文的那一圈」(也是放了8個物品檯子的那一圈)，那16個符文「相對於中心鑄造台的位置」(把中心鑄造台當作紀念碑來看)即是16色迷宮相對於紀念碑的所在方位。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 42,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -12766,54 +17441,47 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -48,
-          "id:3": 23,
-          "sizeY:3": 24
-        },
-        "10:10": {
-          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 0,
           "id:3": 36,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 0,
           "id:3": 73,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 0,
           "id:3": 84,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 0,
           "id:3": 94,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -96,
           "id:3": 125,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 48,
           "id:3": 129,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 48,
@@ -13011,121 +17679,100 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -60,
-          "id:3": 22,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
           "x:3": -48,
           "y:3": -60,
           "id:3": 37,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -60,
           "id:3": 63,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -12,
           "id:3": 79,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 36,
           "id:3": 80,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": 36,
           "id:3": 87,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 84,
           "id:3": 108,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 36,
           "id:3": 113,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 36,
           "id:3": 120,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 84,
           "id:3": 121,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": 84,
           "id:3": 124,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 36,
           "id:3": 135,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -12,
           "id:3": 136,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 84,
           "id:3": 139,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
-          "x:3": -144,
+          "x:3": -96,
           "y:3": -60,
-          "id:3": 153,
-          "sizeY:3": 24
-        },
-        "20:10": {
-          "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -12,
-          "id:3": 154,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": 36,
-          "id:3": 156,
+          "id:3": 250,
           "sizeY:3": 24
         }
       },
@@ -14345,6 +18992,13 @@
           "y:3": 120,
           "id:3": 197,
           "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": -192,
+          "id:3": 215,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 11,
@@ -14366,7 +19020,575 @@
       "order:3": 8
     },
     "12:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 204,
+          "id:3": 22,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -192,
+          "id:3": 23,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -192,
+          "id:3": 87,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": -48,
+          "id:3": 92,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 384,
+          "id:3": 101,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 240,
+          "id:3": 123,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 204,
+          "id:3": 153,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 276,
+          "id:3": 154,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 276,
+          "id:3": 156,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -228,
+          "id:3": 198,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -192,
+          "id:3": 199,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -156,
+          "id:3": 200,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -156,
+          "id:3": 201,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -156,
+          "id:3": 202,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -156,
+          "id:3": 203,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -156,
+          "id:3": 204,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -192,
+          "id:3": 205,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -156,
+          "id:3": 206,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -120,
+          "id:3": 207,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -84,
+          "id:3": 208,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -84,
+          "id:3": 209,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -84,
+          "id:3": 210,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -120,
+          "id:3": 211,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -48,
+          "id:3": 212,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -84,
+          "id:3": 213,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -12,
+          "id:3": 214,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": -12,
+          "id:3": 215,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 216,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -12,
+          "id:3": 217,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -12,
+          "id:3": 218,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -12,
+          "id:3": 219,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 24,
+          "id:3": 220,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -192,
+          "id:3": 221,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -48,
+          "id:3": 222,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 24,
+          "id:3": 223,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 24,
+          "id:3": 224,
+          "sizeY:3": 24
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 60,
+          "id:3": 225,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 24,
+          "id:3": 226,
+          "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 24,
+          "id:3": 227,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 228,
+          "sizeY:3": 24
+        },
+        "40:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 60,
+          "id:3": 229,
+          "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": -48,
+          "id:3": 230,
+          "sizeY:3": 24
+        },
+        "42:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 60,
+          "id:3": 231,
+          "sizeY:3": 24
+        },
+        "43:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 96,
+          "id:3": 232,
+          "sizeY:3": 24
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 132,
+          "id:3": 233,
+          "sizeY:3": 24
+        },
+        "45:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 132,
+          "id:3": 234,
+          "sizeY:3": 24
+        },
+        "46:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 168,
+          "id:3": 235,
+          "sizeY:3": 24
+        },
+        "47:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 204,
+          "id:3": 236,
+          "sizeY:3": 24
+        },
+        "48:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 204,
+          "id:3": 237,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -48,
+          "id:3": 238,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 240,
+          "id:3": 239,
+          "sizeY:3": 24
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 204,
+          "id:3": 240,
+          "sizeY:3": 24
+        },
+        "52:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 240,
+          "id:3": 241,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 276,
+          "id:3": 242,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 276,
+          "id:3": 243,
+          "sizeY:3": 24
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 276,
+          "id:3": 244,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": -84,
+          "id:3": 245,
+          "sizeY:3": 24
+        },
+        "57:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 276,
+          "id:3": 246,
+          "sizeY:3": 24
+        },
+        "58:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 276,
+          "id:3": 247,
+          "sizeY:3": 24
+        },
+        "59:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 312,
+          "id:3": 248,
+          "sizeY:3": 24
+        },
+        "60:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": -12,
+          "id:3": 249,
+          "sizeY:3": 24
+        },
+        "61:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 240,
+          "id:3": 251,
+          "sizeY:3": 24
+        },
+        "62:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 132,
+          "id:3": 252,
+          "sizeY:3": 24
+        },
+        "63:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 348,
+          "id:3": 253,
+          "sizeY:3": 24
+        },
+        "64:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 348,
+          "id:3": 254,
+          "sizeY:3": 24
+        },
+        "65:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 312,
+          "id:3": 255,
+          "sizeY:3": 24
+        },
+        "66:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 348,
+          "id:3": 256,
+          "sizeY:3": 24
+        },
+        "67:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 384,
+          "id:3": 257,
+          "sizeY:3": 24
+        },
+        "68:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 420,
+          "id:3": 258,
+          "sizeY:3": 24
+        },
+        "69:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 420,
+          "id:3": 259,
+          "sizeY:3": 24
+        },
+        "70:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 456,
+          "id:3": 260,
+          "sizeY:3": 24
+        },
+        "71:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 456,
+          "id:3": 261,
+          "sizeY:3": 24
+        },
+        "72:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 456,
+          "id:3": 262,
+          "sizeY:3": 24
+        },
+        "73:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 420,
+          "id:3": 263,
+          "sizeY:3": 24
+        },
+        "74:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 456,
+          "id:3": 264,
+          "sizeY:3": 24
+        },
+        "75:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 492,
+          "id:3": 265,
+          "sizeY:3": 24
+        },
+        "76:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 492,
+          "id:3": 266,
+          "sizeY:3": 24
+        },
+        "77:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 492,
+          "id:3": 267,
+          "sizeY:3": 24
+        },
+        "78:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 492,
+          "id:3": 268,
+          "sizeY:3": 24
+        },
+        "79:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 528,
+          "id:3": 269,
+          "sizeY:3": 24
+        },
+        "80:10": {
+          "sizeX:3": 48,
+          "x:3": -24,
+          "y:3": 540,
+          "id:3": 270,
+          "sizeY:3": 48
+        }
+      },
       "lineID:3": 12,
       "properties:10": {
         "betterquesting:10": {
