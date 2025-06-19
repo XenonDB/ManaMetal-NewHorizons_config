@@ -7964,7 +7964,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "拔刀劍預設使用中鍵作為部分丟出幻影劍能力的發動鍵。\n\n然而中鍵會與ChromatiCraft的「選擇能力」鍵衝突，預設也是滑鼠中鍵。\n\n\n如果你是習慣透過中鍵來使用幻影劍能力的玩家，並且想修改CC的選擇能力鍵，那麼請依照以下步驟修改：\n\n1.前往「[遊戲目錄]\\config\\Reika」中找到ChromatiCraft.cfg\n\n2.打開他並尋找「Use vanilla keybind system for ability selection GUI」這個選項\n\n3.把後面的設定改為true\n\n4.重新啟動遊戲，現在你可以透過遊戲內的按鍵設定來更改選擇能力鍵。\n\n假如你這時候設定按鍵時會造成崩潰，那你很可要從外部手動修改設定檔來更改按鍵設定：\n\n5.前往「[遊戲目錄]」中找到options.txt\n\n6.打開並尋找「key_Use Ability」這一項。\n\n7.修改冒號後面的按鍵編號。編號對應至哪顆按鍵具體可以參考Minecrat wiki。\n\n\n你問我為甚麼還要叫你們手動修改?\n\n當你在查看ChromatiCraft的設定檔的時候，你應該會發現有一些設定前面會有一個類似「[U0C6...」開頭的東西。\n\n這表示該設定是綁定玩家的，所以我對這種設定的修改無法套用到其他玩家上。\n\n我不知道為何Reika要這麼做，但既然他這樣設計了，你們就得自行修改。"
+          "desc:8": "拔刀劍預設使用中鍵作為部分丟出幻影劍能力的發動鍵。\n\n然而中鍵會與ChromatiCraft的「選擇能力」鍵衝突，預設也是滑鼠中鍵。\n\n\n如果你是習慣透過中鍵來使用幻影劍能力的玩家，並且想修改CC的選擇能力鍵，那麼請依照以下步驟修改：\n\n1.前往「[遊戲目錄]\\config\\Reika」中找到ChromatiCraft.cfg\n\n2.打開他並尋找「Use vanilla keybind system for ability selection GUI」這個選項\n\n3.把後面的設定改為true\n\n4.重新啟動遊戲，現在你可以透過遊戲內的按鍵設定來更改選擇能力鍵。\n\n假如你這時候設定按鍵時會造成崩潰，那你很可要從外部手動修改設定檔來更改按鍵設定：\n\n5.前往「[遊戲目錄]」中找到options.txt\n\n6.打開並尋找「key_Use Ability」這一項。\n\n7.修改冒號後面的按鍵編號。編號對應至哪顆按鍵具體可以參考Minecrat wiki。\n\n\n§m你問我為甚麼還要叫你們手動修改?\n\n當你在查看ChromatiCraft的設定檔的時候，你應該會發現有一些設定前面會有一個類似「[U0C6...」開頭的東西。\n\n這表示該設定是綁定玩家的，所以我對這種設定的修改無法套用到其他玩家上。\n\n我不知道為何Reika要這麼做，但既然他這樣設計了，你們就得自行修改。\n\n§r※5.0版本後，已透過Chromatifixes的設定禁用單人端選項設定。所以現在這個選項應該預設是true了。"
         }
       },
       "tasks:9": {
