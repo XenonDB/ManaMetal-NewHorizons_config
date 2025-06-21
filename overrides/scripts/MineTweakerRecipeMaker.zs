@@ -86,6 +86,7 @@ recipes.removeShaped(<abyssalcraft:ironp> * 2, [[<ore:ingotIron>], [<ore:ingotIr
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<manametalmod:ingotNetherite> * 2, [<manametalmod:ingotNetherite>, <manametalmod:ingotCopyA>]);
 recipes.addShapeless(<trivialthoughts:portable_dirt_platform>, [<manametalmod:dustMana>, <manametalmod:dustMana>, <ore:compressedDirt1x>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]);
 recipes.addShapeless(<manametalmod:ItemMedical:7>, [<minecraft:glass_bottle>, <manametalmod:RedMushroom_crop>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <TConstruct:strangeFood:1>, <minecraft:golden_apple>, <minecraft:golden_apple>]);
 recipes.addShapeless(<TConstruct:materials:35> * 9, [<TConstruct:materials:34>]);
