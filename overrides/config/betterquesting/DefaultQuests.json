@@ -313,7 +313,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "原本後期的魔法金屬BOSS會使用反魔法，針對性的奪走Avaritia和龍科技的裝備、武器來防止玩家過於強大(?)\n\n不過這兩個模組經常性的被模組包作者針對也不是一天兩天的事了，\n\n恩對，我也有針對他們。\n\n跟據敵人當前血量進行的攻擊同樣也會被減傷，所以我認為關掉BOSS的反魔法能力並沒有太多問題。\n\n§m"
+          "desc:8": "原本後期的魔法金屬BOSS會使用反魔法，針對性的奪走Avaritia和龍科技的裝備、武器來防止玩家過於強大(?)\n\n不過這兩個模組經常性的被模組包作者針對也不是一天兩天的事了，\n\n而且平衡性是可以調整的，再來跟據敵人當前血量進行的攻擊同樣也會被減傷，所以我認為關掉BOSS的反魔法能力並沒有太多問題。\n\n§m"
         }
       },
       "tasks:9": {
@@ -695,7 +695,10 @@
     },
     "14:10": {
       "questID:3": 14,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        279,
+        303
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -712,7 +715,7 @@
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "repeat_relative:1": 1,
           "name:8": "創造能量單元",
           "lockedProgress:1": 0,
@@ -926,7 +929,9 @@
     },
     "18:10": {
       "questID:3": 18,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        286
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -945,20 +950,46 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "礦石處理",
+          "name:8": "提取機",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "我讓絕大部分的礦石能夠使用大多數模組自己的礦物處理線來多倍化增產\n\n包括mekanism的5倍化流水線和RotaryCraft的抽取機\n\n有興趣的可以翻翻看NEI"
+          "desc:8": "大多數礦石走提取機生產的話可以到5倍期望值產出。\n\n如果是稀有礦石，例如綠寶石，則有高達13倍的產出。\n\n\n另外，我讓絕大多數模組礦物都能使用提取機處理。所以提取機礦物處理線會是你後期主要的礦物處理方法之一。"
         }
       },
       "tasks:9": {
         "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "19:10": {
       "questID:3": 19,
@@ -1576,7 +1607,7 @@
     "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
-        5
+        271
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1600,7 +1631,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "我有稍微限制過煉鋼法，以及讓大多數機器都需要鋼\n\n所以初期生存下需要能造鋼才能解鎖大部分工業類機器\n\n初期能用的煉鋼法有IC2的高爐、ImmersiveEngineering的高爐和魔法金屬的高爐\n\n假如你已經做出金屬還原機，也不是不能用它複製鋼\n\n其中魔法金屬的高爐有2種，兩者差別僅在於加工速度\n\n兩種高爐的結構都相同，可以參考附在客戶端的Schematica，或是魔法金屬辭典的「鍛造學」章節。\n\n\n什麼?你說這兩個高爐怎麼那麼眼熟?\n\n對，就是TFC那套。\n"
+          "desc:8": "話是這麼說，但我有稍微限制過煉鋼法，以及讓大多數機器都需要鋼\n\n所以初期生存下需要能造鋼才能解鎖大部分工業類機器\n\n初期能用的煉鋼法有IC2的高爐、ImmersiveEngineering的高爐和魔法金屬的高爐\n\n假如你已經做出金屬還原機，也不是不能用它複製鋼\n\n其中魔法金屬的高爐有2種，兩者差別僅在於加工速度\n\n兩種高爐的結構都相同，可以參考附在客戶端的Schematica，或是魔法金屬辭典的「生產系統-\u003e鍛造學-\u003e高爐煉鐵」章節。\n\n\n沒什麼，我只是想讓你們看看魔法金屬的高爐長甚麼樣子而已:)"
         }
       },
       "tasks:9": {
@@ -1855,7 +1886,9 @@
     },
     "36:10": {
       "questID:3": 36,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        273
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -8282,7 +8315,9 @@
     },
     "131:10": {
       "questID:3": 131,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        273
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -8319,6 +8354,12 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "ReactorCraft:reactorcraft_item_cleanup",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_book",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -9449,7 +9490,7 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "全知之書",
+          "name:8": "脳が、震える",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -12297,7 +12338,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "為了製作RotaryCraft中最高階的合金，你需要驅動基岩破壞器來挖掘基岩，取得基岩粉。\n\n驅動它需要至少2台微型燃氣渦輪的動力，以及至少16384Nm的力矩。\n\n\n如果你打算使用燃氣渦輪來驅動它的話，建議製作16台基岩破壞器，並平均分配動力。\n\n由於RotaryCraft機器的加速機制，在你無法將它的速度提升到1tick運作1次時，使用最低動力要求並陣列化通常是有效利用動力好辦法。\n\n※註：你只需要Chunkload破壞器本身即可。它在延伸出去挖掘基岩時，會自動加載它正在挖掘的區塊。"
+          "desc:8": "為了製作RotaryCraft中最高階的合金，你需要驅動基岩破壞器來挖掘基岩，取得基岩粉。\n\n驅動它需要至少2台微型燃氣渦輪的動力，以及至少16384Nm的力矩。\n\n\n如果你打算使用燃氣渦輪來驅動它的話，建議製作16台基岩破壞器，並平均分配動力。\n\n由於RotaryCraft機器的加速機制，在你無法將它的速度提升到1tick運作1次時，使用最低動力要求並陣列化通常是有效利用動力好辦法。\n\n※註：你只需要Chunkload破壞器本身即可。它在延伸出去挖掘基岩時，會自動加載它正在挖掘的區塊。\n\n※如果你真的想要知道讓它達到1tick運作的條件...這個條件是1048576rad/s轉速，總功率相當於256個燃氣渦輪，或是2台以水蒸氣全速運轉的高壓渦輪機。"
         }
       },
       "tasks:9": {
@@ -17371,6 +17412,2415 @@
         }
       },
       "rewards:9": {}
+    },
+    "271:10": {
+      "questID:3": 271,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_gearcraft",
+            "Count:3": 64,
+            "Damage:2": 49,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "科技與生活",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "這個章節列出了一些科技路線的建議。\n\n當然不一定要完全照這邊走，可以當作參考就可以。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "272:10": {
+      "questID:3": 272,
+      "preRequisites:11": [
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Mekanism:BasicBlock",
+            "Count:3": 64,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "Mekanism",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "是其中一個需要鋼才能解鎖的科技樹。\n\n機器能升級成工廠，一樣很好用。\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Mekanism:BasicBlock",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ImmersiveEngineering:metal",
+              "Count:3": 8,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "273:10": {
+      "questID:3": 273,
+      "preRequisites:11": [
+        271
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Mekanism:EnergyUpgrade",
+            "Count:3": 8,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "發電選擇",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "雖然說大部分發電機還在，然而因為有Reika系模組和魔法金屬的存在，\n\n大部分發電手段都顯得很弱小。\n\n所以後期的電力來源主要會使用這兩個模組的發電方法。\n\n\n\n對了，沒裝Mekanism Generator是刻意的:)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "274:10": {
+      "questID:3": 274,
+      "preRequisites:11": [
+        271
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:water_bucket",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "水資源",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可能會發現有少部分生產水的方法被我禁掉了。\n\n因為原本是打算模仿GTNH那套缺水的設計...但後來想想這樣實在太搞人，\n\n而且在沒有兩格生成無限水的設計上會讓河流那些地方變得很醜(?\n\n所以後來還是將兩格無限水的設計加回去。\n\n\n不過有些生產水的方法實在是太無腦了所以我並沒有加回來:)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "275:10": {
+      "questID:3": 275,
+      "preRequisites:11": [
+        274
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 134,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "洩洪道",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "所以說雖然你也可以製作pump去抽水，不過我會比較推薦前期用洩洪道來供水。\n\n只要將它進水的那一口放在水柱側面，就可以以50mb/t的速度生產水。\n\n這個過程不會消耗任何水方塊。\n\n如果水沒有流進洩洪道的話，嘗試將水源方塊放高一點。\n\n\n可以在洩洪道下放置Liquid Pipe，會直接輸出水。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 134,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 17,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "276:10": {
+      "questID:3": 276,
+      "preRequisites:11": [
+        275
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ThaumicExploration:everfullUrn",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "無盡之壺",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "當然啦，類似單格無限抽水的方塊也還是存在的。\n\n這個壺內會永遠保持有100mb的水。\n\n所以你的管道抽水速度越快，它就能以越快的速度提供水。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ThaumicExploration:everfullUrn",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "Mekanism:PartTransmitter",
+              "Count:3": 8,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "277:10": {
+      "questID:3": 277,
+      "preRequisites:11": [
+        273
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:RFMakeMana",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "魔法能發電",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "前期廣泛存在於世界的魔法粉讓你可以立即使用這些資源來發電。\n\n可以放入魔法粉相關物品或是接受魔法能分享石碑的能源來發電。\n\n功率100RF/t，最大輸出128RF/t，電力從上方輸出。\n\n\n然而，需要注意的是，魔法金屬所有的發電機都有電力逆流的問題，\n\n當你從發電機中輸出電力的時候，記得使用有單向輸送的電線(例如mekanism的電管)，或是讓發電機直接貼著電池的輸入面來輸出電力。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:RFMakeMana",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:blockMana",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "278:10": {
+      "questID:3": 278,
+      "preRequisites:11": [
+        277
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:RFMakeDark",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "暗能量發電",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如果你的魔法金屬科技樹已經推進到了黑魔法，那麼你就可以製作暗能量發電機。\n\n透過接收暗能量儀提供的暗能量，它可以以50萬RF/t的功率輸出及產生電力。\n\n提供暗能量的材料是有辦法簡單的自動化的，這是一個中期可以考慮的自動化發電方法。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:RFMakeDark",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:DarkMatter",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "279:10": {
+      "questID:3": 279,
+      "preRequisites:11": [
+        278
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:RFMakeAetherEnergys",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "乙太能量發電",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "透過接收乙太能量水晶的動力，這貨會以看起來像是用腳填數值的功率(1億RF/t)發電。\n\n不過，提供乙太能量的材料其實無法在沒人介入的時候完全自動化，\n\n我也沒打算設計這種產線。\n\n\n所以說你可以把這台發電機當作是應急用的大型動力來源。\n\n或是你可以算好你需要多少電力，然後投入適量的材料來發電。\n\n\n由於它恐怖的輸出，你可能需要輸導矩陣，RF Storage Battery或是Draconic Evoluation的大型能量核心才能有效儲存和分配它的電力。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:RFMakeAetherEnergys",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ingotLapuda",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "280:10": {
+      "questID:3": 280,
+      "preRequisites:11": [
+        273
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 108,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "旋轉動力發電機",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "將RotaryCraft旋轉能轉換為RF的機器。\n\n雖然也有其他旋轉能轉換的機器，但因為有mekanism電線的存在，轉換為RF會是比較通用的作法。\n\n\n這台機器最多可以接受1024力矩，8192轉速，並以520W \u003d 1RF/t的功率轉換。\n\n這相當於4台微型燃氣渦輪的動力。\n\n\n如果給它的動力超過上限，雖然不會爆炸，但是多於的動力就會浪費。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 108,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "281:10": {
+      "questID:3": 281,
+      "preRequisites:11": [
+        280
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "發電機升級",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "這個升級可以讓旋轉動力發電機可接收的力矩翻倍至2048。\n\n這時它最多可以接收相當於8台微型燃氣渦輪的動力。\n\n或是一台燃氣渦輪機可以驅動4台這樣的引擎。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "282:10": {
+      "questID:3": 282,
+      "preRequisites:11": [
+        271
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ThermalExpansion:Machine",
+            "Count:3": 1,
+            "tag:10": {
+              "RSControl:1": 0,
+              "Facing:1": 3,
+              "Energy:3": 0,
+              "SideCache:7": [
+                3,
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Level:1": 3,
+              "Augments:9": {
+                "0:10": {
+                  "Slot:3": 0,
+                  "id:2": 5284,
+                  "Count:1": 1,
+                  "Damage:2": 0
+                },
+                "1:10": {
+                  "Slot:3": 1,
+                  "id:2": 5284,
+                  "Count:1": 1,
+                  "Damage:2": 32
+                },
+                "2:10": {
+                  "Slot:3": 2,
+                  "id:2": 5284,
+                  "Count:1": 1,
+                  "Damage:2": 16
+                }
+              }
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "礦物處理",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "大部分常規礦物處理方法倍率都在約2~4倍之間。\n\n所以這邊列出了幾個建議的礦物處理線。可以參考一下。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "283:10": {
+      "questID:3": 283,
+      "preRequisites:11": [
+        282
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ImmersiveEngineering:metalMultiblock",
+            "Count:3": 64,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "電弧爐",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "我讓部分礦石走電弧爐燒製時會有最好的倍率產出。\n\n電極的耐久度也已經提高為原本的100倍，應該是不至於用壞..嗎。\n\n\n※NEI顯示電弧爐的配方中，材料數量可能會有誤。如果不確定，試著跑一次配方觀察材料消耗。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ImmersiveEngineering:graphiteElectrode",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "284:10": {
+      "questID:3": 284,
+      "preRequisites:11": [
+        282
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Mekanism:MachineBlock",
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "淨化倉",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "其實不建議做mekanism三倍化以及以後的產線。\n\n主要是三倍化需要的氧氣，透過電解水生產時無法回收氫氣(因為我沒有裝MekanismGenerator)。\n\n所以不適作為合前期的產線。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "285:10": {
+      "questID:3": 285,
+      "preRequisites:11": [
+        282
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockTileEntityOrePurifications",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "礦物純化儀",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "大部分礦物可以透過這台礦物純化儀生產出相當於8倍熔爐燒製後的產物。\n\n但代價是他的速度有點慢。\n\n這會是前期處理稀有礦石的好方法。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockTileEntityOrePurifications",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "286:10": {
+      "questID:3": 286,
+      "preRequisites:11": [
+        282
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "Reika牌研磨機",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如果你已經有基礎的機械能動力的話，你就可以使用研磨機將大多數礦物三倍化產出。\n\n研磨機產出的是礦物薄片，你需要再拿去燒製才能得到礦物產品。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "287:10": {
+      "questID:3": 287,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_misccraft",
+            "Count:3": 1,
+            "Damage:2": 15,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "提取機升級",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "使用基岩鑽頭升級提取機後，\n\n第一步必定2倍產出。\n\n\n對於常規礦石將會來到6.75倍期望值產出，稀有礦石則是13.718倍產出。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_misccraft",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "288:10": {
+      "questID:3": 288,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 15,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "水晶熔爐",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "以弱化流明作為能源來燒製物品。\n\n與常規熔爐不同的是，除了粉以及部分材料，經過水晶熔爐燒製後都可以雙倍化產出，包含礦物薄片!\n\n\n它可以額外使用Galazio流明加速。\n\n足夠的Galazio能量可以讓它的速度加速到1tick燒製一次。\n\n\n另外，燒製產物包刮彩能液，就如同用熔爐燒製東西會有經驗值一樣，\n\n記得將彩能液抽出保存。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "289:10": {
+      "questID:3": 289,
+      "preRequisites:11": [
+        134
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_block_deco",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "科技的盡頭是燒開水",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "ReactorCraft的核心概念是:\n\n從反應用的材料產生熱(可能是燃料棒本身或是周邊元件)，熱會存在於反應爐的器材(方塊)上，並且可以傳遞到鍋爐方塊上用來加熱水/ammonia來產生對應的蒸氣。\n\n蒸氣再輸送到渦輪機，推動它產生動力來使用。\n\n分裂式的反應爐(濃縮鈾、鈽、Breeder、釷)的搭建通常是會使用燃料棒、圍阻體、反射版之類的元件搭成一個平台來讓材料開始裂變並產生熱。燃料棒或是一些內含有放射性材料的元件，會隨著時間朝「東西南北」方位放出中子(這包的燃料棒不會朝上下射出中子，預設也不會)。中子撞到燃料棒或是其他元件時，可能會被吸收、轉化為熱、或是放出更多中子。產生的熱就如同上述所說，可以傳遞給鍋爐加熱水，生成蒸氣並推動渦輪機。\n\n關於反應爐的配置，你可以參考前面一個任務給你的反應爐模擬器來了解一下。\n\n前面任務給你的模擬器是靜態模擬。你當然也可以搭建一些圍阻體會有「動態變化」的反應爐來控制裂變程度。例如你可以用活塞暫時推開某些方塊或水，來暫時性的提高反應激烈程度。\n\n如果熱無法及時導出，燃料棒會有爆炸或熔毀的風險。你可以觀察各個反應爐元件(主要觀察鍋爐，因為他是散熱主要手段)的溫度是否保持在沸點附近。如果沒有，而且溫度持續升高，那麼就表示散熱不夠快，會爆炸。\n\n如果是需要熱交換器的反應爐(例如HTGR或是增值爐)，需要再觀察交換熱用的液體(二氧化碳或鈉)是否堆積成了熱流體的形式(例如熱鈉無法及時變回鈉)。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "290:10": {
+      "questID:3": 290,
+      "preRequisites:11": [
+        289
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "鈾濃縮",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如果你完成了RotaryCraft科技樹的話，那麼你就有資格搭建以濃縮鈾為基礎的核分裂反應爐了。\n\n雖然鈾還不至於有那麼強烈的輻射性，但如果你要運送核廢料，或是鈽燃料，那最好穿著全套防護服再開始處理。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_hazhelmet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_hazchest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_hazlegs",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_hazboots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "291:10": {
+      "questID:3": 291,
+      "preRequisites:11": [
+        289
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_pellet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "HTGR",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "使用TRISO燃料作為反應材料。\n\n非常安全，就算溫度衝上去了頂多就只是燃料棒變成岩漿而已。\n\n\n需要透過二氧化碳將熱傳遞出來，輸送給熱交換機後，再將熱加熱鍋爐以產生蒸氣推動渦輪。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "292:10": {
+      "questID:3": 292,
+      "preRequisites:11": [
+        290
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_breederfuel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "增殖爐",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "搭建法類似分裂反應爐，然而燃料棒必須使用增殖爐專用的燃料棒，並且需要加熱鈉來轉移產出的熱量。\n\n用熱交換器將熱鈉轉換回鈉，交換出來的熱可以用來加熱鍋爐推動渦輪機。\n\n增值燃料反應完畢後會變成鈽燃料，可以再拿去裂變反應爐內反應。\n\n前面給的反應爐模擬器也支持模擬增殖爐"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 18,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 19,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_breederfuel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_canister",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "293:10": {
+      "questID:3": 293,
+      "preRequisites:11": [
+        290
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "分裂反應爐",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以使用濃縮鈾或是鈽燃料作為反應材料。\n\n你可以使用前面任務給你的反應爐模擬器模擬一個搭法，然後自行搭建出來試跑看看。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_fuel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "294:10": {
+      "questID:3": 294,
+      "preRequisites:11": [
+        290
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 32,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "中子反射器",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "有25%機率將核分裂的中子反射回去。\n\n你的分裂反應爐會需要適當的擺放這個來增加你的燃料和中子利用率。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 32,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "295:10": {
+      "questID:3": 295,
+      "preRequisites:11": [
+        290
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_raw",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "釷反應爐",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "釷其實無法自己維持分裂反應，他通常需要搭配其他中子源才可維持足夠的反應能力。\n\n如果你有興趣搭建釷反應爐的話，你需要先製作釷燃料。\n\n可用的釷燃料是液體形式的，我在釷粉物品有寫上如何製作釷燃料的tooltip。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "296:10": {
+      "questID:3": 296,
+      "preRequisites:11": [
+        290
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:fireTrap1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "熱傳導",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "聰明的你可能會想說，是不是可以將熱從其他容易達到高溫的反應爐直接傳遞給鍋爐加熱來產生蒸氣。\n\n恩...其實每種反應爐元件能夠向誰傳遞熱，還有當前是走哪種反應類型都是會被記錄下來的。\n\n所以你如果想搭建「自定義混合型」反應爐但是發現熱傳導效率非常差，那不需要太過意外:)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "297:10": {
+      "questID:3": 297,
+      "preRequisites:11": [
+        293,
+        292
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 15,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": 1200,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "托卡馬克核融合",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 1,
+          "isSilent:1": 0,
+          "desc:8": "利用電漿在約束力場中碰撞產生大量核融合中子，撞擊外圍的中子吸收器(100%吸收核融合產生的中子，對核分裂中子無效)產生熱來加熱鍋爐。\n\n搭建的步驟非常複雜而且要很多準備工作。如果你真的很閒再去玩就好。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "command:8": "/tellraw VAR_NAME {text:\"[托卡馬克核融合搭建教學]\",clickEvent:{action:\"open_url\",value:\"https://www.youtube.com/watch?v\u003d_Jf04sM22DM\"}}"
+        }
+      }
+    },
+    "298:10": {
+      "questID:3": 298,
+      "preRequisites:11": [
+        294,
+        243
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_rift",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "量子傳送",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "WorldRift也可以傳送中子，意味著它和中子反射器都有能夠一定程度將中子束縛在反應爐內的能力。\n\n但是，WorldRift傳送中子的機率是50%!! 這比反射器反射中子的機率高的很多。\n\n所以你其實不能直接將反應爐上的中子反射器直接換成WorldRift，這很有可能會讓你的反應爐過熱爆炸。\n\n由於模擬器沒有模擬WorldRift的選項，你需要自行測試有WorldRift的反應爐。\n\n\n當然，別忘記WorldRift也可以連接蒸氣管線，甚至是核融合用的電漿管路。\n\n這可以大幅簡化你的配線。並且透過WorldRift傳送蒸氣的話，蒸氣壓力反應到渦輪機的路徑更短，速度更快，理論上對於推動高壓渦輪幫助會很大。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "299:10": {
+      "questID:3": 299,
+      "preRequisites:11": [
+        289
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ExtraUtilities:trashcan",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "核廢料處理",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "我知道你們在想甚麼，\n\n固體核廢料的處理方法百百種，而且ReactorCraft的核廢料有點...難纏。\n\n所以我相信大多數人會選擇直接用其他模組的垃圾桶處理核廢料:)\n\n\n右邊列出的所有垃圾桶挑一個你喜歡的用就好。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 21,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ExtraUtilities:trashcan",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "appliedenergistics2:tile.BlockCondenser",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "trivialthoughts:golden_trash_can",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "300:10": {
+      "questID:3": 300,
+      "preRequisites:11": [
+        289
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "渦輪機",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "當鍋爐內的水滾了後，你就可以接上蒸氣管線將它輸送給渦輪機使用。\n\n普通的渦輪機是使用從蒸氣出口出來的「蒸氣方塊」運作，且最多可以延長5格。\n\n給予蒸氣出口紅石訊號的話，會停止輸出蒸氣方塊。\n\n蒸氣方塊須從渦輪機的最後方底下進入，然後會從動力輸出那格的渦輪下方輸出蒸氣。\n\n如果你是用水蒸氣推動渦輪，那麼你大可以把那格直接堵起來不要回收水。\n\n如果你是用ammonia推動渦輪的話，最好看一下手冊要怎麼回收ammonia。\n\n要注意，渦輪機運作時需要消耗潤滑油。\n\n\n以水蒸氣全速運轉的普通渦輪可以輸出約950MW的動力，相當於約180萬RF/t"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 5,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "301:10": {
+      "questID:3": 301,
+      "preRequisites:11": [
+        300
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 7,
+            "Damage:2": 36,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "高壓渦輪機",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "比普通渦輪機效率更高，但造價也更昂貴的渦輪。\n\n與普通渦輪機不同，它可以直接連接蒸氣管路來使用蒸氣，不需要使用「蒸氣方塊」來推動。\n\n但是，要推動高壓渦輪機，需要有持續足夠的蒸汽輸入，否則它無法運轉。\n\n高壓渦輪機運作時同樣需要潤滑油。\n\n高壓渦輪的具體搭建法，可以參考手冊的Structures頁面，往左翻閱查看即可找到所需耗材和結構。\n\n\n使用水蒸氣全速運轉的高壓渦輪機，需要相當於8倍全速運轉普通渦輪機的蒸氣量。\n\n然而它的動力產出是65536Nm x 131072rad/s，相當於1651萬RF/t\n\n或是9倍以水蒸氣驅動的普通渦輪機的輸出。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 7,
+              "Damage:2": 36,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "302:10": {
+      "questID:3": 302,
+      "preRequisites:11": [
+        300
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 35,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "渦輪機偵測",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "將它放在渦輪機或高壓渦輪機下方，並連接比較器，就可以檢測渦輪機的轉速來輸出紅石訊號。\n\n這或許是一個不錯的檢測蒸氣消耗量的辦法。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 35,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "303:10": {
+      "questID:3": 303,
+      "preRequisites:11": [
+        300
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 33,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "渦輪發電機",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "渦輪機或高壓渦輪機專用的發電機。可以將渦輪機的動力直接轉換成RF/EU/Electricraft電力。\n\n轉換成RF的比率同樣是520W \u003d 1RF/t\n\n使用螺絲起子蹲下右鍵發電機來改變輸出的電力種類。\n\n發電機沒有輸入限制，但是，它必須直接連接著渦輪機，才能正常發電。\n\n渦輪機上方的蒸氣出口是給普通渦輪機用的。經過普通渦輪機的蒸氣方塊會從該出口出來。\n\n\n※注意:\n\n擺放發電機時，中間的轉子結構必須最後放置，發電機才會成形。\n\n具體的擺放順序是:\n\n先擺放周圍其他結構\n\n-\u003e面向發電機，擺放發電機方塊(放下去後呈現紅色十字那個)\n\n-\u003e到發電機另一邊，面向發電機，擺放GeneratorRotorCore(你可能需要拆掉一點方塊進去擺放RotorCore)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ReactorCraft:reactorcraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 33,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ReactorCraft:reactorcraft_block_generatormulti",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "304:10": {
+      "questID:3": 304,
+      "preRequisites:11": [
+        273,
+        212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 1,
+            "Damage:2": 48,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "RF發散器",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "RF發散器可以接收RF電力並直接遠距離傳輸到它下方的各式機器內。\n\n原則上並沒有傳輸上限。\n\n但要注意:供電給發散器的線路最好保持在它的上方，否則可能會造成短路，影響RF傳輸效率。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 48,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "305:10": {
+      "questID:3": 305,
+      "preRequisites:11": [
+        282
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 109,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "靜磁引擎",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "既然有將旋轉能轉換為RF的機器，那同樣也有將RF轉換回旋轉能的機器。\n\n但是，這個過程受到比較多限制，你不能單靠這個引擎去推進RotaryCraft的進度。\n\n因為要將這個引擎的輸出提升上去，你需要依序給它加裝升級，而這些升級都必須要你的RotaryCraft科技樹推進到一定程度後才能製作。\n\n並且引擎運作時還需要冷卻，否則會爆炸。\n\n\n最後，就算你將這個引擎完全升級，它的轉換效率仍然比 520W \u003d 1RF/t差，所以並不會配出永動機。\n\n\n沒有升級的引擎只相當於...2個DC引擎"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 109,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ExpCrystal1",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "306:10": {
+      "questID:3": 306,
+      "preRequisites:11": [
+        305
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 118,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "液態氮",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "假如你真的想用靜磁引擎來做為動力的話，那麼你需要液態氮來冷卻它。除非你在足夠低溫的生態系使用它，否則引擎運作產生的溫度最終會讓它自己爆炸。\n\n液態氮可以使用冷卻單元來製作，它的最低功率需求是兩台蒸汽引擎，並給予2048Nm力矩。\n\n\n但，要注意的是，冷卻單元是RotaryCraft機器中，少數幾個可以優先提供高力矩來增產的機器。\n\n當你提供它基礎力矩需求時，每個批次生產100mb液態氮。\n\n在這基礎上，提供力矩x2時，每個批次液態氮產出將x4。單次最多生產2000mb液態氮。\n\n如果你的動力還不太足夠，你可以提供它8192Nm，這樣每批次生產1600mb液態氮。\n\n當你動力足夠後，你可以給它10240Nm力矩，這可以讓它單批次生產達到2000mb液態氮。\n\n\n當你有非常足夠的動力時，再考慮去提升轉速來加速生產。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 110,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 118,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bucket",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "307:10": {
+      "questID:3": 307,
+      "preRequisites:11": [
+        306
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "引擎升級1階",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "升級後，相當於一個蒸汽引擎。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "308:10": {
+      "questID:3": 308,
+      "preRequisites:11": [
+        307
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "引擎升級2階",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "升級後，相當於一個交流電引擎，或是兩個汽油引擎。\n\n你需要用磁化機將這個升級磁化到720mT才可以安裝。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "309:10": {
+      "questID:3": 309,
+      "preRequisites:11": [
+        308
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "引擎升級3階",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "升級後，相當於2個水車，或是半台微型燃氣渦輪。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "310:10": {
+      "questID:3": 310,
+      "preRequisites:11": [
+        309
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "引擎升級4階",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "升級後，相當於4個微型燃氣渦輪。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "311:10": {
+      "questID:3": 311,
+      "preRequisites:11": [
+        310
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "引擎升級5階",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "升級後，相當於一個燃氣渦輪。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "312:10": {
+      "questID:3": 312,
+      "preRequisites:11": [
+        311
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "repeat_relative:1": 1,
+          "name:8": "引擎最終升級",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "提升RF轉換為旋轉能的效率，但仍然比旋轉能轉換成RF還差。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_upgrade",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_compacts",
+              "Count:3": 8,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "313:10": {
+      "questID:3": 313,
+      "preRequisites:11": [
+        131
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ReactorCraft:reactorcraft_item_goggles",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "觀察中子與輻射",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "前面有提到，中子和輻射是實體，\n\n所以你可以按下F3+B觀察實體碰撞箱來看見中子和輻射。\n\n雖然ReactorCraft有一個可以看到輻射的眼鏡，但它沒有配方，所以就當作它不存在吧。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -17406,82 +19856,61 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": 0,
-          "id:3": 14,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
           "x:3": -132,
           "y:3": -48,
           "id:3": 15,
           "sizeY:3": 24
         },
-        "6:10": {
-          "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -48,
-          "id:3": 18,
-          "sizeY:3": 24
-        },
-        "7:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -48,
           "id:3": 19,
           "sizeY:3": 24
         },
-        "8:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 20,
           "sizeY:3": 24
         },
-        "9:10": {
-          "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": 0,
-          "id:3": 36,
-          "sizeY:3": 24
-        },
-        "10:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 0,
           "id:3": 73,
           "sizeY:3": 24
         },
-        "11:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 0,
           "id:3": 84,
           "sizeY:3": 24
         },
-        "12:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 0,
           "id:3": 94,
           "sizeY:3": 24
         },
-        "13:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -96,
           "id:3": 125,
           "sizeY:3": 24
         },
-        "14:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 48,
           "id:3": 129,
           "sizeY:3": 24
         },
-        "15:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 48,
@@ -17672,103 +20101,96 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -60,
-          "id:3": 21,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
           "x:3": -48,
           "y:3": -60,
           "id:3": 37,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -60,
           "id:3": 63,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -12,
           "id:3": 79,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 36,
           "id:3": 80,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": 36,
           "id:3": 87,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 84,
           "id:3": 108,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 36,
           "id:3": 113,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 36,
           "id:3": 120,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 84,
           "id:3": 121,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": 84,
           "id:3": 124,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 36,
           "id:3": 135,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -12,
           "id:3": 136,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 84,
           "id:3": 139,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": -60,
@@ -18575,40 +20997,26 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -48,
-          "y:3": 36,
-          "id:3": 131,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 24,
           "x:3": 48,
           "y:3": 36,
           "id:3": 132,
           "sizeY:3": 24
         },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 36,
-          "id:3": 134,
-          "sizeY:3": 24
-        },
-        "9:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 36,
           "id:3": 147,
           "sizeY:3": 24
         },
-        "10:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 36,
           "id:3": 150,
           "sizeY:3": 24
         },
-        "11:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 84,
@@ -19163,21 +21571,21 @@
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": -48,
+          "x:3": 24,
           "y:3": -84,
           "id:3": 209,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": -84,
+          "x:3": -48,
           "y:3": -84,
           "id:3": 210,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": -120,
+          "x:3": -84,
           "y:3": -120,
           "id:3": 211,
           "sizeY:3": 24
@@ -19191,7 +21599,7 @@
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": -120,
+          "x:3": -84,
           "y:3": -84,
           "id:3": 213,
           "sizeY:3": 24
@@ -19415,7 +21823,7 @@
         },
         "56:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": -84,
           "id:3": 245,
           "sizeY:3": 24
@@ -19457,8 +21865,8 @@
         },
         "62:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 132,
+          "x:3": 96,
+          "y:3": -84,
           "id:3": 252,
           "sizeY:3": 24
         },
@@ -19608,7 +22016,365 @@
       "order:3": 9
     },
     "13:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -324,
+          "y:3": 48,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -12,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -84,
+          "id:3": 21,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 30,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -48,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 24,
+          "id:3": 131,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": 48,
+          "id:3": 134,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": 120,
+          "id:3": 243,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 271,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 60,
+          "id:3": 272,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -12,
+          "id:3": 273,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -48,
+          "id:3": 274,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -84,
+          "id:3": 275,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -120,
+          "id:3": 276,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -72,
+          "id:3": 277,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -72,
+          "id:3": 278,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -216,
+          "y:3": -72,
+          "id:3": 279,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -24,
+          "id:3": 280,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -24,
+          "id:3": 281,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -12,
+          "id:3": 282,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -48,
+          "id:3": 283,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -48,
+          "id:3": 284,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 24,
+          "id:3": 285,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -12,
+          "id:3": 286,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -48,
+          "id:3": 287,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 24,
+          "id:3": 288,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 48,
+          "id:3": 289,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 48,
+          "id:3": 290,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 12,
+          "id:3": 291,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 84,
+          "id:3": 292,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 48,
+          "id:3": 293,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 84,
+          "id:3": 294,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 120,
+          "id:3": 295,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": 12,
+          "id:3": 296,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": -240,
+          "y:3": 84,
+          "id:3": 297,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": 84,
+          "id:3": 298,
+          "sizeY:3": 24
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 12,
+          "id:3": 299,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 84,
+          "id:3": 300,
+          "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 120,
+          "id:3": 301,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 120,
+          "id:3": 302,
+          "sizeY:3": 24
+        },
+        "40:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 156,
+          "id:3": 303,
+          "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": 12,
+          "id:3": 304,
+          "sizeY:3": 24
+        },
+        "42:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 24,
+          "id:3": 305,
+          "sizeY:3": 24
+        },
+        "43:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 60,
+          "id:3": 306,
+          "sizeY:3": 24
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 60,
+          "id:3": 307,
+          "sizeY:3": 24
+        },
+        "45:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 60,
+          "id:3": 308,
+          "sizeY:3": 24
+        },
+        "46:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 96,
+          "id:3": 309,
+          "sizeY:3": 24
+        },
+        "47:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 96,
+          "id:3": 310,
+          "sizeY:3": 24
+        },
+        "48:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 96,
+          "id:3": 311,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 132,
+          "id:3": 312,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 60,
+          "id:3": 313,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 13,
       "properties:10": {
         "betterquesting:10": {
@@ -19662,7 +22428,7 @@
       "home_image:8": "mmnh:textures/gui/banner.png",
       "party_enable:1": 1,
       "pack_version:3": 300,
-      "editMode:1": 0,
+      "editMode:1": 1,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
