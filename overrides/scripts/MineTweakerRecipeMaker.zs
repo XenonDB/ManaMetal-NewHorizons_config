@@ -110,9 +110,9 @@ recipes.addShapeless(<manametalmod:steelDoublePlate>, [<ore:plateSteel>, <ore:pl
 recipes.addShapeless(<Thaumcraft:ItemNugget:2> * 9, [<ore:ingotTin>]);
 recipes.addShapeless(<manametalmod:ingotMana>, [<RotaryCraft:rotarycraft_item_modingots:82>]);
 recipes.addShapeless(<minecraft:iron_ore>, [<ImmersiveEngineering:tool>, <ore:orePoorIron>, <ore:orePoorIron>, <ore:orePoorIron>]);
-recipes.addShapeless(<ThermalFoundation:Ore:3>, [<ImmersiveEngineering:tool>, <ore:orePoorLead>, <ore:orePoorLead>, <ore:orePoorLead>]);
-recipes.addShapeless(<ThermalFoundation:Ore:1>, [<ImmersiveEngineering:tool>, <ore:orePoorTin>, <ore:orePoorTin>, <ore:orePoorTin>]);
-recipes.addShapeless(<ThermalFoundation:Ore>, [<ImmersiveEngineering:tool>, <ore:orePoorCopper>, <ore:orePoorCopper>, <ore:orePoorCopper>]);
+recipes.addShapeless(<ImmersiveEngineering:ore:2>, [<ImmersiveEngineering:tool>, <ore:orePoorLead>, <ore:orePoorLead>, <ore:orePoorLead>]);
+recipes.addShapeless(<IC2:blockOreTin>, [<ImmersiveEngineering:tool>, <ore:orePoorTin>, <ore:orePoorTin>, <ore:orePoorTin>]);
+recipes.addShapeless(<ImmersiveEngineering:ore>, [<ImmersiveEngineering:tool>, <ore:orePoorCopper>, <ore:orePoorCopper>, <ore:orePoorCopper>]);
 recipes.addShapeless(<abyssalcraft:shadowgem>, [<abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>, <abyssalcraft:shadowshard>]);
 recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 

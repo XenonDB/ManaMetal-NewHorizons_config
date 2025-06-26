@@ -52,9 +52,9 @@ mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <ore:dustSteel>);
 
 //------------------------------------------------------------------------
 //poor ore
-mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:Ore> * 2, <manametalmod:orePoorCopper> * 3, <minecraft:diamond_block>, 512);
-mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:Ore:1> * 2, <manametalmod:orePoorTin> * 3, <minecraft:diamond_block>, 512);
-mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:Ore:3> * 2, <manametalmod:orePoorLead> * 3, <minecraft:diamond_block>, 512);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:ore> * 2, <manametalmod:orePoorCopper> * 3, <minecraft:diamond_block>, 512);
+mods.immersiveengineering.MetalPress.addRecipe(<IC2:blockOreTin> * 2, <manametalmod:orePoorTin> * 3, <minecraft:diamond_block>, 512);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:ore:2> * 2, <manametalmod:orePoorLead> * 3, <minecraft:diamond_block>, 512);
 mods.immersiveengineering.MetalPress.addRecipe(<minecraft:iron_ore> * 2, <manametalmod:orePoorIron> * 3, <minecraft:diamond_block>, 512);
 
 //------------------------------------------------------------------------
