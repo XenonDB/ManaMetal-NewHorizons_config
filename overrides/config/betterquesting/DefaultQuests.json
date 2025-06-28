@@ -760,7 +760,9 @@
     },
     "15:10": {
       "questID:3": 15,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        314
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -783,7 +785,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "§m雖然魔法金屬有給ImmersiveEngineering的電磁砲和左輪強化過\n\n但考慮到它們的使用代價，我覺得還有待加強\n\n所以我從設定擋中給所有左輪的子彈傷害改高為3.5倍，而電磁砲的傷害調整為12倍。\n\n§r好吧，原本強化的設定好像移除了，\n\n於是我決定在之前調整的基礎上，把子彈傷害再強化14倍，電磁炮則強化24倍。"
+          "desc:8": "§m雖然魔法金屬有給ImmersiveEngineering的電磁砲和左輪強化過\n\n但考慮到它們的使用代價，我覺得還有待加強\n\n所以我從設定擋中給所有左輪的子彈傷害改高為3.5倍，而電磁砲的傷害調整為12倍。\n\n§r好吧，原本強化的設定好像移除了，\n\n於是我決定在之前調整的基礎上，把子彈傷害再強化14倍，電磁炮則強化24倍。\n\n\n※由於取消了受傷無敵時間，因此有短時間內造成多段傷害特性(例如霰彈)的攻擊可能會強不少。"
         }
       },
       "tasks:9": {
@@ -1261,7 +1263,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -1320,7 +1322,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -1379,7 +1381,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -1438,7 +1440,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -6009,7 +6011,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "當你即將死亡時，M3會讓你進入重傷狀態而不會死亡。\n\n這個狀態下，你可以透過部分回復手段，或是由其他玩家餵你藥水直到HP全滿後，就可以再次行動。\n\n但這個系統和某些抗死能力的作用下有些BUG，並且可能會發生有點惱人、或達成真正意義上的「不死」效果。\n\n\n假如你遇到上述狀況而討厭這個系統的話，可以去設定檔中將NearDeath設為false。"
+          "desc:8": "當你即將死亡時，M3會讓你進入重傷狀態而不會死亡。\n\n這個狀態下，你可以透過部分回復手段，或是由其他玩家餵你藥水直到HP全滿後，就可以再次行動。\n\n但這個系統和某些抗死能力(例如吸血鬼血統)的作用下有些BUG，並且可能會發生有點惱人、或達成真正意義上的「不死」效果。\n\n\n假如你遇到上述狀況而討厭這個系統的話，可以去設定檔中將NearDeath設為false。"
         }
       },
       "tasks:9": {
@@ -6316,7 +6318,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -6373,7 +6375,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -6663,7 +6665,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -7058,7 +7060,7 @@
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "repeatTime:3": -1,
+          "repeatTime:3": 1200,
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
@@ -19821,6 +19823,1529 @@
         }
       },
       "rewards:9": {}
+    },
+    "314:10": {
+      "questID:3": 314,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "customnpcs:npcWeaponRack",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "戰鬥相關系統調整",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "有些戰鬥相關的系統我有調整、優化或強化過，以適應這包的模組搭配。\n\n這些調整是基於難度5的狀況調整的，所以如果調高了難度...那你要自己小心。\n\n\n有些可能會有用的戰鬥相關物品我也會列在這邊，參考一下就好。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "315:10": {
+      "questID:3": 315,
+      "preRequisites:11": [
+        314
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockDungeonItem",
+            "Count:3": 64,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "可在地下城中使用的物品",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "魔法金屬的地下成維度中，只能使用與戰鬥相關和部分物品，其他的道具則會被限制使用(左鍵、右鍵)。\n\n對於其他模組的物品，如果你在它們的「物品類型」那一行描述中有看到「武器」，那麼這是預設允許在地下城中使用的。\n\n如果沒有，那麼很可能預設無法使用。\n\n\n我給某一部分預設無法使用的物品，透過trivialthoughts設定檔的允許他們使用。\n\n這些物品的工具提示中會有橘色的可以在地下城中使用的說明。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "316:10": {
+      "questID:3": 316,
+      "preRequisites:11": [
+        314
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "academy-craft:ac_Item_crystalPure",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "科學與魔法交織之時",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "AcademyCraft是受「科學超電磁炮」系列世界觀啟發的模組。\n\n你可以利用它提供的機器和資源來學習和開發特定超能力。\n\n使用手持式能力開發機或是座艙型的開發機，給予電力後，輸入指令即可開發並學習超能力。\n\n如果你身上持有特定的能力誘導因子，則會消耗該因子並讓你成為該種能力者。否則你會隨機成為4種能力者之一\n\n\n預設設定下，要練成Lv5超能力者需要花費不少時間。\n\n我有調整過超能力練級曲線和能力強度。這樣應該可以花費合理的時間達到超能力者來玩你想玩的組合。\n\n\n畢竟本包的重點不是在這模組上，所以我會盡量讓你們在非重點模組上的進展快一點。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "academy-craft:rf_input",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "academy-craft:ac_Block_imagFusor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "academy-craft:ac_Block_developerNormal",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "academy-craft:ac_Block_nodeBasic",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "academy-craft:ac_Item_inductionFactor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "academy-craft:ac_Item_inductionFactor",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "academy-craft:ac_Item_inductionFactor",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "academy-craft:ac_Item_inductionFactor",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "317:10": {
+      "questID:3": 317,
+      "preRequisites:11": [
+        316
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "academy-craft:ac_Item_terminalInstaller",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "安裝數據終端",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可以製作數據終端安裝器並為你安裝數據終端來使用各式功能。\n\n右鍵後，就可以成功安裝終端。\n\n預設按下Alt開啟和關閉終端介面。\n\n\n這主要可以允許你在遊戲內調整施展能力的快捷鍵。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "academy-craft:ac_Item_terminalInstaller",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "318:10": {
+      "questID:3": 318,
+      "preRequisites:11": [
+        316
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "academy-craft:ac_Item_magneticCoil",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "改變能力",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "如果你不喜歡你當前的能力系統，那麼你可以使用高壓增幅線圈改變能力。\n\n但是，還有額外幾個條件:\n\n1.你必須要是至少Lv3能力者\n\n2.身上持有你想改變成該能力的誘導因子\n\n3.拿著高壓磁增幅線圈右鍵高級能力開發機"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "academy-craft:ac_Item_magneticCoil",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "319:10": {
+      "questID:3": 319,
+      "preRequisites:11": [
+        314
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:master_healing_wand",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "收集魔法的旅行",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Electroblob\u0027s Wizardry和Ars Magica 2的法術強度我也有調整過，同時Wizardry的法術書可以不須經過探索和研究的過程即直接是明文。\n\n你可以旅行並蒐集你有興趣的法術來使用。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:wizard_handbook",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "320:10": {
+      "questID:3": 320,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "一般攻擊魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "舊稱「殺人魔法」"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "321:10": {
+      "questID:3": 321,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "服從魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "阿烏拉，自盡吧"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 65,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "322:10": {
+      "questID:3": 322,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "颳起龍捲風的魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "年輕人血氣方剛的，真不像話"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 73,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "323:10": {
+      "questID:3": 323,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "吸引萬物的魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "破綻很大喔"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 105,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "324:10": {
+      "questID:3": 324,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "用火圍成結界的魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "燃燒軍團!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 49,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "325:10": {
+      "questID:3": 325,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "降下雷暴的魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "雷霆萬鈞!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 97,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "326:10": {
+      "questID:3": 326,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "讓身體變透明的魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "虛無型態!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 90,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "327:10": {
+      "questID:3": 327,
+      "preRequisites:11": [
+        319
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "wizardry:spell_book",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "颳起雪花的魔法",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "暴風雪!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "wizardry:spell_book",
+              "Count:3": 1,
+              "Damage:2": 54,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "wizardry:magic_crystal",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "328:10": {
+      "questID:3": 328,
+      "preRequisites:11": [
+        314
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_gravelgun",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "礫石槍",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "需要將彈簧放進充能器儲存動能後，在RotaryCraft的工作臺與礫石槍合成補充動力。\n\n單次傷害不錯，而且沒有彈道的特性可以讓你很輕易的指誰打誰。\n\n可以在地下城中使用。\n\n儲存能量達到一定數值以上時，攻擊帶有強制扣血效果(但不會扣至1以下)。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_gravelgun",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_spring",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:gravel",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "329:10": {
+      "questID:3": 329,
+      "preRequisites:11": [
+        314
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "EnderIO:blockReinforcedObsidian",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "製造「有利的環境」",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "為何凋零在大多數模組包中會被當成小垃圾來刷的原因就是因為，我們可以在戰鬥前很輕易地創造有利於玩家的環境再開始和凋零戰鬥。\n\n前期大多數的BOSS也可以這樣玩。\n\n不過，對於中後期的BOSS，就換成它們處在「有利的環境」內了。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "330:10": {
+      "questID:3": 330,
+      "preRequisites:11": [
+        329
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:tower1",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "防禦塔",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "基本的防禦塔。其他變種可以參考魔法金屬辭典。\n\n每個防禦塔運作都需要消耗魔法能。\n\n可能防小怪還可以用，但拿來殺BOSS應該就很無力了。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:tower1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:dustMana",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "331:10": {
+      "questID:3": 331,
+      "preRequisites:11": [
+        329
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_placer",
+            "Count:3": 64,
+            "Damage:2": 53,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "流明炮塔",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "簡單便宜的電人小可愛。\n\n可以在炮塔底下擺放特定符文來提供特別升級效果。最多垂直往下擺4個。\n\n具體效果可以參考手冊的流明炮塔頁面。\n\n如果炮塔底下擺放彩色符文，則會同時有所有升級符文的效果。\n\n\n但是，這個炮塔打死的生物並不會掉落大多數本來會掉的戰利品。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_placer",
+              "Count:3": 1,
+              "Damage:2": 53,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "332:10": {
+      "questID:3": 332,
+      "preRequisites:11": [
+        329
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 64,
+            "Damage:2": 44,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "音波武器",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可在GUI中調整輸出音量，最大值取決於輸入的力矩。\n\n音量越大，越靠近該機器，會產生越多種負面效果，達到一定音量以上後甚至可以產生致命傷害!\n\n只需要穿戴任一頂頭盔即可完全免疫該攻擊。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 44,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count:3": 16,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "333:10": {
+      "questID:3": 333,
+      "preRequisites:11": [
+        329
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 64,
+            "Damage:2": 133,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "南無加特林菩薩",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "六根清淨貧鈾彈\n\n一息三千六百轉\n\n大慈大悲渡世人"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 133,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_borecraft",
+              "Count:3": 64,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count:3": 16,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "334:10": {
+      "questID:3": 334,
+      "preRequisites:11": [
+        333
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 64,
+            "Damage:2": 53,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Only my Railgun RotaryCraft ver.",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "該說不說\n\n其中一種規格的軌道炮彈藥還真的可以用貧鈾製作\n\n\n※軌道炮的所有攻擊附帶效果消除"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 53,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_railgun",
+              "Count:3": 16,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_railgun",
+              "Count:3": 16,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "335:10": {
+      "questID:3": 335,
+      "preRequisites:11": [
+        329
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 64,
+            "Damage:2": 80,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "電磁脈衝",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "額...它主要的殺傷目標是機器。\n\n不過，如果你能好好利用它的特性，是可以找出一些神奇的用途。\n\n\n※可接收RF之類的方塊(含WorldRift)受脈衝影響後可能會無法運作或壞掉。該種情況要直到重啟伺服器才會消除。\n\n※Thaumcraft的節點也會受脈衝影響。節點受脈衝影響後，會增加大量特定要素(機械)，並根據節點當前的屬性，按固定機率改變節點的屬性。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
+              "Count:3": 1,
+              "Damage:2": 80,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count:3": 16,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "336:10": {
+      "questID:3": 336,
+      "preRequisites:11": [
+        314
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "witchery:wolftoken",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "吸血鬼/狼人血統",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可以透過Witchery中的任務或儀式給自己賦予狼人或吸血鬼血統來獲得額外能力。\n\n就經驗上來看，狼人體質較適合BOSS戰，而吸血鬼適合刷小怪虐菜。\n\n\n不過在這代價下，他們都有各自的弱點。小心不要讓自己惹上更多麻煩。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "337:10": {
+      "questID:3": 337,
+      "preRequisites:11": [
+        336
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "witchery:wolfaltar",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "狼人血統",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可以找到有狼人血統的村民，在滿月時等它變身攻擊你後來「感染」狼人血統。\n\n不過，比較實際的作法是透過圓環法陣施加狼人詛咒來獲得1級狼人血統。\n\n獲得血統後，你可以製作狼人雕像，向它接取任務來提升狼人等級。最高可以到10級。\n\n如果你不喜歡狼人血統，可以透過圓環法陣儀式清除這個詛咒。\n\n\n※身上帶著護符可以保證不會在滿月時被強制變身成狼人，且可以自由選擇要變成狼或是狼人。\n\n※然而，無論是變身成哪種型態，都無法穿戴盔甲，並且狼人型態無法手持除了護符以外的東西。\n\n※狼或狼人防禦面體質有強制鎖傷，且面對BOSS攻擊也有效，只有極少部分傷害或專門對付狼人的武器或是狼/狼人的攻擊可以打穿這層防禦。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "witchery:wolfaltar",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "witchery:mooncharm",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "trivialthoughts:jumpjumpwolf",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "338:10": {
+      "questID:3": 338,
+      "preRequisites:11": [
+        336
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "witchery:ingredient",
+            "Count:3": 1,
+            "Damage:2": 164,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "我不做人啦!JoJo!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "你可以根據永生者觀察日記中的提示來獲得以及提升吸血鬼血統等級，最高10級。\n\n要注意的是，你必須首先翻閱過含有該提示的觀察日記，你才能完成任務並提升至該吸血鬼等級。\n\n所以建議你直接做一本填滿頁面的書來翻閱。\n\n如果你不喜歡吸血鬼血統，可以透過圓環法陣消除詛咒或是透過莉莉絲消除血統。\n\n\n※不滿5級的吸血鬼一受到陽光照射就會立刻死亡。如果你家附近沒有太多遮蔽物，那最好多考慮或準備一下。\n\n※吸血鬼受到絕大多數傷害都不會死亡，然而BOSS的攻擊、狼/狼人、燒傷/火傷可以令這層防禦無效。\n\n※吸血鬼在有抗火藥效的情況下仍然會燒傷(著火時會受到特殊燒傷)。然而某些模組的工具可以令吸血鬼完全免疫火傷...有興趣可以去尋找看看。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "witchery:vampirebook",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "witchery:ingredient",
+              "Count:3": 8,
+              "Damage:2": 163,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -19856,61 +21381,54 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -132,
-          "y:3": -48,
-          "id:3": 15,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
           "x:3": -36,
           "y:3": -48,
           "id:3": 19,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 20,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 0,
           "id:3": 73,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 0,
           "id:3": 84,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 0,
           "id:3": 94,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -96,
           "id:3": 125,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 48,
           "id:3": 129,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 48,
@@ -20956,7 +22474,7 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": -48,
-          "y:3": 84,
+          "y:3": 36,
           "id:3": 0,
           "sizeY:3": 24
         },
@@ -21019,7 +22537,7 @@
         "9:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 84,
+          "y:3": 36,
           "id:3": 155,
           "sizeY:3": 24
         }
@@ -22394,12 +23912,195 @@
       "order:3": 10
     },
     "14:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -60,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 314,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 36,
+          "id:3": 315,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -60,
+          "id:3": 316,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -108,
+          "id:3": 317,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -60,
+          "id:3": 318,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 36,
+          "x:3": 84,
+          "y:3": 24,
+          "id:3": 319,
+          "sizeY:3": 36
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -24,
+          "id:3": 320,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -24,
+          "id:3": 321,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 12,
+          "id:3": 322,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 48,
+          "id:3": 323,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 84,
+          "id:3": 324,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 84,
+          "id:3": 325,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 48,
+          "id:3": 326,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 12,
+          "id:3": 327,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 36,
+          "id:3": 328,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -12,
+          "id:3": 329,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -60,
+          "id:3": 330,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 36,
+          "id:3": 331,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": 36,
+          "id:3": 332,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -60,
+          "id:3": 333,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -60,
+          "id:3": 334,
+          "sizeY:3": 24
+        },
+        "22:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -12,
+          "id:3": 335,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 84,
+          "id:3": 336,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 84,
+          "id:3": 337,
+          "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 84,
+          "id:3": 338,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 14,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "外鄉人的武力",
+          "name:8": "武器庫",
           "icon:10": {
             "id:8": "ImmersiveEngineering:revolver",
             "Count:3": 1,
@@ -22428,7 +24129,7 @@
       "home_image:8": "mmnh:textures/gui/banner.png",
       "party_enable:1": 1,
       "pack_version:3": 300,
-      "editMode:1": 1,
+      "editMode:1": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
