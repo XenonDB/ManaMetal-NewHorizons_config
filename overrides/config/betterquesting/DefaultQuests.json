@@ -58,11 +58,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "Mana Metal New Horizons?",
+          "name:8": "Mana Metal New Horizons",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "雖然叫做「New Horizons」但放心，這沒有GT New-Horizons那種沉浸式、喪心病狂又環環相扣的魔改(?)\n\n§m§r§m§r§m§\n§r§r§r§m其實原本想放的\n\n§m§m§r我只針對一些衝突或過於詭異、煩躁的狀況做了一些修改。§m真的嗎\n\n你們只需要§k§k享受這個過程就好§k§l§m§m§r"
+          "desc:8": "雖然叫做「New Horizons」但放心，這沒有GT New-Horizons那種沉浸式、喪心病狂又環環相扣的魔改(?)\n\n這主要是為了對其他模組有一定程度了解但第一次接觸魔法金屬的人做的包。\n\n所以不會做太多大幅改動主要科技線的魔改。"
         }
       },
       "tasks:9": {
@@ -96,11 +96,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "生存要素大雜燴?",
+          "name:8": "生存要素",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "不過，你們大概已經知道，魔法金屬類似拼裝車(?)那樣有很多種類似其他模組的要素\n\n這包含了類似Spice of life、TFC或Tough As Nails那類的生存要素\n\n左下角除最上面那排正是這些要素的體現\n\n這會影響你的機動性、再生、挖掘及作戰能力\n\n\n初期時你們遇到的生存問題應該大多是體溫問題，\n體溫太高或失溫都有可能致死。\n\n站在火、岩漿旁、或是處於夏季這種季節、在熱的生態域，會讓體溫漸漸變高，\n反之你的體溫則會漸漸降低，\n並且泡在水中時，你的體溫也會下降(請不要貿然的硬是游過海)。\n\n你們可以製作熱、溫水瓶來暫時減緩失溫、過熱的狀態。\n另外，營火或火坑可以持續給予「溫暖」狀態來避免失溫。\n\n建議你們初期時可以優先找到雪地或高山來備存一些雪球製作冷水瓶用。\n\n\n"
+          "desc:8": "如果你們有接觸過TFC，Spice of Life或是Tough As Nails的話，那麼應該知道他們有類似生存要素的系統存在。\n\n魔法金屬也有自己的生存要素系統。\n\n左下角除最上面那排正是這些要素的體現\n\n這會影響你的機動性、再生、挖掘及作戰能力\n\n\n初期時你們遇到的生存問題應該大多是體溫問題，\n體溫太高或失溫都有可能致死。\n\n站在火、岩漿旁、或是處於夏季這種季節、在熱的生態域，會讓體溫漸漸變高，\n反之你的體溫則會漸漸降低，\n並且泡在水中時，你的體溫也會下降(請不要貿然的硬是游過海)。\n\n你們可以製作熱、溫水瓶來暫時減緩失溫、過熱的狀態。\n另外，營火或火坑可以持續給予「溫暖」狀態來避免失溫。\n\n可以透過給予火坑燃料，或是使用打火石來點燃火坑\n\n建議你們初期時可以優先找到雪地或高山來備存一些雪球製作冷水瓶用。\n\n"
         }
       },
       "tasks:9": {
@@ -137,6 +137,18 @@
               "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 16,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "manametalmod:firePot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -165,11 +177,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "內建任務書?",
+          "name:8": "選擇職業",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "為了不被魔法金屬的生存要素整死(?)，你也可以開啟道具欄並點擊左下方的卷軸圖樣按鈕\n\n那個是魔法金屬自帶的任務指南。你可以照著它的指南走，來確保生存初期的安全。\n\n另外，也可以打開成就欄去尋找它的成就，照著成就路線走也可以慢慢玩到整個模組。"
+          "desc:8": "站穩了基礎後，接下來你可以選擇你想玩的職業了。\n\n打開你的物品欄，選擇中間下方的按鈕(紫色書圖樣)，接著點擊左上角「職業介面」即可選擇職業。\n\n首次選擇職業時，會發放初心者禮盒，裡面有很多種有用的東西可以領收。\n\n\n如果你不滿意現在的職業，可以隨時使用職業重製書重置後再次選擇職業。"
         }
       },
       "tasks:9": {
@@ -183,7 +195,7 @@
     "4:10": {
       "questID:3": 4,
       "preRequisites:11": [
-        3
+        5
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -193,8 +205,8 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:CustomizeTool.Initial_MagicWand",
-            "Count:3": 1,
+            "id:8": "ChromatiCraft:chromaticraft_item_endereye",
+            "Count:3": 64,
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -203,11 +215,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "「RPG」模組都有的東西?",
+          "name:8": "What am I looking at?",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "打開道具欄，點擊中間下方的書本按鈕後，會開啟魔法金屬的主菜單介面(或使用快捷鍵開啟)\n\n這時你可以先挑選一種「職業」來生存，選擇職業後會拿到有利於初期生存的物資及該職業專用武器\n\n同時你自己的體質也會改變成該種職業的體質，這可以避免一開始就被殭屍秒殺(?)\n\n\n不過，不需要擔心選到你不喜歡的職業，因為之後可以取得職業重置書來重新選擇你自己的職業。\n\n所以你如果真的被逼到走投無路了(應該不會吧?)，就隨便選個職業活命吧。"
+          "desc:8": "(額，不是你想的那個)\n\n魔法金屬有一個按鍵是「檢查/分享物品」\n\n手持物品按下這個按鍵後，可以查看關於這個物品的訊息。\n\n如果是空手，那麼目標會改為你看著的方塊。\n\n\n§6訊息頁面有一項極為重要的功能是「打開百科頁面」§r。這會開啟MC百科(www.mcmod.cn)對於該物品的介紹頁面。\n\n為何這很重要?因為MC百科的魔法金屬介紹頁有包含作者在內的人在維護。\n\n所以該頁面的內容極為貼近當前版本狀況，且很多沒寫在魔法金屬辭典上的東西可以在百科上找到。\n\n\n其他模組的物品也可能可以透過這個功能來開啟對應的百科頁面。"
         }
       },
       "tasks:9": {
@@ -221,7 +233,7 @@
     "5:10": {
       "questID:3": 5,
       "preRequisites:11": [
-        4
+        3
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -241,11 +253,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "紅色的Chromic Lexicon?",
+          "name:8": "魔法金屬辭典",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "魔法金屬辭典相當於魔法金屬模組的說明書\n\n幾乎所有的機器、儀式和背景設定都有記錄在內。\n\n如果有不了解的東西可以考慮翻翻看這本書來查找資料\n\n\n另外，部分頁面會如同Chromic Lexicon需要書頁來解鎖，\n\n取得書頁的方法同Chromaticraft，即是跑圖開箱。\n\n幸好解鎖這些需要書頁的頁面不需要太多書頁?\n\n\n同時，往後玩到後面時，同植物魔法辭典，可以使用特別的方法解鎖特定領域的頁面。"
+          "desc:8": "魔法金屬辭典相當於魔法金屬模組的說明書\n\n幾乎所有的機器、儀式和背景設定都有記錄在內。\n\n如果有不了解的東西可以考慮翻翻看這本書來查找資料\n\n\n當你初次選擇職業並開啟初心者禮盒時，應該會拿到一本辭典。\n\n如果不小心丟了也可以再做出一本。"
         }
       },
       "tasks:9": {
@@ -258,12 +270,6 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:dustMana",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "manametalmod:MMMbook",
               "Count:3": 1,
               "Damage:2": 0,
@@ -279,7 +285,37 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "manametalmod:ItemBreakPageExpansion",
+              "id:8": "manametalmod:ItemChestUpdates",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemChestUpdates",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:ItemChestUpdates",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:ItemChestUpdates",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "manametalmod:ChestEnder",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "manametalmod:ChestTree",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -388,19 +424,20 @@
     },
     "8:10": {
       "questID:3": 8,
-      "preRequisites:11": [
-        5
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:RcoinBag",
+            "id:8": "Mekanism:AtomicDisassembler",
             "Count:3": 1,
+            "tag:10": {
+              "electricity:6": 999800.0
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -409,11 +446,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "魔法粉袋",
+          "name:8": "採收等級",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "身上若持有魔法粉袋的話，撿起魔法粉的時候會自動收進袋子而不占用額外空間\n\n拿著袋子右鍵使用則可以取出至多一組魔法粉，蹲下右鍵的話則可消耗等量魔法粉取出至多一組魔法錠"
+          "desc:8": "魔法金屬的大部分天然資源都有很高的採收等級，無法透過常規的稿子採收。\n\n正常來說，你需要製作高階的合金工具才有辦法採收這些礦石或資源。\n\n\n不過其他模組中有部分萬用工具實際上也可以採收這些高採收等級的資源。\n\n或是特定法術也可以挖下來。\n\n如果你使用挖礦機，那也是同樣沒有採收等級限制。\n\n\n挑一個你喜歡的工具完成任務就好。"
         }
       },
       "tasks:9": {
@@ -426,7 +463,41 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:RcoinBag",
+              "id:8": "Mekanism:AtomicDisassembler",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "IC2:itemToolIridiumDrill",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RotaryCraft:rotarycraft_item_bedpick",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -435,7 +506,20 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ManaChest2",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "9:10": {
       "questID:3": 9,
@@ -503,7 +587,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "有一些成就或進度需要特定礦石、物品而不是只看礦典名就好\n\n但我在調整的過程中會把同種的礦物統一化成一種模組的特定礦物\n\n並且會讓不同的礦石只由其中一種模組來生成(我想你們不喜歡看到幾十種銅礦生成在地下)\n\n這可能導致某些東西無法完成或使用(IC2掃描機、魔法金屬的進度等)\n\n所以直接送你礦典轉換器來解決這問題\n\nPS:如果在物品上看到標記\"調整為不會自然生成\"，那麼表示在地底挖礦時不會看到自然生成的該礦石。\n\nPS2:就算魔法金屬的某樣礦石被關掉了生成，礦物水晶仍然可以生出該礦石。\n\n"
+          "desc:8": "有一些成就或進度需要特定礦石、物品而不是只看礦典名就好\n\n但我在調整的過程中會把同種的礦物統一化成一種模組的特定礦物\n\n並且會讓不同的礦石只由其中一種模組來生成(我想你們不喜歡看到幾十種銅礦生成在地下)\n\n這可能導致某些東西無法完成或使用(IC2掃描機、魔法金屬的進度等)\n\n所以直接送你礦典轉換器來解決這問題\n\n※如果在物品上看到標記\"調整為不會自然生成\"，那麼表示在地底挖礦時不會看到自然生成的該礦石。\n\n※就算魔法金屬的某樣礦石被關掉了生成，礦物水晶仍然可以生出該礦石。\n\n"
         }
       },
       "tasks:9": {
@@ -572,11 +656,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "有什麼臭臭的",
+          "name:8": "食物腐爛",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "是的，食物放的過久會腐爛，同樣是TFC那套\n\n5.2.9大饑荒可不是說著玩的\n\n所以你需要妥善的規劃食物儲存和食用安排\n\n或是尋找能不讓食物腐爛、本身不會腐爛的食物、或是用黑科技來迴避飽食度問題§m應該是迴避不了健康值和疲勞值問題。§r\n\n"
+          "desc:8": "食物放的過久會腐爛，致敬TFC那套\n\n所以你需要妥善的規劃食物儲存和食用安排\n\n或是尋找能不讓食物腐爛、本身不會腐爛的食物、或是用黑科技來迴避飽食度問題§m應該是迴避不了健康值和疲勞值問題。§r\n\n"
         }
       },
       "tasks:9": {
@@ -627,7 +711,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你們可能會發現沒有/home或/back指令可以用\n\n因為魔法金屬有類似功能的道具可以使用，即是回家卷軸和家庭祝福卷軸\n\n它們都可以跨維度傳送回你自己的出生點\n\n前者是消耗品，後者可以不斷使用，但需要支付自身的魔力做為代價\n\n\n它們可以在地牢或副本箱子內找到、合成、或是從其他村民身上購買\n\n\n喔對，我沒有打算開放/back的指令或類似功能:)"
+          "desc:8": "你們可能會發現沒有/home或/back指令可以用\n\n因為魔法金屬有類似功能的道具可以使用，即是回家卷軸和家庭祝福卷軸\n\n它們都可以跨維度傳送回你自己的出生點\n\n前者是消耗品，後者可以不斷使用，但需要支付自身的魔力做為代價\n\n它們可以在地牢或副本箱子內找到、合成、或是從其他村民身上購買\n\n首次開啟初心者禮盒時，你應該會拿到一些回家卷軸。\n\n\n喔對，我沒有打算開放/back的指令或類似功能:)"
         }
       },
       "tasks:9": {
@@ -682,7 +766,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "我關閉了某些防止「UserError」的設定，因為我認為造成這些「錯誤」的責任是在玩家，而且與魔法金屬無關(就算沒有魔法金屬也仍然可能出現這些狀況)，所以不應該去對這些「錯誤」做預設處裡。\n\n並且這些預設處理對於其他玩家，或是明確知道自己正在做甚麼事的人會有不少困擾，這包刮:\n\n\n1.關閉「容器保護」功能:\n\n因為魔法金屬的官方服發生過太多次§n§r§k有ssss§r把裝滿東西的符文鋼櫃不小心敲掉的狀況，所以才有這個設定出現。\n\nPS:符文鋼櫃一共有5頁可以存放物品\n\n\n2.關閉「防止丟出武器」的功能:\n\n一個經過多次強化的武器固然有很高的價值以及不易取得的特性，但難道其他工具，或是其他模組的武器(例如:拔刀劍)就不是這樣嗎?\n\n更何況，有些怪物可能會掉落他們的手持武器(薔薇十字軍、野外的殭屍法師、稜墓內的所有木乃伊...)\n\n這些武器一旦被撿起來則不可被直接丟出銷毀，並且對於大多數玩家而言是真正意義上的垃圾，反而會造成背包很清出空間。\n"
+          "desc:8": "我關閉了某些防止「UserError」的設定，因為我認為造成這些「錯誤」的責任是在玩家，而且與魔法金屬無關(就算沒有魔法金屬也仍然可能出現這些狀況)，所以不應該去對這些「錯誤」做預設處裡。\n\n並且這些預設處理對於其他玩家，或是明確知道自己正在做甚麼事的人會有不少困擾，這包刮:\n\n\n1.關閉「容器保護」功能:\n\n因為魔法金屬的官方服發生過太多次§n§r§k有ssss§r把裝滿東西的符文鋼櫃不小心敲掉的狀況，所以才有這個設定出現。\n\n※符文鋼櫃一共有5頁可以存放物品\n\n\n2.關閉「防止丟出武器」的功能:\n\n一個經過多次強化的武器固然有很高的價值以及不易取得的特性，但難道其他工具，或是其他模組的武器(例如:拔刀劍)就不是這樣嗎?\n\n更何況，有些怪物可能會掉落他們的手持武器(薔薇十字軍、野外的殭屍法師、稜墓內的所有木乃伊...)\n\n這些武器一旦被撿起來則不可被直接丟出銷毀，並且對於大多數玩家而言是真正意義上的垃圾，反而會造成背包很清出空間。\n"
         }
       },
       "tasks:9": {
@@ -836,24 +920,18 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "IC2:itemTinCanFilled",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "manametalmod:IceBox",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
-            "2:10": {
+            "1:10": {
               "id:8": "manametalmod:testBag16",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
-            "3:10": {
+            "2:10": {
               "id:8": "manametalmod:FoodTastes",
               "Count:3": 1,
               "Damage:2": 6,
@@ -1061,7 +1139,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "魔法金屬官方對以下特性做了改動：\n\n1.移除施加「力量」和「抗性」在玩家身上的效果，並額外增加了它們自己的抗性和力量效果。\n\n原本的力量和抗性效果會被置換成它們自己的力量和抗性效果。\n\n\n2.將盔甲值和保護類附魔的影響另外計算。盔甲值和保護類附魔會被加入「防禦力」這項數值裡，\n\n實際作用是減少固定數值的傷害，而非減少百分比傷害。\n\n另外，為了上述計算，會將所有玩家受到的傷害都設定為「穿甲且無視附魔」，\n\n不過將所有攻擊設定成「穿甲」會使得某些模組的套裝保護效果失效\n\n恩對，我就是在說量子裝，它的完全保護僅對非穿甲的物理傷害生效\n\n§m只是量子裝抗擊這麼耗電，在數值膨脹的環境下還會有人要穿它嗎?"
+          "desc:8": "魔法金屬官方對以下特性做了改動：\n\n1.移除施加「力量」和「抗性」在玩家身上的效果，並額外增加了它們自己的抗性和力量效果。\n\n原本的力量和抗性效果會被置換成它們自己的力量和抗性效果。\n\n\n2.將盔甲值和保護類附魔的影響另外計算。盔甲值和保護類附魔會被加入「防禦力」這項數值裡，\n\n實際作用是減少固定數值的傷害，而非減少百分比傷害。\n\n另外，為了上述計算，會將所有玩家受到的傷害都設定為「穿甲且無視附魔」，\n\n不過將所有攻擊設定成「穿甲」會使得某些模組的套裝保護效果失效\n\n\n\n恩對，我就是在說量子裝，它的完全保護僅對非穿甲的物理傷害生效"
         }
       },
       "tasks:9": {
@@ -1483,7 +1561,8 @@
     "28:10": {
       "questID:3": 28,
       "preRequisites:11": [
-        5
+        5,
+        138
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1503,11 +1582,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "魔法金屬基礎",
+          "name:8": "基岩錠",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "如果你有跟著目標或成就走的話，那麼你終究可以拿到這四個東西\n\n魔法鋼、符紋鋼和遠古銩是重要的材料，而基岩錠則是最初階的法力合金\n\n\n不需要想辦法一口氣就拿到這些，§m你需要享受這過程\n\n§m\n§rPS:我只將黑暗鋼以後的部分科技線放上來，因為成就以及目標並沒有將這些寫進來\n\n並且魔法金屬的支線發展非常巨量，我沒有那個精力將所有路線都列出來。\n\nPS2:這邊的路線與魔法金屬辭典內的「冒險與挑戰」篇章大致相同"
+          "desc:8": "應該是你的第一塊法力合金。\n\n你需要製作基岩術式來製作你的第一塊基岩錠。\n\n\n額不過，這個術式用沒多久就會拆掉了。\n\n因為當你做出第一把基岩十字鎬時，你就可以透過直接挖掘基岩來獲得更多基岩錠了。"
         }
       },
       "tasks:9": {
@@ -1520,24 +1599,6 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:ingotManaS",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "manametalmod:ingotRuneSteel",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "manametalmod:ingotAncientThulium",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
               "id:8": "manametalmod:ingotBedrock",
               "Count:3": 1,
               "Damage:2": 0,
@@ -2687,7 +2748,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "凋零至尊是大幅強化後的凋零。\n\n除了有原本凋零的特性外，機動性以及火力都得到了大幅提升，並且還會各式棘手的法術。\n\n然而它身上也藏著幾個重要的秘密...\n\n\n註: 解鎖條件要求的凋零之魂需要4個，你可能需要多刷幾次普通凋零才可以製作出祭品。"
+          "desc:8": "凋零至尊是大幅強化後的凋零。\n\n除了有原本凋零的特性外，機動性以及火力都得到了大幅提升，並且還會各式棘手的法術。\n\n然而它身上也藏著幾個重要的秘密...\n\n\n註: 解鎖條件要求的凋零之血需要4個，你可能需要多刷幾次普通凋零才可以製作出祭品。"
         }
       },
       "tasks:9": {
@@ -2738,7 +2799,7 @@
     "50:10": {
       "questID:3": 50,
       "preRequisites:11": [
-        28
+        138
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2900,7 +2961,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你想到你曾經造訪過的地方似乎有和古老鑰匙上相似的文字。\n\n來到了遠古銩遺跡後，你確認了這些遺物是黑魔法相關的遺物。\n\n這些遺物中有個叫「黑暗誓言」的東西，文獻指出這鑰匙是解讀這誓言的關鍵，\n\n但同時這個東西裡也潛藏著魔物。所謂的關鍵看起來指的是這個魔物。\n\n\n※註: 可使用魔物召換台或尋找黑暗誓言來召換出黑暗騎士"
+          "desc:8": "你想到你曾經造訪過的地方似乎有和古老鑰匙上相似的文字。\n\n來到了遠古銩遺跡後，你確認了這些遺物是黑魔法相關的遺物。\n\n這些遺物中有個叫「黑暗誓言」的東西，文獻指出這鑰匙是解讀這誓言的關鍵，\n\n但同時這個東西裡也潛藏著魔物。所謂的關鍵看起來指的是這個魔物。\n\n\n※註: 可使用魔物召喚台來召喚出黑暗騎士"
         }
       },
       "tasks:9": {
@@ -2976,7 +3037,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "傳說中有一種魔物被古老的種族所信仰-魔蛇。\n\n並且你似乎發現了屬於魔蛇一部分的東西。\n\n或許你有辦法藉著這個線索接觸到這個危險的魔物...\n\n\n※可透過將「魔蛇之血」丟入遠古銩中的紅色「液體」或是利用魔物召喚台召喚暴風魔蛇。"
+          "desc:8": "傳說中有一種魔物被古老的種族所信仰-魔蛇。\n\n並且你似乎發現了屬於魔蛇一部分的東西。\n\n或許你有辦法藉著這個線索接觸到這個危險的魔物...\n\n\n※可利用魔物召喚台召喚暴風魔蛇。"
         }
       },
       "tasks:9": {
@@ -3046,7 +3107,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你可能已經見識過在此處出現的詭異紅色液體吸收了某些東西而形成了強大魔物，\n\n並且在這附近的黑暗力量似乎異常濃密。\n\n如果有甚麼凝聚著大量暗能量的東西被其吸收，很可能會出現意想不到的危險....\n\n\n※可將「黑暗碎片」丟入遠古銩中的紅色「液體」或是使用魔物召喚台來召喚赤瞳惡龍。"
+          "desc:8": "你可能已經見識過在此處出現的詭異紅色液體吸收了某些東西而形成了強大魔物，\n\n並且在這附近的黑暗力量似乎異常濃密。\n\n如果有甚麼凝聚著大量暗能量的東西被其吸收，很可能會出現意想不到的危險....\n\n\n※可使用魔物召喚台來召喚赤瞳惡龍。"
         }
       },
       "tasks:9": {
@@ -3059,30 +3120,24 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:ItemSkyKey",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "manametalmod:ItemBagBoss11s",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
-            "2:10": {
+            "1:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
               "Damage:2": 50,
               "OreDict:8": ""
             },
-            "3:10": {
+            "2:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
               "Damage:2": 51,
               "OreDict:8": ""
             },
-            "4:10": {
+            "3:10": {
               "id:8": "manametalmod:bossItemM",
               "Count:3": 1,
               "Damage:2": 52,
@@ -3295,7 +3350,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你從赤瞳惡龍身上發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n\n"
+          "desc:8": "打倒九頭怪蛇後，你發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n\n※可使用魔物召喚台來召喚九頭怪蛇"
         }
       },
       "tasks:9": {
@@ -3370,7 +3425,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你從赤瞳惡龍身上發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n"
+          "desc:8": "打倒符文巨人後，你發現了這把不尋常的鑰匙，它自身散發的力量和遺跡裡的力量不太一樣。\n\n你想起你曾經造訪過的地方有幾種東西包含的力量和它是相似的。\n\n假如你能和這把鑰匙有關的東西接觸，或許能知道些什麼事情。\n\n\n※可使用魔物召喚台來召喚符文巨人"
         }
       },
       "tasks:9": {
@@ -3616,7 +3671,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "職業等級即是在GUI左下角，血量槽上方的那個數值。\n\n該數值是你當前的「職業等級」，會影響你能否使用哪些道具、技能以及對敵人的戰力。\n\n敵人的等級高過你的職業等級越多，你對敵人造成的傷害就越少。\n\n並且，等級差距過大(±10等)會導致你擊殺該敵人無法獲得經驗值。\n\n\n另外，某些地下城會要求最低入場的職業等級，\n\n如果自身職業等級不夠則無法入場。\n\n職業等級上限預設是30級，使用一次覺醒祕典則可以提高5等的上限\n\n目前最高提升上限為100等。\n\n\n覺醒祕典可於通關地下城時取得的獎勵箱內機率性取得。\n\n永恆聖杯只需使用一次即可將最大等級提升至70等，不過你仍然可以再次使用最多9次聖杯來提升少量攻擊力。"
+          "desc:8": "職業等級即是在GUI左下角，血量槽上方的那個數值。\n\n該數值是你當前的「職業等級」，會影響你能否使用哪些道具、技能以及對敵人的戰力。\n\n敵人的等級高過你的職業等級越多，你對敵人造成的傷害就越少。\n\n並且，等級差距過大會導致你擊殺該敵人無法獲得經驗值。\n\n\n另外，某些地下城會要求最低入場的職業等級，\n\n如果自身職業等級不夠則無法入場。\n\n職業等級上限預設是30級，使用一次覺醒祕典則可以提高5等的上限\n\n\n覺醒祕典可於通關地下城時取得的獎勵箱內機率性取得。\n\n永恆聖杯只需使用一次即可將最大等級提升至70等，不過你仍然可以多次使用聖杯來提升你的能力值。"
         }
       },
       "tasks:9": {
@@ -3636,6 +3691,18 @@
             },
             "1:10": {
               "id:8": "manametalmod:ItemLVgrails",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:ItemHeroRolls",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:UnlimitedEmerald",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3895,11 +3962,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "終末",
+          "name:8": "終局?",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "如果你已經可以使用黑魔法，那麼你可以開始考慮挑戰這邊的成就(?)了。\n\n"
+          "desc:8": "以目前版本來說，可能還算太早了。\n\n但你有空的話可以準備準備。"
         }
       },
       "tasks:9": {
@@ -3962,7 +4029,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
-          "desc:8": "要到達這裡是很不容易的，\n\n你需要將大部份模組，包含魔法金屬、reika系為主的模組發展都玩到極致(?)後才有辦法做出這東西。\n\nP.S.:配方表中左上角是任意生產技能相關的寶藏"
+          "desc:8": "要到達這裡是很不容易的，\n\n你需要將大部份模組，包含魔法金屬、reika系為主的模組發展都玩到極致(?)後才有辦法做出這東西。\n\n※配方表中左上角是任意生產技能相關的寶藏"
         }
       },
       "tasks:9": {
@@ -4195,7 +4262,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "雖然這也是當初包進GT時的主意，\n\n但我認為提高AE網路的用電量也無訪，畢竟隨著你們的科技樹發展，\n\n想要造出一個能支撐巨型AE網路的電力系統絕對不是問題。\n\n\n所以AE網路的整體用電量上調成原本的10倍。"
+          "desc:8": "這包還是有幾個地方受到GTNH的影響就是，\n\n例如AE網路的整體用電量被我上調成原本的10倍。\n\n\n不過這包的發電手段很強力，應該不太需要擔心這方面的問題。"
         }
       },
       "tasks:9": {
@@ -4501,7 +4568,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "天界中的彩紅鑽石可以用來製作圖騰相關的設備，它們是其中一種批量獲得魔法粉的方法。\n\n將圖騰放在噴泉附近，並使用魔法凝結器就可以生產魔法粉。\n\n空手蹲下對圖騰右鍵可以開啟其GUI。\n\n關於圖騰的說明可以參考魔法金屬辭典，或是圖騰自身的GUI。"
+          "desc:8": "天界中的彩紅鑽石可以用來製作圖騰相關的設備，它們是其中一種批量獲得魔法粉的方法。\n\n將圖騰放在噴泉附近，並使用魔法凝結器就可以生產魔法粉。\n\n空手蹲下對圖騰右鍵可以開啟其GUI。\n\n關於圖騰的說明可以參考魔法金屬辭典(魔法能-\u003e使用圖騰)，或是圖騰自身的GUI。"
         }
       },
       "tasks:9": {
@@ -4534,8 +4601,7 @@
     "80:10": {
       "questID:3": 80,
       "preRequisites:11": [
-        5,
-        30
+        342
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4555,11 +4621,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "精鑄合成",
+          "name:8": "裝備工作坊-精鑄合成",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "精鑄合成是打造高階裝備或武器的技術。\n\n在前中期你可能會需要一套設備來打造你自己的工具、防具或武器。\n\n使用精鑄工作臺只會取得裝備的雛形，你還需要火爐、鍛造砧、焊接台和磨石來加工。\n\n使用鍛造砧需要鍛造鋼錘，\n\n焊接台需要有任意種的焊接粉才能焊接，\n\n每對一件裝備或工具使用磨石都需要消耗一個磨石才能取得成品。\n\n並且這些工序都需要用火爐將裝備加熱才能加工。\n\n\n\n恩對，就是TFC那套。\n\n不過鍛造砧的三步工法並非像TFC那樣嚴格要求最後三步順序，只要在最近的7步工法中有用到指定的三步就可以滿足工法條件。\n\n"
+          "desc:8": "為了打造理想的裝備，你需要使用精鑄合成技術來製做它們。\n\n使用精鑄工作臺只會取得裝備的雛形，你還需要火爐、鍛造砧、焊接台和磨石來加工。\n\n使用鍛造砧需要鍛造鋼錘，\n\n焊接台需要有任意種的焊接粉才能焊接，\n\n每對一件裝備或工具使用磨石都需要消耗一個磨石才能取得成品。\n\n並且這些工序都需要用火爐將裝備加熱才能加工。\n\n\n\n你如果覺得這些很熟悉的話，是的，就是TFC那套。\n\n不過鍛造砧的三步工法並非像TFC那樣嚴格要求最後三步順序，只要在最近的7步工法中有用到指定的三步就可以滿足工法條件。\n\n"
         }
       },
       "tasks:9": {
@@ -4712,9 +4778,27 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:BlockTileEntityTimemachines",
-              "Count:3": 64,
+              "id:8": "manametalmod:GodSword",
+              "Count:3": 1,
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemToolOps",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:ItemToolOps",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:ItemToolOps",
+              "Count:3": 1,
+              "Damage:2": 16,
               "OreDict:8": ""
             }
           },
@@ -4883,7 +4967,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "假如你是在高難度環境下遊玩，那麼你很有可能在一開始就面對強大的怪物而不得不到處逃亡。\n\n而有一個充滿著繽紛色彩的生態-「彩虹森林」則是一個你可以定居的地方。\n\n彩虹森林裡面不會生成敵對生物，並且有相對多數量的動物在這裡生活。\n\n如果你不喜歡逃亡生活的話，你可以考慮就在這裡定居下來。\n\n\nPS:我有下調彩虹森林裡的動物生成數量，這樣應該不會有太多的動物導致伺服器負擔。"
+          "desc:8": "假如你是在高難度環境下遊玩，那麼你很有可能在一開始就面對強大的怪物而不得不到處逃亡。\n\n而有一個充滿著繽紛色彩的生態-「彩虹森林」則是一個你可以定居的地方。\n\n彩虹森林裡面不會生成敵對生物，並且有相對多數量的動物在這裡生活。\n\n如果你不喜歡逃亡生活的話，你可以考慮就在這裡定居下來。\n\n\n※我有下調彩虹森林裡的動物生成數量，這樣應該不會有太多的動物導致伺服器負擔。"
         }
       },
       "tasks:9": {
@@ -6047,7 +6131,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "DataTower是ChromatiCraft的一種特殊天然建築，整個世界只會有13個，並且每個Tower都是獨一無二的。\n\n但某些其他模組的建築生成並沒有做的很好，導致會大量吃掉其他的天然建築或裝飾，包含Data Tower，\n\n恩對，我就是在說魔法金屬。\n\n\n但幸好DragonAPI提供了能夠再生這些自然生成結構的方法。\n\n我已經在它的設定檔(DragonAPI_Aux_Retrogen.cfg)中將再生Data Tower的選項打開，\n\n如果你確定某個位置肯定曾有DataTower生成，但被某些建築吃掉，現在你可以再次前往該地查看，\n\n該處的DataTower應該會重生。\n\n\n如果該處的DataTower沒有重生，那麼，先完全退出遊戲，或是關閉伺服器後，\n\n將「世界存檔名\\DragonAPI_Retrogen\\DIM0\\ChromatiCraft Lore Towers.dat」刪除\n\n之後再次進入遊戲或啟動伺服器，該處的DataTower就一定會重生。"
+          "desc:8": "DataTower是ChromatiCraft的一種特殊天然建築，整個世界只會有13個，並且每個Tower都是獨一無二的。\n\n但某些其他模組的建築生成並沒有做的很好，導致會大量吃掉其他的天然建築或裝飾，包含Data Tower，\n\n例如魔法金屬。\n\n\n但幸好DragonAPI提供了能夠再生這些自然生成結構的方法。\n\n我已經在它的設定檔(DragonAPI_Aux_Retrogen.cfg)中將再生Data Tower的選項打開，\n\n如果你確定某個位置肯定曾有DataTower生成，但被某些建築吃掉，現在你可以再次前往該地查看，\n\n該處的DataTower應該會重生。\n\n\n如果該處的DataTower沒有重生，那麼，先完全退出遊戲，或是關閉伺服器後，\n\n將「世界存檔名\\DragonAPI_Retrogen\\DIM0\\ChromatiCraft Lore Towers.dat」刪除\n\n之後再次進入遊戲或啟動伺服器，該處的DataTower就一定會重生。"
         }
       },
       "tasks:9": {
@@ -6553,47 +6637,20 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你從拉普達文化的守衛中取得了神器。\n\n透過這些神器的幫助,應該可以完整發揮出從瑪夏達巴繼承的黑魔法的力量...."
+          "desc:8": "你從拉普達文化的守衛中取得了神器。\n\n透過這些神器的幫助,應該可以完整發揮出從瑪夏達巴繼承的黑魔法的力量....\n\n\n※如果你已達到70級，將自動完成二次轉職。"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "manametalmod:ItemPhoenix",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "manametalmod:ItemBossStartDragonKey",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "manametalmod:ItemKeyOfTheRebirth",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
     },
     "107:10": {
       "questID:3": 107,
-      "preRequisites:11": [
-        106
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -6602,9 +6659,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:ItemLapudaArtifacts",
+            "id:8": "manametalmod:ItemDungeonReset",
             "Count:3": 1,
-            "Damage:2": 5,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -6612,11 +6669,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "危機四伏的高塔",
+          "name:8": "地下城修補",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你疑惑的為何這座高塔中會有這麼多如此可怕的魔物，\n\n儘管利用魔物來保護神器是合理的方案，但數量如此多又強大是否可能會不受控?\n\n\n目前你暫時還無法得到解答，但你知道若你想繼續尋找答案，你得做好充分的準備..."
+          "desc:8": "恩...如果你因為任何原因不小心打爛了地下城，\n\n這邊有個方法可以修好結構損壞的地下城。\n\n\n\n恩，不過還是盡量避免把別人的房子弄壞比較好。\n\n不然說不定自己也會因此遇到甚麼麻煩，恩。"
         }
       },
       "tasks:9": {
@@ -6629,13 +6686,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:ItemBossBloodDragon",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "manametalmod:ItemBossBloodDragonsSkin",
+              "id:8": "manametalmod:ItemDungeonReset",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -7166,7 +7217,7 @@
     "118:10": {
       "questID:3": 118,
       "preRequisites:11": [
-        107
+        106
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7176,9 +7227,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:ItemLapudaArtifacts",
+            "id:8": "manametalmod:itemThuliumEmpireKey",
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 3,
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -7186,11 +7237,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "封印魔物的高塔",
+          "name:8": "遠古銩王城",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "前些時間，你疑惑著為何這座高塔中會封印著如此多的魔物，\n\n在此之後，你從拉普達文明中的文獻得知了，這座高塔是由一位叫艾莉西亞的存在提議並建造的。\n\n\n假如你需要對這文明有更深入的認識，找到這座塔的主人似乎是一個可行的辦法..."
+          "desc:8": "如果你已經和天空高塔的守衛打過照面了，那你應該可以得知如何前往遠古銩王城的秘密。\n\n製作這把鑰匙後，就可以從遠古銩世界尋找王城入口進入。但你需要至少100等才可以進入。"
         }
       },
       "tasks:9": {
@@ -7203,15 +7254,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:ItemTimeBoss",
+              "id:8": "manametalmod:itemThuliumEmpireKey",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "manametalmod:ItemTimeBossdrop",
-              "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           },
@@ -7328,7 +7373,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "如果魔法金屬的稻草人無法滿足你的部分測試需求，\n\n那麼這裡有一個「進階稻草人」可以供測試使用。\n\n只需使用一個假人靈魂即可取得。\n\n\n此任務可以重複完成。"
+          "desc:8": "如果魔法金屬的稻草人無法滿足你的部分測試需求，\n\n那麼這裡有一個「進階稻草人」可以供測試使用。\n\n只需使用一個假人靈魂即可取得。\n\n\n此任務可以重複完成。\n\n\n某些模組的傷害修改可能會在稻草人抓取傷害訊息之後，所以對於其他模組的傷害測試，草人回報的數據可能會不正確。\n\n然而，你可以觀察草人的血量變化來得知正確的單次傷害。\n\n這個CustomNPC草人的DPS計算是看自身血量變化，所以理論上應該是準的。"
         }
       },
       "tasks:9": {
@@ -8035,7 +8080,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你發現了一種似乎會吸收周圍熱量的金屬：「碧鋼」\n\n它除了能夠放進冰櫃裡作為冷卻劑以外，還可以製作成可以調控體溫的控溫石。\n\n攜帶這種石頭時，它會試著將你的體溫維持在常溫範圍而不會過熱或過冷，\n\n然而，發揮控溫功能時都會消耗它的耐久度。\n\n幸好這種工具的耐久度歸0時不會消失，只是失去功能。\n\n並且有很多方法可以修復控溫石讓它恢復正常功能。\n\n\n但它的控溫能力是有極限的，假如你處在會急速升溫/降溫的環境下，控溫石很可能會無法維持你的體溫並急速損壞。\n"
+          "desc:8": "你可以透過碧鋼製作出一種可以調控體溫的控溫石。\n\n攜帶這種石頭時，它會試著將你的體溫維持在常溫範圍而不會過熱或過冷，\n\n然而，發揮控溫功能時都會消耗它的耐久度。\n\n不過這種工具的耐久度歸0時不會消失，只是失去功能。\n\n並且有很多方法可以修復控溫石讓它恢復正常功能。\n\n\n但它的控溫能力是有極限的，假如你處在會急速升溫/降溫的環境下，控溫石很可能會無法維持你的體溫並急速損壞。\n"
         }
       },
       "tasks:9": {
@@ -8260,7 +8305,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "魔法金屬於5.7.3版本中新增了「靈力」系統。\n\n玩家在職業等級達到30等後可以使用靈力系統來提升自己的能力。\n\n點選主選單(道具欄下方中間書本)-\u003e左上往下數第一個，即可開啟靈力系統介面。\n\n\n你可以消耗靈力點數來重新設定你自己每一行的靈力能力。\n\n並且隨著你的等級提升，你可以使用更多行(高階)的靈力。\n\n高階靈力會給你更加強大/方便的能力來輔助你。\n\n\n你可以透過提升職業等級、生產技能等級、戰利品、靈力本身的能力來獲得靈力點數。\n\n\n※註:由於現版本的最高等級是100等，所以最後一階靈力尚無法獲得。"
+          "desc:8": "魔法金屬於5.7.3版本中新增了「靈力」系統。\n\n玩家在職業等級達到30等後可以使用靈力系統來提升自己的能力。\n\n點選主選單-\u003e角色屬性-\u003e靈力系統，即可開啟靈力系統介面。\n\n\n你可以消耗靈力點數來重新設定你自己每一行的靈力能力。\n\n並且隨著你的等級提升，你可以使用更多行(高階)的靈力。\n\n高階靈力會給你更加強大/方便的能力來輔助你。\n\n\n你可以透過提升職業等級、生產技能等級、戰利品、靈力本身的能力來獲得靈力點數。"
         }
       },
       "tasks:9": {
@@ -8661,7 +8706,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你可能已經探索過一部分的古文明遺址。然而，你手邊缺少足夠的資料來理解這些文明。\n\n目前的線索指出，有一部分強大的魔物與這些文明有關。\n\n並且你發現了一個可以用來召喚這些魔物的儀式。\n\n\n假如你直接研究這些魔物的話，似乎可以得到更多有用的線索...\n\n\n※手持相應祭品右鍵召喚台以「解鎖」召喚該魔物的功能。\n\n※具體結構及使用方法可參考辭典中「冒險與挑戰」的「魔物召喚」章節。"
+          "desc:8": "你可能已經探索過一部分的古文明遺址。然而，你手邊缺少足夠的資料來理解這些文明。\n\n目前的線索指出，有一部分強大的魔物與這些文明有關。\n\n並且你發現了一個可以用來召喚這些魔物的儀式。\n\n\n假如你直接研究這些魔物的話，似乎可以得到更多有用的線索...\n\n\n※手持相應祭品右鍵召喚台以「解鎖」召喚該魔物的功能。\n\n※具體結構及使用方法可參考辭典中「冒險與挑戰」的「魔王召喚」章節。\n\n※挑戰魔王是魔法金屬中獲得高階材料或合金的主要來源之一。"
         }
       },
       "tasks:9": {
@@ -8700,7 +8745,7 @@
     "138:10": {
       "questID:3": 138,
       "preRequisites:11": [
-        28
+        342
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8710,7 +8755,7 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:blockDestroyerSpawnSky3",
+            "id:8": "manametalmod:ingotRuneSteel",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -8720,19 +8765,15 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "魔物召喚儀式(舊)",
+          "name:8": "魔法合金",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "在6.0.0版本時，天空守護龍以前的魔物召喚路線大改，\n\n改為透過魔物召喚台叫出特定魔物。\n\n這個儀式是6.0.0以前的舊儀式。§m不過，目前版本的一部分魔物召喚方塊仍然可以製作並透過此儀式召喚。§r\n\n如果你有留著舊的召喚方塊，也可以透過此儀式叫出來。\n\n\n§m目前還能製作的魔物召喚方塊: 九頭怪蛇，符文巨人，天空守護龍\n§r\n(6.0.2中已無法製作任何種類的召喚方塊)\n\n召喚儀式的具體結構可以參考「法術儀式」中的「魔物召喚」篇章。\n\n※註1:召喚一次魔物後，魔力水晶會變成弱化的形式而無法再次啟動儀式。需要重新放置水晶或手持魔法粉右鍵(不消耗)來將水晶再次活化。\n\n※註2:本任務的要求有兩頁，挑一個完成即可。"
+          "desc:8": "符文鋼應該是你製作出的第一塊魔法合金。\n\n它需要的金屬礦分布是有地域性的。如果找不到，可以跑遠一點找看看。\n\n其中銥礦的生成被我禁用了。因為銥在其他模組的眼中應該算是...比較稀有的資源?\n\n所以它的原礦只能透過機器或挖礦機得到。\n\n但是，你其實可以藉由開箱取得IC2的銥礦，使用金屬還原來簡單複製出更多銥。\n\n所以其實也沒必要急著做挖礦機就是。\n\n其他的基本金屬也可以用同樣手法複製。\n\n\n有了符文鋼後，你可以考慮用符文鋼製作好一點的工具。例如可以開啟範圍挖掘的符文鋼鎬，\n\n或是有超大容量的符文鋼終極櫃。\n\n或是你可以繼續把符文鋼往上合成為遠古銩。"
         }
       },
       "tasks:9": {
         "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        },
-        "1:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
@@ -8741,26 +8782,14 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:ManaRuneE",
-              "Count:3": 8,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "manametalmod:RuneBrick",
+              "id:8": "manametalmod:ingotRuneSteel",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
-            "2:10": {
-              "id:8": "manametalmod:RuneColumn",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "manametalmod:ManaCrystal",
-              "Count:3": 4,
+            "1:10": {
+              "id:8": "manametalmod:ingotAncientThulium",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -8774,8 +8803,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "manametalmod:dustMana",
-              "Count:3": 1,
+              "id:8": "manametalmod:ingotRuneSteel",
+              "Count:3": 16,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -8786,8 +8815,7 @@
     "139:10": {
       "questID:3": 139,
       "preRequisites:11": [
-        80,
-        137
+        80
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8811,7 +8839,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "防具強化桌是給特定幾件套裝的裝備(NEI搜尋「提升等級來增強能力」)專門強化用的設備。\n\n這些裝備的強化上限不低，而且強化越多次後會越來越難強化，\n\n然而提供的套裝效果也會越來越好。\n\n強化到一定程度時，需選擇其中一個進階強化分支才可繼續強化。\n\n\n其相關資訊可以參考「鍛造學」章節的內容。"
+          "desc:8": "防具強化桌是給特定幾件套裝的裝備(NEI搜尋「提升等級來增強能力」)專門強化用的設備。\n\n這些裝備的強化上限不低，而且強化越多次後會越來越難強化，\n\n然而提供的套裝效果也會越來越好。\n\n強化到一定程度時，需選擇其中一個進階強化分支才可繼續強化。\n\n\n更多相關資訊可以參考「生產系統-\u003e鍛造學」章節的內容。"
         }
       },
       "tasks:9": {
@@ -9113,43 +9141,8 @@
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "manametalmod:WorldFutureWand",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "manametalmod:ZBPortalFrame",
-              "Count:3": 10,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "visible:1": 0,
-          "invert:1": 0,
-          "range:3": -1,
-          "index:3": 1,
-          "structure:8": "",
-          "hideInfo:1": 0,
-          "posX:3": 0,
-          "posY:3": 0,
-          "posZ:3": 0,
-          "biome:3": -1,
-          "name:8": "末日城",
-          "dimension:3": 100,
-          "taxiCabDist:1": 0,
-          "taskID:8": "bq_standard:location"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
@@ -9425,9 +9418,9 @@
           "isMain:1": 1,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:ItemLapudaArtifacts",
-            "Count:3": 1,
-            "Damage:2": 4,
+            "id:8": "manametalmod:BlockTileEntityAncientEmpireCores",
+            "Count:3": 64,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -9435,11 +9428,11 @@
           "globalShare:1": 0,
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
-          "name:8": "深層鏡中的惡夢",
+          "name:8": "隱藏於過去的禁忌",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "你在高塔中調查時，似乎時常感覺到不尋常的視線在注視著你。\n\n一面散發著詭異氣息的鏡子說明了它的危險性。\n\n然而，正當你想遠離它時，你發覺周圍已有無數個惡魔的倒影正注視著你，\n\n鏡中的不祥之物似乎打算將你拉進它所在的地方..."
+          "desc:8": "你或許可以知道沉睡在此地的技術被視為禁忌的原因了..."
         }
       },
       "tasks:9": {
@@ -9452,15 +9445,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:ItemMirrorBoss",
+              "id:8": "manametalmod:MMMbook",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "manametalmod:ItemMirrorBossDrop",
-              "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           },
@@ -12715,7 +12702,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "全套的基岩合金套裝(包括給特定部位基岩裝備附帶升級後的合成型盔甲，例如基岩噴射背包)自帶一條強制鎖傷的隱藏特性\n\n任何經過大多數減免後不到1000點的傷害會被基岩套強制降至5點傷害\n\n同時對於混沌守衛的攻擊還有額外減傷效果\n\n\n不過如果遇到後期比較強力的BOSS攻擊可能就沒什麼用吧。\n\n\n\n\n\n\n\n\n對了，把手伸進燃氣渦輪機絞一次是2000點傷害"
+          "desc:8": "全套的基岩合金套裝(包括給特定部位基岩裝備附帶升級後的合成型盔甲，例如基岩噴射背包)自帶一條強制鎖傷的隱藏特性\n\n任何經過大多數減免後不到1000點的傷害會被基岩合金套強制降至5點傷害\n\n同時對於混沌守衛的攻擊還有額外減傷效果\n\n\n不過如果遇到後期比較強力的BOSS攻擊可能就沒什麼用吧。\n\n\n\n\n\n\n\n\n對了，把手伸進燃氣渦輪機絞一次是2000點傷害"
         }
       },
       "tasks:9": {
@@ -21346,6 +21333,309 @@
           }
         }
       }
+    },
+    "339:10": {
+      "questID:3": 339,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "EnderIO:blockFarmStation",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "農作採收",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "因為有開啟食物腐爛的設定，所以大部分農作在你採收的時候也會附帶這種屬性。\n\n初期的時候你可以藉由將各種不同腐爛值得農作丟到地上再撿起來來合併腐爛值。\n\n之後你可以利用魔法金屬自己的物流水晶來合併腐爛值。\n\n\n\n如果你真的覺得這很討厭的話...有一些模組的採收機器可以直接收成沒有腐爛值的農作。\n\n例如，EnderIO的FarmingStation。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "340:10": {
+      "questID:3": 340,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "AWWayofTime:seerSigil",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "閱讀「原文」",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "魔法金屬的作者(草莓龍)是台灣人，意味著這個模組的原文是繁體中文。\n\n不過，其他模組的原文是英文，使用英文語系來玩的話，魔法金屬呈現的語言是經社群翻譯後的英文。\n\n\n譯文多少會有點不準確且過時。所以，如果你想在英文語系下閱讀原文的話，\n\n我有準備一個材質包，將魔法金屬的英文譯文覆蓋成繁體中文。\n\n\n如果你們有需要的話可以使用這個材質包。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "341:10": {
+      "questID:3": 341,
+      "preRequisites:11": [
+        29
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemPortalMineCaveCore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "大地礦坑",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "可以在採礦技巧(物品欄下方中間按鈕-\u003e右上生產系統-\u003e採礦技巧)商店中買到。\n\n透過魔力灌注製作成傳送門，鑽進去後可以到達大地礦坑。\n\n\n這個維度按Y軸高度會有不同岩層，每種岩層中會生成對應的豐富礦石資源。\n\n並且不會生出敵對生物。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemPortalMineCaveCore",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "342:10": {
+      "questID:3": 342,
+      "preRequisites:11": [
+        5
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ManaCraftingTable",
+            "Count:3": 64,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "基礎魔法設備",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "世界上佈滿的魔法粉允許你製作基本的以魔法能驅動的設備。\n\n這些設備是你開始魔法金屬的必要條件。\n\n除了金屬融合台以外，他們使用魔法能作為動力來運作。\n\n你可以直接將可以產生魔法能的物品(魔法粉，錠甚至是磚)放入燃料槽來驅動它們。\n\n\n當你有辦法製作魔法能製造器時，你就可以透過分享石碑直接將產生的魔法能輸送到這些機器中使用。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ManaCraftingTable",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ManaFurnace",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:ManaSFurnace",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:MetalCraftTable",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "manametalmod:MetalSeparator",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ingotMana",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "343:10": {
+      "questID:3": 343,
+      "preRequisites:11": [
+        342
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:WeaponTable",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "裝備工作坊-其一",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "一件好的裝備需要經過正確的加工(還有...運氣)才會成形。\n\n為了打造理想中的裝備，準備好你的工具是必要的。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:WeaponTable",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:BlockTileEntityQualityTables",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:BlockTileEntityItemUseTables",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:SwordTable",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "manametalmod:SwordRoll",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ingotManaS",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -21396,21 +21686,21 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": -132,
-          "y:3": 0,
+          "y:3": -48,
           "id:3": 73,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 0,
+          "x:3": -84,
+          "y:3": -48,
           "id:3": 84,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
           "x:3": 60,
-          "y:3": 0,
+          "y:3": -48,
           "id:3": 94,
           "sizeY:3": 24
         },
@@ -21424,14 +21714,14 @@
         "10:10": {
           "sizeX:3": 24,
           "x:3": -132,
-          "y:3": 48,
+          "y:3": 0,
           "id:3": 129,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
           "x:3": -84,
-          "y:3": 48,
+          "y:3": 0,
           "id:3": 133,
           "sizeY:3": 24
         }
@@ -21480,13 +21770,13 @@
         "3:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -96,
+          "y:3": -144,
           "id:3": 4,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 12,
           "y:3": -96,
           "id:3": 5,
           "sizeY:3": 24
@@ -21563,9 +21853,23 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": -96,
+          "x:3": 12,
+          "y:3": -48,
           "id:3": 128,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -180,
+          "id:3": 339,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -48,
+          "id:3": 340,
           "sizeY:3": 24
         }
       },
@@ -21591,8 +21895,8 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -12,
+          "x:3": 48,
+          "y:3": 84,
           "id:3": 8,
           "sizeY:3": 24
         },
@@ -21633,82 +21937,68 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": -12,
-          "id:3": 79,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 36,
-          "id:3": 80,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
           "x:3": -96,
           "y:3": 36,
           "id:3": 87,
           "sizeY:3": 24
         },
-        "9:10": {
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": 84,
+          "id:3": 107,
+          "sizeY:3": 24
+        },
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 84,
           "id:3": 108,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 36,
           "id:3": 113,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 36,
           "id:3": 120,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 84,
           "id:3": 121,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -96,
-          "y:3": 84,
+          "y:3": -12,
           "id:3": 124,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 48,
           "y:3": 36,
           "id:3": 135,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 48,
           "y:3": -12,
           "id:3": 136,
           "sizeY:3": 24
         },
-        "16:10": {
-          "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 84,
-          "id:3": 139,
-          "sizeY:3": 24
-        },
-        "17:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": -60,
@@ -21739,197 +22029,232 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": -168,
-          "y:3": 48,
+          "y:3": 0,
           "id:3": 28,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -120,
+          "x:3": -72,
           "y:3": -48,
           "id:3": 29,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -96,
-          "id:3": 30,
+          "x:3": -72,
+          "y:3": 0,
+          "id:3": 31,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -48,
-          "id:3": 31,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": -72,
+          "x:3": -120,
           "y:3": -48,
           "id:3": 32,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": -48,
           "id:3": 33,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": 0,
           "id:3": 38,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": 48,
           "id:3": 39,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": 72,
           "id:3": 40,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": 96,
           "id:3": 41,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": 144,
           "id:3": 42,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": 192,
           "id:3": 43,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -48,
           "id:3": 44,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 0,
           "id:3": 45,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 48,
           "id:3": 46,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 96,
           "id:3": 47,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 144,
           "id:3": 48,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 192,
           "id:3": 49,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -120,
-          "y:3": 96,
+          "y:3": 48,
           "id:3": 50,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 288,
           "id:3": 55,
           "sizeY:3": 24
         },
-        "20:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": -264,
           "y:3": -48,
           "id:3": 57,
           "sizeY:3": 24
         },
-        "21:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": 288,
           "id:3": 60,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 240,
           "id:3": 64,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": 0,
           "id:3": 65,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": 240,
           "id:3": 66,
           "sizeY:3": 24
         },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -312,
+          "y:3": -48,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
         "25:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 96,
+          "id:3": 80,
+          "sizeY:3": 24
+        },
+        "26:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 48,
           "id:3": 137,
           "sizeY:3": 24
         },
-        "26:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": -168,
-          "y:3": 144,
+          "y:3": 48,
           "id:3": 138,
           "sizeY:3": 24
         },
-        "27:10": {
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 144,
+          "id:3": 139,
+          "sizeY:3": 24
+        },
+        "29:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": 240,
           "id:3": 144,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -48,
+          "id:3": 341,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 96,
+          "id:3": 342,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 144,
+          "id:3": 343,
           "sizeY:3": 24
         }
       },
@@ -22109,43 +22434,36 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -168,
-          "id:3": 107,
-          "sizeY:3": 24
-        },
-        "9:10": {
-          "sizeX:3": 24,
           "x:3": 60,
           "y:3": -72,
           "id:3": 109,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -72,
           "id:3": 110,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -216,
+          "y:3": -168,
           "id:3": 118,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 132,
           "id:3": 143,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -264,
+          "y:3": -216,
           "id:3": 152,
           "sizeY:3": 24
         }
