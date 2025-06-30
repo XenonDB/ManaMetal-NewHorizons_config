@@ -52,9 +52,9 @@ mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <ore:dustSteel>);
 
 //------------------------------------------------------------------------
 //poor ore
-mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:Ore> * 2, <manametalmod:orePoorCopper> * 3, <minecraft:diamond_block>, 512);
-mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:Ore:1> * 2, <manametalmod:orePoorTin> * 3, <minecraft:diamond_block>, 512);
-mods.immersiveengineering.MetalPress.addRecipe(<ThermalFoundation:Ore:3> * 2, <manametalmod:orePoorLead> * 3, <minecraft:diamond_block>, 512);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:ore> * 2, <manametalmod:orePoorCopper> * 3, <minecraft:diamond_block>, 512);
+mods.immersiveengineering.MetalPress.addRecipe(<IC2:blockOreTin> * 2, <manametalmod:orePoorTin> * 3, <minecraft:diamond_block>, 512);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:ore:2> * 2, <manametalmod:orePoorLead> * 3, <minecraft:diamond_block>, 512);
 mods.immersiveengineering.MetalPress.addRecipe(<minecraft:iron_ore> * 2, <manametalmod:orePoorIron> * 3, <minecraft:diamond_block>, 512);
 
 //------------------------------------------------------------------------
@@ -91,6 +91,12 @@ mods.thaumcraft.Aspects.set(<DraconicEvolution:draconiumDust>, "metallum 4, drag
 mods.thaumcraft.Aspects.set(<DraconicEvolution:draconiumIngot>, "metallum 4, dragon 4");
 mods.thaumcraft.Aspects.set(<DraconicEvolution:draconicIngot>, "metallum 16, dragon 16, potentia 16");
 
+//------------------------------------------------------------------------
+//creative items
+
+mods.avaritia.ExtremeCrafting.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ElectriCraft:electricraft_item_rfbattery>.withTag({nrg: 60000000000000 as long}), [<appliedenergistics2:tile.BlockEnergyAcceptor>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockEnergyAcceptor>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:tile.BlockDenseEnergyCell>], "machina 128, signum 128", <appliedenergistics2:tile.BlockCreativeEnergyCell>, 15);
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <Thaumcraft:ItemThaumonomicon>, [<ChromatiCraft:chromaticraft_item_warp:1>, <manametalmod:MMMbook:3>, <manametalmod:ItemToolScribeTools>, <ThaumicTinkerer:placementMirror>], "history 128 ,cognitio 128 , instrumentum 64, perplexus 64, principia 64", <Thaumcraft:ItemThaumonomicon:42>, 15);
 
 
 //------------------------------------------------------------------------
@@ -113,15 +119,64 @@ mods.avaritia.Compressor.remove(<aobd:singularityKnightmetal>);
 mods.avaritia.Compressor.add(<aobd:singularityKnightmetal>, 200, <aobd:blockKnightmetal>);
 
 mods.avaritia.Compressor.remove(<aobd:singularityMoltenGold>);
-mods.avaritia.Compressor.add(<aobd:singularityMoltenGold>, 7000, <manametalmod:blockMoltenGold>);
+mods.avaritia.Compressor.add(<aobd:singularityMoltenGold>, 1000, <manametalmod:blockMoltenGold>);
 mods.avaritia.Compressor.remove(<aobd:singularityStarSilver>);
-mods.avaritia.Compressor.add(<aobd:singularityStarSilver>, 7000, <manametalmod:blockStarSilver>);
+mods.avaritia.Compressor.add(<aobd:singularityStarSilver>, 1000, <manametalmod:blockStarSilver>);
 mods.avaritia.Compressor.remove(<aobd:singularityDeepiron>);
-mods.avaritia.Compressor.add(<aobd:singularityDeepiron>, 4000, <manametalmod:blockDeepiron>);
+mods.avaritia.Compressor.add(<aobd:singularityDeepiron>, 3000, <manametalmod:blockDeepiron>);
 mods.avaritia.Compressor.remove(<aobd:singularityFantasygold>);
-mods.avaritia.Compressor.add(<aobd:singularityFantasygold>, 4000, <manametalmod:blockFantasygold>);
+mods.avaritia.Compressor.add(<aobd:singularityFantasygold>, 3000, <manametalmod:blockFantasygold>);
 mods.avaritia.Compressor.remove(<aobd:singularityHighlycrystal>);
-mods.avaritia.Compressor.add(<aobd:singularityHighlycrystal>, 4000, <manametalmod:blockHighlycrystal>);
+mods.avaritia.Compressor.add(<aobd:singularityHighlycrystal>, 3000, <manametalmod:blockHighlycrystal>);
+
+mods.avaritia.Compressor.remove(<universalsingularities:universal.general.singularity:7>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.general.singularity:7>, 3000, <manametalmod:blockOsmium>);
+mods.avaritia.Compressor.remove(<universalsingularities:universal.general.singularity:9>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.general.singularity:9>, 7000, <manametalmod:blockRuby>);
+mods.avaritia.Compressor.remove(<universalsingularities:universal.general.singularity:10>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.general.singularity:10>, 7000, <manametalmod:blockSapphire>);
+mods.avaritia.Compressor.remove(<universalsingularities:universal.mekanism.singularity>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.mekanism.singularity>, 500, <Mekanism:BasicBlock:4>);
+mods.avaritia.Compressor.remove(<universalsingularities:universal.mekanism.singularity:1>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.mekanism.singularity:1>, 500, <Mekanism:BasicBlock:2>);
+mods.avaritia.Compressor.remove(<universalsingularities:universal.tinkersConstruct.singularity:2>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.tinkersConstruct.singularity:2>, 500, <TConstruct:MetalBlock:1>);
+mods.avaritia.Compressor.remove(<aobd:singularityConstraintMetal>);
+mods.avaritia.Compressor.add(<aobd:singularityConstraintMetal>, 4000, <aobd:blockConstraintMetal>);
+mods.avaritia.Compressor.remove(<aobd:singularityImagSilicon>);
+mods.avaritia.Compressor.add(<aobd:singularityImagSilicon>, 4000, <aobd:blockImagSilicon>);
+mods.avaritia.Compressor.remove(<aobd:singularityCadmium>);
+mods.avaritia.Compressor.add(<aobd:singularityCadmium>, 3000, <aobd:blockCadmium>);
+mods.avaritia.Compressor.remove(<aobd:singularityIndium>);
+mods.avaritia.Compressor.add(<aobd:singularityIndium>, 2000, <aobd:blockIndium>);
+mods.avaritia.Compressor.remove(<aobd:singularityMysteriousSoul>);
+mods.avaritia.Compressor.add(<aobd:singularityMysteriousSoul>, 2000, <manametalmod:blockMysteriousSoul>);
+mods.avaritia.Compressor.remove(<aobd:singularityPreciousIron>);
+mods.avaritia.Compressor.add(<aobd:singularityPreciousIron>, 3000, <manametalmod:blockPreciousIron>);
+mods.avaritia.Compressor.remove(<aobd:singularityRainbowOpal>);
+mods.avaritia.Compressor.add(<aobd:singularityRainbowOpal>, 2000, <manametalmod:blockRainbowOpal>);
+mods.avaritia.Compressor.remove(<aobd:singularitySoulGold>);
+mods.avaritia.Compressor.add(<aobd:singularitySoulGold>, 3000, <manametalmod:blockSoulGold>);
+mods.avaritia.Compressor.remove(<aobd:singularityStartleSilver>);
+mods.avaritia.Compressor.add(<aobd:singularityStartleSilver>, 3000, <manametalmod:blockStartleSilver>);
+mods.avaritia.Compressor.remove(<aobd:singularityManaDragonCrystal>);
+mods.avaritia.Compressor.add(<aobd:singularityManaDragonCrystal>, 2000, <manametalmod:blockManaDragonCrystal>);
+mods.avaritia.Compressor.remove(<aobd:singularityManaEnderCrystal>);
+mods.avaritia.Compressor.add(<aobd:singularityManaEnderCrystal>, 2000, <manametalmod:blockManaEnderCrystal>);
+mods.avaritia.Compressor.remove(<aobd:singularityManaSpiritSteel>);
+mods.avaritia.Compressor.add(<aobd:singularityManaSpiritSteel>, 2000, <manametalmod:blockManaSpiritSteel>);
+mods.avaritia.Compressor.remove(<aobd:singularityYadras>);
+mods.avaritia.Compressor.add(<aobd:singularityYadras>, 2000, <manametalmod:blockYadras>);
+mods.avaritia.Compressor.remove(<aobd:singularityAcanoy>);
+mods.avaritia.Compressor.add(<aobd:singularityAcanoy>, 2000, <manametalmod:blockAcanoy>);
+mods.avaritia.Compressor.remove(<aobd:singularityNetherite>);
+mods.avaritia.Compressor.add(<aobd:singularityNetherite>, 1000, <manametalmod:blockNetherite>);
+mods.avaritia.Compressor.remove(<aobd:singularitySoulstone>);
+mods.avaritia.Compressor.add(<aobd:singularitySoulstone>, 800, <manametalmod:blockSoulstone>);
+mods.avaritia.Compressor.remove(<aobd:singularityBadyala>);
+mods.avaritia.Compressor.add(<aobd:singularityBadyala>, 800, <manametalmod:blockBadyala>);
+mods.avaritia.Compressor.remove(<aobd:singularityTritanium>);
+mods.avaritia.Compressor.add(<aobd:singularityTritanium>, 4000, <mo:tritanium_block>);
 
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <ElectriCraft:electricraft_item_rfbattery>.withTag({nrg: 60000000000000 as long}), [<universalsingularities:universal.draconicEvolution.singularity>, <ChromatiCraft:chromaticraft_item_bucket:3>, <manametalmod:shard_Creating>, <ChromatiCraft:chromaticraft_item_bucket:3>, <rftools:machineFrame>, <ChromatiCraft:chromaticraft_item_bucket:3>, <TaintedMagic:ItemMaterial:5>, <ChromatiCraft:chromaticraft_item_bucket:3>], "alienis 128, universe 256, space 64", <rftools:dimensionBuilderBlock>, 15);
 
@@ -131,9 +186,9 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:chaosFragment:1
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:chaosShard>, [<manametalmod:DarkScrap>, <DraconicEvolution:awakenedCore>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <ChromatiCraft:chromaticraft_item_modinteract:5>, <ChromatiCraft:chromaticraft_item_modinteract:5>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:awakenedCore>], "perditio 128 ,ordo 256 , auram 64, dackmagic 64", <DraconicEvolution:chaoticCore>, 9);
 
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Cosmic_Meatballs>);
-mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Cosmic_Meatballs> * 5, [<Avaritia:Resource:2>, <minecraft:beef>, <minecraft:chicken>, <minecraft:porkchop>, <minecraft:fish>, <arsmagica2:itemOre:8>, <MineFactoryReloaded:meat.ingot.raw>, <minecraft:spider_eye>, <abyssalcraft:antibeef>, <abyssalcraft:antichicken>, <abyssalcraft:antipork>, <abyssalcraft:antiflesh>, <abyssalcraft:antispidereye>, <abyssalcraft:anticorflesh>, <abyssalcraft:anticorbone>, <manametalmod:ItemFoodHumans>, <manametalmod:ItemFoodHumans:1>, <manametalmod:ItemFoodHumans:2>, <manametalmod:ItemFoodHumans:3>, <manametalmod:ItemFoodHumans:4>, <manametalmod:ItemFoodHumans:5>, <manametalmod:ItemFoodHumans:6>, <manametalmod:ItemFoodHumans:7>, <manametalmod:ItemFoodHumans:8>, <manametalmod:ItemFoodHumans:9>, <Thaumcraft:TripleMeatTreat>, <Thaumcraft:ItemZombieBrain>, <manametalmod:Cheese:5>, <witchery:ingredient:23>, <witchery:ingredient:50>, <witchery:ingredient:74>, <witchery:ingredient:89>, <witchery:ingredient:90>, <witchery:louse>, <witchery:bloodedwool>, <witchery:ingredient:158>, <TConstruct:strangeFood:2>]);
+mods.avaritia.ExtremeCrafting.addShapeless(<Avaritia:Cosmic_Meatballs> * 5, [<Avaritia:Resource:2>, <minecraft:beef>, <minecraft:chicken>, <minecraft:porkchop>, <minecraft:fish>, <arsmagica2:itemOre:8>, <MineFactoryReloaded:meat.ingot.raw>, <minecraft:spider_eye>, <abyssalcraft:antibeef>, <abyssalcraft:antichicken>, <abyssalcraft:antipork>, <abyssalcraft:antiflesh>, <abyssalcraft:antispidereye>, <abyssalcraft:anticorflesh>, <abyssalcraft:anticorbone>, <manametalmod:ItemFoodHumans>, <manametalmod:ItemFoodHumans:1>, <manametalmod:ItemFoodHumans:2>, <manametalmod:ItemFoodHumans:3>, <manametalmod:ItemFoodHumans:4>, <manametalmod:ItemFoodHumans:5>, <manametalmod:ItemFoodHumans:6>, <manametalmod:ItemFoodHumans:7>, <manametalmod:ItemFoodHumans:8>, <manametalmod:ItemFoodHumans:9>, <manametalmod:ItemFoodHumans:10>, <manametalmod:ItemFoodHumans:11>, <manametalmod:ItemFoodHumans:12>, <manametalmod:ItemFoodHumans:13>, <manametalmod:ItemFoodHumans:14>, <manametalmod:ItemFoodHumans:15>, <manametalmod:ItemFoodHumans:16>, <manametalmod:ItemFoodHumans:17>, <Thaumcraft:TripleMeatTreat>, <Thaumcraft:ItemZombieBrain>, <manametalmod:Cheese:5>, <trivialthoughts:DreamCheese>, <witchery:ingredient:23>, <witchery:ingredient:50>, <witchery:ingredient:74>, <witchery:ingredient:89>, <witchery:ingredient:90>, <witchery:louse>, <witchery:bloodedwool>, <witchery:ingredient:158>, <TConstruct:strangeFood:2>]);
 
-mods.avaritia.ExtremeCrafting.addShapeless(<manametalmod:MagicItemMedalFXS:371>, [<manametalmod:MagicItemMedalFXS:410>, <manametalmod:MagicItemMedalFXS:411>, <manametalmod:MagicItemMedalFXS:412>, <manametalmod:MagicItemMedalFXS:413>, <manametalmod:MagicItemMedalFXS:414>, <manametalmod:MagicItemMedalFXS:415>, <manametalmod:MagicItemMedalFXS:416>, <manametalmod:MagicItemMedalFXS:417>, <manametalmod:MagicItemMedalFXS:418>, <manametalmod:MagicItemMedalFXS:472>, <TwilightForest:item.trophy:4>, <witchery:leonardsurn:3>, <witchery:deathshand>, <witchery:babashat>, <Botania:recordGaia2>, <abyssalcraft:staff>, <shincolle:ShipSpawnEgg:53>, <shincolle:ShipSpawnEgg:54>, <shincolle:ShipSpawnEgg:55>, <shincolle:ShipSpawnEgg:56>, <shincolle:ShipSpawnEgg:38>, <shincolle:ShipSpawnEgg:39>, <shincolle:ShipSpawnEgg:48>, <shincolle:ShipSpawnEgg:40>, <shincolle:ShipSpawnEgg:41>, <shincolle:ShipSpawnEgg:49>, <shincolle:ShipSpawnEgg:50>, <mowziesmobs:wroughtaxe>, <mowziesmobs:foliaathseed>, <mowziesmobs:barakoaMask1>, <mowziesmobs:barakoaMask2>, <mowziesmobs:barakoaMask3>, <mowziesmobs:barakoaMask4>, <mowziesmobs:barakoaMask5>]);
+mods.avaritia.ExtremeCrafting.addShapeless(<manametalmod:MagicItemMedalFXS:371>, [<manametalmod:MagicItemMedalFXS:410>, <manametalmod:MagicItemMedalFXS:411>, <manametalmod:MagicItemMedalFXS:412>, <manametalmod:MagicItemMedalFXS:413>, <manametalmod:MagicItemMedalFXS:414>, <manametalmod:MagicItemMedalFXS:415>, <manametalmod:MagicItemMedalFXS:416>, <manametalmod:MagicItemMedalFXS:417>, <manametalmod:MagicItemMedalFXS:418>, <manametalmod:MagicItemMedalFXS:472>, <TwilightForest:item.trophy:4>, <witchery:leonardsurn:3>, <witchery:deathshand>, <witchery:babashat>, <Botania:recordGaia2>, <abyssalcraft:staff>, <shincolle:ShipSpawnEgg:53>, <shincolle:ShipSpawnEgg:54>, <shincolle:ShipSpawnEgg:55>, <shincolle:ShipSpawnEgg:56>, <shincolle:ShipSpawnEgg:38>, <shincolle:ShipSpawnEgg:39>, <shincolle:ShipSpawnEgg:48>, <shincolle:ShipSpawnEgg:40>, <shincolle:ShipSpawnEgg:41>, <shincolle:ShipSpawnEgg:49>, <shincolle:ShipSpawnEgg:50>, <manametalmod:SkillBookMagicBase1:22>]);
 
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Resource:6>);
@@ -143,10 +198,13 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <flammpfeil.slashblade:proudsoul:4
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <eternalsingularity:eternal_singularity>, [<ChromatiCraft:chromaticraft_item_placer:42>, <Avaritia:Ultimate_Stew>, <Avaritia:Cosmic_Meatballs>, <DraconicEvolution:chaoticCore>, <ChromatiCraft:chromaticraft_item_artefact>, <ChromatiCraft:chromaticraft_item_bucket:4>, <ThaumicTinkerer:skyPearl>, <arsmagica2:essence:10>, <AWWayofTime:blockCrystal>, <ThaumicHorizons:voidPutty>, <manametalmod:MagicItemMedalFXS:371>, <manametalmod:ItemMoneybags>.withTag({money: 2176782336 as long}), <RandomThings:bloodStone>, <customnpcs:npcOrb>.withTag({ench: [], display: {Name: "§bNamed Souls Crystal"}}), <ReactorCraft:reactorcraft_item_plutonium>, <manametalmod:ItemFoodFruitWisdoms>, <manametalmod:ItemProduceTreasure:*>, <manametalmod:fish_s8>], "fabrico 1024, terminus 8192", <Avaritia:Resource:5> * 2, 15);
 mods.thaumcraft.Arcane.addShaped("ASPECTS", <Avaritia:Resource:6> * 1, "ignis 120000, aqua 120000, terra 120000, aer 120000, perditio 120000, ordo 120000", [[<ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>], [<ore:blockCosmicNeutronium>, <Avaritia:Resource:5>, <ore:blockCosmicNeutronium>], [<ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>, <ore:blockCosmicNeutronium>]]);
 
+val nuclearCan = <IC2:itemTinCanFilled>.withTag({display: {Name: "§4Are you serious?"}, WITCCurse: {Curse: {RemainingCapacity: 0, BrewName: "Triggered Brew of Harming & Poison ", Color: -1422423512, Splash: 1 as byte, Items: [{Count: 1 as byte, id: 399 as short, Damage: 0 as short}, {Count: 1 as byte, id: 349 as short, Damage: 2 as short}, {Count: 1 as byte, id: 348 as short, Damage: 0 as short}, {Count: 1 as byte, id: 369 as short, Damage: 0 as short}, {Count: 1 as byte, id: 376 as short, Damage: 0 as short}, {Count: 1 as byte, id: 382 as short, Damage: 0 as short}, {Count: 1 as byte, id: 348 as short, Damage: 0 as short}, {Count: 1 as byte, id: 369 as short, Damage: 0 as short}, {Count: 1 as byte, id: 331 as short, Damage: 0 as short}, {Count: 1 as byte, id: 49 as short, Damage: 0 as short}, {Count: 1 as byte, id: 375 as short, Damage: 0 as short}, {Count: 1 as byte, id: 397 as short, Damage: 2 as short}], UsedCapacity: 4, BrewDrinkSpeed: 32, RitualTriggered: 1 as byte, BrewInfo: "T", Power: 1275, EffectCount: 2}, Count: 1}});
+mods.ic2.Canner.addBottleRecipe(nuclearCan, <IC2:itemTinCan>, <ReactorCraft:reactorcraft_item_waste:*>);
+
 mods.avaritia.ExtremeCrafting.addShaped (<Avaritia:Neutron_Collector>,
  [[<Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>, <Avaritia:Resource:1>],
   [<Avaritia:Resource:1>, <RotaryCraft:rotarycraft_block_deco:4>, <RotaryCraft:rotarycraft_block_deco:4>, <RotaryCraft:rotarycraft_block_deco:4>, <RotaryCraft:rotarycraft_block_deco:4>, <RotaryCraft:rotarycraft_block_deco:4>, <RotaryCraft:rotarycraft_block_deco:4>, <RotaryCraft:rotarycraft_block_deco:4>, <Avaritia:Resource:1>],
-  [<Avaritia:Resource:1>, <RotaryCraft:rotarycraft_block_deco:4>, <ReactorCraft:reactorcraft_item_waste:*>, <ReactorCraft:reactorcraft_item_waste:*>, <ReactorCraft:reactorcraft_item_waste:*>, <ReactorCraft:reactorcraft_item_waste:*>, <ReactorCraft:reactorcraft_item_waste:*>, <RotaryCraft:rotarycraft_block_deco:4>, <Avaritia:Resource:1>],
+  [<Avaritia:Resource:1>, <RotaryCraft:rotarycraft_block_deco:4>, <ReactorCraft:reactorcraft_item_waste:*>, <ReactorCraft:reactorcraft_item_waste:*>, nuclearCan, <ReactorCraft:reactorcraft_item_waste:*>, <ReactorCraft:reactorcraft_item_waste:*>, <RotaryCraft:rotarycraft_block_deco:4>, <Avaritia:Resource:1>],
   [<Avaritia:Resource:1>, <RotaryCraft:rotarycraft_block_deco:4>, <ReactorCraft:reactorcraft_item_waste:*>, <ChromatiCraft:chromaticraft_item_crafting:23>, <ChromatiCraft:chromaticraft_item_crafting:23>, <ChromatiCraft:chromaticraft_item_crafting:23>, <ReactorCraft:reactorcraft_item_waste:*>, <RotaryCraft:rotarycraft_block_deco:4>, <Avaritia:Resource:1>],
   [<Avaritia:Resource:1>, <RotaryCraft:rotarycraft_block_deco:4>, <ReactorCraft:reactorcraft_item_waste:*>, <ChromatiCraft:chromaticraft_item_crafting:23>, <Avaritia:big_pearl>, <ChromatiCraft:chromaticraft_item_crafting:23>, <ReactorCraft:reactorcraft_item_waste:*>, <RotaryCraft:rotarycraft_block_deco:4>, <Avaritia:Resource:1>],
   [<Avaritia:Resource:1>, <RotaryCraft:rotarycraft_block_deco:4>, <ReactorCraft:reactorcraft_item_waste:*>, <ChromatiCraft:chromaticraft_item_crafting:23>, <ChromatiCraft:chromaticraft_item_crafting:23>, <ChromatiCraft:chromaticraft_item_crafting:23>, <ReactorCraft:reactorcraft_item_waste:*>, <RotaryCraft:rotarycraft_block_deco:4>, <Avaritia:Resource:1>],

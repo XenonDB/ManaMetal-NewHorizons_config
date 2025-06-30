@@ -1,0 +1,128 @@
+{
+	type = "creative_mana_pool"
+	level = "pylon"
+	recipe = {
+		center = "manametalmod:BlockManaPoolM3_1:13"
+		items = {
+			{
+				item = "ChromatiCraft:chromaticraft_item_adjacency:12"
+				x = -2
+				z = 0
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_adjacency:12"
+				x = 2
+				z = 0
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_adjacency:12"
+				x = 0
+				z = -2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_adjacency:12"
+				x = 0
+				z = 2
+			}
+			{
+				item = "manametalmod:BlockTotem2"
+				x = 2
+				z = 2
+			}
+			{
+				item = "manametalmod:BlockTotem2"
+				x = -2
+				z = 2
+			}
+			{
+				item = "manametalmod:BlockTotem2"
+				x = 2
+				z = -2
+			}
+			{
+				item = "manametalmod:BlockTotem2"
+				x = -2
+				z = -2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_placer:48"
+				x = 4
+				z = 0
+			}
+			{
+				item = "manametalmod:BlockSprings"
+				x = -4
+				z = 0
+			}
+			{
+				item = "manametalmod:RFMakeMana"
+				x = 4
+				z = 2
+			}
+			{
+				item = "manametalmod:BlockManaCondensations"
+				x = -4
+				z = 2
+			}
+			{
+				item = "EnderIO:itemItemConduit"
+				x = 4
+				z = 4
+			}
+			{
+				item = "EnderIO:itemItemConduit"
+				x = -4
+				z = 4
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				x = 2
+				z = 4
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				x = -2
+				z = 4
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				x = 2
+				z = -4
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				x = -2
+				z = -4
+			}
+			{
+				item = "rftools:crafterBlock1"
+				x = 0
+				z = 4
+			}
+			{
+				item = "Botania:openCrate"
+				x = 0
+				z = -4
+			}
+		}
+	}
+	energy = {
+		{
+			color = "black"
+			amount = 60000
+		}
+		{
+			color = "red"
+			amount = 60000
+		}
+		{
+			color = "purple"
+			amount = 60000
+		}
+		{
+			color = "lightblue"
+			amount = 120000
+		}
+	}
+	output = "Botania:pool:1"
+}

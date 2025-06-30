@@ -37,6 +37,8 @@ val lootTip1 = format.gold("\u53EF\u65BC\u4EA1\u9748\u53E4\u5893\u3001\u9060\u53
 
 <manametalmod:BlockTileEntityClothesTailors>.addTooltip(format.gold("\u4FEE\u88DC\u7A4D\u5206\u82E5\u8D85\u904E200\u5206\uFF0C\u5247\u8996\u70BA0\u5206!"));
 
+<manametalmod:ingotCopyA>.addTooltip(format.gold("\u5F9E\u9F8D\u65CF\u63A2\u96AA\u968A\u7372\u5F97\uFF0C\u6216\u662F\u4F7F\u7528\u5F69\u80FD\u9444\u4EF6\u914D\u65B9\u8907\u88FD"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
@@ -70,4 +72,31 @@ val mekTweakedItems = [<Mekanism:CardboardBox>, <Mekanism:TeleportationCore>, <M
 
 for i in mekTweakedItems {
 	i.addTooltip(format.red("\u914D\u65B9\u5DF2\u66F4\u52D5\uFF0C\u820A\u914D\u65B9\u5C07\u4E0D\u8D77\u4F5C\u7528"));
+}
+
+//------------------------------------------------------------------------
+//uu values
+
+val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:chaosFragment>, <ChromatiCraft:chromaticraft_item_elemental:*>] as IItemStack[];
+
+for i in hasUUValues {
+	i.addTooltip(format.gold("\u53EF\u4F7F\u7528UU-Matter\u8907\u88FD"));
+}
+
+//------------------------------------------------------------------------
+//mana pools
+
+val mmmManaPools = [<manametalmod:BlockManaPoolM3_1:10>, <manametalmod:BlockManaPoolM3_1:11>, <manametalmod:BlockManaPoolM3_1:12>, <manametalmod:BlockManaPoolM3_1:13>] as IItemStack[];
+
+for i in mmmManaPools {
+	i.addTooltip(format.red("\u8ACB\u4E0D\u8981\u5C07\u9B54\u529B\u624B\u93E1\u7D81\u5B9A\u5230\u8A72\u6C60\u4E0A"));
+}
+
+//------------------------------------------------------------------------
+//available in dungeon dimension
+
+val availInDungeon = [<ae2wct:wirelessCraftingTerminal>,<academy-craft:ac_Item_silbarn>,<academy-craft:ac_Item_magHook>,<academy-craft:ac_Item_coin>,<TaintedMagic:ItemKatana:*>,<Mekanism:Flamethrower>,<witchery:mysticbranch>,<witchery:deathshand>,<witchery:mooncharm>,<witchery:witchhand>,<IC2:itemNanoSaber>,<RotaryCraft:rotarycraft_item_gravelgun>,<RotaryCraft:rotarycraft_item_stungun>,<ChromatiCraft:chromaticraft_item_chaingun>,<ChromatiCraft:chromaticraft_item_splashgun>,<ChromatiCraft:chromaticraft_item_splineattack>,<ChromatiCraft:chromaticraft_item_killauragun>,<ChromatiCraft:chromaticraft_item_hoverwand>,<wizardry:magic_wand>,<wizardry:apprentice_wand>,<wizardry:advanced_wand>,<wizardry:master_wand>,<wizardry:basic_fire_wand>,<wizardry:basic_ice_wand>,<wizardry:basic_lightning_wand>,<wizardry:basic_necromancy_wand>,<wizardry:basic_earth_wand>,<wizardry:basic_sorcery_wand>,<wizardry:basic_healing_wand>,<wizardry:apprentice_fire_wand>,<wizardry:apprentice_ice_wand>,<wizardry:apprentice_lightning_wand>,<wizardry:apprentice_necromancy_wand>,<wizardry:apprentice_earth_wand>,<wizardry:apprentice_sorcery_wand>,<wizardry:apprentice_healing_wand>,<wizardry:advanced_fire_wand>,<wizardry:advanced_ice_wand>,<wizardry:advanced_lightning_wand>,<wizardry:advanced_necromancy_wand>,<wizardry:advanced_earth_wand>,<wizardry:advanced_sorcery_wand>,<wizardry:advanced_healing_wand>,<wizardry:master_fire_wand>,<wizardry:master_ice_wand>,<wizardry:master_lightning_wand>,<wizardry:master_necromancy_wand>,<wizardry:master_earth_wand>,<wizardry:master_sorcery_wand>,<wizardry:master_healing_wand>,<mo:phaser_rifle>,<mo:plasma_shotgun>,<mo:ion_sniper>,<arsmagica2:spellBase>,<TConstruct:Shuriken>,<TConstruct:ThrowingKnife>,<TConstruct:Javelin>,<TConstruct:ShortBow>,<TConstruct:Crossbow>,<Botania:brewVial>,<Botania:brewFlask>] as IItemStack[];
+
+for i in availInDungeon {
+	i.addTooltip(format.gold("\u53EF\u5728M3\u5730\u4E0B\u57CE\u7DAD\u5EA6\u4E2D\u4F7F\u7528"));
 }

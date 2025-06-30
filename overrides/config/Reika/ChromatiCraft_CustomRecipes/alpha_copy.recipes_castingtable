@@ -1,0 +1,105 @@
+{
+	type = "alpha_copy"
+	level = "pylon"
+	recipe = {
+		center = "ChromatiCraft:chromaticraft_item_crafting:24"
+		items = {
+			{
+				item = "manametalmod:ingotCopyA"
+				x = -2
+				z = 0
+			}
+			{
+				item = "manametalmod:ingotCopyA"
+				x = 2
+				z = 0
+			}
+			{
+				item = "manametalmod:ingotCopyA"
+				x = 0
+				z = -2
+			}
+			{
+				item = "manametalmod:ingotCopyA"
+				x = 0
+				z = 2
+			}
+			{
+				item = "IC2:itemCellEmpty:3"
+				x = 2
+				z = 2
+			}
+			{
+				item = "IC2:itemCellEmpty:3"
+				x = -2
+				z = 2
+			}
+			{
+				item = "IC2:itemCellEmpty:3"
+				x = 2
+				z = -2
+			}
+			{
+				item = "IC2:itemCellEmpty:3"
+				x = -2
+				z = -2
+			}
+			{
+				item = "manametalmod:MetalEnergy07"
+				x = 4
+				z = -2
+			}
+			{
+				item = "manametalmod:MetalEnergy07"
+				x = -4
+				z = -2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:21"
+				x = 4
+				z = 0
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:21"
+				x = -4
+				z = 0
+			}
+			{
+				item = "manametalmod:MetalEnergy07"
+				x = 4
+				z = 2
+			}
+			{
+				item = "manametalmod:MetalEnergy07"
+				x = -4
+				z = 2
+			}
+		}
+	}
+	energy = {
+		{
+			color = "black"
+			amount = 60000
+		}
+		{
+			color = "brown"
+			amount = 20000
+		}
+		{
+			color = "purple"
+			amount = 60000
+		}
+		{
+			color = "gray"
+			amount = 60000
+		}
+		{
+			color = "white"
+			amount = 20000
+		}
+	}
+	output = "manametalmod:ingotCopyA*64"
+	progress = {
+		"structcomplete"
+	}
+}

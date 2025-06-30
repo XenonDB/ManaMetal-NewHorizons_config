@@ -37,6 +37,8 @@ val lootTip1 = format.gold("Found in Undead Ancient Tomb or Ancient Thulium Runi
 
 <manametalmod:BlockTileEntityClothesTailors>.addTooltip(format.gold("Score over 200 will be treated as 0!"));
 
+<manametalmod:ingotCopyA>.addTooltip(format.gold("Obtained via Dragon Expedition or replicated via pylon casting"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
@@ -70,4 +72,31 @@ val mekTweakedItems = [<Mekanism:CardboardBox>, <Mekanism:TeleportationCore>, <M
 
 for i in mekTweakedItems {
 	i.addTooltip(format.red("Tweaked item. Old recipe will not work!"));
+}
+
+//------------------------------------------------------------------------
+//uu values
+
+val hasUUValues = [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconicIngot>, <DraconicEvolution:chaosFragment>, <ChromatiCraft:chromaticraft_item_elemental:*>] as IItemStack[];
+
+for i in hasUUValues {
+	i.addTooltip(format.gold("Can be replicated using UU-Matter"));
+}
+
+//------------------------------------------------------------------------
+//mana pools
+
+val mmmManaPools = [<manametalmod:BlockManaPoolM3_1:10>, <manametalmod:BlockManaPoolM3_1:11>, <manametalmod:BlockManaPoolM3_1:12>, <manametalmod:BlockManaPoolM3_1:13>] as IItemStack[];
+
+for i in mmmManaPools {
+	i.addTooltip(format.red("Please don't bind Mana Mirror to this pool"));
+}
+
+//------------------------------------------------------------------------
+//available in dungeon dimension
+
+val availInDungeon = [<ae2wct:wirelessCraftingTerminal>,<academy-craft:ac_Item_silbarn>,<academy-craft:ac_Item_magHook>,<academy-craft:ac_Item_coin>,<TaintedMagic:ItemKatana:*>,<Mekanism:Flamethrower>,<witchery:mysticbranch>,<witchery:deathshand>,<witchery:mooncharm>,<witchery:witchhand>,<IC2:itemNanoSaber>,<RotaryCraft:rotarycraft_item_gravelgun>,<RotaryCraft:rotarycraft_item_stungun>,<ChromatiCraft:chromaticraft_item_chaingun>,<ChromatiCraft:chromaticraft_item_splashgun>,<ChromatiCraft:chromaticraft_item_splineattack>,<ChromatiCraft:chromaticraft_item_killauragun>,<ChromatiCraft:chromaticraft_item_hoverwand>,<wizardry:magic_wand>,<wizardry:apprentice_wand>,<wizardry:advanced_wand>,<wizardry:master_wand>,<wizardry:basic_fire_wand>,<wizardry:basic_ice_wand>,<wizardry:basic_lightning_wand>,<wizardry:basic_necromancy_wand>,<wizardry:basic_earth_wand>,<wizardry:basic_sorcery_wand>,<wizardry:basic_healing_wand>,<wizardry:apprentice_fire_wand>,<wizardry:apprentice_ice_wand>,<wizardry:apprentice_lightning_wand>,<wizardry:apprentice_necromancy_wand>,<wizardry:apprentice_earth_wand>,<wizardry:apprentice_sorcery_wand>,<wizardry:apprentice_healing_wand>,<wizardry:advanced_fire_wand>,<wizardry:advanced_ice_wand>,<wizardry:advanced_lightning_wand>,<wizardry:advanced_necromancy_wand>,<wizardry:advanced_earth_wand>,<wizardry:advanced_sorcery_wand>,<wizardry:advanced_healing_wand>,<wizardry:master_fire_wand>,<wizardry:master_ice_wand>,<wizardry:master_lightning_wand>,<wizardry:master_necromancy_wand>,<wizardry:master_earth_wand>,<wizardry:master_sorcery_wand>,<wizardry:master_healing_wand>,<mo:phaser_rifle>,<mo:plasma_shotgun>,<mo:ion_sniper>,<arsmagica2:spellBase>,<TConstruct:Shuriken>,<TConstruct:ThrowingKnife>,<TConstruct:Javelin>,<TConstruct:ShortBow>,<TConstruct:Crossbow>,<Botania:brewVial>,<Botania:brewFlask>] as IItemStack[];
+
+for i in availInDungeon {
+	i.addTooltip(format.gold("Can be used in M3 Dungeon dimension"));
 }
