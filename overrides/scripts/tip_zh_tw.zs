@@ -49,14 +49,6 @@ for i in nogenOres {
 <manametalmod:oreIridium>.addTooltip(format.gold("\u53EF\u900F\u904E\u5176\u4ED6\u65B9\u6CD5(\u96F7\u5C04\u6316\u7926\u3001\u6597\u8F2A\u6316\u7926...)\u4F86\u7372\u5F97\u539F\u7926"));
 
 //------------------------------------------------------------------------
-//NEI recipes synchronized alert
-
-val pigIronWarning = format.red("\u65BCTinker\u9444\u9020\u53F0/\u76C6\u4E2D\u6F86\u6CE8\u7194\u878D\u9435\u6703\u5F97\u5230\u7C97\u9435\uFF0C\u800C\u4E0D\u662F\u9435!!");
-<minecraft:iron_block>.addTooltip(pigIronWarning);
-<minecraft:iron_ingot>.addTooltip(pigIronWarning);
-<ImmersiveEngineering:metal:21>.addTooltip(pigIronWarning);
-
-//------------------------------------------------------------------------
 
 val thoriumDusts = [<ReactorCraft:reactorcraft_item_raw:7>, <RotaryCraft:rotarycraft_item_modingots:84>] as IItemStack[];
 

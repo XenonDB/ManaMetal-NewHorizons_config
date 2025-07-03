@@ -49,14 +49,6 @@ for i in nogenOres {
 <manametalmod:oreIridium>.addTooltip(format.gold("Use other ore producting devices(eg: Laser Drill or Excavator) to obtain it"));
 
 //------------------------------------------------------------------------
-//NEI recipes synchronized alert
-
-val pigIronWarning = format.red("Molten iron cased in TiC casting table/basin will become M3 wrought iron");
-<minecraft:iron_block>.addTooltip(pigIronWarning);
-<minecraft:iron_ingot>.addTooltip(pigIronWarning);
-<ImmersiveEngineering:metal:21>.addTooltip(pigIronWarning);
-
-//------------------------------------------------------------------------
 
 val thoriumDusts = [<ReactorCraft:reactorcraft_item_raw:7>, <RotaryCraft:rotarycraft_item_modingots:84>] as IItemStack[];
 
