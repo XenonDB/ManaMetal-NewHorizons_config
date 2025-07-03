@@ -718,3 +718,5 @@ mmnh.quests.quest.98.desc=1.禁用botania的魔力附魔台，因為透過它和
 mmnh.quests.quest.98.title=beta 1.10
 mmnh.quests.quest.99.desc=1.更改無限催化劑和世界巔峰勳章的配方。%n%n2.魔法金屬更新至5.4.7
 mmnh.quests.quest.99.title=beta 1.11
+mmnh.quests.quest.345.desc=有些機器可以開採「虛擬礦脈」來「無中生有」礦石。%n%n這裡有幾個選擇可以給你參考。%n%n其中ImmersiveEngineering的礦脈礦藏量已經調整成無限，但你仍然需要不停鑽探直到找到你想找的礦脈。
+mmnh.quests.quest.345.title=礦脈
