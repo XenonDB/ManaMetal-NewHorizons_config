@@ -720,3 +720,5 @@ mmnh.quests.quest.99.desc=1.更改無限催化劑和世界巔峰勳章的配方�
 mmnh.quests.quest.99.title=beta 1.11
 mmnh.quests.quest.345.desc=有些機器可以開採「虛擬礦脈」來「無中生有」礦石。%n%n這裡有幾個選擇可以給你參考。%n%n其中ImmersiveEngineering的礦脈礦藏量已經調整成無限，但你仍然需要不停鑽探直到找到你想找的礦脈。
 mmnh.quests.quest.345.title=礦脈
+mmnh.quests.quest.346.desc=以暗能量驅動的高爐。可以使用暗能量將鐵直接轉化為黑暗鋼錠。%n%n同時，你知道黑暗鋼也可以放入暗能量儀中提煉出暗能量。%n%n%n你研究了一下這個循環，發現這相當於將便宜鐵轉化為暗能量的過程....
+mmnh.quests.quest.346.title=暗能量煉成
