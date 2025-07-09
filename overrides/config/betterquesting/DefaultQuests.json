@@ -326,7 +326,9 @@
     },
     "6:10": {
       "questID:3": 6,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -335,9 +337,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "witchery:ingredient",
+            "id:8": "manametalmod:ItemKettles",
             "Count:3": 1,
-            "Damage:2": 133,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -354,11 +356,51 @@
       },
       "tasks:9": {
         "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemKettles",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemKettles",
+              "Count:3": 1,
+              "tag:10": {
+                "type:8": "hot",
+                "water:3": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemKettles",
+              "Count:3": 1,
+              "tag:10": {
+                "type:8": "cold",
+                "water:3": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "7:10": {
       "questID:3": 7,
@@ -915,7 +957,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -935,6 +977,12 @@
               "id:8": "manametalmod:FoodTastes",
               "Count:3": 1,
               "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "trivialthoughts:IceFastFoodBag",
+              "Count:3": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -4800,6 +4848,12 @@
               "Count:3": 1,
               "Damage:2": 16,
               "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "manametalmod:ItemCreateSecretElixir",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8057,7 +8111,9 @@
     },
     "124:10": {
       "questID:3": 124,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        2
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -21840,6 +21896,68 @@
           }
         }
       }
+    },
+    "347:10": {
+      "questID:3": 347,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:dustPlantMana",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.347.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.347.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:dustPlantMana",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:dustPlantMana",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -21847,85 +21965,78 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -96,
-          "id:3": 6,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
           "x:3": -36,
           "y:3": -96,
           "id:3": 7,
           "sizeY:3": 24
         },
-        "2:10": {
+        "1:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -96,
           "id:3": 9,
           "sizeY:3": 24
         },
-        "3:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -96,
           "id:3": 13,
           "sizeY:3": 24
         },
-        "4:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -48,
           "id:3": 19,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 20,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -48,
           "id:3": 73,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -84,
-          "y:3": -48,
+          "y:3": -96,
           "id:3": 84,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -48,
           "id:3": 94,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -96,
           "id:3": 125,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": 0,
           "id:3": 129,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -84,
-          "y:3": 0,
+          "y:3": -48,
           "id:3": 133,
           "sizeY:3": 24
         }
@@ -21987,89 +22098,110 @@
         },
         "5:10": {
           "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -48,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": -144,
           "id:3": 10,
           "sizeY:3": 24
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -144,
           "id:3": 11,
           "sizeY:3": 24
         },
-        "7:10": {
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -180,
+          "id:3": 16,
+          "sizeY:3": 24
+        },
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -132,
           "id:3": 34,
           "sizeY:3": 24
         },
-        "8:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -60,
           "id:3": 35,
           "sizeY:3": 24
         },
-        "9:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -144,
           "id:3": 78,
           "sizeY:3": 24
         },
-        "10:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": -192,
           "y:3": -96,
           "id:3": 81,
           "sizeY:3": 24
         },
-        "11:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": -132,
           "id:3": 89,
           "sizeY:3": 24
         },
-        "12:10": {
+        "14:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -48,
+          "x:3": -108,
+          "y:3": -24,
           "id:3": 104,
           "sizeY:3": 24
         },
-        "13:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": -132,
           "y:3": -48,
           "id:3": 105,
           "sizeY:3": 24
         },
-        "14:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": -216,
           "y:3": -60,
           "id:3": 123,
           "sizeY:3": 24
         },
-        "15:10": {
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -24,
+          "id:3": 124,
+          "sizeY:3": 24
+        },
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 128,
           "sizeY:3": 24
         },
-        "16:10": {
+        "19:10": {
           "sizeX:3": 24,
-          "x:3": -84,
+          "x:3": -108,
           "y:3": -180,
           "id:3": 339,
           "sizeY:3": 24
         },
-        "17:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": -48,
@@ -22099,114 +22231,107 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 48,
-          "y:3": 84,
+          "x:3": -96,
+          "y:3": 36,
           "id:3": 8,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -48,
+          "x:3": 0,
           "y:3": -12,
           "id:3": 12,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": -12,
-          "id:3": 16,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
           "x:3": 48,
           "y:3": -60,
           "id:3": 17,
           "sizeY:3": 24
         },
-        "4:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -60,
           "id:3": 37,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": -60,
           "id:3": 63,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -96,
-          "y:3": 36,
+          "y:3": -12,
           "id:3": 87,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": 84,
           "id:3": 107,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 84,
           "id:3": 108,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 36,
           "id:3": 113,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 36,
           "id:3": 120,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 84,
           "id:3": 121,
           "sizeY:3": 24
         },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -12,
-          "id:3": 124,
-          "sizeY:3": 24
-        },
-        "13:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 36,
           "id:3": 135,
           "sizeY:3": 24
         },
-        "14:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": -12,
           "id:3": 136,
           "sizeY:3": 24
         },
-        "15:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -96,
           "y:3": -60,
           "id:3": 250,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -12,
+          "id:3": 347,
           "sizeY:3": 24
         }
       },
