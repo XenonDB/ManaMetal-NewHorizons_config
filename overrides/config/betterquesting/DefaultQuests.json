@@ -1395,7 +1395,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.24.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.24.desc"
         }
@@ -1454,7 +1454,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.25.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.25.desc"
         }
@@ -1513,7 +1513,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.26.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.26.desc"
         }
@@ -1572,7 +1572,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.27.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.27.desc"
         }
@@ -6462,7 +6462,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.102.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.102.desc"
         }
@@ -6519,7 +6519,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.103.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.103.desc"
         }
@@ -6776,7 +6776,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.108.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.108.desc"
         }
@@ -7171,7 +7171,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.115.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.115.desc"
         }
@@ -8630,7 +8630,7 @@
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.135.title",
           "lockedProgress:1": 0,
-          "autoClaim:1": 1,
+          "autoClaim:1": 0,
           "isSilent:1": 0,
           "desc:8": "mmnh.quests.quest.135.desc"
         }
