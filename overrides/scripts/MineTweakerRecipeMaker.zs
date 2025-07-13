@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<academy-craft:ac_Block_imagFusor>);
 recipes.remove(<StorageDrawers:fullDrawers1:5>);
 recipes.remove(<StorageDrawers:fullDrawers1:4>);
 recipes.remove(<StorageDrawers:fullDrawers1:3>);

@@ -110,3 +110,7 @@ for i, part in unstableParts {
 	//mods.tconstruct.Smeltery.addMelting(part, <liquid:molten.unstableingots> * fluidAmount[i], 850, <ExtraUtilities:decorativeBlock1:5>);
 	mods.tconstruct.Casting.addTableRecipe(part, <liquid:molten.unstableingots> * fluidAmount[i], partCasts[i], false, 20);
 }
+
+//禁用Imag Fusor並給予替代配方
+mods.thermalexpansion.Transposer.addFillRecipe(6000, <academy-craft:ac_Item_crystalLow>, <academy-craft:ac_Item_crystalNormal>, <liquid:imagproj> * 3000);
+mods.thermalexpansion.Transposer.addFillRecipe(6000, <academy-craft:ac_Item_crystalNormal>, <academy-craft:ac_Item_crystalPure>, <liquid:imagproj> * 8000);

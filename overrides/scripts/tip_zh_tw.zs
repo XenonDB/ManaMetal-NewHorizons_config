@@ -92,3 +92,7 @@ val availInDungeon = [<ae2wct:wirelessCraftingTerminal>,<academy-craft:ac_Item_s
 for i in availInDungeon {
 	i.addTooltip(format.gold("\u53EF\u5728M3\u5730\u4E0B\u57CE\u7DAD\u5EA6\u4E2D\u4F7F\u7528"));
 }
+
+//------------------------------------------------------------------------
+//disable imag fusor
+<academy-craft:ac_Block_imagFusor>.addTooltip(format.gold("\u7981\u7528\u7269\u54C1\u3002\u914D\u65B9\u4EA4\u7531\u5176\u4ED6\u6A5F\u5668\u8CA0\u8CAC\u3002"));

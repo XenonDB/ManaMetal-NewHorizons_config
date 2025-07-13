@@ -19993,18 +19993,12 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "academy-craft:ac_Block_imagFusor",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
               "id:8": "academy-craft:ac_Block_developerNormal",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
-            "3:10": {
+            "2:10": {
               "id:8": "academy-craft:ac_Block_nodeBasic",
               "Count:3": 1,
               "Damage:2": 0,
