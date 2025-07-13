@@ -92,3 +92,7 @@ val availInDungeon = [<ae2wct:wirelessCraftingTerminal>,<academy-craft:ac_Item_s
 for i in availInDungeon {
 	i.addTooltip(format.gold("Can be used in M3 Dungeon dimension"));
 }
+
+//------------------------------------------------------------------------
+//disable imag fusor
+<academy-craft:ac_Block_imagFusor>.addTooltip(format.gold("Disabled. Recipe handled by other machine."));

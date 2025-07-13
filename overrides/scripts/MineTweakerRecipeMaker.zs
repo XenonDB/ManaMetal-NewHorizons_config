@@ -12,6 +12,13 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<academy-craft:ac_Block_imagFusor>);
+recipes.remove(<StorageDrawers:fullDrawers1:5>);
+recipes.remove(<StorageDrawers:fullDrawers1:4>);
+recipes.remove(<StorageDrawers:fullDrawers1:3>);
+recipes.remove(<StorageDrawers:fullDrawers1:2>);
+recipes.remove(<StorageDrawers:fullDrawers1:1>);
+recipes.remove(<StorageDrawers:fullDrawers1>);
 recipes.remove(<trivialthoughts:portable_dirt_platform>);
 recipes.remove(<extracells:part.base>);
 recipes.remove(<extracells:part.base:1>);
@@ -118,6 +125,12 @@ recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<StorageDrawers:fullDrawers1:5>, [[null, <minecraft:planks:5>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:5>, null, <minecraft:planks:5>]]);
+recipes.addShaped(<StorageDrawers:fullDrawers1:4>, [[null, <minecraft:planks:4>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:4>, null, <minecraft:planks:4>]]);
+recipes.addShaped(<StorageDrawers:fullDrawers1:3>, [[null, <minecraft:planks:3>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:3>, null, <minecraft:planks:3>]]);
+recipes.addShaped(<StorageDrawers:fullDrawers1:2>, [[null, <minecraft:planks:2>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:2>, null, <minecraft:planks:2>]]);
+recipes.addShaped(<StorageDrawers:fullDrawers1:1>, [[null, <minecraft:planks:1>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:1>, null, <minecraft:planks:1>]]);
+recipes.addShaped(<StorageDrawers:fullDrawers1>, [[null, <minecraft:planks>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks>, null, <minecraft:planks>]]);
 recipes.addShaped(<IC2:itemDiamondBlockCuttingBlade>, [[<ore:dustDiamond>, <ore:dustDiamond>, <ore:dustDiamond>], [<ore:dustDiamond>, <IC2:itemAdvIronBlockCuttingBlade>, <ore:dustDiamond>], [<ore:dustDiamond>, <ore:dustDiamond>, <ore:dustDiamond>]]);
 recipes.addShaped(<EnderIO:blockBuffer:3>, [[null,null,null],[<manametalmod:ingotCopyA> ,<EnderIO:blockBuffer:2>, <ore:ingotInfinity>],[null,null,null]]);
 recipes.addShaped(<abyssalcraft:ironp> * 4, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);
