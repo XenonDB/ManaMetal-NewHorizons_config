@@ -252,8 +252,8 @@ mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:163>, <Botania:vial>, 3, 90
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:163> * 2, [<Botania:vial>, <Botania:vial>, <AWWayofTime:bloodMagicBaseAlchemyItems:6>], 4, 300);
 
 //金屬蘋果還原配方
-mods.tconstruct.Smeltery.addMelting(<manametalmod:PalladiumApple>, <liquid:palladium> * 144, 200, <manametalmod:blockPalladium>);
-mods.tconstruct.Smeltery.addMelting(<manametalmod:PalladiumApple:1>, <liquid:palladium> * 1296, 200, <manametalmod:blockPalladium>);
+mods.tconstruct.Smeltery.addMelting(<manametalmod:PalladiumApple>, <liquid:fluidpalladium> * 144, 200, <manametalmod:blockPalladium>);
+mods.tconstruct.Smeltery.addMelting(<manametalmod:PalladiumApple:1>, <liquid:fluidpalladium> * 1296, 200, <manametalmod:blockPalladium>);
 mods.tconstruct.Smeltery.addMelting(<manametalmod:SilverApples>, <liquid:silver.molten> * 144, 200, <ImmersiveEngineering:storage:3>);
 mods.tconstruct.Smeltery.addMelting(<manametalmod:SilverApples:1>, <liquid:silver.molten> * 1296, 200, <ImmersiveEngineering:storage:3>);
 mods.tconstruct.Smeltery.addMelting(<manametalmod:PlatinumApple>, <liquid:platinum.molten> * 144, 200, <ThermalFoundation:Storage:5>);
