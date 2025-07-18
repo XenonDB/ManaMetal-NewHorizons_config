@@ -20,7 +20,7 @@ mods.mfr.MiningLaser.addPreferredOre(2, <DraconicEvolution:draconiumOre>);
 //HOLY SHIT THE FUCKING INVISIBLE ANNOTATION
 //mods.rotarycraft.Friction.addRecipe(<DraconicEvolution:draconiumDust>,<DraconicEvolution:draconiumIngot>,1990,50);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<DraconicEvolution:draconium>, <ore:ingotTrueAncientThulium>, null, 600, 1024, [<ore:ingotTrueAncientThulium>, <RotaryCraft:rotarycraft_item_powders:4> * 4, <DraconicEvolution:draconiumDust> * 9], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<DraconicEvolution:draconium>, <ore:ingotTrueAncientThulium>, null, 600, 1024, [<RotaryCraft:rotarycraft_item_powders:4> * 2, <DraconicEvolution:draconiumDust> * 9], "Alloying");
 mods.mekanism.Crusher.addRecipe(<DraconicEvolution:draconium>, <DraconicEvolution:draconiumIngot> * 9);
 
 val draconArmors = [<DraconicEvolution:wyvernHelm>, <DraconicEvolution:wyvernChest>, <DraconicEvolution:wyvernLeggs>, <DraconicEvolution:wyvernBoots>] as IItemStack[];
@@ -105,7 +105,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <Thaumcraft:ItemThaumonomicon>, [<
 mods.avaritia.Compressor.remove(<universalsingularities:universal.vanilla.singularity:2>);
 mods.avaritia.Compressor.add(<universalsingularities:universal.vanilla.singularity:2>, 66000, <ore:blockDiamond>);
 mods.avaritia.Compressor.remove(<universalsingularities:universal.draconicEvolution.singularity>);
-mods.avaritia.Compressor.add(<universalsingularities:universal.draconicEvolution.singularity>, 1500, <DraconicEvolution:draconium:2>);
+mods.avaritia.Compressor.add(<universalsingularities:universal.draconicEvolution.singularity>, 2000, <DraconicEvolution:draconium:2>);
 mods.avaritia.Compressor.remove(<universalsingularities:universal.general.singularity:11>);
 mods.avaritia.Compressor.add(<universalsingularities:universal.general.singularity:11>, 500, <manametalmod:ingotGaia>);
 

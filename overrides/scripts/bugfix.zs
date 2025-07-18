@@ -75,10 +75,6 @@ mods.thaumcraft.Research.removeResearch("morphicFingers");
 //移除超吟附魔台
 mods.thaumcraft.Research.removeResearch("TB.Overchanter");
 
-//給M3流體祕銀配方
-mods.tconstruct.Smeltery.removeMelting(<manametalmod:ingotMithril>);
-mods.tconstruct.Smeltery.addMelting(<manametalmod:ingotMithril>, <liquid:fluidmithril> * 144, 200, <manametalmod:blockMithril>);
-
 //other
 //mods.tconstruct.Smeltery.addMelting(<ore:ingotBrass>, <liquid:brass.molten> * 144, 200, <manametalmod:blockBrass>);
 mods.tconstruct.Smeltery.addMelting(<ore:gearManaS>, <liquid:fluidmanas> * 576, 200, <manametalmod:blockManaS>);
@@ -115,7 +111,7 @@ for i, part in unstableParts {
 mods.thermalexpansion.Transposer.addFillRecipe(6000, <academy-craft:ac_Item_crystalLow>, <academy-craft:ac_Item_crystalNormal>, <liquid:imagproj> * 3000);
 mods.thermalexpansion.Transposer.addFillRecipe(6000, <academy-craft:ac_Item_crystalNormal>, <academy-craft:ac_Item_crystalPure>, <liquid:imagproj> * 8000);
 
-//Tinker熔融配方有誤,單人端沒問題賜福端上確有問題(會鑄造出12個錠...?),不知道問題怎麼發生的所以乾脆全部重寫一遍
+//Tinker熔融配方有誤,單人端沒問題伺福端上確有問題(會鑄造出12個錠...?),不知道問題怎麼發生的所以乾脆全部重寫一遍
 mods.tconstruct.Casting.removeTableRecipe(<abyssalcraft:abyingot>);
 mods.tconstruct.Casting.removeTableRecipe(<abyssalcraft:cingot>);
 mods.tconstruct.Casting.removeTableRecipe(<academy-craft:ac_Item_ingotConst>);
@@ -188,7 +184,6 @@ mods.tconstruct.Casting.removeTableRecipe(<manametalmod:ingotYamagata>);
 mods.tconstruct.Casting.removeTableRecipe(<manametalmod:ingotYttrium>);
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:gold_ingot>);
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:iron_ingot>);
-mods.tconstruct.Casting.removeTableRecipe(<mo:tritanium_ingot>);
 mods.tconstruct.Casting.removeTableRecipe(<ProjRed|Core:projectred.core.part:10>);
 mods.tconstruct.Casting.removeTableRecipe(<ReactorCraft:reactorcraft_item_ingots:1>);
 mods.tconstruct.Casting.removeTableRecipe(<ReactorCraft:reactorcraft_item_ingots:2>);
@@ -205,7 +200,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:2>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:34>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:4>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:5>);
-mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:70>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:74>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:75>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:76>);
@@ -284,7 +278,6 @@ mods.tconstruct.Casting.addTableRecipe(<manametalmod:ingotYamagata>, <liquid:yam
 mods.tconstruct.Casting.addTableRecipe(<manametalmod:ingotYttrium>, <liquid:yttrium> * 144, <TConstruct:metalPattern>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:gold_ingot>, <liquid:gold.molten> * 144, <TConstruct:metalPattern>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:iron_ingot>, <liquid:iron.molten> * 144, <TConstruct:metalPattern>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<mo:tritanium_ingot>, <liquid:molten_tritanium> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<ProjRed|Core:projectred.core.part:10>, <liquid:redmetal.molten> * 144, <TConstruct:metalPattern>, false, 32);
 mods.tconstruct.Casting.addTableRecipe(<ReactorCraft:reactorcraft_item_ingots:1>, <liquid:cadmium> * 144, <TConstruct:metalPattern>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ReactorCraft:reactorcraft_item_ingots:2>, <liquid:indium> * 144, <TConstruct:metalPattern>, false, 50);
@@ -301,7 +294,6 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:2>, <liquid:stone.s
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:34>, <liquid:pigiron.molten> * 144, <TConstruct:metalPattern>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:4>, <liquid:ardite.molten> * 144, <TConstruct:metalPattern>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:materials:5>, <liquid:manyullyn.molten> * 144, <TConstruct:metalPattern>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:70>, <liquid:mithril.molten> * 144, <TConstruct:metalPattern>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:74>, <liquid:signalum.molten> * 144, <TConstruct:metalPattern>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:75>, <liquid:lumium.molten> * 144, <TConstruct:metalPattern>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:76>, <liquid:enderium.molten> * 144, <TConstruct:metalPattern>, false, 80);
@@ -334,3 +326,29 @@ mods.tconstruct.Smeltery.addMelting(<aobd:clusterThulium>, <liquid:fluidthulium>
 mods.tconstruct.Smeltery.addMelting(<manametalmod:blockThulium>, <liquid:fluidthulium> * 1296, 600, <manametalmod:blockThulium>);
 mods.tconstruct.Smeltery.addMelting(<manametalmod:ingotThulium>, <liquid:fluidthulium> * 144, 600, <manametalmod:blockThulium>);
 mods.tconstruct.Smeltery.addMelting(<manametalmod:dustThulium>, <liquid:fluidthulium> * 144, 600, <manametalmod:blockThulium>);
+
+
+mods.tconstruct.Smeltery.removeMelting(<manametalmod:ingotMithril>);
+mods.tconstruct.Casting.removeBasinRecipe(<ThermalFoundation:Storage:6>);
+mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:102>);
+mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:134>);
+mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:70>);
+
+mods.tconstruct.Casting.addBasinRecipe(<ThermalFoundation:Storage:6>, <liquid:fluidmithril> * 1296, null, false, 100);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:102>, <liquid:fluidmithril> * 16, <TConstruct:metalPattern:27>, false, 40);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:134>, <liquid:fluidmithril> * 576, <TConstruct:gearCast>, false, 55);
+mods.tconstruct.Casting.addTableRecipe(<ThermalFoundation:material:70>, <liquid:fluidmithril> * 144, <TConstruct:metalPattern>, false, 80);
+
+mods.tconstruct.Smeltery.addMelting(<customnpcs:npcMithrilIngot>, <liquid:fluidmithril> * 144, 750, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:Storage:6>, <liquid:fluidmithril> * 1296, 900, <ThermalFoundation:Storage:6>);
+mods.tconstruct.Smeltery.addMelting(<manametalmod:dustMithril>, <liquid:fluidmithril> * 144, 725, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<WitchingGadgets:item.WG_Cluster:24>, <liquid:fluidmithril> * 432, 550, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<manametalmod:legend1>, <liquid:fluidmithril> * 864, 875, <manametalmod:legend1>);
+mods.tconstruct.Smeltery.addMelting(<manametalmod:nuggetMithril>, <liquid:fluidmithril> * 16, 700, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<manametalmod:oreMithril>, <liquid:fluidmithril> * 288, 800, <manametalmod:oreMithril>);
+mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:Ore:6>, <liquid:fluidmithril> * 288, 800, <ThermalFoundation:Ore:6>);
+mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:134>, <liquid:fluidmithril> * 576, 900, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:102>, <liquid:fluidmithril> * 16, 700, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<manametalmod:blockMithril>, <liquid:fluidmithril> * 1296, 900, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:70>, <liquid:fluidmithril> * 144, 750, <manametalmod:blockMithril>);
+mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:38>, <liquid:fluidmithril> * 144, 725, <manametalmod:blockMithril>);
