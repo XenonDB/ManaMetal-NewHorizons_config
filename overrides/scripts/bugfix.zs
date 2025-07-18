@@ -115,7 +115,7 @@ for i, part in unstableParts {
 mods.thermalexpansion.Transposer.addFillRecipe(6000, <academy-craft:ac_Item_crystalLow>, <academy-craft:ac_Item_crystalNormal>, <liquid:imagproj> * 3000);
 mods.thermalexpansion.Transposer.addFillRecipe(6000, <academy-craft:ac_Item_crystalNormal>, <academy-craft:ac_Item_crystalPure>, <liquid:imagproj> * 8000);
 
-//Tinker熔融配方有誤,單人端沒問題賜福端上確有問題(會鑄造出12個錠...?),不知道問題怎麼發生的所以乾脆全部重寫一遍
+//Tinker熔融配方有誤,單人端沒問題伺福端上確有問題(會鑄造出12個錠...?),不知道問題怎麼發生的所以乾脆全部重寫一遍
 mods.tconstruct.Casting.removeTableRecipe(<abyssalcraft:abyingot>);
 mods.tconstruct.Casting.removeTableRecipe(<abyssalcraft:cingot>);
 mods.tconstruct.Casting.removeTableRecipe(<academy-craft:ac_Item_ingotConst>);
@@ -188,7 +188,6 @@ mods.tconstruct.Casting.removeTableRecipe(<manametalmod:ingotYamagata>);
 mods.tconstruct.Casting.removeTableRecipe(<manametalmod:ingotYttrium>);
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:gold_ingot>);
 mods.tconstruct.Casting.removeTableRecipe(<minecraft:iron_ingot>);
-mods.tconstruct.Casting.removeTableRecipe(<mo:tritanium_ingot>);
 mods.tconstruct.Casting.removeTableRecipe(<ProjRed|Core:projectred.core.part:10>);
 mods.tconstruct.Casting.removeTableRecipe(<ReactorCraft:reactorcraft_item_ingots:1>);
 mods.tconstruct.Casting.removeTableRecipe(<ReactorCraft:reactorcraft_item_ingots:2>);
@@ -284,7 +283,6 @@ mods.tconstruct.Casting.addTableRecipe(<manametalmod:ingotYamagata>, <liquid:yam
 mods.tconstruct.Casting.addTableRecipe(<manametalmod:ingotYttrium>, <liquid:yttrium> * 144, <TConstruct:metalPattern>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:gold_ingot>, <liquid:gold.molten> * 144, <TConstruct:metalPattern>, false, 80);
 mods.tconstruct.Casting.addTableRecipe(<minecraft:iron_ingot>, <liquid:iron.molten> * 144, <TConstruct:metalPattern>, false, 80);
-mods.tconstruct.Casting.addTableRecipe(<mo:tritanium_ingot>, <liquid:molten_tritanium> * 144, <TConstruct:metalPattern>, false, 20);
 mods.tconstruct.Casting.addTableRecipe(<ProjRed|Core:projectred.core.part:10>, <liquid:redmetal.molten> * 144, <TConstruct:metalPattern>, false, 32);
 mods.tconstruct.Casting.addTableRecipe(<ReactorCraft:reactorcraft_item_ingots:1>, <liquid:cadmium> * 144, <TConstruct:metalPattern>, false, 50);
 mods.tconstruct.Casting.addTableRecipe(<ReactorCraft:reactorcraft_item_ingots:2>, <liquid:indium> * 144, <TConstruct:metalPattern>, false, 50);
