@@ -14,7 +14,6 @@ import minetweaker.item.IItemStack;
 <manametalmod:ItemToolWandBlocks>.addTooltip(format.red("\u4E0D\u8981\u7528\u5B83\u642Cpylon!!\u5426\u5247Reika\u6703\u300C\u9810\u9632\u6027\u5D29\u6F70\u300D!!"));
 <DraconicEvolution:chaosShard>.addTooltip(format.gold("\u900F\u904E\u64CA\u5012\u6DF7\u6C8C\u5B88\u885B\uFF0C\u6216\u795E\u9F8D\u53CD\u61C9\u7210\u7684\u71C3\u6599\u53CD\u61C9\u5B8C\u5F8C\u7684\u7522\u7269\u5F97\u5230"));
 <DraconicEvolution:chaosFragment:*>.addTooltip(format.gold("\u900F\u904E\u64CA\u5012\u6DF7\u6C8C\u5B88\u885B\uFF0C\u6216\u795E\u9F8D\u53CD\u61C9\u7210\u7684\u71C3\u6599\u53CD\u61C9\u5B8C\u5F8C\u7684\u7522\u7269\u5F97\u5230"));
-<MineFactoryReloaded:machine.2:2>.addTooltip(format.darkRed("\u7981\u7528\u7269\u54C1"));
 
 <universalsingularities:universal.general.singularity:11>.addTooltip(format.gold("\u914D\u65B9\u66F4\u6539\u70BA\u4F7F\u7528\u771F\u84CB\u4E9E\u4E4B\u9B42\u9320\u88FD\u4F5C"));
 
@@ -96,3 +95,12 @@ for i in availInDungeon {
 //------------------------------------------------------------------------
 //disable imag fusor
 <academy-craft:ac_Block_imagFusor>.addTooltip(format.gold("\u7981\u7528\u7269\u54C1\u3002\u914D\u65B9\u4EA4\u7531\u5176\u4ED6\u6A5F\u5668\u8CA0\u8CAC\u3002"));
+
+//------------------------------------------------------------------------
+//banned item
+
+val bannedItems = [<MineFactoryReloaded:machine.2:2>, <WitchingGadgets:item.WG_Bag:3>] as IItemStack[];
+
+for i in bannedItems {
+	i.addTooltip(format.darkRed("\u7981\u7528\u7269\u54C1"));
+}
