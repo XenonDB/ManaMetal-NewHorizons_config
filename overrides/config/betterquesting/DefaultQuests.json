@@ -1269,7 +1269,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -2852,7 +2852,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -3312,7 +3312,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -3820,7 +3820,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -7283,7 +7283,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -7322,6 +7322,22 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:3": -1,
+          "name:8": "遠古銩王城",
+          "dimension:3": 104,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
         }
       },
       "rewards:9": {}
@@ -13866,7 +13882,7 @@
               "id:8": "ChromatiCraft:chromaticraft_item_structurefinder",
               "Count:3": 1,
               "tag:10": {},
-              "Damage:2": 0,
+              "Damage:2": 32767,
               "OreDict:8": ""
             }
           },
@@ -14131,7 +14147,7 @@
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_netherkey",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 32767,
               "OreDict:8": ""
             }
           },
@@ -15888,7 +15904,7 @@
               "id:8": "ChromatiCraft:chromaticraft_item_probe",
               "Count:3": 1,
               "tag:10": {},
-              "Damage:2": 0,
+              "Damage:2": 32767,
               "OreDict:8": ""
             }
           },
@@ -21481,7 +21497,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -21520,6 +21536,22 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:3": -1,
+          "name:8": "大地礦坑",
+          "dimension:3": 91,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
         }
       },
       "rewards:9": {}
