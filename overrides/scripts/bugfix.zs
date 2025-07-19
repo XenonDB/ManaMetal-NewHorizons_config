@@ -352,3 +352,6 @@ mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:102>, <liquid:fl
 mods.tconstruct.Smeltery.addMelting(<manametalmod:blockMithril>, <liquid:fluidmithril> * 1296, 900, <manametalmod:blockMithril>);
 mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:70>, <liquid:fluidmithril> * 144, 750, <manametalmod:blockMithril>);
 mods.tconstruct.Smeltery.addMelting(<ThermalFoundation:material:38>, <liquid:fluidmithril> * 144, 725, <manametalmod:blockMithril>);
+
+//禁用饕餮袋子避免複製bug
+mods.thaumcraft.Research.removeResearch("HUNGERBAG");

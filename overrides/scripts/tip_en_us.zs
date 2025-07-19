@@ -14,7 +14,6 @@ import minetweaker.item.IItemStack;
 <manametalmod:ItemToolWandBlocks>.addTooltip(format.red("Don't use this tool to move Crystal Pylon!!"));
 <DraconicEvolution:chaosShard>.addTooltip(format.gold("Obtain from Chaos Guardian or by-product of Draconic Reactor"));
 <DraconicEvolution:chaosFragment:*>.addTooltip(format.gold("Obtain from Chaos Guardian or by-product of Draconic Reactor"));
-<MineFactoryReloaded:machine.2:2>.addTooltip(format.darkRed("Banned item"));
 
 <universalsingularities:universal.general.singularity:11>.addTooltip(format.gold("Recipe tweaked"));
 
@@ -96,3 +95,12 @@ for i in availInDungeon {
 //------------------------------------------------------------------------
 //disable imag fusor
 <academy-craft:ac_Block_imagFusor>.addTooltip(format.gold("Disabled. Recipe handled by other machine."));
+
+//------------------------------------------------------------------------
+//banned item
+
+val bannedItems = [<MineFactoryReloaded:machine.2:2>, <WitchingGadgets:item.WG_Bag:3>] as IItemStack[];
+
+for i in bannedItems {
+	i.addTooltip(format.darkRed("Banned item"));
+}
