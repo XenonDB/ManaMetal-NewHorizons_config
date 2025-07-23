@@ -38,6 +38,8 @@ val lootTip1 = format.gold("Found in Undead Ancient Tomb or Ancient Thulium Runi
 
 <manametalmod:ingotCopyA>.addTooltip(format.gold("Obtained via Dragon Expedition or replicated via pylon casting"));
 
+<ThaumicExploration:everfullUrn>.addTooltip(format.gold("It's best to not right click it with fluid container"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
