@@ -114,7 +114,7 @@ mods.avaritia.Compressor.add(<aobd:singularityAbyssalnite>, 400, <abyssalcraft:a
 mods.avaritia.Compressor.remove(<aobd:singularityLiquifiedCoralium>);
 mods.avaritia.Compressor.add(<aobd:singularityLiquifiedCoralium>, 400, <abyssalcraft:corblock>);
 mods.avaritia.Compressor.remove(<aobd:singularityIronwood>);
-mods.avaritia.Compressor.add(<aobd:singularityIronwood>, 200, <aobd:blockIronwood>);
+mods.avaritia.Compressor.add(<aobd:singularityIronwood>, 100, <manametalmod:blockPowerIronwood>);
 mods.avaritia.Compressor.remove(<aobd:singularityKnightmetal>);
 mods.avaritia.Compressor.add(<aobd:singularityKnightmetal>, 200, <aobd:blockKnightmetal>);
 
@@ -170,7 +170,7 @@ mods.avaritia.Compressor.add(<aobd:singularityYadras>, 2000, <manametalmod:block
 mods.avaritia.Compressor.remove(<aobd:singularityAcanoy>);
 mods.avaritia.Compressor.add(<aobd:singularityAcanoy>, 2000, <manametalmod:blockAcanoy>);
 mods.avaritia.Compressor.remove(<aobd:singularityNetherite>);
-mods.avaritia.Compressor.add(<aobd:singularityNetherite>, 1000, <manametalmod:blockNetherite>);
+mods.avaritia.Compressor.add(<aobd:singularityNetherite>, 600, <manametalmod:blockNetherite>);
 mods.avaritia.Compressor.remove(<aobd:singularitySoulstone>);
 mods.avaritia.Compressor.add(<aobd:singularitySoulstone>, 800, <manametalmod:blockSoulstone>);
 mods.avaritia.Compressor.remove(<aobd:singularityBadyala>);
