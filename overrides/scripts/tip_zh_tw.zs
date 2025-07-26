@@ -38,6 +38,8 @@ val lootTip1 = format.gold("\u53EF\u65BC\u4EA1\u9748\u53E4\u5893\u3001\u9060\u53
 
 <manametalmod:ingotCopyA>.addTooltip(format.gold("\u5F9E\u9F8D\u65CF\u63A2\u96AA\u968A\u7372\u5F97\uFF0C\u6216\u662F\u4F7F\u7528\u5F69\u80FD\u9444\u4EF6\u914D\u65B9\u8907\u88FD"));
 
+<ThaumicExploration:everfullUrn>.addTooltip(format.gold("\u8ACB\u76E1\u91CF\u4E0D\u8981\u62FF\u6D41\u9AD4\u5BB9\u5668\u53F3\u9375\u5B83"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
