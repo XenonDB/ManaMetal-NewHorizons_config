@@ -2,7 +2,7 @@
 	type = "creative_mana_pool"
 	level = "pylon"
 	recipe = {
-		center = "manametalmod:BlockManaPoolM3_1:13"
+		center = "manametalmod:BlockIceStoreCores"
 		items = {
 			{
 				item = "ChromatiCraft:chromaticraft_item_adjacency:12"
@@ -15,12 +15,12 @@
 				z = 0
 			}
 			{
-				item = "ChromatiCraft:chromaticraft_item_adjacency:12"
+				item = "manametalmod:BlockManaPoolM3_1:13"
 				x = 0
 				z = -2
 			}
 			{
-				item = "ChromatiCraft:chromaticraft_item_adjacency:12"
+				item = "manametalmod:BlockTileEntityCrystalZs4"
 				x = 0
 				z = 2
 			}
@@ -32,76 +32,96 @@
 			{
 				item = "manametalmod:BlockTotem2"
 				x = -2
-				z = 2
-			}
-			{
-				item = "manametalmod:BlockTotem2"
-				x = 2
-				z = -2
-			}
-			{
-				item = "manametalmod:BlockTotem2"
-				x = -2
-				z = -2
-			}
-			{
-				item = "ChromatiCraft:chromaticraft_item_placer:48"
-				x = 4
-				z = 0
-			}
-			{
-				item = "manametalmod:BlockSprings"
-				x = -4
-				z = 0
-			}
-			{
-				item = "manametalmod:RFMakeMana"
-				x = 4
 				z = 2
 			}
 			{
 				item = "manametalmod:BlockManaCondensations"
+				x = 2
+				z = -2
+			}
+			{
+				item = "manametalmod:BlockSprings"
+				x = -2
+				z = -2
+			}
+			{
+				item = "manametalmod:BlockTotem2"
+				x = 4
+				z = 0
+			}
+			{
+				item = "manametalmod:BlockTotem2"
+				x = -4
+				z = 0
+			}
+			{
+				item = "manametalmod:BlockTotem2"
+				x = 4
+				z = 2
+			}
+			{
+				item = "manametalmod:BlockTotem2"
 				x = -4
 				z = 2
 			}
 			{
-				item = "EnderIO:itemItemConduit"
+				item = "manametalmod:BlockTotem2"
 				x = 4
 				z = 4
 			}
 			{
-				item = "EnderIO:itemItemConduit"
+				item = "manametalmod:BlockTotem2"
 				x = -4
 				z = 4
 			}
 			{
-				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				item = "manametalmod:BlockTotem2"
 				x = 2
 				z = 4
 			}
 			{
-				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				item = "manametalmod:BlockTotem2"
 				x = -2
 				z = 4
 			}
 			{
-				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				item = "manametalmod:BlockTileEntityCrystalZs4"
 				x = 2
 				z = -4
 			}
 			{
-				item = "ChromatiCraft:chromaticraft_block_heatlamp:8"
+				item = "manametalmod:BlockTileEntityCrystalZs4"
 				x = -2
 				z = -4
 			}
 			{
-				item = "rftools:crafterBlock1"
+				item = "manametalmod:BlockTotem2"
 				x = 0
 				z = 4
 			}
 			{
 				item = "Botania:openCrate"
 				x = 0
+				z = -4
+			}
+			{
+				item = "manametalmod:ManaEnergyGenerator3"
+				x = 4
+				z = -2
+			}
+			{
+				item = "manametalmod:RFMakeMana"
+				x = -4
+				z = -2
+			}
+			{
+				item = "manametalmod:ManaStoneF"
+				x = 4
+				z = -4
+			}
+			{
+				item = "rftools:crafterBlock1"
+				x = -4
 				z = -4
 			}
 		}
@@ -113,7 +133,7 @@
 		}
 		{
 			color = "red"
-			amount = 60000
+			amount = 120000
 		}
 		{
 			color = "purple"
@@ -121,6 +141,14 @@
 		}
 		{
 			color = "lightblue"
+			amount = 120000
+		}
+		{
+			color = "gray"
+			amount = 40000
+		}
+		{
+			color = "cyan"
 			amount = 120000
 		}
 	}
