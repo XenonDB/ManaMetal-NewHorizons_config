@@ -101,7 +101,7 @@ for i in availInDungeon {
 //------------------------------------------------------------------------
 //banned item
 
-val bannedItems = [<MineFactoryReloaded:machine.2:2>, <WitchingGadgets:item.WG_Bag:3>] as IItemStack[];
+val bannedItems = [<MineFactoryReloaded:machine.2:2>, <WitchingGadgets:item.WG_Bag:3>, <arsmagica2:arcaneDeconstructor>] as IItemStack[];
 
 for i in bannedItems {
 	i.addTooltip(format.darkRed("Banned item"));
