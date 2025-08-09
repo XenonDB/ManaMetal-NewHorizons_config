@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -42,7 +42,9 @@
       "default": {
         "textOverride": "Playing on {server.motd.raw}"
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -123,21 +125,14 @@
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(custom.pack)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
       "icon-manametal": "https://media.forgecdn.net/avatars/thumbnails/438/228/256/256/637683118130594529.png",
       "127.0.0.1": "https://api.mcsrvstat.us/icon/127.0.0.1",
       "PTH_Xenon": "https://mc-heads.net/avatar/43f904af0edc4c0ebabebc6f9a767df8"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",
