@@ -7013,13 +7013,19 @@
               "OreDict:8": ""
             },
             "3:10": {
-              "id:8": "TConstruct:travelBelt",
+              "id:8": "manametalmod:ItemToolBlackBackpacks",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "4:10": {
               "id:8": "TConstruct:knapsack",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "manametalmod:ItemToolBackpackManaItems",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
