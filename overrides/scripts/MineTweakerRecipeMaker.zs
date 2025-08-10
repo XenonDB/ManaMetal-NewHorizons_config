@@ -12,6 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Mekanism:BasicBlock2:2>);
+recipes.remove(<Mekanism:BasicBlock2:1>);
 recipes.remove(<arsmagica2:arcaneDeconstructor>);
 recipes.remove(<academy-craft:ac_Block_imagFusor>);
 recipes.remove(<StorageDrawers:fullDrawers1:5>);
