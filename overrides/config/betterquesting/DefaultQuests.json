@@ -3570,7 +3570,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -3609,6 +3609,10 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {}
