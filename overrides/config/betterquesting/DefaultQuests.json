@@ -13109,7 +13109,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13378,7 +13378,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 10,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13448,7 +13448,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13512,7 +13512,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13640,7 +13640,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13704,7 +13704,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 10,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13824,7 +13824,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13894,7 +13894,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -13958,7 +13958,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 10,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -14022,7 +14022,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -14382,7 +14382,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -14735,7 +14735,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -14818,7 +14818,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -14886,7 +14886,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -15450,7 +15450,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 10,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -15714,7 +15714,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -15916,7 +15916,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -15980,7 +15980,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -16057,7 +16057,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -16411,7 +16411,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -16521,13 +16521,6 @@
             "1:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_placer",
               "Count:3": 1,
-              "tag:10": {
-                "owners:9": {
-                  "0:10": {
-                    "value:8": "43f904af-0edc-4c0e-babe-bc6f9a767df8"
-                  }
-                }
-              },
               "Damage:2": 99,
               "OreDict:8": ""
             },
@@ -16548,7 +16541,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "ChromatiCraft:chromaticraft_item_fragment",
-              "Count:3": 1,
+              "Count:3": 6,
               "Damage:2": 0,
               "OreDict:8": ""
             },
