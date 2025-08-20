@@ -6772,7 +6772,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
@@ -6830,7 +6830,7 @@
           "posZ:3": 0,
           "biome:3": -1,
           "name:8": "古代稜墓",
-          "dimension:3": 95,
+          "dimension:3": 94,
           "taxiCabDist:1": 0,
           "taskID:8": "bq_standard:location"
         }
@@ -6845,7 +6845,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
