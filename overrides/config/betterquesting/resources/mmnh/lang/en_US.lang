@@ -732,3 +732,5 @@ mmnh.quests.quest.350.desc=沒有這指令%n%n不過，如果你是在有不少�
 mmnh.quests.quest.350.title=/rtp
 mmnh.quests.quest.351.desc=如果你跟你的夥伴一起研究ChromatiCraft，那麼對空白書頁的需求會很多。%n%n不過，這裡有個小捷徑可以降低多人的書頁需求:%n%n%n已解開書頁的對你來說，應該會有三種狀態:%n%n1.書頁下的文字是附魔文字，看不懂%n%n2.書頁下的文字是綠色明文%n%n3.書頁下的文字是紫色明文%n%n%n對於1的狀況，表示該書頁是你還無法解鎖的，2則是你已經解鎖的%n%n3則是「可以解鎖但尚未解鎖」的書頁。%n%n所以你可以拿你夥伴的書，檢查一下裡面有沒有紫色明文的書頁%n%n有的話就拿出來放進你的物品欄一下，這樣你就可以解鎖該書頁知識%n%n然後你可以拿起自己的書，使用recovery功能將該書頁抄錄進去%n%n%n這樣你們的書頁需求量最多就只要1人份的量。
 mmnh.quests.quest.351.title=偷看答案
+mmnh.quests.quest.352.desc=恩...這邊是個注意事項。%n%nReika的模組部分東西有「加速破壞防具」的效果。%n%n但是這個效果的實作方法...有點BUG，會將部分「無法破壞或無耐久」的防具一次就摧毀。%n%n這些防具包刮ThaumicTinkerer的Kami裝備(效果禁用時，Damage變成1的情況)以及大部分魔法金屬的裝備(包括那4組畢業套裝)%n%n我很早就提交過issue了但是它一直都沒修正...%n%n%n所以我在這邊列出幾個有這種效果的東西，自己小心一點:%n%n1.RotaryCraft的研磨機,水車和被燃氣渦輪機吸進去%n%n2.虛空獸的攻擊%n%n3.受RotaryCraft的基岩合金劍直接攻擊%n%n4.身上持有ChromatiCraft的完整Unknown Artefact
+mmnh.quests.quest.352.title=破壞防具
