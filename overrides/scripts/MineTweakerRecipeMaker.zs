@@ -159,7 +159,7 @@ recipes.addShaped(<IC2:itemCable:9> * 4, [[<ore:blockGlass>, <ore:blockGlass>, <
 recipes.addShaped(<IC2:blockMachine2>, [[<ore:circuitAdvanced>, <IC2:itemFreq>, <ore:circuitAdvanced>], [<IC2:itemCable:9>, <IC2:blockMachine:12>, <IC2:itemCable:9>], [<ore:circuitAdvanced>, <ThermalExpansion:Plate:6>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<IC2:blockMachine2>, [[<ore:circuitAdvanced>, <IC2:itemFreq>, <ore:circuitAdvanced>], [<IC2:itemCable:9>, <IC2:blockMachine:12>, <IC2:itemCable:9>], [<ore:circuitAdvanced>, <Mekanism:TeleportationCore>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<Mekanism:TeleportationCore>, [[<ore:gemLapis>, <ore:alloyUltimate>, <ore:gemLapis>], [<ore:ingotGold>, <ore:itemEnderCrystal>, <ore:ingotGold>], [<ore:gemLapis>, <ore:alloyUltimate>, <ore:gemLapis>]]);
-recipes.addShaped(<Mekanism:MachineBlock:4>, [[<Mekanism:MachineBlock:15>, <Mekanism:Robit>, <Mekanism:MachineBlock:15>], [<Mekanism:PartTransmitter:3>, <IC2:blockMachine2:11>, <IC2:itemScannerAdv:*>]]);
+recipes.addShaped(<Mekanism:MachineBlock:4>, [[<ExtraUtilities:nodeUpgrade:10>, <Mekanism:Robit>, <ExtraUtilities:nodeUpgrade:1>], [<Mekanism:PartTransmitter:3>, <IC2:blockMachine2:11>, <IC2:itemScannerAdv:*>]]);
 recipes.addShaped(<Mekanism:AtomicDisassembler>, [[<ore:ingotTrueAncientThulium>, <ore:battery>, <ore:ingotTrueAncientThulium>], [<ore:ingotTrueAncientThulium>, <ore:alloyUltimate>, <ore:ingotTrueAncientThulium>], [null, <ore:ingotRefinedObsidian>, null]]);
 recipes.addShaped(<DraconicEvolution:chaosFragment> * 9, [[<DraconicEvolution:chaosFragment:1>]]);
 recipes.addShaped(<DraconicEvolution:chaosFragment:1> * 9, [[<DraconicEvolution:chaosFragment:2>]]);
