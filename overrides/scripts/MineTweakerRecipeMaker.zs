@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ThermalFoundation:lexicon>);
 recipes.remove(<Mekanism:BasicBlock2:2>);
 recipes.remove(<Mekanism:BasicBlock2:1>);
 recipes.remove(<arsmagica2:arcaneDeconstructor>);
@@ -128,6 +129,7 @@ recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ThermalFoundation:lexicon>.withTag({Empowered: 0 as byte, Inventory: {}}), [[null, <ore:gemDiamond>, null], [<ore:ingotGold>, <minecraft:book>, <ore:ingotIron>], [null, <ore:dustRedstone>, null]]);
 recipes.addShaped(<StorageDrawers:fullDrawers1:5>, [[null, <minecraft:planks:5>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:5>, null, <minecraft:planks:5>]]);
 recipes.addShaped(<StorageDrawers:fullDrawers1:4>, [[null, <minecraft:planks:4>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:4>, null, <minecraft:planks:4>]]);
 recipes.addShaped(<StorageDrawers:fullDrawers1:3>, [[null, <minecraft:planks:3>, null], [null, <StorageDrawers:fullCustom1>, null], [<minecraft:planks:3>, null, <minecraft:planks:3>]]);
