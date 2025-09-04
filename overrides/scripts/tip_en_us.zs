@@ -44,8 +44,8 @@ val lootTip1 = format.gold("Found in Undead Ancient Tomb or Ancient Thulium Runi
 
 <ChromatiCraft:chromaticraft_item_placer:29>.addTooltip(format.gold("Will scan large area when first placed, may cause server no response during scanning"));
 
-<ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("Click other slot after setting filter or amount will cause client crash"));
-<ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("To prevent crash, press ESC to exit GUI after setting filter or amount"));
+<ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("Click inventory slot except hotbar when open setting GUI will cause client crash"));
+<ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("Please move your filtered item to hotbar first to prevent crash"));
 
 //------------------------------------------------------------------------
 
