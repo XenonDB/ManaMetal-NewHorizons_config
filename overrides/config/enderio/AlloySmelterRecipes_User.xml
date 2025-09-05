@@ -29,22 +29,40 @@
 <AlloySmelterRecipes>
 
 	<recipeGroup name="M3NH">
-	<recipe name="Brass Ingot" energyCost="3000">
+	<recipe name="Brass Ingot - dust" energyCost="3000">
 		<input>
 			<itemStack oreDictionary="dustZinc" />
-			<itemStack oreDictionary="dustCopper" number="3" />
+			<itemStack oreDictionary="dustCopper"/>
 		</input>
 		<output>
-			<itemStack oreDictionary="ingotBrass" number="4" exp="0.5" />
+			<itemStack oreDictionary="ingotBrass" number="2" exp="0.5" />
 		</output>
 	</recipe>
-	<recipe name="Rose Gold Ingot" energyCost="3000">
+	<recipe name="Rose Gold Ingot - dust" energyCost="3000">
 		<input>
 			<itemStack oreDictionary="dustCopper" />
-			<itemStack oreDictionary="dustGold" number="3" />
+			<itemStack oreDictionary="dustGold"/>
 		</input>
 		<output>
-			<itemStack oreDictionary="ingotRoseGold" number="4" exp="0.5" />
+			<itemStack oreDictionary="ingotRoseGold" number="2" exp="0.5" />
+		</output>
+	</recipe>
+	<recipe name="Brass Ingot - ingot" energyCost="3000">
+		<input>
+			<itemStack oreDictionary="ingotZinc" />
+			<itemStack oreDictionary="ingotCopper"/>
+		</input>
+		<output>
+			<itemStack oreDictionary="ingotBrass" number="2" exp="0.5" />
+		</output>
+	</recipe>
+	<recipe name="Rose Gold Ingot - ingot" energyCost="3000">
+		<input>
+			<itemStack oreDictionary="ingotCopper" />
+			<itemStack oreDictionary="ingotGold"/>
+		</input>
+		<output>
+			<itemStack oreDictionary="ingotRoseGold" number="2" exp="0.5" />
 		</output>
 	</recipe>
 	<recipe name="Netherite Ingot - with plate" energyCost="3000">
