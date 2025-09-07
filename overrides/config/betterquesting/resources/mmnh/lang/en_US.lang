@@ -760,3 +760,5 @@ mmnh.quests.quest.364.desc=當你完成迷宮後，你會得到一組8個顏色�
 mmnh.quests.quest.364.title=旁門左道-其三
 mmnh.quests.quest.365.desc=部分鄰接核心(包含TileAccelerator)支援辨識其他模組的「特定方塊」來將自身作用傳遞過去。%n%n包括以下東西:%n%n1.ThaumicTinkerer的TransvectorInterfact%n%n2.ImmersiveEngineer和RailCraft(本包沒有)的多方塊結構%n%n%n對於1，核心可以將自身作用傳遞至綁定的方塊上。%n%n對於2，核心可以辨識出真正的結構核心方塊並作用它。
 mmnh.quests.quest.365.title=我感覺到了，那個「位置」來了!!
+mmnh.quests.quest.366.desc=如果你是伺服器主，並且你的伺服器有不少人在玩這個模組包的話，%n%n那你很可能會遇到不少人需要搭建流明網路的需求。%n%n由於完整的16色流明網路會橫跨大量chunk，且當網路運作時，流明網路經過的地方會被暫時區塊加載，%n%n所以大量網路同時這樣運作時可能會給伺服器帶來不小負擔。%n%n%n不過，ChromatiCraft其實有創造模式的流明源可以用(右側NEI搜尋「chroma.creativepylon」，是一個透明材質的方塊)。%n%n所以其中一個折衷辦法是: 可以考慮放置一個「公用的」創造模式光源+一座公用的流明信標(Lumen Beacon)結構將光源傳送出去。%n%n這樣需要使用流明網路的玩家，可以直接在自家基地建一座流明信標(或是離公用信標塔太遠的話，需要多建個1~2座)來使用16色流明光源。%n%n我有將流明信標結構儲存在Schematica藍圖內，其基本特性也有在ChromatiCraft章節內描述。%n%n%n恩...不過我沒有實際這樣做過，所以如果遇到甚麼問題，可以發來Github上的issue區討論。
+mmnh.quests.quest.366.title=伺服器中的流明網路
