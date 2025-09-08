@@ -242,10 +242,12 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<flammpfeil.slashblade:proudsou
 <ore:denseoreDiamond>.remove(<manametalmod:oreBlackDiamond>);
 <ore:gemDiamond>.remove(<manametalmod:gemBlackDiamond>);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<manametalmod:ingotBrass> * 4, <ore:dustZinc>, null, 200, 512, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], "Alloying");
-mods.immersiveengineering.ArcFurnace.addRecipe(<manametalmod:ingotRoseGold> * 4, <ore:dustCopper>, null, 200, 512, [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>], "Alloying");
-mods.thermalexpansion.Smelter.addRecipe(2400, <manametalmod:dustZinc>, <ImmersiveEngineering:metal:10> * 3, <manametalmod:ingotBrass> * 4);
-mods.thermalexpansion.Smelter.addRecipe(2400, <ImmersiveEngineering:metal:10>, <ImmersiveEngineering:metal:9> * 3, <manametalmod:ingotRoseGold> * 4);
+mods.immersiveengineering.ArcFurnace.addRecipe(<manametalmod:ingotBrass> * 2, <ore:ingotZinc>, null, 200, 512, [<ore:ingotCopper>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<manametalmod:ingotRoseGold> * 2, <ore:ingotCopper>, null, 200, 512, [<ore:ingotGold>], "Alloying");
+mods.thermalexpansion.Smelter.addRecipe(2400, <manametalmod:dustZinc>, <ImmersiveEngineering:metal:10>, <manametalmod:ingotBrass> * 2);
+mods.thermalexpansion.Smelter.addRecipe(2400, <ImmersiveEngineering:metal:10>, <ImmersiveEngineering:metal:9>, <manametalmod:ingotRoseGold> * 2);
+mods.thermalexpansion.Smelter.addRecipe(2400, <manametalmod:ingotZinc>, <ImmersiveEngineering:metal>, <manametalmod:ingotBrass> * 2);
+mods.thermalexpansion.Smelter.addRecipe(2400, <ImmersiveEngineering:metal>, <minecraft:gold_ingot>, <manametalmod:ingotRoseGold> * 2);
 
 //Vampirism related
 mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:163>, <Botania:vial>, 3, 9000);
