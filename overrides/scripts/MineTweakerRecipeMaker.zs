@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ae2fc:part_fluid_pattern_terminal_ex>);
 recipes.remove(<ThermalFoundation:lexicon>);
 recipes.remove(<Mekanism:BasicBlock2:2>);
 recipes.remove(<Mekanism:BasicBlock2:1>);
