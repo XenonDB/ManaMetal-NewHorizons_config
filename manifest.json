@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "ManaMetal-NewHorizons",
-  "version": "r5.4.3",
+  "version": "r5.4.4",
   "author": "",
   "files": [
     {
@@ -366,7 +366,7 @@
     },
     {
       "projectID": 1338920,
-      "fileID": 6974282,
+      "fileID": 7028118,
       "required": true
     },
     {
