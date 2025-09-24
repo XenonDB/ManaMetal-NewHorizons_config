@@ -47,6 +47,9 @@ val lootTip1 = format.gold("\u53EF\u65BC\u4EA1\u9748\u53E4\u5893\u3001\u9060\u53
 <ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("\u958B\u555F\u8A2D\u5B9A\u4ECB\u9762\u6642\uFF0C\u9EDE\u64CA\u975E\u5FEB\u6377\u6B04\u7684\u7269\u54C1\u683C\u6703\u5C0E\u81F4\u5BA2\u6236\u7AEF\u5D29\u6F70"));
 <ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("\u8A2D\u5B9A\u904E\u6FFE\u7269\u54C1\u6642\u8ACB\u5148\u628A\u8A72\u7269\u54C1\u79FB\u81F3\u5FEB\u6377\u6B04\u518D\u8A2D\u5B9A"));
 
+<Thaumcraft:ItemThaumonomicon:42>.addTooltip(format.gold("\u8ACB\u4E0D\u8981\u8B93\u81EA\u52D5\u57F7\u884C\u5668\u4F7F\u7528\u9019\u672C\u66F8"));
+<Thaumcraft:ItemThaumonomicon:42>.addTooltip(format.gold("\u6539\u4F7F\u7528\u77E5\u8B58\u5171\u4EAB\u4E4B\u66F8"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];

@@ -47,6 +47,9 @@ val lootTip1 = format.gold("Found in Undead Ancient Tomb or Ancient Thulium Runi
 <ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("Click inventory slot except hotbar when open setting GUI will cause client crash"));
 <ChromatiCraft:chromaticraft_item_bulkmover>.addTooltip(format.gold("Please move your filtered item to hotbar first to prevent crash"));
 
+<Thaumcraft:ItemThaumonomicon:42>.addTooltip(format.gold("Don't let Autonomous Activator use this book"));
+<Thaumcraft:ItemThaumonomicon:42>.addTooltip(format.gold("Use Tome of Knowledge Sharing instead"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
