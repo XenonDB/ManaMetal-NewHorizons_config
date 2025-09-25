@@ -266,3 +266,11 @@ mods.tconstruct.Smeltery.addMelting(<manametalmod:PlatinumApple:1>, <liquid:plat
 
 //利用礦物辭典來讓所有種的焊接粉能支援BetterQuesting的礦典偵測功能
 <ore:dustM3Welding>.add(<manametalmod:ItemCastingWeldingDusts:*>);
+
+//Will transformation
+mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:1>, <Botania:ancientWill>, 500000);
+mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:2>, <Botania:ancientWill:1>, 500000);
+mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:3>, <Botania:ancientWill:2>, 500000);
+mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:4>, <Botania:ancientWill:3>, 500000);
+mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:5>, <Botania:ancientWill:4>, 500000);
+mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill>, <Botania:ancientWill:5>, 500000);
