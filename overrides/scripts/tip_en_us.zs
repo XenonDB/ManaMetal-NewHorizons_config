@@ -50,6 +50,8 @@ val lootTip1 = format.gold("Found in Undead Ancient Tomb or Ancient Thulium Runi
 <Thaumcraft:ItemThaumonomicon:42>.addTooltip(format.gold("Don't let Autonomous Activator use this book"));
 <Thaumcraft:ItemThaumonomicon:42>.addTooltip(format.gold("Use Tome of Knowledge Sharing instead"));
 
+<RotaryCraft:rotarycraft_item_gearbox:*>.addTooltip(format.gold("Right click with empty bucket while pressing left ctrl to clear lubricant"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
