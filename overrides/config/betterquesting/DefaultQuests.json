@@ -6572,20 +6572,6 @@
           "hideCommand:1": 1,
           "rewardID:8": "bq_standard:command",
           "viaPlayer:1": 0,
-          "index:3": 0,
-          "command:8": "/tellraw VAR_NAME {text:\"[眾玩家編寫的魔法金屬大全]\",clickEvent:{action:\"open_url\",value:\"https://docs.google.com/document/d/1JSdXl_TssqfEU0NFCVWn7EPqE3UF8xCEBDJt1Wm9yLM\"}}"
-        },
-        "1:10": {
-          "hideCommand:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "viaPlayer:1": 0,
-          "index:3": 1,
-          "command:8": "/tellraw VAR_NAME {text:\"[巴哈姆特攻略文]\",clickEvent:{action:\"open_url\",value:\"https://forum.gamer.com.tw/C.php?bsn\u003d18673\u0026snA\u003d178326\"}}"
-        },
-        "2:10": {
-          "hideCommand:1": 1,
-          "rewardID:8": "bq_standard:command",
-          "viaPlayer:1": 0,
           "index:3": 2,
           "command:8": "/tellraw VAR_NAME {text:\"[MCBBS]\",clickEvent:{action:\"open_url\",value:\"https://www.mcmod.cn/class/1111.html\"}}"
         }
