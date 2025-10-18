@@ -20790,9 +20790,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:tower1",
-            "Count:3": 64,
-            "Damage:2": 0,
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 50,
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -20812,14 +20812,14 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:tower1",
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 50,
               "OreDict:8": ""
             }
           },
@@ -20832,9 +20832,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "manametalmod:dustMana",
-              "Count:3": 64,
-              "Damage:2": 0,
+              "id:8": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count:3": 8,
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           }
