@@ -968,18 +968,12 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "manametalmod:testBag16",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
               "id:8": "manametalmod:FoodTastes",
               "Count:3": 1,
               "Damage:2": 6,
               "OreDict:8": ""
             },
-            "3:10": {
+            "2:10": {
               "id:8": "trivialthoughts:IceFastFoodBag",
               "Count:3": 1,
               "Damage:2": 0,
@@ -23277,6 +23271,127 @@
         }
       },
       "rewards:9": {}
+    },
+    "371:10": {
+      "questID:3": 371,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:testBag16",
+            "Count:3": 1,
+            "tag:10": {
+              "Items:9": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.371.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.371.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:testBag16",
+              "Count:3": 1,
+              "tag:10": {
+                "Items:9": {}
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "372:10": {
+      "questID:3": 372,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockIceStoreCores",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.372.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.372.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockIceStoreCores",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:snow",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -23532,6 +23647,20 @@
           "x:3": -192,
           "y:3": -156,
           "id:3": 350,
+          "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -216,
+          "id:3": 371,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -216,
+          "id:3": 372,
           "sizeY:3": 24
         }
       },
