@@ -271,3 +271,6 @@ mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:3>, <Botania:ancientWi
 mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:4>, <Botania:ancientWill:3>, 500000);
 mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill:5>, <Botania:ancientWill:4>, 500000);
 mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill>, <Botania:ancientWill:5>, 500000);
+
+//20x M3 boss loot capsule
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <manametalmod:ItemDropTestBase>, [<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 194 as short}]}), <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>, <manametalmod:ItemSeasonGem:3>, <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>], "enchant 60, treasure 80", <manametalmod:ItemDropTestGold> * 2, 10);

@@ -52,6 +52,8 @@ val lootTip1 = format.gold("\u53EF\u65BC\u4EA1\u9748\u53E4\u5893\u3001\u9060\u53
 
 <RotaryCraft:rotarycraft_item_gearbox:*>.addTooltip(format.gold("\u6301\u7A7A\u6876\u6309\u4F4F\u5DE6ctrl\u4E26\u53F3\u9375\u9F52\u8F2A\u7BB1\u4F86\u6E05\u7A7A\u5176\u4E2D\u7684\u6F64\u6ED1\u6CB9"));
 
+<manametalmod:ItemDropTestBase>.addTooltip(format.gold("\u53EF\u4F7F\u7528ChromatiCraft\u9444\u9020\u53F0\u5408\u6210"));
+
 //------------------------------------------------------------------------
 
 val nogenOres = [<manametalmod:oreMoonstone>, <manametalmod:oreSunstone>, <manametalmod:oreSilver>, <manametalmod:oreNickel>, <manametalmod:oreAluminum>, <manametalmod:oreIridium>, <Mekanism:OreBlock>, <manametalmod:oreAmber>, <manametalmod:orePurgatoryIron>, <manametalmod:oreEnderGold>, <manametalmod:orePlatinum>] as IItemStack[];
