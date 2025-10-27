@@ -1,0 +1,144 @@
+{
+	type = "drop_test_base"
+	level = "pylon"
+	recipe = {
+		center = "ChromatiCraft:chromaticraft_item_cluster:11"
+		items = {
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = -2
+				z = 0
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = 2
+				z = 0
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = 0
+				z = -2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = 0
+				z = 2
+			}
+			{
+				item = "manametalmod:ItemDimensionCrystals"
+				x = 2
+				z = 2
+			}
+			{
+				item = "manametalmod:ItemLapudaArtifacts:4"
+				x = -2
+				z = 2
+			}
+			{
+				item = "manametalmod:ItemLapudaArtifacts:1"
+				x = 2
+				z = -2
+			}
+			{
+				item = "manametalmod:ItemDimensionCrystals"
+				x = -2
+				z = -2
+			}
+			{
+				item = "manametalmod:ItemLapudaArtifacts"
+				x = 4
+				z = 0
+			}
+			{
+				item = "manametalmod:ItemLapudaArtifacts:3"
+				x = -4
+				z = 0
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = 4
+				z = 2
+			}
+			{
+				item = "manametalmod:ItemClover"
+				x = -4
+				z = 2
+			}
+			{
+				item = "manametalmod:ItemDimensionCrystals"
+				x = 4
+				z = 4
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_elemental"
+				x = -4
+				z = 4
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = 2
+				z = 4
+			}
+			{
+				item = "manametalmod:ItemClover"
+				x = -2
+				z = 4
+			}
+			{
+				item = "manametalmod:ItemClover"
+				x = 2
+				z = -4
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = -2
+				z = -4
+			}
+			{
+				item = "manametalmod:ItemLapudaArtifacts:5"
+				x = 0
+				z = 4
+			}
+			{
+				item = "manametalmod:ItemLapudaArtifacts:2"
+				x = 0
+				z = -4
+			}
+			{
+				item = "manametalmod:ItemClover"
+				x = 4
+				z = -2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_crafting:4"
+				x = -4
+				z = -2
+			}
+			{
+				item = "ChromatiCraft:chromaticraft_item_elemental:5"
+				x = 4
+				z = -4
+			}
+			{
+				item = "manametalmod:ItemDimensionCrystals"
+				x = -4
+				z = -4
+			}
+		}
+	}
+	energy = {
+		{
+			color = "black"
+			amount = 12000
+		}
+		{
+			color = "purple"
+			amount = 36000
+		}
+		{
+			color = "white"
+			amount = 12000
+		}
+	}
+	output = "manametalmod:ItemDropTestBase*12"
+}

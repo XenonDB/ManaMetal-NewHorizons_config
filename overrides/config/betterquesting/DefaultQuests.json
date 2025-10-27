@@ -968,18 +968,12 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "manametalmod:testBag16",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
               "id:8": "manametalmod:FoodTastes",
               "Count:3": 1,
               "Damage:2": 6,
               "OreDict:8": ""
             },
-            "3:10": {
+            "2:10": {
               "id:8": "trivialthoughts:IceFastFoodBag",
               "Count:3": 1,
               "Damage:2": 0,
@@ -4607,7 +4601,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -4656,8 +4650,13 @@
             "7:10": {
               "id:8": "manametalmod:ItemCastingWeldingDusts",
               "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "dustM3Welding"
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "任意焊接粉"
+                }
+              },
+              "Damage:2": 32767,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -6573,21 +6572,42 @@
           "rewardID:8": "bq_standard:command",
           "viaPlayer:1": 0,
           "index:3": 0,
-          "command:8": "/tellraw VAR_NAME {text:\"[眾玩家編寫的魔法金屬大全]\",clickEvent:{action:\"open_url\",value:\"https://docs.google.com/document/d/1JSdXl_TssqfEU0NFCVWn7EPqE3UF8xCEBDJt1Wm9yLM\"}}"
+          "command:8": "/tellraw VAR_NAME {text:\"[M3 WIKI MCMOD]\",clickEvent:{action:\"open_url\",value:\"https://www.mcmod.cn/class/1111.html\"}}"
         },
         "1:10": {
           "hideCommand:1": 1,
           "rewardID:8": "bq_standard:command",
           "viaPlayer:1": 0,
           "index:3": 1,
-          "command:8": "/tellraw VAR_NAME {text:\"[巴哈姆特攻略文]\",clickEvent:{action:\"open_url\",value:\"https://forum.gamer.com.tw/C.php?bsn\u003d18673\u0026snA\u003d178326\"}}"
+          "command:8": "/tellraw VAR_NAME {text:\"[M3 Changelog]\",clickEvent:{action:\"open_url\",value:\"https://www.mcmod.cn/class/version/1111.html\"}}"
         },
         "2:10": {
           "hideCommand:1": 1,
           "rewardID:8": "bq_standard:command",
           "viaPlayer:1": 0,
           "index:3": 2,
-          "command:8": "/tellraw VAR_NAME {text:\"[MCBBS]\",clickEvent:{action:\"open_url\",value:\"https://www.mcmod.cn/class/1111.html\"}}"
+          "command:8": "/tellraw VAR_NAME {text:\"[M3 Official Discord]\",clickEvent:{action:\"open_url\",value:\"https://discord.com/invite/JGTVQzD\"}}"
+        },
+        "3:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 3,
+          "command:8": "/tellraw VAR_NAME {text:\"[M3 Official QQ1]\",clickEvent:{action:\"open_url\",value:\"https://qm.qq.com/q/pI0p6nhh4s\"}}"
+        },
+        "4:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 4,
+          "command:8": "/tellraw VAR_NAME {text:\"[M3 Official QQ2]\",clickEvent:{action:\"open_url\",value:\"https://qm.qq.com/q/WmJ6d1FayO\"}}"
+        },
+        "5:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 5,
+          "command:8": "/tellraw VAR_NAME {text:\"[M3 Official QQ3]\",clickEvent:{action:\"open_url\",value:\"https://qm.qq.com/q/NTiwqFysMM\"}}"
         }
       }
     },
@@ -7050,6 +7070,12 @@
             },
             "5:10": {
               "id:8": "manametalmod:ItemToolBackpackManaItems",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "trivialthoughts:KeyChains",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -9436,7 +9462,7 @@
     "152:10": {
       "questID:3": 152,
       "preRequisites:11": [
-        118
+        381
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9468,7 +9494,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -9476,6 +9502,41 @@
               "id:8": "manametalmod:MMMbook",
               "Count:3": 1,
               "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ingotTrueAncientThulium",
+              "Count:3": 50,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "manametalmod:DarkScrap",
+              "Count:3": 50,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "manametalmod:SoulMaterial",
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "manametalmod:EvilFragments",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "manametalmod:ItemAncientDocumentss",
+              "Count:3": 10,
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "任意古代文獻"
+                }
+              },
+              "Damage:2": 32767,
               "OreDict:8": ""
             }
           },
@@ -20798,9 +20859,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "manametalmod:tower1",
-            "Count:3": 64,
-            "Damage:2": 0,
+            "id:8": "RotaryCraft:rotarycraft_item_machine",
+            "Count:3": 1,
+            "Damage:2": 50,
             "OreDict:8": ""
           },
           "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
@@ -20820,14 +20881,14 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "manametalmod:tower1",
+              "id:8": "RotaryCraft:rotarycraft_item_machine",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 50,
               "OreDict:8": ""
             }
           },
@@ -20840,9 +20901,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "manametalmod:dustMana",
-              "Count:3": 64,
-              "Damage:2": 0,
+              "id:8": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count:3": 8,
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           }
@@ -22063,7 +22124,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "manametalmod:ItemTeammatesTeleportScrolls",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -23111,6 +23172,1113 @@
           }
         }
       }
+    },
+    "368:10": {
+      "questID:3": 368,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemLeather",
+            "Count:3": 4,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.368.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.368.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockFurnitureBases",
+              "Count:3": 1,
+              "Damage:2": 69,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:cauldron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "trivialthoughts:water_pump",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemLeather",
+              "Count:3": 4,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "369:10": {
+      "questID:3": 369,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "trivialthoughts:BlockGemCraft",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.369.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.369.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "trivialthoughts:BlockGemCraft",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "370:10": {
+      "questID:3": 370,
+      "preRequisites:11": [
+        137
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockBossStores",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.370.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.370.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockBossStores",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "371:10": {
+      "questID:3": 371,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:testBag16",
+            "Count:3": 1,
+            "tag:10": {
+              "Items:9": {}
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.371.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.371.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:testBag16",
+              "Count:3": 1,
+              "tag:10": {
+                "Items:9": {}
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "372:10": {
+      "questID:3": 372,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockIceStoreCores",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.372.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.372.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockIceStoreCores",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:snow",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "373:10": {
+      "questID:3": 373,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_pendant",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.373.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.373.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_pendant",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "374:10": {
+      "questID:3": 374,
+      "preRequisites:11": [
+        216
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ChromatiCraft:chromaticraft_item_aurapouch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.374.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.374.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_aurapouch",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ChromatiCraft:chromaticraft_item_fragment",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "375:10": {
+      "questID:3": 375,
+      "preRequisites:11": [
+        356
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemDDragonHeart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.375.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.375.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemDDragonBoss",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "376:10": {
+      "questID:3": 376,
+      "preRequisites:11": [
+        152
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:pear",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.376.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.376.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:keyDragonDoor",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:MagicItem",
+              "Count:3": 1,
+              "Damage:2": 261,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "377:10": {
+      "questID:3": 377,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ExtraUtilities:filing",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.377.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.377.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ExtraUtilities:filing",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ExtraUtilities:decorativeBlock1",
+              "Count:3": 6,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "378:10": {
+      "questID:3": 378,
+      "preRequisites:11": [
+        56
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockTileEntityDarkPerfusions",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.378.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.378.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockTileEntityDarkPerfusions",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ingotDark",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "379:10": {
+      "questID:3": 379,
+      "preRequisites:11": [
+        88
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockGildeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.379.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.379.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockGildeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:blockRoseGold",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ImmersiveEngineering:storage",
+              "Count:3": 16,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "380:10": {
+      "questID:3": 380,
+      "preRequisites:11": [
+        88
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockEffectWaters",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.380.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.380.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:BlockEffectWaters",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "381:10": {
+      "questID:3": 381,
+      "preRequisites:11": [
+        118
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemAncientKey",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.381.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.381.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemAncientKey",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemAncientKey",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "382:10": {
+      "questID:3": 382,
+      "preRequisites:11": [
+        381
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "Thaumcraft:ItemSanityChecker",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.382.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.382.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:CursedSoul",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "383:10": {
+      "questID:3": 383,
+      "preRequisites:11": [
+        381
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockAncientWatchtower",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.383.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.383.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:potion",
+              "Count:3": 1,
+              "Damage:2": 8270,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "384:10": {
+      "questID:3": 384,
+      "preRequisites:11": [
+        152
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "OR",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:BlockAncientKnowledge",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.384.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.384.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemDarkKnowledges",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "385:10": {
+      "questID:3": 385,
+      "preRequisites:11": [
+        239
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "manametalmod:ItemDropTestGold",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.385.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.385.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "manametalmod:ItemDropTestBase",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "manametalmod:ItemDropTestGold",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "manametalmod:pear",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "386:10": {
+      "questID:3": 386,
+      "preRequisites:11": [
+        343
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "taskLogic:8": "AND",
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:enchanted_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "custom_path:Reika/ChromatiCraft/Sounds/progress2.ogg",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "mmnh.quests.quest.386.title",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "mmnh.quests.quest.386.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -23367,6 +24535,20 @@
           "y:3": -156,
           "id:3": 350,
           "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -216,
+          "id:3": 371,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -216,
+          "id:3": 372,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -23506,6 +24688,27 @@
           "x:3": -96,
           "y:3": 132,
           "id:3": 367,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 132,
+          "id:3": 368,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 132,
+          "id:3": 369,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 132,
+          "id:3": 377,
           "sizeY:3": 24
         }
       },
@@ -23780,6 +24983,20 @@
           "y:3": 72,
           "id:3": 365,
           "sizeY:3": 24
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 96,
+          "id:3": 370,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 192,
+          "id:3": 386,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 3,
@@ -23885,6 +25102,13 @@
           "y:3": -108,
           "id:3": 346,
           "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -72,
+          "id:3": 378,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 4,
@@ -23980,57 +25204,64 @@
         "10:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -240,
-          "id:3": 118,
+          "y:3": 132,
+          "id:3": 143,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 132,
-          "id:3": 143,
+          "x:3": -36,
+          "y:3": -156,
+          "id:3": 353,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -288,
-          "id:3": 152,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -156,
-          "id:3": 353,
-          "sizeY:3": 24
-        },
-        "14:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
           "y:3": -156,
           "id:3": 354,
           "sizeY:3": 24
         },
-        "15:10": {
+        "13:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 60,
           "y:3": -156,
           "id:3": 355,
           "sizeY:3": 24
         },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -204,
+          "id:3": 356,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -252,
+          "id:3": 357,
+          "sizeY:3": 24
+        },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": -156,
-          "id:3": 356,
+          "x:3": 60,
+          "y:3": -252,
+          "id:3": 375,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": -192,
-          "id:3": 357,
+          "x:3": -36,
+          "y:3": -24,
+          "id:3": 379,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -24,
+          "id:3": 380,
           "sizeY:3": 24
         }
       },
@@ -24151,6 +25382,13 @@
           "y:3": -120,
           "id:3": 362,
           "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": -204,
+          "id:3": 376,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 6,
@@ -24169,7 +25407,7 @@
           "desc:8": "mmnh.quests.chapter.6.desc"
         }
       },
-      "order:3": 12
+      "order:3": 13
     },
     "7:10": {
       "quests:9": {
@@ -24379,7 +25617,7 @@
           "desc:8": "mmnh.quests.chapter.8.desc"
         }
       },
-      "order:3": 13
+      "order:3": 14
     },
     "9:10": {
       "quests:9": {
@@ -24477,7 +25715,7 @@
           "desc:8": "mmnh.quests.chapter.9.desc"
         }
       },
-      "order:3": 14
+      "order:3": 15
     },
     "10:10": {
       "quests:9": {
@@ -24869,7 +26107,7 @@
           "desc:8": "mmnh.quests.chapter.11.desc"
         }
       },
-      "order:3": 8
+      "order:3": 9
     },
     "12:10": {
       "quests:9": {
@@ -25474,6 +26712,27 @@
           "y:3": 348,
           "id:3": 365,
           "sizeY:3": 24
+        },
+        "86:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 24,
+          "id:3": 373,
+          "sizeY:3": 24
+        },
+        "87:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 60,
+          "id:3": 374,
+          "sizeY:3": 24
+        },
+        "88:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 312,
+          "id:3": 385,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 12,
@@ -25492,7 +26751,7 @@
           "desc:8": "mmnh.quests.chapter.12.desc"
         }
       },
-      "order:3": 9
+      "order:3": 10
     },
     "13:10": {
       "quests:9": {
@@ -25891,7 +27150,7 @@
           "desc:8": "mmnh.quests.chapter.13.desc"
         }
       },
-      "order:3": 10
+      "order:3": 11
     },
     "14:10": {
       "quests:9": {
@@ -26104,7 +27363,70 @@
           "desc:8": "mmnh.quests.chapter.14.desc"
         }
       },
-      "order:3": 11
+      "order:3": 12
+    },
+    "15:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 118,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -72,
+          "id:3": 152,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -24,
+          "id:3": 381,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -24,
+          "id:3": 382,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -24,
+          "id:3": 383,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -120,
+          "id:3": 384,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 15,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "mmnh.quests.chapter.15.name",
+          "icon:10": {
+            "id:8": "manametalmod:BlockTileEntityAncientEmpireCores",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "mmnh.quests.chapter.15.desc"
+        }
+      },
+      "order:3": 8
     }
   },
   "questSettings:10": {
