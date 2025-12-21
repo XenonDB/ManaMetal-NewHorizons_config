@@ -4686,6 +4686,7 @@
           "questLogic:8": "AND",
           "repeat_relative:1": 1,
           "name:8": "mmnh.quests.quest.81.title",
+          "isGlobal:1": 1,
           "lockedProgress:1": 0,
           "autoClaim:1": 1,
           "isSilent:1": 0,
