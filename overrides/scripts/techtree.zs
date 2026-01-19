@@ -277,3 +277,6 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <manametalmod:ItemDropTestBase>, [
 
 //hammer transformation
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <manametalmod:SilversmithHammer>, <manametalmod:GoldenCraftsmanHammer>, "perditio 8, permutatio 8, dream 2");
+
+//Dungeon cooldown reset
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <manametalmod:ItemLapudaArtifacts:1>, [<manametalmod:ItemDungeonCooddownReset>, <Automagy:enchantedPaper>, <ChromatiCraft:chromaticraft_item_shard:28>, <Automagy:enchantedPaper>, <ChromatiCraft:chromaticraft_item_shard:28>, <Automagy:enchantedPaper>, <ChromatiCraft:chromaticraft_item_shard:28>, <Automagy:enchantedPaper>], "time 40, motus 50, ordo 50, auram 40", <manametalmod:ItemDungeonCooddownReset> * 5, 10);
