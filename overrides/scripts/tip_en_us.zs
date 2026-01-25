@@ -115,7 +115,7 @@ for i in availInDungeon {
 //------------------------------------------------------------------------
 //banned item
 
-val bannedItems = [<MineFactoryReloaded:machine.2:2>, <WitchingGadgets:item.WG_Bag:3>, <arsmagica2:arcaneDeconstructor>, <Mekanism:BasicBlock2:1>, <Mekanism:BasicBlock2:2>, <Mekanism:BasicBlock2:3>, <Mekanism:BasicBlock2:4>, <Mekanism:MachineBlock:15>, <thaumicbases:overchanter>, <ae2fc:part_fluid_pattern_terminal_ex>] as IItemStack[];
+val bannedItems = [<MineFactoryReloaded:machine.2:2>, <WitchingGadgets:item.WG_Bag:3>, <arsmagica2:arcaneDeconstructor>, <Mekanism:BasicBlock2:1>, <Mekanism:BasicBlock2:2>, <Mekanism:BasicBlock2:3>, <Mekanism:BasicBlock2:4>, <Mekanism:MachineBlock:15>, <thaumicbases:overchanter>, <ae2fc:part_fluid_pattern_terminal_ex>, <Mekanism:MachineBlock:13>] as IItemStack[];
 
 for i in bannedItems {
 	i.addTooltip(format.darkRed("Banned item"));

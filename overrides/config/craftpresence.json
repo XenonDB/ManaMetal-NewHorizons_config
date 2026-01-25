@@ -128,7 +128,7 @@
       "buttons": {}
     },
     "dynamicIcons": {
-      "icon-manametal": "https://media.forgecdn.net/avatars/thumbnails/438/228/256/256/637683118130594529.png",
+      "icon-manametal": "https://media.forgecdn.net/avatars/thumbnails/1601/783/64/64/639034871886133844.png",
       "127.0.0.1": "https://api.mcsrvstat.us/icon/127.0.0.1",
       "PTH_Xenon": "https://mc-heads.net/avatar/43f904af0edc4c0ebabebc6f9a767df8"
     },
@@ -141,7 +141,7 @@
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",
       "world_info": "On {world.name}",
-      "pack": "ManaMetalNewHorizons-5.5.1"
+      "pack": "ManaMetalNewHorizons-5.5.2"
     }
   }
 }

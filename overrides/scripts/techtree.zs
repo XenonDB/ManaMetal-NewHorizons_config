@@ -274,3 +274,9 @@ mods.botania.ManaInfusion.addAlchemy(<Botania:ancientWill>, <Botania:ancientWill
 
 //20x M3 boss loot capsule
 mods.thaumcraft.Infusion.addRecipe("ASPECTS", <manametalmod:ItemDropTestBase>, [<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: 194 as short}]}), <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>, <manametalmod:ItemSeasonGem:3>, <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>, <manametalmod:pearbreak:6>], "enchant 60, treasure 80", <manametalmod:ItemDropTestGold> * 2, 10);
+
+//hammer transformation
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <manametalmod:SilversmithHammer>, <manametalmod:GoldenCraftsmanHammer>, "perditio 8, permutatio 8, dream 2");
+
+//Dungeon cooldown reset
+mods.thaumcraft.Infusion.addRecipe("ASPECTS", <manametalmod:ItemLapudaArtifacts:1>, [<manametalmod:ItemDungeonCooddownReset>, <Automagy:enchantedPaper>, <ChromatiCraft:chromaticraft_item_shard:28>, <Automagy:enchantedPaper>, <ChromatiCraft:chromaticraft_item_shard:28>, <Automagy:enchantedPaper>, <ChromatiCraft:chromaticraft_item_shard:28>, <Automagy:enchantedPaper>], "time 40, motus 50, ordo 50, auram 40", <manametalmod:ItemDungeonCooddownReset> * 5, 10);

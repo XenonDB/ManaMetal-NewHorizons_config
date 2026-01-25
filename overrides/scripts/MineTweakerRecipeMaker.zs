@@ -12,6 +12,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Mekanism:MachineBlock2:15>);
+recipes.remove(<Mekanism:MachineBlock2:1>);
+recipes.remove(<Mekanism:Robit>);
 recipes.remove(<ae2fc:part_fluid_pattern_terminal_ex>);
 recipes.remove(<ThermalFoundation:lexicon>);
 recipes.remove(<Mekanism:BasicBlock2:2>);
@@ -130,6 +133,9 @@ recipes.addShapeless(<IC2:blockOreUran>, [<ore:orePitchblende>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Mekanism:MachineBlock2:15>, [[<IC2:blockPersonal>], [<Mekanism:MachineBlock2:14>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>], [<IC2:blockPersonal>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank>], [<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>]]);
+recipes.addShaped(<Mekanism:Robit>, [[null, <ore:ingotSteel>, null], [<Mekanism:EnergyTablet>, <ore:alloyUltimate>, <Mekanism:EnergyTablet>], [<ore:ingotRefinedObsidian>, <IC2:blockPersonal>, <ore:ingotRefinedObsidian>]]);
 recipes.addShaped(<manametalmod:ItemTemperatureStones>.withTag({Botania_regenIvy: 1 as byte}), [[<minecraft:snow>, <Botania:regenIvy>, <minecraft:snow>], [<ore:ingotBiliha>, <manametalmod:ItemTemperatureStones:*>, <ore:ingotBiliha>], [<ore:itemBlazePowder>, <ore:ingotBiliha>, <ore:itemBlazePowder>]]);
 recipes.addShaped(<manametalmod:MagicItemMedalFXS:371> * 2, [[<ore:ingotBlackhole>, null, <ore:ingotBlackhole>], [<ore:ingotBlackhole>, <manametalmod:MagicItemMedalFXS:371>, <ore:ingotBlackhole>], [null, <ore:ingotBlackhole>, null]]);
 recipes.addShaped(<ThermalFoundation:lexicon>.withTag({Empowered: 0 as byte, Inventory: {}}), [[null, <ore:gemDiamond>, null], [<ore:ingotGold>, <minecraft:book>, <ore:ingotIron>], [null, <ore:dustRedstone>, null]]);
